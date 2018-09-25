@@ -27,6 +27,18 @@ public class Percolation {
 		if (row == size) {
 			wt.Union(getIndex(row, col), bottomnode);
 		}
+		if (col > 1 && isOpen(row, col - 1)) {
+			wt.Union(getIndex(row, col), getIndex(row, col - 1));
+		}
+		if (col < size && isOpen(row, col + 1)) {
+			wt.Union(getIndex(row, col), getIndex(row, col + 1));
+		}
+		if (row > 1 && isOpen(row - 1, col)) {
+			wt.Union(getIndex(row, col), getIndex(row - 1, col));
+		}
+		if (row < size && isOpen(row + 1, col)) {
+			wt.Union(getIndex(row, col), getIndex(row + 1, col));
+		}
 	}
 	public int getIndex(int row, int col) {
 		return ((row - 1) * size) + col;
