@@ -7,7 +7,7 @@ final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
     }
     /**
      *
@@ -35,7 +35,7 @@ final class Solution {
         System.out.println(count);
     }
     /**
-     * { item_description }
+     * { item_description }.
      *  @param      arr  The arr
      *  @param     start     The start
      *  @param      end  The end
