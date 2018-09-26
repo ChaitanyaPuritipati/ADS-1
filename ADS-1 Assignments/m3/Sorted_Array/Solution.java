@@ -28,8 +28,8 @@ class Solution {
 		int count = 0;
 		int[] array3 = new int[arr1size + arr2size];
 		for (int i = 0, j = 0; count < arr1size + arr2size; count++) {
-			System.out.println(i + "i val");
-			System.out.println(j + "j val");
+			// System.out.println(i + "i val");
+			// System.out.println(j + "j val");
 			if (i < arr1size) {
 				if (array1[i] < array2[j]) {
 					array3[count] = array1[i];
@@ -43,5 +43,6 @@ class Solution {
 				j++;
 			}
 		}
+		System.out.println(Arrays.toString(array3));
 	}
 }
