@@ -38,7 +38,7 @@ class Solution {
 					array3[count] = array2[j];
 					j++;
 				}
-			} else if (i == arr1size - 1 && j < arr2size) {
+			} else if (i == arr1size && j < arr2size) {
 				array3[count] = array2[j];
 				j++;
 			}
