@@ -9,6 +9,7 @@ class Solution {
 		int arr1size = Integer.parseInt(scan.nextLine());
 		int arr2size = Integer.parseInt(scan.nextLine());
 		String line = scan.nextLine();
+		System.out.println(line);
 		if (line != null) {
 			String[] arr1 = line.split(",");
 			int[] array1 = Arrays.stream(arr1).mapToInt(Integer::parseInt).toArray();
