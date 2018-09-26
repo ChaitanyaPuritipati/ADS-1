@@ -48,7 +48,7 @@ final class Solution {
                 j++;
             }
         }
-        for(int k = 0; k < array3.length - 1; k++) {
+        for (int k = 0; k < array3.length - 1; k++) {
             System.out.print(array3[k] + ",");
         }
         System.out.print(array3[array3.length - 1]);
