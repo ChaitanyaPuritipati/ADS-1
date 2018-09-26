@@ -11,12 +11,14 @@ class Solution {
 			int arr2size = Integer.parseInt(scan.nextLine());
 			String line = scan.nextLine();
 			String[] arr1 = line.split(",");
-			Arrays.sort(arr1);
-			System.out.println(Arrays.toString(arr1));
+			int[] array1 = Arrays.stream(arr1).mapToInt(Integer::parseInt).toArray();
+			Arrays.sort(array1);
+			System.out.println(Arrays.toString(array1));
 			line = scan.nextLine();
 			String[] arr2 = line.split(",");
-			Arrays.sort(arr2);
-			System.out.println(Arrays.toString(arr2));
+			int[] array2 = Arrays.stream(arr2).mapToInt(Integer::parseInt).toArray();
+			Arrays.sort(array2);
+			System.out.println(Arrays.toString(array2));
 		}
 
 	}
