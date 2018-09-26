@@ -30,7 +30,7 @@ class Solution {
 		for (int i = 0, j = 0; count < arr1size + arr2size; count++) {
 			System.out.println(i + "i val");
 			System.out.println(j + "j val");
-			if (array1[i] < array2[j] && i < arr1size) {
+			if (i < arr1size && array1[i] < array2[j]) {
 				array3[count] = array1[i];
 				i++;
 			}
