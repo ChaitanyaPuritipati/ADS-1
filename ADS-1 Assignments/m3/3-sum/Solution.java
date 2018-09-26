@@ -13,9 +13,9 @@ class Solution {
 		int count = 0;
 		Arrays.sort(array);
 		for (int i = 0; i < size; i++) {
-			for (int j = 0; j < size; j++) {
+			for (int j = i + 1; j < size; j++) {
 				int sum = array[i] + array[j];
-				int check = binarySearch(array, 0, size - 1, (0 - sum));
+				int check = binarySearch(array, j + 1, size - 1, (0 - sum));
 				if (check != -1) {
 					count++;
 				}
