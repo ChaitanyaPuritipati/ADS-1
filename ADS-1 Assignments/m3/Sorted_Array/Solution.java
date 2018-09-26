@@ -38,6 +38,9 @@ class Solution {
 				j++;
 			}
 		}
-		System.out.println(Arrays.toString(array3));
+		for(int k = 0; k < array3.length - 1; k++) {
+			System.out.print(array3[k] + ",");
+		}
+		System.out.print(array3[array3.length]);
 	}
 }
