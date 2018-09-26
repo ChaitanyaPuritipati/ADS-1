@@ -10,7 +10,7 @@ class Solution {
 		int arr2size = Integer.parseInt(scan.nextLine());
 		String line = scan.nextLine();
 		System.out.println(line);
-		if (line != null) {
+		if (!line.equals(null)) {
 			String[] arr1 = line.split(",");
 			int[] array1 = Arrays.stream(arr1).mapToInt(Integer::parseInt).toArray();
 			Arrays.sort(array1);
@@ -19,7 +19,7 @@ class Solution {
 		}
 		line = scan.nextLine();
 		System.out.println(line);
-		if (line != null) {
+		if (!line.equals(null)) {
 			String[] arr2 = line.split(",");
 			int[] array2 = Arrays.stream(arr2).mapToInt(Integer::parseInt).toArray();
 			Arrays.sort(array2);
