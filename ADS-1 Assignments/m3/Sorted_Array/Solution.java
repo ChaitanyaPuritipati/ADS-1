@@ -28,18 +28,17 @@ class Solution {
 		int count = 0;
 		int[] array3 = new int[arr1size + arr2size];
 		for (int i = 0, j = 0; count < arr1size + arr2size; count++) {
-			System.out.println(count);
-			System.out.println(i);
-			System.out.println(j);
+			System.out.println(i + "i val");
+			System.out.println(j + "j val");
 			if (array1[i] < array2[j] && i < arr1size) {
 				array3[count] = array1[i];
 				i++;
 			}
-			if (array1[i] > array2[j] && i < arr1size) {
+			else if (array1[i] > array2[j] && i < arr1size) {
 				array3[count] = array2[j];
 				j++;
 			}
-			if(i == arr1size - 1 && j < arr2size) {
+			else if(i == arr1size - 1 && j < arr2size) {
 				array3[count] = array2[j];
 				j++;
 			}
