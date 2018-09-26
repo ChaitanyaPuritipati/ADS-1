@@ -29,6 +29,8 @@ class Solution {
 		int[] array3 = new int[arr1size + arr2size];
 		for (int i = 0, j = 0; count < arr1size + arr2size; count++) {
 			System.out.println(count);
+			System.out.println(i);
+			System.out.println(j);
 			if (array1[i] < array2[j]) {
 				array3[count] = array1[i];
 				i++;
