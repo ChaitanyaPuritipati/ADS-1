@@ -41,13 +41,15 @@ final class Solution {
      *  @param      end  The end
      *  @param      testvalue  The testvalue
      */
-    public static int binarySearch(final int arr[], final int start, final int end, final int testvalue) {
+    public static int binarySearch(final int[] arr, final int start, final int end, final int testvalue) {
         if (end >= start) {
             int mid = start + (end - start) / 2;
-            if (arr[mid] == testvalue)
+            if (arr[mid] == testvalue) {
                 return mid;
-            if (arr[mid] > testvalue)
+            }
+            if (arr[mid] > testvalue) {
                 return binarySearch(arr, start, mid - 1, testvalue);
+            }
             return binarySearch(arr, mid + 1, end, testvalue);
         }
         return -1;
