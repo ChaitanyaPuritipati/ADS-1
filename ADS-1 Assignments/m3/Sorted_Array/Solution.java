@@ -31,11 +31,15 @@ class Solution {
 			System.out.println(count);
 			System.out.println(i);
 			System.out.println(j);
-			if (array1[i] < array2[j]) {
+			if (array1[i] < array2[j] && i < arr1size) {
 				array3[count] = array1[i];
 				i++;
 			}
-			if (array1[i] > array2[j]) {
+			if (array1[i] > array2[j] && i < arr1size) {
+				array3[count] = array2[j];
+				j++;
+			}
+			if(i == arr1size - 1 && j < arr2size) {
 				array3[count] = array2[j];
 				j++;
 			}
