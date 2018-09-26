@@ -14,12 +14,23 @@ class Solution {
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
 				int sum = array[i] + array[j];
-				int check = Arrays.binarySearch(array, (0 - sum));
-				if(check != -1) {
+				int check = binarySearch(array, 0, size - 1, (0 - sum));
+				if (check != -1) {
 					count++;
 				}
 			}
 		}
 		System.out.println(count);
+	}
+	public static int binarySearch(int arr[], int l, int r, int x) {
+		if (r >= l) {
+			int mid = l + (r - l) / 2;
+			if (arr[mid] == x)
+				return mid;
+			if (arr[mid] > x)
+				return binarySearch(arr, l, mid - 1, x);
+			return binarySearch(arr, mid + 1, r, x);
+		}
+		return -1;
 	}
 }
