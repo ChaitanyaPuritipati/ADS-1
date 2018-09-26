@@ -10,7 +10,7 @@ final class Solution {
     Solution() {
     }
     /**
-     * 
+     *
      *
      * @param      args  The arguments
      */
@@ -40,8 +40,12 @@ final class Solution {
      *  @param     start     The start
      *  @param      end  The end
      *  @param      testvalue  The testvalue
+     *   @return        The arguments
      */
-    public static int binarySearch(final int[] arr, final int start, final int end, final int testvalue) {
+    public static int binarySearch(final int[] arr,
+                                   final int start,
+                                   final int end,
+                                   final int testvalue) {
         if (end >= start) {
             int mid = start + (end - start) / 2;
             if (arr[mid] == testvalue) {
