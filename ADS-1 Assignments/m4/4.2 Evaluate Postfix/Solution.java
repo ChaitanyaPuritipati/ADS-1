@@ -3,11 +3,11 @@ import java.util.LinkedList;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
         //unused
     }
     /**
@@ -15,7 +15,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String line = scan.nextLine();
         String[] tokens = line.split(" ");
