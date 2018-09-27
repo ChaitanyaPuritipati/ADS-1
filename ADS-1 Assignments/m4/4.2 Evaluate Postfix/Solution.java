@@ -1,5 +1,8 @@
 import java.util.Scanner;
 import java.util.LinkedList;
+/**
+ * Class for solution.
+ */
 class Solution {
 	Solution() {
 		//unused
@@ -8,18 +11,16 @@ class Solution {
 		Scanner scan = new Scanner(System.in);
 		String line = scan.nextLine();
 		String[] tokens = line.split(" ");
+		String str = "+*-/";
 		LinkedList<Integer> operands = new LinkedList<Integer>();
 		for (int i = 0; i < tokens.length; i++) {
-			// System.out.println(tokens[i]);
-			if (!"*/-+".contains(tokens[i])) {
+			if (!str.contains(tokens[i])) {
 				operands.add(Integer.parseInt(tokens[i]));
 			} else {
-				// System.out.println(tokens[i]);
 				switch (tokens[i]) {
 				case "+":
 					int a = operands.removeLast();
 					int b = operands.removeLast();
-					// c = c + a + b;
 					operands.add(a + b);
 					break;
 				case "-":
@@ -28,16 +29,16 @@ class Solution {
 					operands.add(a - b);
 					break;
 				case "*":
-				    a = operands.removeLast();
-				    b = operands.removeLast();
-				    operands.add(a * b);
-				    break;
+					a = operands.removeLast();
+					b = operands.removeLast();
+					operands.add(a * b);
+					break;
 				case "/":
-				    a = operands.removeLast();
-				    b = operands.removeLast();
-				    operands.add(a / b);    	
-                    break;
-                default:    
+					a = operands.removeLast();
+					b = operands.removeLast();
+					operands.add(a / b);
+					break;
+				default:
 				}
 			}
 		}
