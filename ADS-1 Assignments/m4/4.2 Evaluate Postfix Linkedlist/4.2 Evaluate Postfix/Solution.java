@@ -35,7 +35,7 @@ class Solution {
 				}
 			}
 		}
-		System.out.println(operands);
+		operands.print();
 	}
 }
 class Stack {
@@ -56,5 +56,8 @@ class Stack {
 		int item = first.data;
 		first = first.next;
 		return item;
+	}
+	public void print() {
+		System.out.println(first.data);
 	}
 }
