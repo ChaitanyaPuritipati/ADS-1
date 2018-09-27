@@ -39,7 +39,7 @@ class Solution {
 					}
 					paranthesis[size] = tokens[j];
 					size++;
-				} else if (tokens[j].equals("}") && size > 0) {
+				} else if (tokens[j].equals("}")) {
 					if (!tokens[size - 1].equals("{")) {
 						System.out.println("NO");
 						flag = 1;
@@ -54,7 +54,7 @@ class Solution {
 					}
 					size--;
 				} else if (tokens[j].equals("]") && size > 0) {
-					if (!tokens[size - 1].equals("]")) {
+					if (!tokens[size - 1].equals("[")) {
 						System.out.println("NO");
 						flag = 1;
 						break;
