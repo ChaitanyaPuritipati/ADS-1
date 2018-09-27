@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
 
     /**
      * Constructs the object.
@@ -20,13 +20,16 @@ class Solution {
         Scanner scan = new Scanner(System.in);
         int testnum = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < testnum; i++) {
-            String[] paranthesis = new String[20];
+            final int twenty = 20;
+            String[] paranthesis = new String[twenty];
             String line = scan.nextLine();
             String[] tokens = line.split("");
             int size = 0;
             int flag = 0;
             for (int j = 0; j < tokens.length; j++) {
-                if (tokens[j].equals("(") || tokens[j].equals("{") || tokens[j].equals("[")) {
+                if (tokens[j].equals("(")
+                        || tokens[j].equals("{")
+                        || tokens[j].equals("[")) {
                     if (size == paranthesis.length) {
                         paranthesis = Arrays.copyOf(paranthesis, 2 * size);
                     }
