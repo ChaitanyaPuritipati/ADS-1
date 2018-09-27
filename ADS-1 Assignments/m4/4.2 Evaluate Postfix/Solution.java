@@ -9,11 +9,11 @@ class Solution {
 		String line = scan.nextLine();
 		String[] tokens = line.split("");
 		LinkedList<Integer> operands = new LinkedList<Integer>();
-		// int c = 0;
 		for (int i = 0; i < tokens.length; i++) {
 			if (!"*/-+".contains(tokens[i])) {
 				operands.add(Integer.parseInt(tokens[i]));
 			} else {
+				System.out.println(tokens[i]);
 				switch (tokens[i]) {
 				case "+":
 					int a = operands.removeLast();
