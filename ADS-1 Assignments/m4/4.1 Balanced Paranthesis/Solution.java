@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * Class for solution.
  */
@@ -21,21 +20,14 @@ final class Solution {
         int testnum = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < testnum; i++) {
             final int twenty = 20;
-            // String[] paranthesis = new String[twenty];
             String line = scan.nextLine();
             String[] tokens = line.split("");
-            // int size = 0;
             Stack stack = new Stack();
             int flag = 0;
             for (int j = 0; j < tokens.length; j++) {
                 if (tokens[j].equals("(")
                         || tokens[j].equals("{")
                         || tokens[j].equals("[")) {
-                    // if (size == paranthesis.length) {
-                    //     paranthesis = Arrays.copyOf(paranthesis, 2 * size);
-                    // }
-                    // paranthesis[size] = tokens[j];
-                    // size++;
                     stack.push(tokens[j]);
                 } else if (tokens[j].equals("}")) {
                     if (stack.isEmpty()) {
