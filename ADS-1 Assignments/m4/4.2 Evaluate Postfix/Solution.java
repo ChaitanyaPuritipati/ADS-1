@@ -10,6 +10,7 @@ class Solution {
 		String[] tokens = line.split("");
 		LinkedList<Integer> operands = new LinkedList<Integer>();
 		for (int i = 0; i < tokens.length; i++) {
+			System.out.println(tokens[i]);
 			if (!"*/-+".contains(tokens[i])) {
 				operands.add(Integer.parseInt(tokens[i]));
 			} else {
