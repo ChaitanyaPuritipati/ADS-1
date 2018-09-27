@@ -35,6 +35,7 @@ class Solution {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
 					paranthesis[size] = line.charAt(j);
+					size++;
 				} else if (Character.toString(line.charAt(j)).equals(")")) {
 					size--;
 				}
