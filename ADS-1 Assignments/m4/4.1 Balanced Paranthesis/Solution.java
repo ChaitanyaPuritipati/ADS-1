@@ -39,16 +39,13 @@ class Solution {
 					size++;
 				} else if (Character.toString(line.charAt(j)).equals(")") && size > 0) {
 					size--;
-				} else if(Character.toString(line.charAt(j)).equals(")") && size == 0) {
-					System.out.println("NO");
-					break;
 				}
-			}
-			if (size == 0 && flag == 0) {
-				System.out.println("YES");
-			} else if (size > 0 && flag == 0) {
-				System.out.println("NO");
-			}
+		}
+		if (size == 0 && flag == 0) {
+			System.out.println("YES");
+		} else if (size > 0 && flag == 0) {
+			System.out.println("NO");
 		}
 	}
+}
 }
