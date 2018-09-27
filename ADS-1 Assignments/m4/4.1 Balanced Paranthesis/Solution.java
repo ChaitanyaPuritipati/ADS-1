@@ -33,39 +33,38 @@ class Solution {
 					paranthesis[size] = tokens[j];
 					size++;
 				} else if (tokens[j].equals("}")) {
-					if(size == 0) {
+					if (size == 0) {
 						flag = 1;
-						// System.out.println("NO");
+						System.out.println("NO");
 						break;
 					}
 					if (!paranthesis[size - 1].equals("{")) {
-						// System.out.println("NO");
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
 					size--;
 				} else if (tokens[j].equals(")")) {
-					if(size == 0) {
+					if (size == 0) {
 						flag = 1;
-						// System.out.println("NO");
+						System.out.println("NO");
 						break;
 					}
 					// System.out.println(size + "size value");
 					if (!paranthesis[size - 1].equals("(")) {
-						// System.out.println(Arrays.toString(paranthesis));
-						// System.out.println("NO");
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
 					size--;
 				} else if (tokens[j].equals("]")) {
-					if(size == 0) {
+					if (size == 0) {
 						flag = 1;
-						// System.out.println("NO");
+						System.out.println("NO");
 						break;
 					}
 					if (!paranthesis[size - 1].equals("[")) {
-						// System.out.println("NO");
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
@@ -74,10 +73,11 @@ class Solution {
 			}
 			if (size == 0 && flag == 0) {
 				System.out.println("YES");
-			} else {
+			} else if (size > 0 && flag == 0) {
 				System.out.println("NO");
 			}
 		}
 	}
-
 }
+
+
