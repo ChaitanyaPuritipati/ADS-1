@@ -77,7 +77,7 @@ class Stack {
          *
          * @param      input  The input
          */
-        Node(int input) {
+        Node(final int input) {
             this.data = input;
         }
     }
