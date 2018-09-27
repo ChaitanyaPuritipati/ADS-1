@@ -27,12 +27,6 @@ class Solution {
 			String[] tokens = line.split("");
 			int flag = 0;
 			for (int j = 0; j < tokens.length; j++) {
-				// System.out.println(j);
-				// if (tokens[0].equals(")") || tokens[tokens.length - 1].equals("")) {
-				// 	// System.out.println("NO");
-				// 	flag = 1;
-				// 	break;
-				// }
 				if (tokens[j].equals("(") || tokens[j].equals("{") || tokens[j].equals("[")) {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
@@ -40,20 +34,35 @@ class Solution {
 					paranthesis[size] = tokens[j];
 					size++;
 				} else if (tokens[j].equals("}")) {
+					if(size == 0) {
+						flag = 1;
+						System.out.println("NO");
+						break;
+					}
 					if (!tokens[size - 1].equals("{")) {
 						System.out.println("NO");
 						flag = 1;
 						break;
 					}
 					size--;
-				} else if (tokens[j].equals(")") && size > 0) {
+				} else if (tokens[j].equals(")")) {
+					if(size == 0) {
+						flag = 1;
+						System.out.println("NO");
+						break;
+					}
 					if (!tokens[size - 1].equals("(")) {
 						System.out.println("NO");
 						flag = 1;
 						break;
 					}
 					size--;
-				} else if (tokens[j].equals("]") && size > 0) {
+				} else if (tokens[j].equals("]")) {
+					if(size == 0) {
+						flag = 1;
+						System.out.println("NO");
+						break;
+					}
 					if (!tokens[size - 1].equals("[")) {
 						System.out.println("NO");
 						flag = 1;
