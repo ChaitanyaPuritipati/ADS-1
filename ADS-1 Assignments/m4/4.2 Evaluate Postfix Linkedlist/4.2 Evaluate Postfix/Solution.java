@@ -1,6 +1,20 @@
 import java.util.Scanner;
-class Solution {
-	public static void main(String[] args) {
+/**
+ * Class for solution.
+ */
+final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+    Solution() {
+    	//unused
+    }
+    /**
+     * { Main function }.
+     *
+     * @param      args  The arguments
+     */
+	public static void main(final String[] args) {
 		Stack operands = new Stack();
 		Scanner scan = new Scanner(System.in);
 		String line = scan.nextLine();
@@ -38,8 +52,14 @@ class Solution {
 		operands.print();
 	}
 }
+/**
+ * List of .
+ */
 class Stack {
-	Node first = null;
+	private Node first = null;
+	/**
+	 * Class for node.
+	 */
 	class Node {
 		int data;
 		Node next;
@@ -47,16 +67,29 @@ class Stack {
 			this.data = input;
 		}
 	}
+	/**
+	 * { push }.
+	 *
+	 * @param      item  The item
+	 */
 	public void push(int item) {
 		Node newnode = new Node(item);
 		newnode.next = first;
 		first = newnode;
 	}
+	/**
+	 * { pop }.
+	 *
+	 * @return     { int type }
+	 */
 	public int pop() {
 		int item = first.data;
 		first = first.next;
 		return item;
 	}
+	/**
+	 * { print }.
+	 */
 	public void print() {
 		Node testnode = first;
 		while (testnode != null) {
