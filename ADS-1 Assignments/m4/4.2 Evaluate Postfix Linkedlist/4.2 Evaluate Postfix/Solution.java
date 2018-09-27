@@ -72,7 +72,7 @@ class Stack {
      *
      * @param      item  The item
      */
-    public void push(int item) {
+    public void push(final int item) {
         Node newnode = new Node(item);
         newnode.next = first;
         first = newnode;
