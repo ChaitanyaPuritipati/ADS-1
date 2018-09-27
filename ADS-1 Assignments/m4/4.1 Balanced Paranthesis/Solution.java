@@ -23,7 +23,6 @@ class Solution {
 			String[] paranthesis = new String[20];
 			String line = scan.nextLine();
 			String[] tokens = line.split("");
-			System.out.println(Arrays.toString(tokens) + "hello");
 			int size = 0;
 			int flag = 0;
 			for (int j = 0; j < tokens.length; j++) {
@@ -65,7 +64,6 @@ class Solution {
 						System.out.println("NO");
 						break;
 					}
-					System.out.println(size + "sqaure");
 					if (!paranthesis[size - 1].equals("[")) {
 						System.out.println("NO");
 						flag = 1;
