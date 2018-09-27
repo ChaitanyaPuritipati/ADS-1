@@ -19,12 +19,12 @@ class Solution {
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int testnum = Integer.parseInt(scan.nextLine());
-		int size = 0;
 		for (int i = 0; i < testnum; i++) {
 			// System.out.println(i);
 			String[] paranthesis = new String[20];
 			String line = scan.nextLine();
 			String[] tokens = line.split("");
+			int size = 0;
 			int flag = 0;
 			for (int j = 0; j < tokens.length; j++) {
 				if (tokens[j].equals("(") || tokens[j].equals("{") || tokens[j].equals("[")) {
@@ -33,8 +33,8 @@ class Solution {
 					}
 					//  System.out.println(Arrays.toString(paranthesis));
 					paranthesis[size] = tokens[j];
-					System.out.println(paranthesis[size] + "-------");
-					System.out.println(Arrays.toString(paranthesis));
+					// System.out.println(paranthesis[size] + "-------");
+					// System.out.println(Arrays.toString(paranthesis));
 					size++;
 				} else if (tokens[j].equals("}")) {
 					if(size == 0) {
