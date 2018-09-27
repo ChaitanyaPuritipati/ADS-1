@@ -34,11 +34,14 @@ class Solution {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
-					System.out.println(Arrays.toString(paranthesis));
+					// System.out.println(Arrays.toString(paranthesis));
 					paranthesis[size] = line.charAt(j);
 					size++;
-				} else if (Character.toString(line.charAt(j)).equals(")")) {
+				} else if (Character.toString(line.charAt(j)).equals(")") && size > 0) {
 					size--;
+				} else if(Character.toString(line.charAt(j)).equals(")") && size == 0) {
+					System.out.println("NO");
+					break;
 				}
 			}
 			if (size == 0 && flag == 0) {
