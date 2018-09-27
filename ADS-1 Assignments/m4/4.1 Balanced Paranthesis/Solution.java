@@ -25,6 +25,7 @@ class Solution {
 			String line = scan.nextLine();
 			int flag = 0;
 			for (int j = 0; j < line.length(); j++) {
+				System.out.println(j);
 				if (Character.toString(line.charAt(0)).equals(")") || Character.toString(line.charAt(line.length() - 1)).equals("(")) {
 					// System.out.println("NO");
 					flag = 1;
@@ -37,7 +38,6 @@ class Solution {
 					paranthesis[size] = line.charAt(j);
 					// System.out.println(Arrays.toString(paranthesis));
 					// System.out.println(line + "--------------------");
-					System.out.println(j);
 					size++;
 				} else if (Character.toString(line.charAt(j)).equals(")") && size > 0) {
 					size--;
