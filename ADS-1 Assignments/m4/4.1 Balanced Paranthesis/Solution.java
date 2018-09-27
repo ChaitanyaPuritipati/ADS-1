@@ -21,61 +21,60 @@ final class Solution {
         int testnum = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < testnum; i++) {
             final int twenty = 20;
-            String[] paranthesis = new String[twenty];
+            // String[] paranthesis = new String[twenty];
             String line = scan.nextLine();
             String[] tokens = line.split("");
-            int size = 0;
+            // int size = 0;
+            Stack stack = new Stack();
             int flag = 0;
             for (int j = 0; j < tokens.length; j++) {
                 if (tokens[j].equals("(")
                         || tokens[j].equals("{")
                         || tokens[j].equals("[")) {
-                    if (size == paranthesis.length) {
-                        paranthesis = Arrays.copyOf(paranthesis, 2 * size);
-                    }
-                    paranthesis[size] = tokens[j];
-                    size++;
+                    // if (size == paranthesis.length) {
+                    //     paranthesis = Arrays.copyOf(paranthesis, 2 * size);
+                    // }
+                    // paranthesis[size] = tokens[j];
+                    // size++;
+                    stack.push(tokens[j]);
                 } else if (tokens[j].equals("}")) {
-                    if (size == 0) {
+                    if (stack.isEmpty()) {
                         flag = 1;
                         System.out.println("NO");
                         break;
                     }
-                    if (!paranthesis[size - 1].equals("{")) {
+                    if (!stack.pop().equals("{")) {
                         System.out.println("NO");
                         flag = 1;
                         break;
                     }
-                    size--;
                 } else if (tokens[j].equals(")")) {
-                    if (size == 0) {
+                    if (stack.isEmpty()) {
                         flag = 1;
                         System.out.println("NO");
                         break;
                     }
-                    if (!paranthesis[size - 1].equals("(")) {
+                    if (!stack.pop().equals("(")) {
                         System.out.println("NO");
                         flag = 1;
                         break;
                     }
-                    size--;
                 } else if (tokens[j].equals("]")) {
-                    if (size == 0) {
+                    if (stack.isEmpty()) {
                         flag = 1;
                         System.out.println("NO");
                         break;
                     }
-                    if (!paranthesis[size - 1].equals("[")) {
+                    if (!stack.pop().equals("[")) {
                         System.out.println("NO");
                         flag = 1;
                         break;
                     }
-                    size--;
                 }
             }
-            if (size == 0 && flag == 0) {
+            if (stack.isEmpty() && flag == 0) {
                 System.out.println("YES");
-            } else if (size > 0 && flag == 0) {
+            } else if (!stack.isEmpty() && flag == 0) {
                 System.out.println("NO");
             }
         }
