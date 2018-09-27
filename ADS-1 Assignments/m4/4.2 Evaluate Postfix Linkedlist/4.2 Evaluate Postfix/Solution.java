@@ -56,13 +56,27 @@ final class Solution {
  * List of .
  */
 class Stack {
+    /**
+     * { first }.
+     */
     private Node first = null;
     /**
      * Class for node.
      */
     class Node {
+        /**
+         * { data }.
+         */
         private int data;
+        /**
+         * { node }.
+         */
         private Node next;
+        /**
+         * Constructs the object.
+         *
+         * @param      input  The input
+         */
         Node(int input) {
             this.data = input;
         }
