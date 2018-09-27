@@ -31,6 +31,7 @@ class Solution {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
+					System.out.println(paranthesis);
 					paranthesis[size] = tokens[j];
 					size++;
 				} else if (tokens[j].equals("}")) {
