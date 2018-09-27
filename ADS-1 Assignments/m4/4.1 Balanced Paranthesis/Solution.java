@@ -39,8 +39,8 @@ class Solution {
 						System.out.println("NO");
 						break;
 					}
-					if (!tokens[size - 1].equals("{")) {
-						System.out.println("NO flower");
+					if (!paranthesis[size - 1].equals("{")) {
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
@@ -51,10 +51,10 @@ class Solution {
 						System.out.println("NO");
 						break;
 					}
-					System.out.println(size + "size value");
-					if (!tokens[size - 1].equals("(")) {
-						System.out.println(Arrays.toString(paranthesis));
-						System.out.println("NO convex");
+					// System.out.println(size + "size value");
+					if (!paranthesis[size - 1].equals("(")) {
+						// System.out.println(Arrays.toString(paranthesis));
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
@@ -66,8 +66,8 @@ class Solution {
 						break;
 					}
 					System.out.println(size + "sqaure");
-					if (!tokens[size - 1].equals("[")) {
-						System.out.println("NO sqaure");
+					if (!paranthesis[size - 1].equals("[")) {
+						System.out.println("NO");
 						flag = 1;
 						break;
 					}
