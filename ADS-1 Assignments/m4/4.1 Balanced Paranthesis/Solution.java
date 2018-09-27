@@ -26,7 +26,7 @@ class Solution {
 			int flag = 0;
 			for (int j = 0; j < line.length(); j++) {
 				if (Character.toString(line.charAt(0)).equals(")") || Character.toString(line.charAt(line.length() - 1)).equals("(")) {
-					System.out.println("NO");
+					// System.out.println("NO");
 					flag = 1;
 					break;
 				}
@@ -34,21 +34,22 @@ class Solution {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
-					// System.out.println(Arrays.toString(paranthesis));
 					paranthesis[size] = line.charAt(j);
+					System.out.println(Arrays.toString(paranthesis));
+					System.out.println(line + "--------------------");
 					size++;
 				} else if (Character.toString(line.charAt(j)).equals(")") && size > 0) {
 					size--;
 				} else if(Character.toString(line.charAt(j)).equals(")") && size == 0) {
-					System.out.println("NO");
+					// System.out.println("NO");
 					flag = 1;
 					break;
 				}
 			}
 			if (size == 0 && flag == 0) {
-				System.out.println("YES");
+				// System.out.println("YES");
 			} else if (size > 0 && flag == 0) {
-				System.out.println("NO");
+				// System.out.println("NO");
 			}
 		}
 	}

@@ -2534,3 +2534,103 @@ NO
 NO
 YES
 YES
+
+Your Output: 
+NO
+YES
+YES
+NO
+YES
+YES
+NO
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+YES
+NO
+YES
+NO
+NO
+NO
+NO
+YES
+NO
+YES
+NO
+YES
+YES
+YES
+NO
+NO
+YES
+YES
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+NO
+NO
+NO
+NO
+YES
+YES
+YES
+YES
+NO
+YES
+YES
+NO
+YES
+NO
+NO
+NO
+NO
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 31
+	at Solution.main(Solution.java:38)
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+NO
+YES
+YES
+YES
+NO
+
+Your Output: 
+NO
+YES
+YES
+YES
+NO
+
+----------------------------------------
+Result: 1/4 testcases passed.
+Starting audit...
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:6: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:8:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:24:55: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:28: Line is longer than 80 characters (found 151). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:33: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:35: Line is longer than 80 characters (found 99). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:37: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:40: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:42: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m4\4.1 Balanced Paranthesis\Solution.java:42:42: 'if' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 11 errors.
+
+
+[master e84f072] "check_style_score -> 1 of 4 passed. style score: 0/1 "
+ 1 file changed, 2536 insertions(+), 2794 deletions(-)
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
