@@ -9,30 +9,30 @@ class Solution {
 		for (int i = 0; i < tokens.length; i++) {
 			if (!str.contains(tokens[i])) {
 				operands.push(Integer.parseInt(tokens[i]));
-			// } else {
-			// 	switch (tokens[i]) {
-			// 	case "+":
-			// 		int a = operands.pop();
-			// 		int b = operands.pop();
-			// 		operands.push(a + b);
-			// 		break;
-			// 	case "-":
-			// 		a = operands.pop();
-			// 		b = operands.pop();
-			// 		operands.push(a - b);
-			// 		break;
-			// 	case "*":
-			// 		a = operands.pop();
-			// 		b = operands.pop();
-			// 		operands.push(a * b);
-			// 		break;
-			// 	case "/":
-			// 		a = operands.pop();
-			// 		b = operands.pop();
-			// 		operands.push(a / b);
-			// 		break;
-			// 	default:
-			// 	}
+				} else {
+					switch (tokens[i]) {
+					case "+":
+						int a = operands.pop();
+						int b = operands.pop();
+						operands.push(a + b);
+						break;
+					case "-":
+						a = operands.pop();
+						b = operands.pop();
+						operands.push(a - b);
+						break;
+					case "*":
+						a = operands.pop();
+						b = operands.pop();
+						operands.push(a * b);
+						break;
+					case "/":
+						a = operands.pop();
+						b = operands.pop();
+						operands.push(a / b);
+						break;
+					default:
+					}
 			}
 		}
 		operands.print();
@@ -58,10 +58,10 @@ class Stack {
 		return item;
 	}
 	public void print() {
-		Node tnode = first;
-		while(tnode!= null) {
-			System.out.println(tnode.data);
-			tnode = tnode.next;
+		Node testnode = first;
+		while (testnode != null) {
+			System.out.println(testnode.data);
+			testnode = testnode.next;
 		}
 	}
 }
