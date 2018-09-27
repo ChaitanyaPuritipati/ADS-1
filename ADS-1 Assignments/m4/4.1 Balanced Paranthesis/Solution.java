@@ -35,10 +35,9 @@ class Solution {
 				// }
 				if (tokens[j].equals("(") || tokens[j].equals("{") || tokens[j].equals("[")) {
 					if (size == paranthesis.length) {
-						System.out.println("entered");
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
-					paranthesis[size] = tokens[j];
+					paranthesis[size - 1] = tokens[j];
 					size++;
 				} else if (tokens[j].equals("}")) {
 					if (!tokens[size - 1].equals("{")) {
