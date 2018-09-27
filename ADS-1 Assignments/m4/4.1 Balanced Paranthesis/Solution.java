@@ -20,7 +20,6 @@ class Solution {
 		Scanner scan = new Scanner(System.in);
 		int testnum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < testnum; i++) {
-			// System.out.println(i);
 			String[] paranthesis = new String[20];
 			String line = scan.nextLine();
 			String[] tokens = line.split("");
@@ -31,10 +30,7 @@ class Solution {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
-					//  System.out.println(Arrays.toString(paranthesis));
 					paranthesis[size] = tokens[j];
-					// System.out.println(paranthesis[size] + "-------");
-					// System.out.println(Arrays.toString(paranthesis));
 					size++;
 				} else if (tokens[j].equals("}")) {
 					if(size == 0) {
@@ -43,7 +39,7 @@ class Solution {
 						break;
 					}
 					if (!tokens[size - 1].equals("{")) {
-						System.out.println("NO");
+						System.out.println("NO flower");
 						flag = 1;
 						break;
 					}
@@ -55,7 +51,7 @@ class Solution {
 						break;
 					}
 					if (!tokens[size - 1].equals("(")) {
-						System.out.println("NO");
+						System.out.println("NO convex");
 						flag = 1;
 						break;
 					}
@@ -67,7 +63,7 @@ class Solution {
 						break;
 					}
 					if (!tokens[size - 1].equals("[")) {
-						System.out.println("NO");
+						System.out.println("NO sqaure");
 						flag = 1;
 						break;
 					}
