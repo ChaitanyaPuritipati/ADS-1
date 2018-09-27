@@ -65,6 +65,7 @@ class Solution {
 						System.out.println("NO");
 						break;
 					}
+					System.out.println(size + "sqaure");
 					if (!tokens[size - 1].equals("[")) {
 						System.out.println("NO sqaure");
 						flag = 1;
