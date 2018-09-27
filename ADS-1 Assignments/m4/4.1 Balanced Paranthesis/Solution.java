@@ -21,38 +21,51 @@ class Solution {
 		int testnum = Integer.parseInt(scan.nextLine());
 		int size = 0;
 		for (int i = 0; i < testnum; i++) {
-			System.out.println(i);
-			char[] paranthesis = new char[20];
+			// System.out.println(i);
+			String[] paranthesis = new String[20];
 			String line = scan.nextLine();
+			String[] tokens = line.split("");
 			int flag = 0;
-			for (int j = 0; j < line.length(); j++) {
+			for (int j = 0; j < tokens.length; j++) {
 				// System.out.println(j);
-				if (Character.toString(line.charAt(0)).equals(")") || Character.toString(line.charAt(line.length() - 1)).equals("(")) {
-					// System.out.println("NO");
-					flag = 1;
-					break;
-				}
-				if (Character.toString(line.charAt(j)).equals("(")) {
+				// if (tokens[0].equals(")") || tokens[tokens.length - 1].equals("")) {
+				// 	// System.out.println("NO");
+				// 	flag = 1;
+				// 	break;
+				// }
+				if (tokens[j].equals("(") || tokens[j].equals("{") || tokens[j].equals("[")) {
 					if (size == paranthesis.length) {
 						paranthesis = Arrays.copyOf(paranthesis, 2 * size);
 					}
-					paranthesis[size] = line.charAt(j);
-					// System.out.println(Arrays.toString(paranthesis));
-					// System.out.println(line + "--------------------");
+					paranthesis[size] = tokens[j];
 					size++;
-				} else if (Character.toString(line.charAt(j)).equals(")") && size > 0) {
+				} else if (tokens[j].equals("}") && size > 0) {
+					if (!tokens[size - 1].equals("{")) {
+						System.out.println("NO");
+						flag = 1;
+						break;
+					}
 					size--;
-				} else if(Character.toString(line.charAt(j)).equals(")") && size == 0) {
-					// System.out.println("NO");
-					flag = 1;
-					break;
+				} else if (tokens[j].equals(")") && size > 0) {
+					if (!tokens[size - 1].equals("(")) {
+						System.out.println("NO");
+						flag = 1;
+						break;
+					}
+					size--;
+				} else if (tokens[j].equals("]") && size > 0) {
+					if (!tokens[size - 1].equals("]")) {
+						System.out.println("NO");
+						flag = 1;
+						break;
+					}
+					size--;
 				}
 			}
 			if (size == 0 && flag == 0) {
-				// System.out.println("YES");
-			} else if (size > 0 && flag == 0) {
-				// System.out.println("NO");
+				System.out.println("YES");
 			}
 		}
 	}
+
 }
