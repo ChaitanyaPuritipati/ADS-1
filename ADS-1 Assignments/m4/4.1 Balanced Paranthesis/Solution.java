@@ -21,11 +21,12 @@ class Solution {
 		int testnum = Integer.parseInt(scan.nextLine());
 		int size = 0;
 		for (int i = 0; i < testnum; i++) {
+			System.out.println(i);
 			char[] paranthesis = new char[20];
 			String line = scan.nextLine();
 			int flag = 0;
 			for (int j = 0; j < line.length(); j++) {
-				System.out.println(j);
+				// System.out.println(j);
 				if (Character.toString(line.charAt(0)).equals(")") || Character.toString(line.charAt(line.length() - 1)).equals("(")) {
 					// System.out.println("NO");
 					flag = 1;
