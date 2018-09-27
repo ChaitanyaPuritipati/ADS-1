@@ -51,6 +51,7 @@ class Solution {
 						break;
 					}
 					if (!tokens[size - 1].equals("(")) {
+						System.out.println(Arrays.toString(paranthesis));
 						System.out.println("NO convex");
 						flag = 1;
 						break;
