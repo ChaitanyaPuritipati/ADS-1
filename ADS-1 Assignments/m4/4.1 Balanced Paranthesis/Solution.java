@@ -40,9 +40,9 @@ class Solution {
 					size--;
 				}
 			}
-			if (paranthesis.length == 0 && flag == 0) {
+			if (size == 0 && flag == 0) {
 				System.out.println("YES");
-			} else if (paranthesis.length > 0 && flag == 0) {
+			} else if (size > 0 && flag == 0) {
 				System.out.println("NO");
 			}
 		}

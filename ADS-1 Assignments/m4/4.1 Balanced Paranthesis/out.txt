@@ -81,8 +81,8 @@ YES
 YES
 
 Your Output: 
-NO
-NO
+YES
+YES
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -3
 	at Solution.main(Solution.java:37)
 
@@ -1091,8 +1091,8 @@ NO
 YES
 
 Your Output: 
-NO
-NO
+YES
+YES
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -2
 	at Solution.main(Solution.java:37)
 
