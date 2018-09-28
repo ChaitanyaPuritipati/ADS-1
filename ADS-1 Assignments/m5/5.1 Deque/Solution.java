@@ -62,6 +62,7 @@ class Deque<Item> {
 		return removeditem;
 	}
 	void resize() {
+		System.out.println("entered resize");
 		elements = Arrays.copyOf(elements, 2 * right);
 	}
 	String print() {
