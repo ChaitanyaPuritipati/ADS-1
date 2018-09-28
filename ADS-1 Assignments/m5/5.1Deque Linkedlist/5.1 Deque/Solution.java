@@ -65,10 +65,13 @@ class Deque<Item> {
 		}
 		Item rightout = right.data;
 		Node test = left;
-		while (test.next != right) {
+		int counter = 1;
+		while (counter < size - 1) {
 			test = test.next;
+			counter++;
 		}
 		right = test;
+		right.next = null;
 		size--;
 		print();
 		return rightout;
@@ -81,11 +84,8 @@ class Deque<Item> {
     	String str = "";
     	str = str + "[";
     	Node test = left;
-    	// System.out.println(left.data);
     	while(test.next != null) {
-    		// System.out.println("entered");
     		str = str + test.data + ", ";
-    		// System.out.println(str);
     		test = test.next;
     	}
     	str = str + right.data;
