@@ -43,8 +43,8 @@ class Deque<Item> {
 		}
 		System.out.println(right + "right value");
 		Item removeditem = elements[left];
-		for (int i = 0; i < right; i++) {
-			elements[i - 1] = elements[i];
+		for (int i = 0; i < right - 1; i++) {
+			elements[i] = elements[i + 1];
 		}
 		right--;
 		System.out.println(Arrays.toString(elements));
