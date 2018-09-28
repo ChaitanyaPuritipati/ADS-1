@@ -39,6 +39,7 @@ class Deque<Item> {
 	}
 	Item popLeft() {
 		if (isEmpty()) {
+			System.out.println("Deck is empty");
 			return null;
 		}
 		// System.out.println(right + "right value");
@@ -52,6 +53,7 @@ class Deque<Item> {
 	}
 	Item popRight() {
 		if (isEmpty()) {
+			System.out.println("Deck is empty");
 			return null;
 		}
 		Item removeditem = elements[right - 1];
