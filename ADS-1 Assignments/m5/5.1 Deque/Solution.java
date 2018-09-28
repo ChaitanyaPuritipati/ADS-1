@@ -19,7 +19,7 @@ class Deque<Item> {
 		return right;
 	}
 	void pushLeft(Item inputitem) {
-		if (size == elements.length) {
+		if (right == elements.length) {
 			resize();
 		}
 		for (int i = right - 1; i >= 0; i--) {
