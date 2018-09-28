@@ -14,18 +14,19 @@ class Josephus {
 	}
 	void removing() {
 		int i = 0;
-
+		String str = "";
 		while (this.size > 0) {
 			int rem = 0;
 			// System.out.println(size + "sizeval");
-			if (i == (this.size - 1)) {
-				i = -1;
+			// System.out.println("size val" + size);
+			// System.out.println(i + skipval -1 + "before if");
+			while (i + skipval - 1 > (this.size) - 1) {
+				i = i - this.size ;
 			}
-			while(i + skipval - 1 < size) {
-				 System.out.println("hellp");
-				 rem = (i + skipval) % size;
-			}
-			System.out.print(seats[i + skipval - 1] + " ");
+			// System.out.println(i + "value of i");
+			// System.out.println(i + skipval -1 + "after if");
+			// System.out.println(Arrays.toString(seats) + "Arrayssssss");
+			str = str + seats[i + skipval - 1] + " ";
 			for (int j = i + skipval - 1; j < this.size - 1; j++) {
 				seats[j] = seats[j + 1];
 			}
@@ -34,7 +35,8 @@ class Josephus {
 			this.size--;
 			// System.out.println(this.size + "later");
 		}
-		System.out.println();
+		str = str.trim();
+		System.out.println(str);
 	}
 
 }
