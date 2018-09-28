@@ -71,7 +71,7 @@ class Deque<Item> {
 		for(int i = 0; i < right - 1; i++) {
 			str = str + elements[i];
 		}
-		str = str + elements[elements.length];
+		str = str + elements[right - 1];
 		str = str + "]";
 		return str;
 	}
