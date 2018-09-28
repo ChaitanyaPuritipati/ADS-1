@@ -41,6 +41,7 @@ class Deque<Item> {
 		if (isEmpty()) {
 			return null;
 		}
+		System.out.println(right + "right value");
 		Item removeditem = elements[left];
 		for (int i = 0; i < right - 1; i++) {
 			elements[i - 1] = elements[i];
