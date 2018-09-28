@@ -27,7 +27,7 @@ class Deque<Item> {
 		}
 		elements[left] = inputitem;
 		right++;
-		System.out.println(Arrays.toString(elements));
+		System.out.println(print());
 	}
 	void pushRight(Item inputitem) {
 		if (right == elements.length) {
@@ -35,7 +35,7 @@ class Deque<Item> {
 		}
 		elements[right] = inputitem;
 		right++;
-		System.out.println(Arrays.toString(elements));
+		System.out.println(print());
 	}
 	Item popLeft() {
 		if (isEmpty()) {
@@ -47,7 +47,7 @@ class Deque<Item> {
 			elements[i] = elements[i + 1];
 		}
 		right--;
-		System.out.println(Arrays.toString(elements));
+		System.out.println(print());
 		return removeditem;
 	}
 	Item popRight() {
@@ -56,11 +56,24 @@ class Deque<Item> {
 		}
 		Item removeditem = elements[right - 1];
 		right--;
-		System.out.println(Arrays.toString(elements));
+		System.out.println(print());
 		return removeditem;
 	}
 	void resize() {
 		elements = Arrays.copyOf(elements, 2 * right);
+	}
+	String print() {
+		String str = "";
+		if(isEmpty()) {
+			return "[]";
+		}
+		str = str + "[";
+		for(int i = 0; i < right - 1; i++) {
+			str = str + elements[i];
+		}
+		str = str + elements[elements.length];
+		str = str + "]";
+		return str;
 	}
 }
 class Solution {
