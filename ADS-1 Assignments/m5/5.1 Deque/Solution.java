@@ -22,7 +22,7 @@ class Deque<Item> {
 		if (size == elements.length) {
 			resize();
 		}
-		for (int i = right - 2; i >= 0; i--) {
+		for (int i = right - 1; i >= 0; i--) {
 			elements[i + 1] = elements[i];
 		}
 		elements[left] = inputitem;
