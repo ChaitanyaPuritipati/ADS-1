@@ -6,7 +6,7 @@ class Josephus {
 	int skipval;
 	Josephus(int inputsize, int inputskipval) {
 		this.seats = new int[inputsize];
-		this.size = inputsize;
+	    this.size = inputsize;
 		for(int l = 0; l < this.size; l++) {
 			seats[l] = l;
 		}
@@ -14,16 +14,20 @@ class Josephus {
 	}
 	void removing() {
 		int i = 0;
-		while (size > 0) {
-			if(i == size -1) {
+		while (this.size > 0) {
+			// System.out.println(size + "sizeval");
+			if(i == (this.size -1)) {
 				i = -1;
 			}
+			int rem = (i + skipval)%size;
 			System.out.print(seats[i + skipval - 1] + " ");
-			for(int j = i + skipval - 1; j < size - 1; j++) {
+			for(int j = i + skipval - 1; j < this.size - 1; j++) {
 				seats[j] = seats[j + 1];
 			}
+			// System.out.println(Arrays.toString(seats));
 			i = i + skipval - 1;
-			size--;
+			this.size--;
+			// System.out.println(this.size + "later");
 		}
 	}
 
@@ -37,6 +41,7 @@ class Solution {
 		int testnum = Integer.parseInt(scan.nextLine());
 		for(int k = 0; k < testnum; k++) {
 			String[] tokens = scan.nextLine().split(" ");
+			// System.out.println(Arrays.toString(tokens));
 			Josephus start = new Josephus(Integer.parseInt(tokens[0]), Integer.parseInt(tokens[1]));
 			start.removing();
 		}
