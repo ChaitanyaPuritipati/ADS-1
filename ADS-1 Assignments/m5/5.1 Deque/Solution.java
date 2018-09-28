@@ -7,7 +7,6 @@ class Deque<Item> {
 	int size;
 	Deque() {
 		final int twenty = 20;
-		// elements = new Item[20];
 		elements = (Item[])new Object[20];
 		left = 0;
 		right = 0;
@@ -42,7 +41,6 @@ class Deque<Item> {
 			System.out.println("Deck is empty");
 			return null;
 		}
-		// System.out.println(right + "right value");
 		Item removeditem = elements[left];
 		for (int i = 0; i < right - 1; i++) {
 			elements[i] = elements[i + 1];
@@ -62,7 +60,6 @@ class Deque<Item> {
 		return removeditem;
 	}
 	void resize() {
-		// System.out.println("entered resize");
 		elements = Arrays.copyOf(elements, 2 * right);
 	}
 	String print() {
