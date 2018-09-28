@@ -14,11 +14,11 @@ class Josephus {
 	}
 	void removing() {
 		int i = 0;
-		while (size != 0) {
+		while (size > 0) {
 			if(i == size -1) {
 				i = -1;
 			}
-			System.out.println(seats[i + skipval - 1]);
+			System.out.print(seats[i + skipval - 1] + " ");
 			for(int j = i + skipval - 1; j < size - 1; j++) {
 				seats[j] = seats[j + 1];
 			}
