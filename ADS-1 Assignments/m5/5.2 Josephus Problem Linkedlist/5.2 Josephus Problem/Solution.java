@@ -12,7 +12,7 @@ class Josephus {
      */
     Node last = null;
     /**
-     * { size value }
+     * { size }
      */
     int size = 0;
     /**
