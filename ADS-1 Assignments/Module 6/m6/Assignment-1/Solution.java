@@ -76,7 +76,9 @@ final class AddLargeNumbers {
             int out = 0;
             String result = "";
             while (!list2.isEmpty()) {
-                out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
+                out = carry.pop()
+                      + list1.reversepop(list1.size)
+                      + list2.reversepop(list2.size);
                 result = result + (out % ten);
                 if (out > nine) {
                     carry.push(out / ten);
@@ -105,7 +107,7 @@ final class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String p = sc.nextLine();
@@ -123,6 +125,8 @@ final class Solution {
             qDigits = AddLargeNumbers.numberToDigits(q);
             LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
             System.out.println(AddLargeNumbers.digitsToNumber(result));
+            break;
+        default:
             break;
         }
     }
