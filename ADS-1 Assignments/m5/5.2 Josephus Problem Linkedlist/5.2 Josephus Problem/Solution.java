@@ -51,10 +51,11 @@ class Josephus {
 				str = str + test.data + " ";
 				sizeval--;
 			} else if (test.next == last) {
+				// System.out.println("entered" + test.next.data);
 				str = str + test.next.data + " ";
 				last = test;
 				last.next = first;
-				test = last;
+				test = first;
 				sizeval--;
 			} else {
 				// System.out.println(first.data);
