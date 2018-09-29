@@ -21,7 +21,6 @@ class LinkedList {
 	int reversepop(int iteratorval) {
 		Node test = first;
 		int counter = 0;
-		// System.out.println(size + "sizeval");
 		while (counter < iteratorval - 2) {
 			test = test.next;
 			counter++;
@@ -65,15 +64,12 @@ class AddLargeNumbers {
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 		LinkedList carry = new LinkedList();
 		carry.push(0);
-		// System.out.println(list1.size + "here");
-		// System.out.println(list2.size + "here");
 		if (list1.size <= list2.size) {
 			int out = 0;
 			String result = "";
 			while (!list1.isEmpty()) {
+				System.out.println(list1.size);
 				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
-				// System.out.println(list1.reversepop() + "reverse value");
-				// System.out.println(out);
 				result =  (out % 10) + result ;
 				if (out > 9) {
 					carry.push(out / 10);
