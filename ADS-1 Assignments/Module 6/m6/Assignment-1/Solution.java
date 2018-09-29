@@ -42,7 +42,10 @@ final class AddLargeNumbers {
      *
      * @return     { linkedlist }
      */
-    public static LinkedList addLargeNumbers(final LinkedList list1, final LinkedList list2) {
+    public static LinkedList
+    addLargeNumbers(
+        final LinkedList list1,
+        final LinkedList list2) {
         LinkedList carry = new LinkedList();
         final int ten = 10;
         final int nine = 9;
