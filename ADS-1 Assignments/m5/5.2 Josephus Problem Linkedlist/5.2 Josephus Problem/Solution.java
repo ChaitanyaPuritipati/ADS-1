@@ -71,10 +71,6 @@ class Josephus {
 				test = test.next;
 				counter++;
 			}
-			// if (sizeval == 1) {
-			// 	str = str + test.data + " ";
-			// 	sizeval--;
-			// } else
 			if (test.next == last) {
 				str = str + test.next.data + " ";
 				last = test;
@@ -82,16 +78,16 @@ class Josephus {
 				test = first;
 				sizeval--;
 			} else {
-				if (test.next == first) {
-					str = str + first.data + " ";
-					first = first.next;
-					last.next = first;
-					test = first;
-				} else {
+				// if (test.next == first) {
+				// 	str = str + first.data + " ";
+				// 	first = first.next;
+				// 	last.next = first;
+				// 	test = first;
+				// } else {
 					str = str + test.next.data + " ";
 					test.next = test.next.next;
 					test = test.next;
-				}
+				// }
 				sizeval--;
 			}
 		}
