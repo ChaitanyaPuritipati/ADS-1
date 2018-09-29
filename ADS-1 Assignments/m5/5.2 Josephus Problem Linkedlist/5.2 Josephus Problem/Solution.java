@@ -78,16 +78,16 @@ class Josephus {
 				test = first;
 				sizeval--;
 			} else {
-				// if (test.next == first) {
-				// 	str = str + first.data + " ";
-				// 	first = first.next;
-				// 	last.next = first;
-				// 	test = first;
-				// } else {
+				if (test.next == first) {
+					str = str + first.data + " ";
+					first = first.next;
+					last.next = first;
+					test = first;
+				} else {
 					str = str + test.next.data + " ";
 					test.next = test.next.next;
 					test = test.next;
-				// }
+				}
 				sizeval--;
 			}
 		}
