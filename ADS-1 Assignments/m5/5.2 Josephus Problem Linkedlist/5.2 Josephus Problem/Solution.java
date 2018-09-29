@@ -42,8 +42,8 @@ class Josephus {
 			// print();
 			int counter = 0;
 			if(sizeval == 1) {
-				str = str + test.data + " ";
-				System.out.println(str);
+				str = str + test.data;
+				System.out.print(str);
 				return;
 			}
 			while (counter < index - 2) {
