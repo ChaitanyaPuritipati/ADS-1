@@ -81,7 +81,7 @@ class AddLargeNumbers {
 				result =  list2.reversepop(list2.size) + carry.pop() + result ;
 				carry.push(0);
 			}
-			if(carry.pop() != 0) {
+			if(carry.first.data != 0) {
 				result = carry.pop() + result;
 			}
 			return numberToDigits(result);
