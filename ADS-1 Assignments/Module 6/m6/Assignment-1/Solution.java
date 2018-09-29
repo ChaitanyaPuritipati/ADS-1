@@ -38,15 +38,17 @@ class AddLargeNumbers {
 	 */
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 		LinkedList carry = new LinkedList();
+		final int ten = 10;
+		final int nine = 9;
 		carry.push(0);
 		if (list1.size <= list2.size) {
 			int out = 0;
 			String result = "";
 			while (!list1.isEmpty()) {
 				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
-				result =  (out % 10) + result ;
-				if (out > 9) {
-					carry.push(out / 10);
+				result =  (out % ten) + result ;
+				if (out > nine) {
+					carry.push(out / ten);
 				} else {
 					carry.push(0);
 				}
@@ -64,9 +66,9 @@ class AddLargeNumbers {
 			String result = "";
 			while (!list2.isEmpty()) {
 				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
-				result = result + (out % 10);
-				if (out > 9) {
-					carry.push(out / 10);
+				result = result + (out % ten);
+				if (out > nine) {
+					carry.push(out / ten);
 				}
 			}
 			while (!list1.isEmpty()) {
@@ -80,12 +82,12 @@ class AddLargeNumbers {
 /**
  * Class for solution.
  */
-public class Solution {
+final class Solution {
 	/**
 	 * Constructs the object.
 	 */
 	private Solution() {
-        //unused
+		//unused
 	}
 	/**
 	 * { main function }.
