@@ -69,14 +69,17 @@ class AddLargeNumbers {
 			String result = "";
 			while (!list1.isEmpty()) {
 				out = carry.pop() + list1.reversepop() + list2.reversepop();
-				result = result + (out % 10);
+				result =  (out % 10) + result ;
 				if (out > 9) {
 					carry.push(out / 10);
 				}
 			}
 			while (!list2.isEmpty()) {
-				result = result + list2.reversepop() + carry.pop();
+				result =  list2.reversepop() + carry.pop() + result ;
 				carry.push(0);
+			}
+			if(!carry.isEmpty()) {
+				result = carry.pop() + result;
 			}
 			return numberToDigits(result);
 		} else {
