@@ -18,13 +18,15 @@ class LinkedList {
 		first = newnode;
 		size++;
 	}
-	int reversepop() {
+	int reversepop(int iteratorval) {
 		Node test = first;
-		while (test.next != null) {
+		int counter = 0;
+		System.out.println(size + "sizeval");
+		while (counter < iteratorval - 2) {
 			test = test.next;
+			counter++;
 		}
 		int value = test.data;
-		test = null;
 		size--;
 		return value;
 	}
@@ -63,12 +65,15 @@ class AddLargeNumbers {
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 		LinkedList carry = new LinkedList();
 		carry.push(0);
-		// String result = "";
+		// System.out.println(list1.size + "here");
+		// System.out.println(list2.size + "here");
 		if (list1.size <= list2.size) {
 			int out = 0;
 			String result = "";
 			while (!list1.isEmpty()) {
-				out = carry.pop() + list1.reversepop() + list2.reversepop();
+				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
+				// System.out.println(list1.reversepop() + "reverse value");
+				// System.out.println(out);
 				result =  (out % 10) + result ;
 				if (out > 9) {
 					carry.push(out / 10);
@@ -77,7 +82,7 @@ class AddLargeNumbers {
 				}
 			}
 			while (!list2.isEmpty()) {
-				result =  list2.reversepop() + carry.pop() + result ;
+				result =  list2.reversepop(list2.size) + carry.pop() + result ;
 				carry.push(0);
 			}
 			if(!carry.isEmpty()) {
@@ -88,20 +93,20 @@ class AddLargeNumbers {
 			int out = 0;
 			String result = "";
 			while (!list2.isEmpty()) {
-				out = carry.pop() + list1.reversepop() + list2.reversepop();
+				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
 				result = result + (out % 10);
 				if (out > 9) {
 					carry.push(out / 10);
 				}
 			}
 			while (!list1.isEmpty()) {
-				result = result + list1.reversepop() + carry.pop();
+				result = result + list1.reversepop(list1.size) + carry.pop();
 				carry.push(0);
 			}
 			return numberToDigits(result);
 		}
 	}
-}
+ }
 
 public class Solution {
 	public static void main(String[] args) {
