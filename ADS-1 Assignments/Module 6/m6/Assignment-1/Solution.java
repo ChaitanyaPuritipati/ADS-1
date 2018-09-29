@@ -1,53 +1,15 @@
 import java.util.Scanner;
-class LinkedList {
-	Node first = null;
-	int size = 0;
-	class Node {
-		int data;
-		Node next;
-		Node(int inputdata) {
-			this.data = inputdata;
-		}
-	}
-	boolean isEmpty() {
-		return size == 0;
-	}
-	void push(int item) {
-		Node newnode = new Node(item);
-		newnode.next = first;
-		first = newnode;
-		size++;
-	}
-	int reversepop(int iteratorval) {
-		Node test = first;
-		int counter = 0;
-		while (counter < iteratorval - 1) {
-			test = test.next;
-			counter++;
-		}
-		int value = test.data;
-		size--;
-		return value;
-	}
-	int pop() {
-		int output = first.data;
-		first = first.next;
-		size--;
-		return output;
-	}
-	String print() {
-		Node test = first;
-		String num = "";
-		while (test != null) {
-			num = num + test.data;
-			test = test.next;
-		}
-		return num;
-	}
-
-}
+/**
+ * Class for add large numbers.
+ */
 class AddLargeNumbers {
-
+	/**
+	 * { numtodig }.
+	 *
+	 * @param      number  The number
+	 *
+	 * @return     { linkedlist }
+	 */
 	public static LinkedList numberToDigits(String number) {
 		LinkedList numtodig = new LinkedList();
 		for (int i = number.length() - 1; i >= 0; i--) {
@@ -56,11 +18,24 @@ class AddLargeNumbers {
 		}
 		return numtodig;
 	}
-
+	/**
+	 * { digtonum }.
+	 *
+	 * @param      list  The list
+	 *
+	 * @return     { stringtype }
+	 */
 	public static String digitsToNumber(LinkedList list) {
 		return list.print();
 	}
-
+	/**
+	 * Adds large numbers.
+	 *
+	 * @param      list1  The list 1
+	 * @param      list2  The list 2
+	 *
+	 * @return     { linkedlist }
+	 */
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 		LinkedList carry = new LinkedList();
 		carry.push(0);
@@ -68,7 +43,6 @@ class AddLargeNumbers {
 			int out = 0;
 			String result = "";
 			while (!list1.isEmpty()) {
-				// System.out.println(list1.size);
 				out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
 				result =  (out % 10) + result ;
 				if (out > 9) {
@@ -81,7 +55,7 @@ class AddLargeNumbers {
 				result =  list2.reversepop(list2.size) + carry.pop() + result ;
 				carry.push(0);
 			}
-			if(carry.first.data != 0) {
+			if (carry.first.data != 0) {
 				result = carry.pop() + result;
 			}
 			return numberToDigits(result);
@@ -102,9 +76,22 @@ class AddLargeNumbers {
 			return numberToDigits(result);
 		}
 	}
- }
-
+}
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+        //unused
+	}
+	/**
+	 * { main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
@@ -118,12 +105,12 @@ public class Solution {
 			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 
-			case "addLargeNumbers":
-			    pDigits = AddLargeNumbers.numberToDigits(p);
-			    qDigits = AddLargeNumbers.numberToDigits(q);
-			    LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-			    System.out.println(AddLargeNumbers.digitsToNumber(result));
-			    break;
+		case "addLargeNumbers":
+			pDigits = AddLargeNumbers.numberToDigits(p);
+			qDigits = AddLargeNumbers.numberToDigits(q);
+			LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+			System.out.println(AddLargeNumbers.digitsToNumber(result));
+			break;
 		}
 	}
 
