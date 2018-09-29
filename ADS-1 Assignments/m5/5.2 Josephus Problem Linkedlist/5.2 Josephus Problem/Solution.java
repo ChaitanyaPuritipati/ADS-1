@@ -28,10 +28,10 @@ class Josephus {
 		size++;
 	}
 	void print() {
-		Node test = first;
-		while (test != last) {
-			System.out.print(test.data + ",");
-			test = test.next;
+		Node printtest = first;
+		while (printtest != last) {
+			System.out.print(printtest.data + ",");
+			printtest = printtest.next;
 		}
 		System.out.print(last.data);
 		// System.out.println("List above");
@@ -41,7 +41,7 @@ class Josephus {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
-			// print();
+			print();
 			int counter = 0;
 			while (counter < index - 2) {
 				test = test.next;
@@ -57,9 +57,13 @@ class Josephus {
 				test = last;
 				sizeval--;
 			} else {
+				// System.out.println(first.data);
+				// System.out.println(test.next.data);
 				if (test.next == first) {
+					// System.out.println("entered");
 					str = str + first.data + " ";
-					first = test.next;
+					first = first.next;
+					last.next = first;
 					test = first;
 				} else {
 					str = str + test.next.data + " ";
