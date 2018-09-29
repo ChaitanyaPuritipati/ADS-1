@@ -54,8 +54,10 @@ final class AddLargeNumbers {
             int out = 0;
             String result = "";
             while (!list1.isEmpty()) {
-                out = carry.pop() + list1.reversepop(list1.size) + list2.reversepop(list2.size);
-                result =  (out % ten) + result ;
+                out = carry.pop()
+                      + list1.reversepop(list1.size)
+                      + list2.reversepop(list2.size);
+                result =  (out % ten) + result;
                 if (out > nine) {
                     carry.push(out / ten);
                 } else {
@@ -63,7 +65,7 @@ final class AddLargeNumbers {
                 }
             }
             while (!list2.isEmpty()) {
-                result =  list2.reversepop(list2.size) + carry.pop() + result ;
+                result =  list2.reversepop(list2.size) + carry.pop() + result;
                 carry.push(0);
             }
             if (carry.first.data != 0) {
