@@ -37,7 +37,7 @@ class Josephus {
 				System.out.println(str);
 				return;
 			}
-			while (counter < index - 2 && sizeval > index - 2) {
+			while (counter < index - 2) {
 				test = test.next;
 				counter++;
 			}
