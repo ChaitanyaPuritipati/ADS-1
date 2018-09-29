@@ -62,7 +62,7 @@ class Josephus {
 	 * @param      index    The index
 	 * @param      sizeval  The sizeval
 	 */
-	void pop(int index, int sizeval) {
+	void pop(final int index, int sizeval) {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
@@ -95,11 +95,22 @@ class Josephus {
 		System.out.println(str);
 	}
 }
-class Solution {
-	Solution() {
+/**
+ * Class for solution.
+ */
+final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
 		//unused;
 	}
-	public static void main(String[] args) {
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int testnum = Integer.parseInt(scan.nextLine());
 		for (int k = 0; k < testnum; k++) {
