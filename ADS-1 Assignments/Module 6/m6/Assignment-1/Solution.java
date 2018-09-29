@@ -72,6 +72,8 @@ class AddLargeNumbers {
 				result =  (out % 10) + result ;
 				if (out > 9) {
 					carry.push(out / 10);
+				} else {
+					carry.push(0);
 				}
 			}
 			while (!list2.isEmpty()) {
