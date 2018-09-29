@@ -33,7 +33,7 @@ class AddLargeNumbers {
     
     public static LinkedList numberToDigits(String number) {
     	LinkedList numtodig = new LinkedList();
-    	for(int i = 0; i < number.length(); i++) {
+    	for(int i = number.length() - 1; i >= 0; i--) {
     		String ele = "" + number.charAt(i);
     		numtodig.push(Integer.parseInt(ele));
     	}
