@@ -27,63 +27,50 @@ class Josephus {
 		last.next = first;
 		size++;
 	}
+	void print() {
+		Node test = first;
+		while (test != last) {
+			System.out.print(test.data + ",");
+			test = test.next;
+		}
+		System.out.print(last.data);
+		// System.out.println("List above");
+		// System.out.println("==============================================================");
+	}
 	void pop(int index, int sizeval) {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
-			// System.out.println(last.data + "last val");
-			// System.out.println(this.size + "size");
+			// print();
 			int counter = 0;
 			while (counter < index - 2) {
 				test = test.next;
 				counter++;
 			}
-			// System.out.println(test.data + "after while");
-			// System.out.println(test.data +"data");
-			// System.out.println(last.data + "last data");
-			// System.out.println(test.data + "next data");
-			// System.out.println();
-			if (test.next == last) {
-				// System.out.println(last.data + "last val");
-				// System.out.println("entered");
-				str += test.next.data;
+			if (sizeval == 1) {
+				str = str + test.data + " ";
+				sizeval--;
+			} else if (test.next == last) {
+				str = str + test.next.data + " ";
 				last = test;
-				// System.out.println(test.data + "hello");
 				last.next = first;
-				test = first;
+				test = last;
 				sizeval--;
 			} else {
-				str += test.next.data;
-				test.next = test.next.next;
-				test = test.next;
-				// System.out.println(test.data +"data");
-				// System.out.println(test.data + "here data");
+				if (test.next == first) {
+					str = str + first.data + " ";
+					first = test.next;
+					test = first;
+				} else {
+					str = str + test.next.data + " ";
+					test.next = test.next.next;
+					test = test.next;
+				}
 				sizeval--;
 			}
-
-			// System.out.println();
 		}
 		str = str.trim();
 		System.out.println(str);
-		// while()
-		// if(index = size - 1) {
-		// 	int item = last.data;
-		// 	Node test = first;
-		// 	int counter = 1;
-		// 	while(counter < size - 1) {
-		// 		test = test.next;
-		// 		counter++;
-		// 	}
-		// 	last = test;
-		// 	last.next = first;
-		// } else {
-		// 	Node elsetest = first;
-		// 	int indexcount = 0;
-		// 	while(indexcount < index) {
-		// 		elsetest = elsetest.next;
-		// 	}
-
-		// }
 	}
 }
 class Solution {
