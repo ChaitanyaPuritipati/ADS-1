@@ -41,7 +41,7 @@ class Josephus {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
-			print();
+			// print();
 			int counter = 0;
 			while (counter < index - 2) {
 				test = test.next;
