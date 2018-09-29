@@ -27,26 +27,17 @@ class Josephus {
 		last.next = first;
 		size++;
 	}
-	void print() {
-		Node printtest = first;
-		while (printtest != last) {
-			System.out.print(printtest.data + ",");
-			printtest = printtest.next;
-		}
-		System.out.print(last.data);
-	}
 	void pop(int index, int sizeval) {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
-			// print();
 			int counter = 0;
 			if(sizeval == 1) {
 				str = str + test.data;
 				System.out.println(str);
 				return;
 			}
-			while (counter < index - 2) {
+			while (counter < index - 2 && sizeval > index - 2) {
 				test = test.next;
 				counter++;
 			}
@@ -60,10 +51,7 @@ class Josephus {
 				test = first;
 				sizeval--;
 			} else {
-				// System.out.println(first.data);
-				// System.out.println(test.next.data);
 				if (test.next == first) {
-					// System.out.println("entered");
 					str = str + first.data + " ";
 					first = first.next;
 					last.next = first;
