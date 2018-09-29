@@ -34,8 +34,6 @@ class Josephus {
 			printtest = printtest.next;
 		}
 		System.out.print(last.data);
-		// System.out.println("List above");
-		// System.out.println("==============================================================");
 	}
 	void pop(int index, int sizeval) {
 		Node test = first;
@@ -43,7 +41,7 @@ class Josephus {
 		while (sizeval > 0) {
 			// print();
 			int counter = 0;
-			while (counter < index - 2) {
+			while (counter < index - 2 && index - 2 > sizeval) {
 				test = test.next;
 				counter++;
 			}
@@ -51,7 +49,6 @@ class Josephus {
 				str = str + test.data + " ";
 				sizeval--;
 			} else if (test.next == last) {
-				// System.out.println("entered" + test.next.data);
 				str = str + test.next.data + " ";
 				last = test;
 				last.next = first;
