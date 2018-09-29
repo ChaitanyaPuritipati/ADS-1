@@ -21,7 +21,7 @@ class LinkedList {
 	int reversepop(int iteratorval) {
 		Node test = first;
 		int counter = 0;
-		System.out.println(size + "sizeval");
+		// System.out.println(size + "sizeval");
 		while (counter < iteratorval - 2) {
 			test = test.next;
 			counter++;
