@@ -19,6 +19,8 @@ class Josephus {
 			newnode.next = first;
 			first = newnode;
 			last = first;
+			first.next = last;
+			last.next = first;
 			size++;
 			return;
 		}
@@ -32,11 +34,11 @@ class Josephus {
 		String str = "";
 		while (sizeval > 0) {
 			int counter = 0;
-			if(sizeval == 1) {
-				str = str + test.data;
-				System.out.println(str);
-				return;
-			}
+			// if(sizeval == 1) {
+			// 	str = str + test.data;
+			// 	System.out.println(str);
+			// 	return;
+			// }
 			while (counter < index - 2) {
 				test = test.next;
 				counter++;
