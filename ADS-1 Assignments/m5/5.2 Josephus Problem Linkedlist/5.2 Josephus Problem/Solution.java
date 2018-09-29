@@ -1,18 +1,45 @@
 import java.util.Scanner;
+/**
+ * Class for josephus.
+ */
 class Josephus {
 	Node first = null;
 	Node last = null;
 	int size = 0;
+	/**
+	 * Class for node.
+	 */
 	class Node {
+		/**
+		 * { data }
+		 */
 		int data;
+		/**
+		 * { next node }
+		 */
 		Node next;
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      inputdata  The inputdata
+		 */
 		Node(int inputdata) {
 			this.data = inputdata;
 		}
 	}
+	/**
+	 * Determines if empty.
+	 *
+	 * @return     True if empty, False otherwise.
+	 */
 	boolean isEmpty() {
 		return size == 0;
 	}
+	/**
+	 * { push }.
+	 *
+	 * @param      item  The item
+	 */
 	void push(int item) {
 		Node newnode = new Node(item);
 		if (isEmpty()) {
@@ -29,24 +56,26 @@ class Josephus {
 		last.next = first;
 		size++;
 	}
+	/**
+	 * { pop function }.
+	 *
+	 * @param      index    The index
+	 * @param      sizeval  The sizeval
+	 */
 	void pop(int index, int sizeval) {
 		Node test = first;
 		String str = "";
 		while (sizeval > 0) {
 			int counter = 0;
-			// if(sizeval == 1) {
-			// 	str = str + test.data;
-			// 	System.out.println(str);
-			// 	return;
-			// }
 			while (counter < index - 2) {
 				test = test.next;
 				counter++;
 			}
-			if (sizeval == 1) {
-				str = str + test.data + " ";
-				sizeval--;
-			} else if (test.next == last) {
+			// if (sizeval == 1) {
+			// 	str = str + test.data + " ";
+			// 	sizeval--;
+			// } else
+			if (test.next == last) {
 				str = str + test.next.data + " ";
 				last = test;
 				last.next = first;
