@@ -56,14 +56,15 @@ class Josephus {
 				str += test.next.data;
 				test.next = test.next.next;
 				test = test.next;
-				 // System.out.println(test.data +"data");
+				// System.out.println(test.data +"data");
 				// System.out.println(test.data + "here data");
 				sizeval--;
 			}
-			str = str.trim();
-			System.out.println(str);
+
 			// System.out.println();
 		}
+		str = str.trim();
+		System.out.println(str);
 		// while()
 		// if(index = size - 1) {
 		// 	int item = last.data;
