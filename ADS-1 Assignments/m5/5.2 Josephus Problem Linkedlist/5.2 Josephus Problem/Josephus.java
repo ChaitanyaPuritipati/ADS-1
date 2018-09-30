@@ -79,25 +79,27 @@ class Josephus {
                 test = test.next;
                 counter++;
             }
-            if (test.next == last) {
-                str = str + test.next.data + " ";
-                last = test;
-                last.next = first;
-                test = first;
-                sizeval--;
-            } else {
+            // if (test.next == last) {
+            //     str = str + test.next.data + " ";
+            //     last = test;
+            //     last.next = first;
+            //     test = first;
+            //     sizeval--;
+            // } else {
                 if (test.next == first) {
                     str = str + first.data + " ";
                     first = first.next;
                     last.next = first;
                     test = first;
+                    sizeval--;
                 } else {
                     str = str + test.next.data + " ";
                     test.next = test.next.next;
                     test = test.next;
+                    sizeval--;
                 }
-                sizeval--;
-            }
+                // sizeval--;
+            // }
         }
         str = str.trim();
         System.out.println(str);
