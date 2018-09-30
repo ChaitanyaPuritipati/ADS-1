@@ -25,9 +25,6 @@ class Deque<Item> {
 			print();
 			return;
 		}
-		// if (size == 1) {
-		// 	right = left;
-		// }
 		newnode.next = left;
 		left = newnode;
 		size++;
