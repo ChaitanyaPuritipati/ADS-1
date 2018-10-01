@@ -44,10 +44,15 @@ class Steque {
 			return;
 		}
 
-		newnode.nextnode = tail.nextnode;
-		newnode.prevnode = tail;
-		tail.nextnode = newnode;
+		// newnode.nextnode = tail.nextnode;
+		// newnode.prevnode = tail;
+		// tail.nextnode = newnode;
+		Node old = tail;
 		tail = newnode;
+
+		tail.nextnode = old.nextnode;
+		old.nextnode = tail;
+		tail.prevnode = old; 
 		size++;
 		print();
 	}
