@@ -35,8 +35,6 @@ class Steque {
 	void enqueue(int item) {
 		Node newnode = new Node(item);
 		if (isEmpty()) {
-			System.out.println("entered");
-			System.out.println(tail.nodedata + "insideenfjbssjbs");
 			newnode.nextnode = tail;
 			newnode.prevnode = tail;
 			tail = newnode;
@@ -60,22 +58,15 @@ class Steque {
 	}
 	void print() {
 		if (isEmpty()) {
-			// head = null;
-			// tail = null;
-			System.out.println("Steque is empty.");
 			return;
 		}
 		String str = "";
 		Node test = head;
-		System.out.println(tail.nodedata + "before");
-		while (test.nextnode != null) {
+		while (test != tail) {
 			str = str + test.nodedata + ", ";
-			System.out.println(test.nextnode.nodedata + "dataofnext");
 			test = test.nextnode;
 		}
-		System.out.println(tail.nodedata + "tailval");
 		str = str + test.nodedata;
-		// System.out.println(test.nextnode.nodedata + "value");
 		System.out.println(str);
 	}
 }
