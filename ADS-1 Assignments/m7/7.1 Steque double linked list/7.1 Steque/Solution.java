@@ -60,8 +60,6 @@ class Steque {
 
 		int result = head.nodedata;
 		head = head.nextnode;
-		// System.out.println(head.nodedata + "printit");
-
 		size--;
 		print();
 	}
