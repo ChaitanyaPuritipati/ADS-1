@@ -43,7 +43,7 @@ class Steque {
 			print();
 			return;
 		}
-		System.out.println(tail.nextnode + "printit");
+
 		newnode.nextnode = tail.nextnode;
 		newnode.prevnode = tail;
 		tail.nextnode = newnode;
@@ -56,6 +56,7 @@ class Steque {
 			System.out.println("Steque is empty.");
 			return;
 		}
+		System.out.println(head.nodedata + "printit");
 		int result = head.nodedata;
 		head = head.nextnode;
 		size--;
