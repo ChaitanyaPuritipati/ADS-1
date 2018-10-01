@@ -52,11 +52,11 @@ class Steque {
 		print();
 	}
 	void pop() {
-		if (isEmpty()) {
+		// if (isEmpty()) {
 			
-			System.out.println("Steque is empty.");
-			return;
-		}
+		// 	System.out.println("Steque is empty.");
+		// 	return;
+		// }
 
 		int result = head.nodedata;
 		head = head.nextnode;
