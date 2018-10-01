@@ -45,7 +45,6 @@ class Steque {
 		print();
 	}
 	int pop() {
-
 		int leftout = left.data;
 		left = left.next;
 		size--;
@@ -72,18 +71,18 @@ class Steque {
 	// }
 	void print() {
 		if (isEmpty()) {
-			System.out.println("[]");
+			System.out.println("Steque is empty");
 			return;
 		}
 		String str = "";
-		str = str + "[";
+		// str = str + "[";
 		Node test = left;
 		while (test.next != null) {
 			str = str + test.data + ", ";
 			test = test.next;
 		}
 		str = str + right.data;
-		str = str + "]";
+		// str = str + "]";
 		System.out.println(str);
 	}
 }
@@ -108,7 +107,7 @@ class Solution {
 					break;
 				case "pop":
 					if (steque.isEmpty()) {
-						System.out.println("Deck is empty");
+						System.out.println("Steque is empty");
 						break;
 					}
 					steque.pop();
