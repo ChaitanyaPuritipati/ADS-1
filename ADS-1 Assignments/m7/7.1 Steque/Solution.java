@@ -95,26 +95,30 @@ class Solution {
 		int testnum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < testnum; i++) {
 			Steque steque = new Steque();
-			while (scan.hasNextLine()) {
+			while (scan.hasNext()) {
 				String line = scan.nextLine();
 				String[] tokens = line.split(" ");
-				switch (tokens[0]) {
-				case "push":
-					steque.push(Integer.parseInt(tokens[1]));
-					break;
-				case "enqueue":
-					steque.enqueue(Integer.parseInt(tokens[1]));
-					break;
-				case "pop":
-					if (steque.isEmpty()) {
-						System.out.println("Steque is empty.");
+				if (line != null) {
+					switch (tokens[0]) {
+					case "push":
+						steque.push(Integer.parseInt(tokens[1]));
+						break;
+					case "enqueue":
+						steque.enqueue(Integer.parseInt(tokens[1]));
+						break;
+					case "pop":
+						if (steque.isEmpty()) {
+							System.out.println("Steque is empty.");
+							break;
+						}
+						steque.pop();
+						break;
+					default:
+						System.out.println();
 						break;
 					}
-					steque.pop();
+				} else {
 					break;
-				default:
-				     System.out.println();
-				     break;
 				}
 			}
 		}
