@@ -44,39 +44,22 @@ class Steque {
 			return;
 		}
 
-		// newnode.nextnode = tail.nextnode;
-		// newnode.prevnode = tail;
-		// tail.nextnode = newnode;
-		Node old = tail;
+		newnode.nextnode = tail.nextnode;
+		newnode.prevnode = tail;
+		tail.nextnode = newnode;
 		tail = newnode;
-
-		tail.nextnode = old.nextnode;
-		old.nextnode = tail;
-		tail.prevnode = old; 
 		size++;
 		print();
 	}
 	void pop() {
-		// if (isEmpty()) {
-			
-		// 	System.out.println("Steque is empty.");
-		// 	return;
-		// }
 
 		int result = head.nodedata;
-		if(head == tail) {
-			System.out.println("equal");
-		}
-		System.out.println(tail.nextnode.nodedata);
-		System.out.println(head.nodedata + " before" );
 		head = head.nextnode;
-		System.out.println(tail.nodedata + " aftere" );
 		size--;
 		print();
 	}
 	void print() {
 		if (isEmpty()) {
-			// System.out.println(tail.nodedata + "hello");
 			System.out.println("Steque is empty.");
 			return;
 		}
