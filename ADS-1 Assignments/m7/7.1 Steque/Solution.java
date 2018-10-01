@@ -114,7 +114,7 @@ class Solution {
 						steque.pop();
 						break;
 					default:
-						System.out.println();
+						// System.out.println();
 						break;
 					}
 				} else {
