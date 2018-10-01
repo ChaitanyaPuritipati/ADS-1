@@ -70,6 +70,7 @@ class Steque {
 		System.out.println(tail.nodedata + "before");
 		while (test.nextnode != null) {
 			str = str + test.nodedata + ", ";
+			System.out.println(test.nextnode.nodedata + "dataofnext");
 			test = test.nextnode;
 		}
 		System.out.println(tail.nodedata + "tailval");
