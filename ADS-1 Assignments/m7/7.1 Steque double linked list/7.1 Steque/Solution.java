@@ -53,7 +53,6 @@ class Steque {
 		print();
 	}
 	void pop() {
-
 		int result = head.nodedata;
 		head = head.nextnode;
 		size--;
@@ -68,7 +67,7 @@ class Steque {
 		}
 		String str = "";
 		Node test = head;
-		while (test.nextnode != null) {
+		while (test != tail) {
 			str = str + test.nodedata + ", ";
 			test = test.nextnode;
 		}
