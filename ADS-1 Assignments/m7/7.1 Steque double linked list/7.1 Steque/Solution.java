@@ -50,7 +50,7 @@ class Steque {
 		Node old = tail;
 		tail = newnode;
 
-		tail.nextnode = old.nextnode;
+		tail.nextnode = null;
 		old.nextnode = tail;
 		tail.prevnode = old; 
 		size++;
