@@ -207,7 +207,8 @@ final class Solution {
             Steque steque = new Steque();
             while (scan.hasNext()) {
 
-                //Input for operation to be performed on Steque: Push, Enqueue, Pop
+                //Input for operation
+                //to be performed on Steque: Push, Enqueue, Pop
 
                 String line = scan.nextLine();
 
