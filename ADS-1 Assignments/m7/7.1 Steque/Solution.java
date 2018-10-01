@@ -115,6 +115,7 @@ class Solution {
 				default:
 				}
 			}
+			System.out.println();
 		}
 	}
 }
