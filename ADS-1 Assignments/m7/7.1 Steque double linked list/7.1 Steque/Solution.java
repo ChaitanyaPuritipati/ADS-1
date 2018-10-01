@@ -35,10 +35,10 @@ class Steque {
 	void enqueue(int item) {
 		Node newnode = new Node(item);
 		if (isEmpty()) {
-			newnode.nextnode = tail;
-			newnode.prevnode = tail;
-			tail = newnode;
-			head = tail;
+			newnode.nextnode = head;
+			newnode.prevnode = head;
+			head = newnode;
+			tail = head;
 			size++;
 			print();
 			return;
@@ -62,7 +62,7 @@ class Steque {
 	}
 	void print() {
 		if (isEmpty()) {
-			tail = null;
+			// tail = null;
 			System.out.println("Steque is empty.");
 			return;
 		}
