@@ -60,6 +60,9 @@ class Steque {
 
 		int result = head.nodedata;
 		head = head.nextnode;
+		if(head == tail) {
+			tail = null;
+		}
 		size--;
 		print();
 	}
