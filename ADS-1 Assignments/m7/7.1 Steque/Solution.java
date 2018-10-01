@@ -98,7 +98,7 @@ class Solution {
 			while (scan.hasNext()) {
 				String line = scan.nextLine();
 				String[] tokens = line.split(" ");
-				if (line != null) {
+				if (line != "") {
 					switch (tokens[0]) {
 					case "push":
 						steque.push(Integer.parseInt(tokens[1]));
