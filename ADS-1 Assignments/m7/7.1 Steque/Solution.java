@@ -97,8 +97,8 @@ class Solution {
 			Steque steque = new Steque();
 			while (scan.hasNext()) {
 				String line = scan.nextLine();
-				String[] tokens = line.split(" ");
-				if (line != "") {
+				if (!line.isEmpty()) {
+					String[] tokens = line.split(" ");
 					switch (tokens[0]) {
 					case "push":
 						steque.push(Integer.parseInt(tokens[1]));
