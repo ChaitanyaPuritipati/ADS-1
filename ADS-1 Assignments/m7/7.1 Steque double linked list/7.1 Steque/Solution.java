@@ -71,6 +71,7 @@ class Steque {
 			str = str + test.nodedata + ", ";
 			test = test.nextnode;
 		}
+		System.out.println(tail.nodedata + "tailval");
 		str = str + test.nodedata;
 		// System.out.println(test.nextnode.nodedata + "value");
 		System.out.println(str);
