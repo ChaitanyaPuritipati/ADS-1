@@ -60,11 +60,12 @@ class Steque {
 
 		int result = head.nodedata;
 		if(head == tail) {
-			System.out.println("equal");;
+			System.out.println("equal");
 		}
 		System.out.println(tail.nodedata);
+		System.out.println(head.nodedata + " before" );
 		head = head.nextnode;
-
+		System.out.println(head.nodedata + " aftere" );
 		size--;
 		print();
 	}
