@@ -68,11 +68,11 @@ class Steque {
 		}
 		String str = "";
 		Node test = head;
-		while (test != null) {
+		while (test.nextnode != null) {
 			str = str + test.nodedata + ", ";
 			test = test.nextnode;
 		}
-		// str = str + tail.nodedata;
+		str = str + test.nodedata;
 		System.out.println(str);
 	}
 }
