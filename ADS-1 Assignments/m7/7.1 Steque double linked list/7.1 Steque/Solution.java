@@ -52,7 +52,7 @@ class Steque {
 	}
 	void pop() {
 		if (isEmpty()) {
-			head = tail;
+			tail = head;
 			System.out.println("Steque is empty.");
 			return;
 		}
