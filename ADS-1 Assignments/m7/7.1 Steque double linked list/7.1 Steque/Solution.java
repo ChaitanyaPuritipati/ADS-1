@@ -82,7 +82,7 @@ class Steque {
 		}
 		String str = "";
 		Node test = head;
-		while (test.nextnode != tail) {
+		while (test.nextnode != null) {
 			str = str + test.nodedata + ", ";
 			test = test.nextnode;
 		}
