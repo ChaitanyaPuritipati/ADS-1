@@ -71,7 +71,7 @@ class Steque {
 			str = str + test.nodedata + ", ";
 			test = test.nextnode;
 		}
-		str = str + tail.nodedata;
+		// str = str + tail.nodedata;
 		System.out.println(str);
 	}
 }
