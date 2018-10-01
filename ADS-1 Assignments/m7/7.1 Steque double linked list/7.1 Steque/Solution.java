@@ -41,8 +41,8 @@ class Steque {
 			newnode.prevnode = tail;
 			tail = newnode;
 			head = tail;
-			print();
 			size++;
+			print();
 			return;
 		}
 		newnode.nextnode = tail.nextnode;
