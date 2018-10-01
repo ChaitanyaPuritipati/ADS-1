@@ -60,8 +60,8 @@ class Steque {
 	}
 	void print() {
 		if (isEmpty()) {
-			head = null;
-			tail = null;
+			// head = null;
+			// tail = null;
 			System.out.println("Steque is empty.");
 			return;
 		}
