@@ -59,10 +59,12 @@ class Steque {
 		// }
 
 		int result = head.nodedata;
-		head = head.nextnode;
 		if(head == tail) {
-			tail = null;
+			System.out.println("equal");;
 		}
+		System.out.println(tail.nodedata);
+		head = head.nextnode;
+
 		size--;
 		print();
 	}
