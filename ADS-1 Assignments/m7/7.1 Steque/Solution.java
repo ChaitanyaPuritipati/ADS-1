@@ -95,7 +95,7 @@ class Solution {
 		int testnum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < testnum; i++) {
 			Steque steque = new Steque();
-			while (scan.hasNext()) {
+			while (scan.hasNextLine()) {
 				String line = scan.nextLine();
 				String[] tokens = line.split(" ");
 				switch (tokens[0]) {
