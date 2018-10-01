@@ -71,7 +71,7 @@ class Steque {
 	// }
 	void print() {
 		if (isEmpty()) {
-			System.out.println("Steque is empty");
+			System.out.println("Steque is empty.");
 			return;
 		}
 		String str = "";
@@ -107,7 +107,7 @@ class Solution {
 					break;
 				case "pop":
 					if (steque.isEmpty()) {
-						System.out.println("Steque is empty");
+						System.out.println("Steque is empty.");
 						break;
 					}
 					steque.pop();
