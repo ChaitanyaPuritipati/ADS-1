@@ -36,6 +36,7 @@ class Steque {
 		Node newnode = new Node(item);
 		if (isEmpty()) {
 			System.out.println("entered");
+			System.out.println(tail.nodedata + "insideenfjbssjbs");
 			newnode.nextnode = tail;
 			newnode.prevnode = tail;
 			tail = newnode;
