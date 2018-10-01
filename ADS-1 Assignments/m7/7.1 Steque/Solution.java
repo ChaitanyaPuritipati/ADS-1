@@ -118,6 +118,7 @@ class Solution {
 						break;
 					}
 				} else {
+					System.out.println();
 					break;
 				}
 			}
