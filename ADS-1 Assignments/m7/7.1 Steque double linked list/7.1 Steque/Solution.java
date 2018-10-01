@@ -37,7 +37,7 @@ class Steque {
          * @param      data  The data
          * Argument is of int type.
          */
-        Node(int data) {
+        Node(final int data) {
 
             //Assigning argument data to variable to nodedata.
 
@@ -46,7 +46,7 @@ class Steque {
     }
     /**
      * Determines if empty.
-     * Complexity: 
+     * Complexity:
      *             Best case: O(1);
      *             Worst case: O(1);
      *             Average case: O(1);
@@ -57,7 +57,7 @@ class Steque {
     }
     /**
      * { Push function adds elements to the steque at the head side }.
-     * Complexity: 
+     * Complexity:
      *             Best case: O(1);
      *             Worst case: O(1);
      *             Average case: O(1);
@@ -65,7 +65,7 @@ class Steque {
      * @param      item  The item
      * item is the data that is to be added to the steque.
      */
-    void push(int item) {
+    void push(final int item) {
 
         //Creating newnode using the item data
 
@@ -104,7 +104,7 @@ class Steque {
      * @param      item  The item
      * Input element is the data to be added to the Steque
      */
-    void enqueue(int item) {
+    void enqueue(final int item) {
 
         //creating a newnode with the input item
 
@@ -148,7 +148,9 @@ class Steque {
         print();
     }
     /**
-     * { Print function to print all the values in the steque after every operation }.
+     * { Print function to print
+     *   all the values in the steque
+     *   after every operation }.
      * Complexity:
      *             Best case: O(1);
      *             Worst case: O(N);
@@ -178,11 +180,11 @@ class Steque {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
         //unused
     }
     /**
@@ -197,7 +199,7 @@ class Solution {
 
         //Input for number of test cases
 
-        int testnum = Integer.parseInt(scan.nextLine()); 
+        int testnum = Integer.parseInt(scan.nextLine());
         for (int i = 0; i < testnum; i++) {
 
             //Creating Steque object
@@ -210,7 +212,7 @@ class Solution {
                 String line = scan.nextLine();
 
                 //Empty line check.
-                
+
                 if (!line.isEmpty()) {
                     String[] tokens = line.split(" ");
                     switch (tokens[0]) {
