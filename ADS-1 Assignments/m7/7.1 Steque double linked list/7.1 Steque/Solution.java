@@ -53,6 +53,7 @@ class Steque {
 	}
 	void pop() {
 		if (isEmpty()) {
+			System.out.println(tail.nodedata + "hello");
 			System.out.println("Steque is empty.");
 			return;
 		}
@@ -60,7 +61,7 @@ class Steque {
 		int result = head.nodedata;
 		head = head.nextnode;
 		// System.out.println(head.nodedata + "printit");
-		System.out.println(tail.nodedata + "hello");
+
 		size--;
 		print();
 	}
