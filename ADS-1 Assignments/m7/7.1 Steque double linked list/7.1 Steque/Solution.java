@@ -231,7 +231,7 @@ final class Solution {
                         break;
 
                         //To perform pop Operation
-                        
+
                     case "pop":
                         if (steque.isEmpty()) {
                             System.out.println("Steque is empty.");
