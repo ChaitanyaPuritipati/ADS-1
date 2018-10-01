@@ -51,38 +51,18 @@ class Steque {
 		print();
 		return leftout;
 	}
-	// Item popRight() {
-	// 	if (isEmpty()) {
-	// 		System.out.println("Deck is empty");
-	// 		return null;
-	// 	}
-	// 	Item rightout = right.data;
-	// 	Node test = left;
-	// 	int counter = 1;
-	// 	while (counter < size - 1) {
-	// 		test = test.next;
-	// 		counter++;
-	// 	}
-	// 	right = test;
-	// 	right.next = null;
-	// 	size--;
-	// 	print();
-	// 	return rightout;
-	// }
 	void print() {
 		if (isEmpty()) {
 			System.out.println("Steque is empty.");
 			return;
 		}
 		String str = "";
-		// str = str + "[";
 		Node test = left;
 		while (test.next != null) {
 			str = str + test.data + ", ";
 			test = test.next;
 		}
 		str = str + right.data;
-		// str = str + "]";
 		System.out.println(str);
 	}
 }
@@ -114,7 +94,6 @@ class Solution {
 						steque.pop();
 						break;
 					default:
-						// System.out.println();
 						break;
 					}
 				} else {
