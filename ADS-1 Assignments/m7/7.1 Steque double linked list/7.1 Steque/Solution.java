@@ -68,7 +68,7 @@ class Steque {
 	}
 	void print() {
 		if (isEmpty()) {
-			System.out.println(tail.nodedata + "hello");
+			// System.out.println(tail.nodedata + "hello");
 			System.out.println("Steque is empty.");
 			return;
 		}
