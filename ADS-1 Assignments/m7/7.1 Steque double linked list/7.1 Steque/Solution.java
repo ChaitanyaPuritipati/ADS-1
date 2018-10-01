@@ -35,14 +35,15 @@ class Steque {
 	void enqueue(int item) {
 		Node newnode = new Node(item);
 		if (isEmpty()) {
-			newnode.nextnode = null;
-			newnode.prevnode = null;
+			newnode.nextnode = tail;
+			newnode.prevnode = tail;
 			tail = newnode;
 			head = tail;
 			size++;
 			print();
 			return;
 		}
+		System.out.println(tail.nextnode + "printit");
 		newnode.nextnode = tail.nextnode;
 		newnode.prevnode = tail;
 		tail.nextnode = newnode;
