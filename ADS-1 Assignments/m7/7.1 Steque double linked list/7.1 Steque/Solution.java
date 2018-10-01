@@ -217,12 +217,21 @@ final class Solution {
                 if (!line.isEmpty()) {
                     String[] tokens = line.split(" ");
                     switch (tokens[0]) {
+
+                        //To perform push Operation
+
                     case "push":
                         steque.push(Integer.parseInt(tokens[1]));
                         break;
+
+                        //To perform enqueue Operation
+
                     case "enqueue":
                         steque.enqueue(Integer.parseInt(tokens[1]));
                         break;
+
+                        //To perform pop Operation
+                        
                     case "pop":
                         if (steque.isEmpty()) {
                             System.out.println("Steque is empty.");
