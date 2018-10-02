@@ -36,7 +36,7 @@ class InsertionSort {
      * @param      bigindex    The bigindex
      * @param      smallindex  The smallindex
      */
-    void exchange(Teamdata[] inputarray, int bigindex, int smallindex) {
+    void exchange(final Teamdata[] inputarray, final int bigindex, final int smallindex) {
 
         //creates a temporary variable to store the bigindex value
 
@@ -85,7 +85,7 @@ class InsertionSort {
 /**
  * Class for teamdata.
  * This class implements comparable interface to override compareTo method
- * 
+ *
  */
 class Teamdata implements Comparable<Teamdata> {
     /**
@@ -93,15 +93,15 @@ class Teamdata implements Comparable<Teamdata> {
      */
     private String teamname;
     /**
-     * { Number of wins }
+     * { Number of wins }.
      */
     private int teamwins;
     /**
-     * { Number of losses }
+     * { Number of losses }.
      */
     private int teamlosses;
     /**
-     * { Number of draws }
+     * { Number of draws }.
      */
     private int teamdraws;
     /**
@@ -112,7 +112,10 @@ class Teamdata implements Comparable<Teamdata> {
      * @param      losses  The losses
      * @param      draws   The draws
      */
-    Teamdata(final String name, final int wins, final int losses, final int draws) {
+    Teamdata(final String name,
+             final int wins,
+             final int losses,
+             final int draws) {
         this.teamname = name;
         this.teamwins = wins;
         this.teamlosses = losses;
@@ -136,7 +139,7 @@ class Teamdata implements Comparable<Teamdata> {
      *
      * @return     { int type }
      */
-    public int compareTo(Teamdata other) {
+    public int compareTo(final Teamdata other) {
         if (this.teamwins > other.teamwins) {
             return 1;
         }
@@ -176,7 +179,8 @@ final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-        int ten = 10;
+        final int ten = 10;
+        final int three = 3;
         Teamdata[] data = new Teamdata[ten];
         int count = 0;
         InsertionSort startobj = new InsertionSort();
@@ -184,7 +188,10 @@ final class Solution {
         while (scan.hasNext()) {
             String line = scan.nextLine();
             String[] tokens = line.split(",");
-            Teamdata everydata = new Teamdata(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]));
+            Teamdata everydata = new Teamdata(tokens[0],
+                                              Integer.parseInt(tokens[1]),
+                                              Integer.parseInt(tokens[2]),
+                                              Integer.parseInt(tokens[three]));
             data[count] = everydata;
             count++;
         }
