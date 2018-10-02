@@ -52,10 +52,10 @@ class teamdata implements Comparable<teamdata> {
 			return -1;
 		}
 		if (this.teamlosses > other.teamlosses) {
-			return 1;
+			return -1;
 		}
 		if (this.teamlosses < other.teamlosses) {
-			return -1;
+			return 1;
 		}
 		if (this.teamdraws > other.teamdraws) {
 			return 1;
