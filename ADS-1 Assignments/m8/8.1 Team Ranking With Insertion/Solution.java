@@ -2,10 +2,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 class insertionSort {
 
-	// boolean less( inputone, Comparable inputtwo) {
-	// 	return inputone.compareTo(inputtwo) == -1;
-	// }
-
 	boolean greater(teamdata inputone, teamdata inputtwo) {
 		return inputone.compareTo(inputtwo) == 1;
 	}
@@ -66,7 +62,7 @@ class teamdata implements Comparable<teamdata> {
 		return 0;
 	}
 }
-class Solution {
+final class Solution {
 	public static void main(String[] args) {
 		teamdata[] data = new teamdata[10];
 		int count = 0;
