@@ -1,9 +1,9 @@
 import java.util.Arrays;
 import java.util.Scanner;
 /**
- * Class for insertion sort.
+ * Class for selection sort.
  */
-class InsertionSort {
+class SelectionSort {
     /**
      * { Checks if first element is greater than second element }.
      *
@@ -182,7 +182,7 @@ final class Solution {
         final int three = 3;
         Teamdata[] data = new Teamdata[ten];
         int count = 0;
-        InsertionSort startobj = new InsertionSort();
+        SelectionSort startobj = new SelectionSort();
         Scanner scan = new Scanner(System.in);
         while (scan.hasNext()) {
             String line = scan.nextLine();
