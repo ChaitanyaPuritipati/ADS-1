@@ -59,11 +59,11 @@ class InsertionSort {
 		for (int i = 1; i < length; i++) {
 			int maxindex = i;
 			for (int j = i + 1; j < length; j++) {
-				if (greater(inputarray[j], inputarray[maxindex])) {
+				if (greater(inputarray[maxindex], inputarray[j])) {
 					maxindex = j;
 				}
 			}
-			exchange(inputarray, i, maxindex);
+			exchange(inputarray, maxindex, i);
 		}
 
 		//To print the output
