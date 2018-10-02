@@ -27,7 +27,10 @@ class insertionSort {
 				}
 			}
 		}
-		System.out.println(Arrays.toString(inputarray));
+		for(int i = 0; i < inputarray.length; i++) {
+			System.out.print(inputarray[i].teamname);
+		}
+		System.out.println();
 	}
 }
 class teamdata implements Comparable<teamdata> {
