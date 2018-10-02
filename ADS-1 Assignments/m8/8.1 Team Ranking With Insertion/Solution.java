@@ -36,7 +36,9 @@ class InsertionSort {
      * @param      bigindex    The bigindex
      * @param      smallindex  The smallindex
      */
-    void exchange(final Teamdata[] inputarray, final int bigindex, final int smallindex) {
+    void exchange(final Teamdata[] inputarray,
+                  final int bigindex,
+                  final int smallindex) {
 
         //creates a temporary variable to store the bigindex value
 
