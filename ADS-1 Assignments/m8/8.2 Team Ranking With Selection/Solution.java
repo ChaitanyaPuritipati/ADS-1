@@ -56,10 +56,10 @@ class InsertionSort {
      */
 	void Sort(Teamdata[] inputarray) {
 		int length = inputarray.length;
-		for (int i = 1; i < length; i++) {
+		for (int i = 0; i < length; i++) {
 			int maxindex = i;
 			for (int j = i + 1; j < length; j++) {
-				if (greater(inputarray[maxindex], inputarray[j])) {
+				if (greater(inputarray[j], inputarray[maxindex])) {
 					maxindex = j;
 				}
 			}
