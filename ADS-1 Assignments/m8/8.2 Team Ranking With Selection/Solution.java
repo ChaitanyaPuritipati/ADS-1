@@ -63,7 +63,7 @@ class InsertionSort {
 					maxindex = j;
 				}
 			}
-			exchange(inputarray, maxindex, i);
+			exchange(inputarray, i, maxindex);
 		}
 
 		//To print the output
