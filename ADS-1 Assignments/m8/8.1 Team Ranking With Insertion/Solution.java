@@ -1,18 +1,18 @@
 import java.util.Arrays;
 import java.util.Scanner;
-class insertionSort {
+class InsertionSort {
 
-	boolean greater(teamdata inputone, teamdata inputtwo) {
+	boolean greater(Teamdata inputone, Teamdata inputtwo) {
 		return inputone.compareTo(inputtwo) == 1;
 	}
 
-	void exchange(teamdata[] inputarray, int bigindex, int smallindex) {
-		teamdata temp = inputarray[bigindex];
+	void exchange(Teamdata[] inputarray, int bigindex, int smallindex) {
+		Teamdata temp = inputarray[bigindex];
 		inputarray[bigindex] = inputarray[smallindex];
 		inputarray[smallindex] = temp;
 	}
 
-	void Sort(teamdata[] inputarray) {
+	void Sort(Teamdata[] inputarray) {
 		int length = inputarray.length;
 		for (int i = 1; i < length; i++) {
 			for (int j = i; j > 0; j--) {
@@ -23,24 +23,24 @@ class insertionSort {
 				}
 			}
 		}
-		for(int i = 0; i < inputarray.length - 1; i++) {
+		for (int i = 0; i < inputarray.length - 1; i++) {
 			System.out.print(inputarray[i].teamname + ",");
 		}
 		System.out.println(inputarray[inputarray.length - 1].teamname);
 	}
 }
-class teamdata implements Comparable<teamdata> {
+class Teamdata implements Comparable<Teamdata> {
 	String teamname;
 	int teamwins;
 	int teamlosses;
 	int teamdraws;
-	teamdata(String name, int wins, int losses, int draws) {
+	Teamdata(String name, int wins, int losses, int draws) {
 		this.teamname = name;
 		this.teamwins = wins;
 		this.teamlosses = losses;
 		this.teamdraws = draws;
 	}
-	public int compareTo(teamdata other) {
+	public int compareTo(Teamdata other) {
 		if (this.teamwins > other.teamwins) {
 			return 1;
 		}
@@ -64,14 +64,14 @@ class teamdata implements Comparable<teamdata> {
 }
 final class Solution {
 	public static void main(String[] args) {
-		teamdata[] data = new teamdata[10];
+		Teamdata[] data = new Teamdata[10];
 		int count = 0;
-		insertionSort startobj = new insertionSort();
+		InsertionSort startobj = new InsertionSort();
 		Scanner scan = new Scanner(System.in);
 		while (scan.hasNext()) {
 			String line = scan.nextLine();
 			String[] tokens = line.split(",");
-			teamdata everydata = new teamdata(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]));
+			Teamdata everydata = new Teamdata(tokens[0], Integer.parseInt(tokens[1]), Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]));
 			data[count] = everydata;
 			count++;
 		}
