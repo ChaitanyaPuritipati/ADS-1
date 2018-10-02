@@ -44,7 +44,7 @@ class InsertionSort {
 
         Teamdata temp = inputarray[bigindex];
 
-        //swap the indexes
+        //swap the indexe
 
         inputarray[bigindex] = inputarray[smallindex];
 
