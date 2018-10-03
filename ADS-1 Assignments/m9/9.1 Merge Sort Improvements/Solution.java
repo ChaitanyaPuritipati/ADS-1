@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 class InsertionSort {
 	// int compareTo(int other) {
-		// if()
+	// if()
 	// }
 	boolean less(final  Integer inputone, final Integer inputtwo) {
 
@@ -41,17 +41,21 @@ class InsertionSort {
 }
 class Mergesort {
 	void sort(int[] inputarray, int[] storingarray, int first, int last) {
-		if(last - first < 7) {
-			System.out.println("Insertion");
-			return;
+		InsertionSort insertion = new InsertionSort();
+		if (last <= first + 6) {
+			if (last - first < 7) {
+				System.out.println("Insertion");
+				insertion.sort(inputarray, first, last);
+				return;
+			}
+			for (int i = first; i <= last; i++) {
+				System.out.print(inputarray[i]);
+			}
+			System.out.println("------------------------------------------ + Arrays line");
+			int middle = (first + last) / 2;
+			sort(inputarray, storingarray, first, middle);
+			sort(inputarray, storingarray, middle + 1, last);
 		}
-		for(int i = first; i <=last; i++) {
-			System.out.print(inputarray[i]);
-		}
-		System.out.println("------------------------------------------ + Arrays line");
-		int middle = (first + last)/2;
-		sort(inputarray, storingarray, first, middle);
-		sort(inputarray, storingarray, middle + 1, last);
 	}
 }
 class Solution {
