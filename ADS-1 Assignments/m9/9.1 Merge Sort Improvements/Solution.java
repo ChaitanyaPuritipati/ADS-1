@@ -4,6 +4,7 @@ class Mergesort {
 	void sort(int[] inputarray, int[] storingarray, int first, int last) {
 		if(last - first < 7) {
 			System.out.println("Insertion");
+			return;
 		}
 		for(int i = first; i <=last; i++) {
 			System.out.print(inputarray[i]);
