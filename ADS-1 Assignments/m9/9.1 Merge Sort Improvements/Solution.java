@@ -141,7 +141,8 @@ class Mergesort {
               final int first,
               final int last) {
         InsertionSort insertion = new InsertionSort();
-        if (last - first <= 7) {
+        final int seven = 7;
+        if (last - first <= seven) {
             insertion.sort(storingarray, first, last);
             System.out.println("Insertion sort method invoked...");
             return;
@@ -153,7 +154,8 @@ class Mergesort {
             for (int i = first; i <= last; i++) {
                 storingarray[i] = inputarray[i];
             }
-            System.out.println("Array is already sorted. So, skipped the call to merge...");
+            System.out.println("Array is already sorted."
+                               + " So, skipped the call to merge...");
             return;
         }
         merge(inputarray, storingarray, first, middle, last);
@@ -169,6 +171,11 @@ final class Solution {
     private Solution() {
         //unused
     }
+    /**
+     * { Main function }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         Mergesort sortobj = new Mergesort();
