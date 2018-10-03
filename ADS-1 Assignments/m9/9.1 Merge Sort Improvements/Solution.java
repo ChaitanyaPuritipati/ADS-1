@@ -1,5 +1,44 @@
 import java.util.Scanner;
 import java.util.Arrays;
+class InsertionSort {
+	// int compareTo(int other) {
+		// if()
+	// }
+	boolean less(final  Integer inputone, final Integer inputtwo) {
+
+		//checks for the greatness using compareTo function
+
+		return inputone.compareTo(inputtwo) == -1;
+	}
+	void exchange(final int[] inputarray,
+	              final int bigindex,
+	              final int smallindex) {
+
+		//creates a temporary variable to store the bigindex value
+
+		int temp = inputarray[bigindex];
+
+		//swap the indexe
+
+		inputarray[bigindex] = inputarray[smallindex];
+
+		inputarray[smallindex] = temp;
+	}
+	void sort(final int[] inputarray, final int start, final int end) {
+		for (int i = start; i <= end; i++) {
+			for (int j = i; j > 0; j--) {
+				if (less(inputarray[j], inputarray[j - 1])) {
+
+					//call the exchange function.
+
+					exchange(inputarray, j, j - 1);
+				} else {
+					break;
+				}
+			}
+		}
+	}
+}
 class Mergesort {
 	void sort(int[] inputarray, int[] storingarray, int first, int last) {
 		if(last - first < 7) {
