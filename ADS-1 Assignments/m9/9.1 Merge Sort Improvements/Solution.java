@@ -1,13 +1,39 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for insertion sort.
+ */
 class InsertionSort {
 	
+	/**
+	 * { less function to check for minimum }.
+	 * Complexity:
+	 *            Best case: O(1)
+	 *            Worst case: O(1)
+	 *            Average case: O(1)
+	 * @param      inputone  The inputone
+	 * @param      inputtwo  The inputtwo
+	 *
+	 * @return     { boolean value }
+	 */
 	boolean less(final  String inputone, final String inputtwo) {
 
 		//checks for the greatness using compareTo function
 
 		return inputone.compareTo(inputtwo) < 0;
 	}
+
+	/**
+	 * { Swaps two values }.
+	 * Complexity:
+	 *             Best case: O(1)
+	 *             Worst case: O(1)
+	 *             Average case: O(1)
+	 *
+	 * @param      inputarray  The inputarray
+	 * @param      bigindex    The bigindex
+	 * @param      smallindex  The smallindex
+	 */
 	void exchange(final String[] inputarray,
 	              final int bigindex,
 	              final int smallindex) {
@@ -22,6 +48,17 @@ class InsertionSort {
 
 		inputarray[smallindex] = temp;
 	}
+	/**
+	 * { Insertion sort }.
+	 * Complexity:
+	 *            Best case: O(N)
+	 *            Worst case: O(N^2)
+	 *            Average case: O(N^2)
+	 *
+	 * @param      inputarray  The inputarray
+	 * @param      start       The start
+	 * @param      end         The end
+	 */
 	void sort(final String[] inputarray, final int start, final int end) {
 		for (int i = start; i <= end; i++) {
 			for (int j = i; j > start; j--) {
@@ -37,16 +74,37 @@ class InsertionSort {
 		}
 	}
 }
+/**
+ * Class for mergesort.
+ */
 class Mergesort {
-	// boolean issorted() {
-
-	// }
+	/**
+	 * { less function to compare values }.
+	 *
+	 * @param      inputone  The inputone
+	 * @param      inputtwo  The inputtwo
+	 *
+	 * @return     { boolean value }
+	 */
 	boolean less(final  String inputone, final String inputtwo) {
 
 		//checks for the greatness using compareTo function
 
 		return inputone.compareTo(inputtwo) < 0;
 	}
+	/**
+	 * { merge function }.
+	 * Complexity:
+	 *            Best case: O(N)
+	 *            Worst case: O(N)
+	 *            Average case: O(N)
+	 *
+	 * @param      inputarray    The inputarray
+	 * @param      storingarray  The storingarray
+	 * @param      first         The first
+	 * @param      middle        The middle
+	 * @param      last          The last
+	 */
 	void merge(String[] inputarray, String[] storingarray, int first, int middle, int last) {
 		int subarr1 = first;
 		int subarr2 = middle + 1;
@@ -62,8 +120,19 @@ class Mergesort {
 			}
 		}
 	}
+	/**
+	 * { Mergesort function }.
+	 * Complexity:
+	 *            Best case: O(NlogN)
+	 *            Worst case: O(NlogN)
+	 *            Averagecase: O(NlogN)
+	 *
+	 * @param      inputarray    The inputarray
+	 * @param      storingarray  The storingarray
+	 * @param      first         The first
+	 * @param      last          The last
+	 */
 	void sort(String[] inputarray, String[] storingarray, int first, int last) {
-		// System.out.println(Arrays.toString(inputarray) + "called");
 		InsertionSort insertion = new InsertionSort();
 		if (last - first <= 7) {
 			insertion.sort(storingarray, first, last);
@@ -83,12 +152,17 @@ class Mergesort {
 		merge(inputarray, storingarray, first, middle, last);
 	}
 }
-
-class Solution {
-	Solution() {
+/**
+ * Class for solution.
+ */
+final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
 		//unused
 	}
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		Mergesort sortobj = new Mergesort();
 		while (scan.hasNext()) {
