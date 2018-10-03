@@ -40,21 +40,41 @@ class InsertionSort {
 	}
 }
 class Mergesort {
+	boolean less(final  Integer inputone, final Integer inputtwo) {
+
+		//checks for the greatness using compareTo function
+
+		return inputone.compareTo(inputtwo) == -1;
+	}
+	void merge(int[] inputarray, int[] storingarray, int first, int middle, int last) {
+		for (int i = first; i <= last; i++) {
+			storingarray[i] = inputarray[i];
+		}
+		int subarr1 = first;
+		int subarr2 = middle + 1;
+		for (int k = first; k <= last; k++) {
+			if (subarr1 > middle) {
+				inputarray[k] = storingarray[subarr2++];
+			} else if (subarr2 > last) {
+				inputarray[k] = storingarray[subarr1++];
+			} else if (less(storingarray[subarr2], storingarray[subarr1])) {
+				inputarray[k] = storingarray[subarr2++];
+			} else {
+				inputarray[k] = storingarray[subarr1++];
+			}
+		}
+	}
 	void sort(int[] inputarray, int[] storingarray, int first, int last) {
 		InsertionSort insertion = new InsertionSort();
-
 		if (last - first < 7) {
 			System.out.println("Insertion");
 			insertion.sort(inputarray, first, last);
 			return;
 		}
-		for (int i = first; i <= last; i++) {
-			System.out.print(inputarray[i]);
-		}
-		System.out.println("------------------------------------------ + Arrays line");
 		int middle = (first + last) / 2;
 		sort(inputarray, storingarray, first, middle);
 		sort(inputarray, storingarray, middle + 1, last);
+        merge(inputarray, storingarray, first, middle, last);
 	}
 }
 
@@ -68,7 +88,12 @@ class Solution {
 		while (scan.hasNext()) {
 			String line = scan.nextLine();
 			String[] tokens = line.split(",");
-			int[] array = Arrays.stream(tokens).mapToInt(Integer::parseInt).toArray();
+			int[] array;
+			if(line.isEmpty()) {
+				array = new int[0];
+			} else {
+				array = Arrays.stream(tokens).mapToInt(Integer::parseInt).toArray();
+			}
 			int low = 0;
 			int high = array.length - 1;
 			int[] temparray = new int[array.length];
