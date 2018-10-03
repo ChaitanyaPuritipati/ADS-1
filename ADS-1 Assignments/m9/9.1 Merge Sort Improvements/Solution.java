@@ -6,7 +6,7 @@ class InsertionSort {
 
 		//checks for the greatness using compareTo function
 
-		return inputone.compareTo(inputtwo) == -1;
+		return inputone.compareTo(inputtwo) < 0;
 	}
 	void exchange(final String[] inputarray,
 	              final int bigindex,
@@ -45,7 +45,7 @@ class Mergesort {
 
 		//checks for the greatness using compareTo function
 
-		return inputone.compareTo(inputtwo) == -1;
+		return inputone.compareTo(inputtwo) < 0;
 	}
 	void merge(String[] inputarray, String[] storingarray, int first, int middle, int last) {
 		int subarr1 = first;
@@ -55,32 +55,32 @@ class Mergesort {
 				storingarray[k] = inputarray[subarr2++];
 			} else if (subarr2 > last) {
 				storingarray[k] = inputarray[subarr1++];
-			} else if (less(storingarray[subarr2], storingarray[subarr1])) {
+			} else if (less(inputarray[subarr2], inputarray[subarr1])) {
 				storingarray[k] = inputarray[subarr2++];
 			} else {
 				storingarray[k] = inputarray[subarr1++];
 			}
 		}
 	}
-	void sort(String[] storingarray, String[] inputarray, int first, int last) {
+	void sort(String[] inputarray, String[] storingarray, int first, int last) {
 		// System.out.println(Arrays.toString(inputarray) + "called");
 		InsertionSort insertion = new InsertionSort();
-		if (last - first < 7) {
-			insertion.sort(inputarray, first, last);
+		if (last - first <= 7) {
+			insertion.sort(storingarray, first, last);
 			System.out.println("Insertion sort method invoked...");
 			return;
 		}
 		int middle = (first + last) / 2;
-		sort(inputarray, storingarray, first, middle);
-		sort(inputarray, storingarray, middle + 1, last);
+		sort(storingarray, inputarray, first, middle);
+		sort(storingarray, inputarray, middle + 1, last);
 		if (less(inputarray[middle], inputarray[middle + 1])) {
 			for (int i = first; i <= last; i++) {
-               inputarray[i] = storingarray[i];
+               storingarray[i] = inputarray[i];
 			}
 			System.out.println("Array is already sorted. So, skipped the call to merge...");
 			return;
 		}
-		merge(storingarray, inputarray, first, middle, last);
+		merge(inputarray, storingarray, first, middle, last);
 	}
 }
 
