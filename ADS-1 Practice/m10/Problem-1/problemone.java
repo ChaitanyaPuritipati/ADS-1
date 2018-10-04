@@ -1,12 +1,27 @@
 import java.util.Scanner;
+/**
+ * Class for problemone.
+ */
 class problemone {
-	public static int factorial(int testnum) {
+	/**
+	 * { factorial function }.
+	 *
+	 * @param      testnum  The testnum
+	 *
+	 * @return     { int type }
+	 */
+	public static int factorial(final int testnum) {
 		if (testnum == 1) {
 			return 1;
 		}
 		return testnum * factorial(testnum - 1);
 	}
-	public static void main(String[] args) {
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int inputnum =  Integer.parseInt(scan.nextLine());
 		int fact = factorial(inputnum);
