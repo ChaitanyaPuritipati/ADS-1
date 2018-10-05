@@ -129,8 +129,7 @@ class Solution {
 			Quicksort quick = new Quicksort();
 			int cutoffval = Integer.parseInt(scan.nextLine());
 			Comparable[] inputarray = scan.nextLine().split(" ");
-			System.out.println(inputarray.length + "length");
-			if (inputarray.length == 0) {
+			if (inputarray[0].equals("")) {
 				System.out.println(Arrays.toString(inputarray));
 			} else {
 				quick.sort(inputarray, 0, inputarray.length - 1, cutoffval);
