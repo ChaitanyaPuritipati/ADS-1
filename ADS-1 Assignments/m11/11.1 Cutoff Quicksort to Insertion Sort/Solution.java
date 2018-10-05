@@ -111,7 +111,7 @@ class Quicksort {
 		return j;
 	}
 	void sort(Comparable[] inputarray, int start, int end, int cutoff) {
-		if (end - start <= cutoff + 1) {
+		if (end - start <= cutoff ) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray);
 			System.out.println("insertionSort called");
