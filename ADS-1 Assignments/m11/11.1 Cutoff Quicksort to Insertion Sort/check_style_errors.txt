@@ -1,6 +1,5 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:79: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:80:9: Missing a Javadoc comment. [JavadocMethod]
@@ -10,17 +9,16 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:94:59: Parameter end should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:99: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:102: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:110: Line has trailing spaces. [RegexpSingleline]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:113:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:113:19: Parameter inputarray should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:113:44: Parameter start should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:113:55: Parameter end should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:113:64: Parameter cutoff should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:114:41: ')' is preceded with whitespace. [ParenPad]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:126: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:126:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:127:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:127:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:134: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:125: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:125:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:126:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:126:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:133: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 23 errors.
+Checkstyle ends with 21 errors.
