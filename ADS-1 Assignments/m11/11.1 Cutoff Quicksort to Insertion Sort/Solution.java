@@ -98,7 +98,7 @@ class Quicksort {
 			while (i <= end && inputarray[i].compareTo(pivotval) <= 0) {
 				i++;
 			}
-			while (j >= start && inputarray[j].compareTo(pivotval) >= 0) {
+			while (j >= start && inputarray[j].compareTo(pivotval) > 0) {
 				j--;
 			}
 			if (i < j) {
