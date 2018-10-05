@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 [P, O, R, E, E, L, A, M, S, X, T]
 [A, O, M, E, E, L, P, R, S, X, T]
@@ -25,6 +25,7 @@ insertionSort called
 insertionSort called
 [A, E, E, I, N, O, Q, S, S, T, U, Y]
 Your Output: 
+11length
 [P, O, R, E, E, L, A, M, S, X, T]
 [A, O, M, E, E, L, P, R, S, X, T]
 [A, O, M, E, E, L, P, R, S, X, T]
@@ -37,6 +38,7 @@ insertionSort called
 insertionSort called
 insertionSort called
 [A, E, E, L, M, O, P, R, S, T, X]
+12length
 [E, A, E, Y, Q, U, S, S, T, I, O, N]
 insertionSort called
 [A, E, E, N, Q, U, S, S, T, I, O, Y]
@@ -50,7 +52,7 @@ insertionSort called
 insertionSort called
 [A, E, E, I, N, O, Q, S, S, T, U, Y]
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 [1, 2, 3, 4, 5, 6, 7]
 insertionSort called
@@ -91,12 +93,14 @@ insertionSort called
 insertionSort called
 [all, bad, dug, jam, yet]
 Your Output: 
+7length
 [1, 2, 3, 4, 5, 6, 7]
 insertionSort called
 [1, 2, 3, 4, 5, 6, 7]
 insertionSort called
 insertionSort called
 [1, 2, 3, 4, 5, 6, 7]
+9length
 [-7, 8, 7, 6, 5, 4, -9, -8, 9]
 [-7, 8, 7, 6, 5, 4, -9, -8, 9]
 insertionSort called
@@ -113,24 +117,29 @@ insertionSort called
 insertionSort called
 insertionSort called
 [-7, -8, -9, 4, 5, 6, 7, 8, 9]
+4length
 [11121.55, 12122.45, 12123.44, 13212.54]
 insertionSort called
 insertionSort called
 [11121.55, 12122.45, 12123.44, 13212.54]
+5length
 [egg, few, hut, men, jay]
 insertionSort called
 insertionSort called
 [egg, few, hut, jay, men]
+5length
 [gig, joy, owl, rap, wee]
 insertionSort called
 insertionSort called
 [gig, joy, owl, rap, wee]
+5length
 insertionSort called
 [fee, tap, tar, wad, was]
+5length
 insertionSort called
 [all, bad, dug, jam, yet]
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 [bed, bug, dad, yes, zoo]
 insertionSort called
@@ -155,16 +164,20 @@ insertionSort called
 insertionSort called
 [112, 121, 122, 123, 131, 132, 133]
 Your Output: 
+5length
 [bed, bug, dad, yes, zoo]
 insertionSort called
 [bed, bug, dad, yes, zoo]
 insertionSort called
 insertionSort called
 [bed, bug, dad, yes, zoo]
+5length
 insertionSort called
 [dim, for, ilk, now, tip]
+5length
 insertionSort called
 [jot, nob, sky, sob, tag]
+7length
 [001, 100, 1, 010, 100, 110, 101]
 [001, 100, 1, 010, 100, 110, 101]
 insertionSort called
@@ -173,6 +186,7 @@ insertionSort called
 insertionSort called
 insertionSort called
 [001, 010, 1, 100, 100, 101, 110]
+7length
 [122, 112, 121, 123, 132, 133, 131]
 insertionSort called
 insertionSort called
@@ -198,12 +212,15 @@ insertionSort called
 insertionSort called
 [-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
 Your Output: 
+1length
 insertionSort called
 [1234567890]
+1length
 []
 insertionSort called
 insertionSort called
 []
+14length
 [-1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7]
 insertionSort called
 [-1, -5, -2, -7, -3, -6, -4, 1, 4, 5, 3, 6, 2, 7]
