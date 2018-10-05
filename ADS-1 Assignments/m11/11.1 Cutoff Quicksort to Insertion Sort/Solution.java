@@ -115,6 +115,7 @@ class Quicksort {
 		if (end - start < cutoff) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray);
+			System.out.println(Arrays.toString(inputarray));
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
