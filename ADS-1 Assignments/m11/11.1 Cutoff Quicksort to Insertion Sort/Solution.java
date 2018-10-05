@@ -61,7 +61,6 @@ class InsertionSort {
 	 * @param      inputarray  The inputarray
 	 */
 	void sort(final Comparable[] inputarray) {
-		System.out.println("insertionSort called");
 		int length = inputarray.length;
 		for (int i = 1; i < length; i++) {
 			for (int j = i; j > 0; j--) {
@@ -115,6 +114,8 @@ class Quicksort {
 		if (end - start < cutoff) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray);
+			System.out.println("insertionSort called");
+
 			// System.out.println(Arrays.toString(inputarray));
 			return;
 		}
