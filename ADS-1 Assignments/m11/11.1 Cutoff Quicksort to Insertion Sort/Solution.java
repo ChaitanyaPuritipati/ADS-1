@@ -107,7 +107,7 @@ class Quicksort {
 			}
 		}
 		exchange(inputarray, j, start);
-		System.out.println(Arrays.toString(inputarray));
+		
 		return j;
 	}
 	void sort(Comparable[] inputarray, int start, int end, int cutoff) {
@@ -118,6 +118,7 @@ class Quicksort {
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
+		System.out.println(Arrays.toString(inputarray));
 		sort(inputarray, start, pivot - 1, cutoff);
 		sort(inputarray, pivot + 1, end, cutoff);
 	}
