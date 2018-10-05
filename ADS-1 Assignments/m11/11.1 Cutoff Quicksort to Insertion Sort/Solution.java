@@ -65,7 +65,7 @@ class InsertionSort {
 		int length = inputarray.length;
 		for (int i = 1; i < length; i++) {
 			for (int j = i; j > 0; j--) {
-				if (greater(inputarray[j], inputarray[j - 1])) {
+				if (greater(inputarray[j - 1], inputarray[j])) {
 
 					//call the exchange function.
 
@@ -115,7 +115,7 @@ class Quicksort {
 		if (end - start < cutoff) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray);
-			System.out.println(Arrays.toString(inputarray));
+			// System.out.println(Arrays.toString(inputarray));
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
