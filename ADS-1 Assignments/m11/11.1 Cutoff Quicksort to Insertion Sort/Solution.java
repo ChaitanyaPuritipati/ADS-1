@@ -60,10 +60,9 @@ class InsertionSort {
 	 *
 	 * @param      inputarray  The inputarray
 	 */
-	void sort(final Comparable[] inputarray) {
-		int length = inputarray.length;
-		for (int i = 1; i < length; i++) {
-			for (int j = i; j > 0; j--) {
+	void sort(final Comparable[] inputarray, int start, int end) {
+		for (int i = start + 1; i <= end; i++) {
+			for (int j = i; j > start; j--) {
 				if (greater(inputarray[j - 1], inputarray[j])) {
 
 					//call the exchange function.
@@ -113,7 +112,7 @@ class Quicksort {
 	void sort(Comparable[] inputarray, int start, int end, int cutoff) {
 		if (end - start < cutoff ) {
 			InsertionSort insertion = new InsertionSort();
-			insertion.sort(inputarray);
+			insertion.sort(inputarray, start, end);
 			System.out.println("insertionSort called");
 			return;
 		}
