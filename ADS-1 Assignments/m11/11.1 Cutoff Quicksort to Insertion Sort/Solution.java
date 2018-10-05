@@ -94,7 +94,7 @@ class Quicksort {
 		int i = start + 1;
 		int j = end;
 		Comparable pivotval = inputarray[start];
-		while (i <= j) {
+		while (i > j) {
 			while (i <= end && inputarray[i].compareTo(pivotval) <= 0) {
 				i++;
 			}
