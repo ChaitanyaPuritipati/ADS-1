@@ -6,7 +6,7 @@ class Solution {
      		int testnum = Integer.parseInt(scan.nextLine());
      		for(int i = 0; i < testnum; i++) {
      			int cutoffval = Integer.parseInt(scan.nextLine());
-     			String[] inputarray = scan.nextLine().split("");
+     			String[] inputarray = scan.nextLine().split(" ");
      			System.out.println(Arrays.toString(inputarray));
      		}
      	}	
