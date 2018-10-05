@@ -111,12 +111,10 @@ class Quicksort {
 		return j;
 	}
 	void sort(Comparable[] inputarray, int start, int end, int cutoff) {
-		if (end - start < cutoff) {
+		if (end - start <= cutoff + 1) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray);
 			System.out.println("insertionSort called");
-
-			// System.out.println(Arrays.toString(inputarray));
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
