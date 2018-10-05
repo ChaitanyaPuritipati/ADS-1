@@ -130,7 +130,7 @@ class Solution {
 			int cutoffval = Integer.parseInt(scan.nextLine());
 			Comparable[] inputarray = scan.nextLine().split(" ");
 			quick.sort(inputarray, 0, inputarray.length - 1, cutoffval);
-			System.out.println("---------------------------------------");
+			// System.out.println("---------------------------------------");
 		}
 	}
 }

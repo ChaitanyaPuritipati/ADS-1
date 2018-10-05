@@ -36,7 +36,6 @@ insertionSort called
 insertionSort called
 insertionSort called
 insertionSort called
----------------------------------------
 [E, A, E, Y, Q, U, S, S, T, I, O, N]
 insertionSort called
 [A, E, E, N, Q, U, S, S, T, I, O, Y]
@@ -48,7 +47,6 @@ insertionSort called
 insertionSort called
 insertionSort called
 insertionSort called
----------------------------------------
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -96,7 +94,6 @@ insertionSort called
 [1, 2, 3, 4, 5, 6, 7]
 insertionSort called
 insertionSort called
----------------------------------------
 [-7, 8, 7, 6, 5, 4, -9, -8, 9]
 [-7, 8, 7, 6, 5, 4, -9, -8, 9]
 insertionSort called
@@ -112,23 +109,17 @@ insertionSort called
 insertionSort called
 insertionSort called
 insertionSort called
----------------------------------------
 [11121.55, 12122.45, 12123.44, 13212.54]
 insertionSort called
 insertionSort called
----------------------------------------
 [egg, few, hut, men, jay]
 insertionSort called
 insertionSort called
----------------------------------------
 [gig, joy, owl, rap, wee]
 insertionSort called
 insertionSort called
----------------------------------------
 insertionSort called
----------------------------------------
 insertionSort called
----------------------------------------
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -160,11 +151,8 @@ insertionSort called
 [bed, bug, dad, yes, zoo]
 insertionSort called
 insertionSort called
----------------------------------------
 insertionSort called
----------------------------------------
 insertionSort called
----------------------------------------
 [001, 100, 1, 010, 100, 110, 101]
 [001, 100, 1, 010, 100, 110, 101]
 insertionSort called
@@ -172,11 +160,9 @@ insertionSort called
 insertionSort called
 insertionSort called
 insertionSort called
----------------------------------------
 [122, 112, 121, 123, 132, 133, 131]
 insertionSort called
 insertionSort called
----------------------------------------
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -199,11 +185,9 @@ insertionSort called
 [-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
 Your Output: 
 insertionSort called
----------------------------------------
 []
 insertionSort called
 insertionSort called
----------------------------------------
 [-1, 1, -2, 2, -3, 3, -4, 4, -5, 5, -6, 6, -7, 7]
 insertionSort called
 [-1, -5, -2, -7, -3, -6, -4, 1, 4, 5, 3, 6, 2, 7]
@@ -217,5 +201,4 @@ insertionSort called
 [-1, -2, -3, -4, -5, -6, -7, 1, 2, 3, 4, 5, 6, 7]
 insertionSort called
 insertionSort called
----------------------------------------
 ----------------------------------------
