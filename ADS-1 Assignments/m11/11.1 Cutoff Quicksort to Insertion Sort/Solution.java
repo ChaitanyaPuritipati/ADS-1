@@ -117,6 +117,7 @@ class Quicksort {
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
+		System.out.println(pivot + "pivotval");
 		sort(inputarray, start, pivot - 1, cutoff);
 		sort(inputarray, pivot + 1, end, cutoff);
 	}
