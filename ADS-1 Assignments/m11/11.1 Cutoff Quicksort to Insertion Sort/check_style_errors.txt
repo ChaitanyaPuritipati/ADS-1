@@ -1,5 +1,6 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:79: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:80:9: Missing a Javadoc comment. [JavadocMethod]
@@ -22,4 +23,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:127:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:134: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 22 errors.
+Checkstyle ends with 23 errors.
