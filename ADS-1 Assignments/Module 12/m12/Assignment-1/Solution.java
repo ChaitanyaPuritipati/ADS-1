@@ -119,6 +119,10 @@ class Solution {
 				} else {
 				}
 			}
+			vacancy--;
+		}
+		if(vacancy > 0 ) {
+			System.out.println("yes not filled");
 		}
 		
 	}
