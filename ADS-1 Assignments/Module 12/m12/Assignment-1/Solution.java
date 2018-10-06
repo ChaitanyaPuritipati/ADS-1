@@ -1,13 +1,37 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
 		//unused
 	}
+	/**
+	 * { var_description }
+	 */
 	static int opencount = 0;
+	/**
+	 * { var_description }
+	 */
 	static int bccount = 0;
+	/**
+	 * { var_description }
+	 */
 	static int sccount = 0;
+	/**
+	 * { var_description }
+	 */
 	static int stcount = 0;
+	/**
+	 * { countingcat }.
+	 * complexity: O(N)
+	 *
+	 * @param      array  The array
+	 */
 	public static void countcat(studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
 			if (array[i].rescategory.equals("Open")) {
@@ -24,6 +48,17 @@ class Solution {
 			}
 		}
 	}
+	/**
+	 * { meritarray }
+	 * complexity: O(N)
+	 *
+	 * @param      array    The array
+	 * @param      vacancy  The vacancy
+	 * @param      open     The open
+	 * @param      bc       { parameter_description }
+	 * @param      sc       The screen
+	 * @param      st       { parameter_description }
+	 */
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
 		countcat(array);
 		studentdata[] merit = new studentdata[30];
@@ -83,7 +118,11 @@ class Solution {
 		}
 
 	}
-
+	/**
+	 * { print }.
+	 * O(N)
+	 * @param      array  The array
+	 */
 	public static void print(studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i].studentname + "," +
@@ -91,6 +130,11 @@ class Solution {
 			                   array[i].rescategory);
 		}
 	}
+	/**
+	 * { main }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan =  new Scanner(System.in);
 		int num = Integer.parseInt(scan.nextLine());
