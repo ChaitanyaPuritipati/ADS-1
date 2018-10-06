@@ -140,8 +140,10 @@ class Quicksort {
 	 * @param      end         The end
 	 * @param      cutoff      The cutoff
 	 */
-	void sort(final Comparable[] inputarray, final int start, final int end, final int cutoff) {
-		if (end - start < cutoff ) {
+	void sort(final Comparable[] inputarray,
+	          final int start, final int end,
+	          final int cutoff) {
+		if (end - start < cutoff) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray, start, end);
 			System.out.println("insertionSort called");

@@ -7,7 +7,5 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:112: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:117: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:120: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:143: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:144:41: ')' is preceded with whitespace. [ParenPad]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
