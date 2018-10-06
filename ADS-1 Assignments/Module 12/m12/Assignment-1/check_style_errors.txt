@@ -8,10 +8,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:120:58: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:132:59: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:133:58: '+' should be on a new line. [OperatorWrap]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:155:74: '3' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:156: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:156:45: '4' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:156:74: '5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:156:86: '6' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:159: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:160: Line is longer than 80 characters (found 97). [LineLength]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 11 errors.

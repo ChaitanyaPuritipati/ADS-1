@@ -140,6 +140,10 @@ final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
+        final int three = 3;
+        final int four = 4;
+        final int five = 5;
+        final int six = 6;
         Scanner scan =  new Scanner(System.in);
         int num = Integer.parseInt(scan.nextLine());
         studentdata[] students = new studentdata[num];
@@ -152,8 +156,8 @@ final class Solution {
             String line = scan.nextLine();
             String[] tokens = line.split(",");
             studentdata eachstudentdata = new studentdata(tokens[0], tokens[1],
-                    Integer.parseInt(tokens[2]), Integer.parseInt(tokens[3]),
-                    Integer.parseInt(tokens[4]), Integer.parseInt(tokens[5]), tokens[6]);
+                    Integer.parseInt(tokens[2]), Integer.parseInt(tokens[three]),
+                    Integer.parseInt(tokens[four]), Integer.parseInt(tokens[five]), tokens[six]);
             students[i] = eachstudentdata;
         }
         Insertionsort insertion = new Insertionsort();
