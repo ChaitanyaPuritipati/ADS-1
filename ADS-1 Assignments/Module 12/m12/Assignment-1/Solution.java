@@ -82,7 +82,9 @@ final class Solution {
                 vacancynew--;
 
             } else {
-                if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
+                if (array[i].rescategory.equals("BC")
+                        || array[i].rescategory.equals("SC")
+                        || array[i].rescategory.equals("ST")) {
                     if (array[i].rescategory.equals("BC") && bcnew > 0) {
                         merit[count++] = array[i];
                         bcnew--;
