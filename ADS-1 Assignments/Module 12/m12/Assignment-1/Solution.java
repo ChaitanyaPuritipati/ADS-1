@@ -162,7 +162,7 @@ class Solution {
 			}
 
 		}
-		for (int i = 0; i < merit.length; i++) {
+		for (int i = 0; i < merit.length && merit[i] != null; i++) {
 			System.out.println(merit[i].studentname + "," +
 			                   merit[i].totalmarks + "," +
 			                   merit[i].rescategory);
