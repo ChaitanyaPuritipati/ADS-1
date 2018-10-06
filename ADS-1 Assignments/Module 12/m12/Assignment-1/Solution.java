@@ -127,15 +127,16 @@ class Solution {
 						st--;
 						vacancy--;
 					}
-				} else  {
-					System.out.println(array[i].studentname + "," +
-					                   array[i].totalmarks + "," +
-					                   array[i].rescategory);
-					vacancy--;
+					// } else  {
+					// 	System.out.println(array[i].studentname + "," +
+					// 	                   array[i].totalmarks + "," +
+					// 	                   array[i].rescategory);
+					// 	vacancy--;
+					// }
 				}
+
+
 			}
-
-
 		}
 	}
 
