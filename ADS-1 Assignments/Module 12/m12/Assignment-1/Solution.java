@@ -175,6 +175,7 @@ class Solution {
 				}
 			}
 		}
+		System.out.println(count);
 		merit = Arrays.copyOf(merit, count);
 		Insertionsort newinsert = new Insertionsort();
 		newinsert.sort(merit);
