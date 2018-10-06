@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.ArrayList;
+import java.util.Arrays;
 class Insertionsort {
 	void exchange(studentdata[] array, int smallindex, int bigindex) {
 		studentdata temp = array[smallindex];
@@ -109,7 +109,8 @@ class Solution {
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
 		countcat(array);
-		ArrayList<studentdata> merit = new ArrayList<studentdata>();
+		studentdata[] merit = new studentdata[30];
+		int count = 0;
 		for (int i = 0; i < array.length; i++) {
 			if (vacancy == 0) {
 				// System.out.println("entered");
@@ -119,7 +120,7 @@ class Solution {
 				// System.out.println(array[i].studentname + "," +
 				//                    array[i].totalmarks + "," +
 				//                    array[i].rescategory);
-				merit.add(array[i]);
+				merit[count++] = array[i];
 				open--;
 				vacancy--;
 
@@ -129,21 +130,24 @@ class Solution {
 						// System.out.println(array[i].studentname + "," +
 						//                    array[i].totalmarks + "," +
 						//                    array[i].rescategory);
-						merit.add(array[i]);
+						// merit.add(array[i]);
+						merit[count++] = array[i];
 						bc--;
 						vacancy--;
 					} else if (array[i].rescategory.equals("SC") && sc > 0) {
 						// System.out.println(array[i].studentname + "," +
 						//                    array[i].totalmarks + "," +
 						//                    array[i].rescategory);
-						merit.add(array[i]);
+						// merit.add(array[i]);
+						merit[count++] = array[i];
 						sc--;
 						vacancy--;
 					} else if (array[i].rescategory.equals("ST") && st > 0) {
 						// System.out.println(array[i].studentname + "," +
 						//                    array[i].totalmarks + "," +
 						//                    array[i].rescategory);
-						merit.add(array[i]);
+						// merit.add(array[i]);
+						merit[count++] = array[i];
 						st--;
 						vacancy--;
 					}
@@ -151,15 +155,25 @@ class Solution {
 					// System.out.println(array[i].studentname + "," +
 					//                    array[i].totalmarks + "," +
 					//                    array[i].rescategory);
-					merit.add(array[i]);
+					// merit.add(array[i]);
+					merit[count++] = array[i];
 					vacancy--;
 				}
 			}
 
 		}
 		if(vacancy > 0) {
-			System.out.println("entered");
+			for(int i = 0; i < array.length; i++) {
+				if(array[i] != merit[i]) {
+					// merit.add(array[i]);
+					merit[count++] = array[i];
+				}
+			} 
 		}
+		merit = Arrays.copyOf(merit, count);
+		Insertionsort newinsert = new Insertionsort();
+		newinsert.sort(merit);
+		print(merit);
 	}
 
 	public static void print(studentdata[] array) {
