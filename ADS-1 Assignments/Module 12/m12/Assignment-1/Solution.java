@@ -59,7 +59,10 @@ final class Solution {
      * @param      sc       The screen
      * @param      st       { parameter_description }
      */
-    public static void meritfill(final studentdata[] array, final int vacancy, final int open, final int bc, final int sc, final int st) {
+    public static void meritfill(final studentdata[] array,
+                                 final int vacancy, final int open,
+                                 final int bc, final int sc,
+                                 final int st) {
         countcat(array);
         int vacancynew = vacancy;
         int opennew = open;

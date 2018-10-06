@@ -1,9 +1,8 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:62: Line is longer than 80 characters (found 138). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:82: Line is longer than 80 characters (found 130). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:97: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:159: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:160: Line is longer than 80 characters (found 97). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:85: Line is longer than 80 characters (found 130). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:100: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:162: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:163: Line is longer than 80 characters (found 97). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 5 errors.
