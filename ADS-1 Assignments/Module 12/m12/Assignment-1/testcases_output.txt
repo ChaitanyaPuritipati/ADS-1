@@ -56,11 +56,10 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -136,13 +135,11 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -173,6 +170,7 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
+Aditya,80,ST
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -206,8 +204,9 @@ Tanya,66,BC
 Abhishek,60,BC
 
 divya,99,Open
-divya,99,Open
-divya,99,Open
+tanvi,90,ST
+Aditya,80,Open
+priya,76,SC
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -288,12 +287,12 @@ shyam,23,Open
 Shreya,23,Open
 
 divya,99,Open
-divya,99,Open
-divya,99,Open
-divya,99,Open
-divya,99,Open
-divya,99,Open
-divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -376,18 +375,14 @@ Aryan,32,ST
 Shreya,23,SC
 
 divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
-divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+priya,72,SC
+shyam,71,ST
 ----------------------------------------

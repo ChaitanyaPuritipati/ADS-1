@@ -87,30 +87,28 @@ class Solution {
 		//unused
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
-		for (int i = 0; i < array.length; i++) {
-			while (vacancy > 0) {
-				if (open > 0) {
+		for (int i = 0; i < array.length && vacancy > 0; i++) {
+			if (open > 0) {
+				System.out.println(array[i].studentname + "," +
+				                   array[i].totalmarks + "," +
+				                   array[i].rescategory);
+				open--;
+			} else if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
+				if (bc > 0 || sc > 0 || st > 0) {
 					System.out.println(array[i].studentname + "," +
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
-					open--;
-				} else if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
-					if (bc > 0 || sc > 0 || st > 0) {
-						System.out.println(array[i].studentname + "," +
-						                   array[i].totalmarks + "," +
-						                   array[i].rescategory);
-						if (array[i].rescategory.equals("BC")) {
-							bc--;
-						} else if (array[i].rescategory.equals("SC")) {
-							sc--;
-						} else if (array[i].rescategory.equals("ST")) {
-							st--;
-						} else {
-						}
+					if (array[i].rescategory.equals("BC")) {
+						bc--;
+					} else if (array[i].rescategory.equals("SC")) {
+						sc--;
+					} else if (array[i].rescategory.equals("ST")) {
+						st--;
+					} else {
 					}
 				}
-				vacancy--;
 			}
+			vacancy--;
 		}
 	}
 	public static void print(studentdata[] array) {
