@@ -187,6 +187,7 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
+entered
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
@@ -352,6 +353,7 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
+entered
 divya,99,ST
 Deepak,99,Open
 Ishita,99,Open

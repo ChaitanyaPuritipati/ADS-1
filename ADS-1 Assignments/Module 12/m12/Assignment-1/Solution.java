@@ -165,6 +165,7 @@ class Solution {
 		if (vacancy > 0) {
 			for (int i = 0; i < array.length; i++) {
 				if (vacancy <= 0 ) {
+					System.out.println("entered");
 					break;
 				}
 				if (array[i] != merit[i]) {
