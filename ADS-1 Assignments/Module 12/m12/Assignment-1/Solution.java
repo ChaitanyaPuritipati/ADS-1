@@ -89,7 +89,7 @@ class Solution {
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
 		for (int i = 0; i < array.length; i++) {
 			if (vacancy == 0) {
-				System.out.println("entered");
+				// System.out.println("entered");
 				return;
 			}
 			if (open > 0) {
@@ -104,6 +104,7 @@ class Solution {
 				// 	st--;
 				// }
 				open--;
+				vacancy--;
 
 			} else {
 				if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
@@ -112,18 +113,21 @@ class Solution {
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						bc--;
+						vacancy--;
 					}
 					else if (array[i].rescategory.equals("SC") && sc > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						sc--;
+						vacancy--;
 					}
 					else if (array[i].rescategory.equals("ST") && st > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						st--;
+						vacancy--;
 					}
 					// } else  {
 					// 	System.out.println(array[i].studentname + "," +
@@ -131,7 +135,7 @@ class Solution {
 					// 	                   array[i].rescategory);
 					// }
 				}
-				vacancy--;
+				
 			}
 		}
 	}
