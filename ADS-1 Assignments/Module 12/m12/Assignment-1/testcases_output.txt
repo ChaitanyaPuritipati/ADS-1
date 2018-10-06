@@ -55,17 +55,13 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-4openval
 divya,99,ST
-3openval
 Deepak,98,Open
-2openval
 Ira,93,ST
-1openval
 tanvi,90,BC
 Aditya,80,ST
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -138,21 +134,16 @@ Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
 
-5openval
 divya,99,ST
-4openval
 Ishita,99,Open
-3openval
 Deepak,98,Open
-2openval
 Ira,93,ST
-1openval
 tanvi,90,BC
 Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -180,7 +171,6 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-1openval
 divya,99,Open
 Aditya,80,ST
 priya,76,SC
@@ -216,11 +206,8 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-3openval
 divya,99,Open
-2openval
 tanvi,90,ST
-1openval
 Aditya,80,Open
 priya,76,SC
 Tanya,66,BC
@@ -303,19 +290,12 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 
-7openval
 divya,99,Open
-6openval
 tanvi,99,Open
-5openval
 Ishita,99,Open
-4openval
 Deepak,98,Open
-3openval
 Ira,93,Open
-2openval
 Raj,87,Open
-1openval
 mahesh,87,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -398,21 +378,13 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-8openval
 divya,99,ST
-7openval
 Deepak,99,Open
-6openval
 Ishita,99,Open
-5openval
 Ira,93,ST
-4openval
 tanvi,90,BC
-3openval
 Raj,87,BC
-2openval
 mahesh,87,BC
-1openval
 riya,83,Open
 Aditya,80,ST
 priya,72,SC
