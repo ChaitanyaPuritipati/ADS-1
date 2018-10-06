@@ -87,7 +87,6 @@ class Solution {
 		//unused
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
-
 		for (int i = 0; i < array.length; i++) {
 			while (vacancy > 0) {
 				if (open > 0) {
@@ -120,7 +119,6 @@ class Solution {
 			                   array[i].totalmarks + "," +
 			                   array[i].rescategory);
 		}
-		System.out.println();
 	}
 	public static void main(String[] args) {
 		Scanner scan =  new Scanner(System.in);
@@ -142,6 +140,8 @@ class Solution {
 		Insertionsort insertion = new Insertionsort();
 		insertion.sort(students);
 		print(students);
+		System.out.println();
+		meritfill(students, vacancynum, openvacancy, bcvacancy, scvacancy, stvacancy);
 	}
 
 }
