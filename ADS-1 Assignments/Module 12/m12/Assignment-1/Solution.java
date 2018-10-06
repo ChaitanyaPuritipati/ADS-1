@@ -162,6 +162,11 @@ class Solution {
 			}
 
 		}
+		for (int i = 0; i < merit.length; i++) {
+			System.out.println(array[i].studentname + "," +
+			                   array[i].totalmarks + "," +
+			                   array[i].rescategory);
+		}
 		if (vacancy > 0) {
 			for (int i = 0; i < array.length; i++) {
 				 if (vacancy <= 0 ) {
