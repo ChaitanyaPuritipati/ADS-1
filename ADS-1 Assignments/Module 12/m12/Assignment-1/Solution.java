@@ -125,13 +125,14 @@ class Solution {
 						                   array[i].rescategory);
 						st--;
 					}
-				} else  {
-					System.out.println(array[i].studentname + "," +
-					                   array[i].totalmarks + "," +
-					                   array[i].rescategory);
+					// } else  {
+					// 	System.out.println(array[i].studentname + "," +
+					// 	                   array[i].totalmarks + "," +
+					// 	                   array[i].rescategory);
+					// }
 				}
+				vacancy--;
 			}
-			vacancy--;
 		}
 	}
 
