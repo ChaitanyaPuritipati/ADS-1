@@ -172,7 +172,7 @@ class Solution {
 			// System.out.println(count);
 			for (int i = 0; i < array.length; i++) {
 				if (vacancy <= 0 ) {
-					System.out.println("entered");
+					// System.out.println("entered");
 					break;
 				}
 				if (array[i] != merit[i]) {
@@ -182,7 +182,7 @@ class Solution {
 				}
 			}
 		}
-		System.out.println(count);
+		// System.out.println(count);
 		merit = Arrays.copyOf(merit, count);
 		Insertionsort newinsert = new Insertionsort();
 		newinsert.sort(merit);

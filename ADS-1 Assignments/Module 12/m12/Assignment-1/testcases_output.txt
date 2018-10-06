@@ -156,7 +156,7 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,ST
@@ -187,8 +187,6 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-entered
-6
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
@@ -274,7 +272,7 @@ Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 divya,99,ST
 Deepak,99,Open
@@ -354,8 +352,6 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-entered
-15
 divya,99,ST
 Deepak,99,Open
 Ishita,99,Open
