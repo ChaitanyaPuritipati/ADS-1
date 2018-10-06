@@ -112,13 +112,13 @@ class Solution {
 						                   array[i].rescategory);
 						bc--;
 					}
-					if (array[i].rescategory.equals("SC") && sc > 0) {
+					else if (array[i].rescategory.equals("SC") && sc > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						sc--;
 					}
-					if (array[i].rescategory.equals("ST") && st > 0) {
+					else if (array[i].rescategory.equals("ST") && st > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);

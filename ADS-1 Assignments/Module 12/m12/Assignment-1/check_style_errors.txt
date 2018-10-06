@@ -67,13 +67,15 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:111: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:111:94: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:112: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:115: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:114:41: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:115: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:116: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:116:95: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:117: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:117:94: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:118: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:121: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:120:41: '}' at column 6 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:121: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:122: Line is longer than 80 characters (found 95). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:122:95: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:123: Line is longer than 80 characters (found 94). [LineLength]
@@ -97,4 +99,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:159:98: '6' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:166: Line is longer than 80 characters (found 94). [LineLength]
 Audit done.
-Checkstyle ends with 97 errors.
+Checkstyle ends with 99 errors.
