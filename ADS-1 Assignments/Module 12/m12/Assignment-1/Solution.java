@@ -32,7 +32,7 @@ final class Solution {
 	 *
 	 * @param      array  The array
 	 */
-	public static void countcat(studentdata[] array) {
+	public static void countcat(final studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
 			if (array[i].rescategory.equals("Open")) {
 				opencount++;
@@ -59,7 +59,7 @@ final class Solution {
 	 * @param      sc       The screen
 	 * @param      st       { parameter_description }
 	 */
-	public static void meritfill(final studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
+	public static void meritfill(final studentdata[] array, final int vacancy, final int open, final int bc, final int sc, final int st) {
 		countcat(array);
 		int vacancynew = vacancy;
 		int opennew = open;
@@ -70,7 +70,6 @@ final class Solution {
 		int count = 0;
 		for (int i = 0; i < array.length; i++) {
 			if (vacancynew == 0) {
-				// System.out.println("entered");
 				break;
 			}
 			if (opennew > 0) {
