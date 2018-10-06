@@ -14,7 +14,9 @@ class Insertionsort {
 	 * @param      smallindex  The smallindex
 	 * @param      bigindex    The bigindex
 	 */
-	void exchange(studentdata[] array, int smallindex, int bigindex) {
+	void exchange(final studentdata[] array,
+	              final int smallindex,
+	              final int bigindex) {
 		studentdata temp = array[smallindex];
 		array[smallindex] = array[bigindex];
 		array[bigindex] = temp;
@@ -30,7 +32,8 @@ class Insertionsort {
 	 *
 	 * @return     { boolean }
 	 */
-	boolean less(studentdata valueone, studentdata valuetwo) {
+	boolean less(final studentdata valueone,
+	             final studentdata valuetwo) {
 		return valueone.compareTo(valuetwo) == -1;
 	}
 	/**
@@ -58,31 +61,31 @@ class Insertionsort {
  */
 class studentdata implements Comparable<studentdata> {
 	/**
-	 * { var_description }
+	 * { studentname }
 	 */
 	String studentname;
 	/**
-	 * { var_description }
+	 * { birthdate }
 	 */
 	String birthdate;
 	/**
-	 * { var_description }
+	 * { sub1marks }
 	 */
 	int sub1marks;
 	/**
-	 * { var_description }
+	 * { sub2marks }
 	 */
 	int sub2marks;
 	/**
-	 * { var_description }
+	 * { sub3marks }
 	 */
 	int sub3marks;
 	/**
-	 * { var_description }
+	 * { totalmarks }
 	 */
 	int totalmarks;
 	/**
-	 * { var_description }
+	 * { rescategory }
 	 */
 	String rescategory;
 	/**
@@ -96,7 +99,13 @@ class studentdata implements Comparable<studentdata> {
 	 * @param      total     The total
 	 * @param      category  The category
 	 */
-	studentdata(String name, String dob, int sub1, int sub2, int sub3, int total, String category) {
+	studentdata(final String name,
+	            final String dob,
+	            final int sub1,
+	            final int sub2,
+	            final int sub3,
+	            final int total,
+	            final String category) {
 		this.studentname = name;
 		this.birthdate = dob;
 		this.sub1marks = sub1;
@@ -127,7 +136,7 @@ class studentdata implements Comparable<studentdata> {
 	 *
 	 * @return     { int }
 	 */
-	public int compareTo(studentdata other) {
+	public int compareTo(final studentdata other) {
 		if (this.totalmarks > other.totalmarks) {
 			return 1;
 		}
