@@ -92,13 +92,13 @@ class Solution {
 				System.out.println(array[i].studentname + "," +
 				                   array[i].totalmarks + "," +
 				                   array[i].rescategory);
-				if (array[i].rescategory.equals("BC")) {
-					bc--;
-				} else if(array[i].rescategory.equals("SC")) {
-					sc--;
-				} else if(array[i].rescategory.equals("ST")) {
-					st--;
-				}
+				// if (array[i].rescategory.equals("BC")) {
+				// 	bc--;
+				// } else if(array[i].rescategory.equals("SC")) {
+				// 	sc--;
+				// } else if(array[i].rescategory.equals("ST")) {
+				// 	st--;
+				// }
 				open--;
 			} else if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
 				if (array[i].rescategory.equals("BC") && bc > 0) {

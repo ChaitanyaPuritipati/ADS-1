@@ -138,6 +138,7 @@ Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
+Raj,87,BC
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -380,5 +381,6 @@ tanvi,90,BC
 Raj,87,BC
 mahesh,87,BC
 riya,83,Open
+Aditya,80,ST
 priya,72,SC
 ----------------------------------------
