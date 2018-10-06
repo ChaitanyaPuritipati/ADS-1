@@ -107,6 +107,7 @@ class Solution {
 		}
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
+		countcat(array);
 		for (int i = 0; i < array.length; i++) {
 			if (vacancy == 0) {
 				// System.out.println("entered");
