@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m11\11.1 Cutoff Quicksort to Insertion Sort\Solution.java:60: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 3 errors.
