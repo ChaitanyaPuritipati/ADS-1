@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 divya,99,ST
 Deepak,98,Open
@@ -59,10 +59,8 @@ divya,99,ST
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-Aditya,80,ST
-priya,72,SC
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 divya,99,ST
 Ishita,99,Open
@@ -140,11 +138,8 @@ Ishita,99,Open
 Deepak,98,Open
 Ira,93,ST
 tanvi,90,BC
-Raj,87,BC
-Aditya,80,ST
-priya,72,SC
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 divya,99,Open
 tanvi,90,Open
@@ -174,7 +169,6 @@ Abhishek,60,BC
 
 divya,99,Open
 Aditya,80,ST
-priya,76,SC
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -211,7 +205,6 @@ divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
 priya,76,SC
-Tanya,66,BC
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -387,7 +380,5 @@ tanvi,90,BC
 Raj,87,BC
 mahesh,87,BC
 riya,83,Open
-Aditya,80,ST
 priya,72,SC
-varsha,66,BC
 ----------------------------------------
