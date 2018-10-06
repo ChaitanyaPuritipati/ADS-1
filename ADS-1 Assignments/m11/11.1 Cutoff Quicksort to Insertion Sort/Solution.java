@@ -172,7 +172,9 @@ final class Solution {
 			if (inputarray[0].equals("")) {
 				System.out.println(Arrays.toString(inputarray));
 			} else {
-				quick.sort(inputarray, 0, inputarray.length - 1, cutoffval);
+				quick.sort(inputarray,
+				           0, inputarray.length - 1,
+				           cutoffval);
 				System.out.println(Arrays.toString(inputarray));
 			}
 		}
