@@ -87,7 +87,7 @@ class Solution {
 		//unused
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
-		for (int i = 0; i < array.length; i++) {
+		for (int i = 0; i < array.length && vacancy > 0; i++) {
 			if (open > 0) {
 				System.out.println(array[i].studentname + "," +
 				                   array[i].totalmarks + "," +
@@ -116,14 +116,14 @@ class Solution {
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
 					st--;
-				} 
+				} else if (array[i].rescategory.equals("Open")) {
+					System.out.println(array[i].studentname + "," +
+					                   array[i].totalmarks + "," +
+					                   array[i].rescategory);
+				}
 			}
 			vacancy--;
 		}
-		if(vacancy > 0 ) {
-			System.out.println("yes not filled");
-		}
-		
 	}
 	public static void print(studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
