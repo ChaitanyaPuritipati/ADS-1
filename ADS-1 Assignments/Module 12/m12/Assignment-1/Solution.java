@@ -177,6 +177,7 @@ class Solution {
 	}
 
 	public static void print(studentdata[] array) {
+		System.out.println("print called");
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i].studentname + "," +
 			                   array[i].totalmarks + "," +
