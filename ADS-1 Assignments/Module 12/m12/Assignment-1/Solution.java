@@ -167,6 +167,7 @@ class Solution {
 				if(array[i] != merit[i]) {
 					// merit.add(array[i]);
 					merit[count++] = array[i];
+					vacancy--;
 				}
 			} 
 		}

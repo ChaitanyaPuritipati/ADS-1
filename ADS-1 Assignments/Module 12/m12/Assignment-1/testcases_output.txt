@@ -198,8 +198,8 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at Solution.meritfill(Solution.java:177)
-	at Solution.main(Solution.java:212)
+	at Solution.meritfill(Solution.java:178)
+	at Solution.main(Solution.java:213)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -361,5 +361,5 @@ Shreya,23,SC
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Solution.meritfill(Solution.java:169)
-	at Solution.main(Solution.java:212)
+	at Solution.main(Solution.java:213)
 ----------------------------------------
