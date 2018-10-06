@@ -92,6 +92,7 @@ class Solution {
 				return;
 			}
 			if (open > 0) {
+				System.out.println(open + "openval");
 				System.out.println(array[i].studentname + "," +
 				                   array[i].totalmarks + "," +
 				                   array[i].rescategory);
