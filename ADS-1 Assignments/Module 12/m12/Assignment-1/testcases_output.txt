@@ -192,6 +192,7 @@ tanvi,90,ST
 Aditya,80,Open
 priya,76,SC
 Tanya,66,BC
+1
 6
 divya,99,Open
 tanvi,90,ST
@@ -369,6 +370,7 @@ riya,83,Open
 Aditya,80,ST
 priya,72,SC
 varsha,66,BC
+4
 15
 divya,99,ST
 Deepak,99,Open

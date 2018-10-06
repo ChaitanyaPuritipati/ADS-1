@@ -168,6 +168,7 @@ class Solution {
 			                   merit[i].rescategory);
 		}
 		if (vacancy > 0) {
+			System.out.println(vacancy);
 			for (int i = 0; i < array.length; i++) {
 				 if (vacancy <= 0 ) {
 				// 	System.out.println("entered");
