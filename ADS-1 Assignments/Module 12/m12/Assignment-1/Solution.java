@@ -129,9 +129,9 @@ final class Solution {
      */
     public static void print(final studentdata[] array) {
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i].studentname + "," +
-                               array[i].totalmarks + "," +
-                               array[i].rescategory);
+            System.out.println(array[i].studentname + ","
+                               + array[i].totalmarks + ","
+                               + array[i].rescategory);
         }
     }
     /**
