@@ -116,8 +116,7 @@ class Solution {
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
 					st--;
-				} else {
-				}
+				} 
 			}
 			vacancy--;
 		}
