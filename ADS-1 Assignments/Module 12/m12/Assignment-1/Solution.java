@@ -187,9 +187,9 @@ class Solution {
 		Insertionsort newinsert = new Insertionsort();
 		newinsert.sort(merit);
 		for (int i = 0; i < merit.length; i++) {
-			System.out.println(array[i].studentname + "," +
-			                   array[i].totalmarks + "," +
-			                   array[i].rescategory);
+			System.out.println(merit[i].studentname + "," +
+			                   merit[i].totalmarks + "," +
+			                   merit[i].rescategory);
 		}
 
 	}
