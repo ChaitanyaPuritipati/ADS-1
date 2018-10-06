@@ -87,7 +87,10 @@ class Solution {
 		//unused
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
-		for (int i = 0; i < array.length && vacancy > 0; i++) {
+		for (int i = 0; i < array.length; i++) {
+			if(vacancy == 0) {
+				return;
+			}
 			if (open > 0) {
 				System.out.println(array[i].studentname + "," +
 				                   array[i].totalmarks + "," +
