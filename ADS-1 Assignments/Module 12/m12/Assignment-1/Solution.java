@@ -103,7 +103,7 @@ final class Solution {
         }
         if (vacancynew > 0) {
             for (int i = 0; i < array.length; i++) {
-                if (vacancynew <= 0 ) {
+                if (vacancynew <= 0) {
                     break;
                 }
                 if (array[i] != merit[i]) {
@@ -116,9 +116,9 @@ final class Solution {
         Insertionsort newinsert = new Insertionsort();
         newinsert.sort(merit);
         for (int i = 0; i < merit.length; i++) {
-            System.out.println(merit[i].studentname + "," +
-                               merit[i].totalmarks + "," +
-                               merit[i].rescategory);
+            System.out.println(merit[i].studentname + ","
+                               + merit[i].totalmarks + ","
+                               + merit[i].rescategory);
         }
 
     }
