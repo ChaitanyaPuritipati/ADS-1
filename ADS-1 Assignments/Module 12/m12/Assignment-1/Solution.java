@@ -3,29 +3,29 @@ import java.util.Arrays;
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
 	/**
 	 * Constructs the object.
 	 */
-	Solution() {
+	private Solution() {
 		//unused
 	}
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
-	static int opencount = 0;
+	private static int opencount = 0;
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
-	static int bccount = 0;
+	private static int bccount = 0;
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
-	static int sccount = 0;
+	private static int sccount = 0;
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
-	static int stcount = 0;
+	private static int stcount = 0;
 	/**
 	 * { countingcat }.
 	 * complexity: O(N)
