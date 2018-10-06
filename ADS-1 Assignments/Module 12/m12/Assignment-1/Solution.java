@@ -11,19 +11,19 @@ final class Solution {
         //unused
     }
     /**
-     * { var_description }.
+     * { opencount }.
      */
     private static int opencount = 0;
     /**
-     * { var_description }.
+     * { bccount }.
      */
     private static int bccount = 0;
     /**
-     * { var_description }.
+     * { sccount }.
      */
     private static int sccount = 0;
     /**
-     * { var_description }.
+     * { stcount }.
      */
     private static int stcount = 0;
     /**
