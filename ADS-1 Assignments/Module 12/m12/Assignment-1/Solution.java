@@ -173,11 +173,15 @@ class Solution {
 		merit = Arrays.copyOf(merit, count);
 		Insertionsort newinsert = new Insertionsort();
 		newinsert.sort(merit);
-		print(merit);
+		for (int i = 0; i < merit.length; i++) {
+			System.out.println(array[i].studentname + "," +
+			                   array[i].totalmarks + "," +
+			                   array[i].rescategory);
+		}
+		
 	}
 
 	public static void print(studentdata[] array) {
-		System.out.println("print called");
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i].studentname + "," +
 			                   array[i].totalmarks + "," +

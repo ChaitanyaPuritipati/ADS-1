@@ -31,7 +31,6 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-print called
 divya,99,ST
 Deepak,98,Open
 Ira,93,ST
@@ -98,7 +97,6 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-print called
 divya,99,ST
 Ishita,99,Open
 Deepak,98,Open
@@ -147,7 +145,6 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
-print called
 divya,99,Open
 tanvi,90,Open
 Aditya,80,ST
@@ -179,7 +176,6 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
-print called
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
@@ -191,7 +187,6 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-print called
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
@@ -201,8 +196,10 @@ rahul,73,Open
 Amit,70,Open
 Priyanka,70,Open
 Tanya,66,BC
-Tanya,66,BC
 Abhishek,60,BC
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at Solution.meritfill(Solution.java:177)
+	at Solution.main(Solution.java:212)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -251,7 +248,6 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-print called
 divya,99,Open
 tanvi,99,Open
 Ishita,99,Open
@@ -332,7 +328,6 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
-print called
 divya,99,ST
 Deepak,99,Open
 Ishita,99,Open
@@ -366,5 +361,5 @@ Shreya,23,SC
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
 	at Solution.meritfill(Solution.java:169)
-	at Solution.main(Solution.java:208)
+	at Solution.main(Solution.java:212)
 ----------------------------------------
