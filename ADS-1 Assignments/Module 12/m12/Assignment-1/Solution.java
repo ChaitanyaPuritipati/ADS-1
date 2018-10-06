@@ -114,29 +114,28 @@ class Solution {
 						                   array[i].rescategory);
 						bc--;
 						vacancy--;
-					}
-					else if (array[i].rescategory.equals("SC") && sc > 0) {
+					} else if (array[i].rescategory.equals("SC") && sc > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						sc--;
 						vacancy--;
-					}
-					else if (array[i].rescategory.equals("ST") && st > 0) {
+					} else if (array[i].rescategory.equals("ST") && st > 0) {
 						System.out.println(array[i].studentname + "," +
 						                   array[i].totalmarks + "," +
 						                   array[i].rescategory);
 						st--;
 						vacancy--;
 					}
-					// } else  {
-					// 	System.out.println(array[i].studentname + "," +
-					// 	                   array[i].totalmarks + "," +
-					// 	                   array[i].rescategory);
-					// }
+				} else  {
+					System.out.println(array[i].studentname + "," +
+					                   array[i].totalmarks + "," +
+					                   array[i].rescategory);
+					vacancy--;
 				}
-				
 			}
+
+
 		}
 	}
 
