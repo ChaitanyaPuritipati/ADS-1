@@ -63,6 +63,7 @@ Deepak,98,Open
 Ira,93,ST
 1openval
 tanvi,90,BC
+riya,83,Open
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -148,6 +149,8 @@ Ira,93,ST
 1openval
 tanvi,90,BC
 Raj,87,BC
+mahesh,87,Open
+riya,83,Open
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -179,6 +182,7 @@ Abhishek,60,BC
 
 1openval
 divya,99,Open
+tanvi,90,Open
 Aditya,80,ST
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -219,6 +223,8 @@ tanvi,90,ST
 1openval
 Aditya,80,Open
 priya,76,SC
+Ajay,76,Open
+rahul,73,Open
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -312,6 +318,12 @@ Ira,93,Open
 Raj,87,Open
 1openval
 mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -410,5 +422,9 @@ mahesh,87,BC
 1openval
 riya,83,Open
 Aditya,80,ST
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
 priya,72,SC
 ----------------------------------------

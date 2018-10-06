@@ -88,7 +88,7 @@ class Solution {
 	}
 	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
 		for (int i = 0; i < array.length; i++) {
-			if(vacancy == 0) {
+			if (vacancy == 0) {
 				return;
 			}
 			if (open > 0) {
@@ -104,23 +104,28 @@ class Solution {
 				// 	st--;
 				// }
 				open--;
-			} else if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
-				if (array[i].rescategory.equals("BC") && bc > 0) {
-					System.out.println(array[i].studentname + "," +
-					                   array[i].totalmarks + "," +
-					                   array[i].rescategory);
-					bc--;
-				} else if (array[i].rescategory.equals("SC") && sc > 0) {
-					System.out.println(array[i].studentname + "," +
-					                   array[i].totalmarks + "," +
-					                   array[i].rescategory);
-					sc--;
-				} else if (array[i].rescategory.equals("ST") && st > 0) {
-					System.out.println(array[i].studentname + "," +
-					                   array[i].totalmarks + "," +
-					                   array[i].rescategory);
-					st--;
-				} else if (array[i].rescategory.equals("Open")) {
+
+			} else {
+				if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
+					if (array[i].rescategory.equals("BC") && bc > 0) {
+						System.out.println(array[i].studentname + "," +
+						                   array[i].totalmarks + "," +
+						                   array[i].rescategory);
+						bc--;
+					}
+					if (array[i].rescategory.equals("SC") && sc > 0) {
+						System.out.println(array[i].studentname + "," +
+						                   array[i].totalmarks + "," +
+						                   array[i].rescategory);
+						sc--;
+					}
+					if (array[i].rescategory.equals("ST") && st > 0) {
+						System.out.println(array[i].studentname + "," +
+						                   array[i].totalmarks + "," +
+						                   array[i].rescategory);
+						st--;
+					}
+				} else  {
 					System.out.println(array[i].studentname + "," +
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
@@ -129,6 +134,7 @@ class Solution {
 			vacancy--;
 		}
 	}
+
 	public static void print(studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i].studentname + "," +
