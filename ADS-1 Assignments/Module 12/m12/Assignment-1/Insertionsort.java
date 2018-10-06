@@ -61,31 +61,31 @@ class Insertionsort {
  */
 class studentdata implements Comparable<studentdata> {
 	/**
-	 * { studentname }
+	 * { studentname }.
 	 */
 	String studentname;
 	/**
-	 * { birthdate }
+	 * { birthdate }.
 	 */
 	String birthdate;
 	/**
-	 * { sub1marks }
+	 * { sub1marks }.
 	 */
 	int sub1marks;
 	/**
-	 * { sub2marks }
+	 * { sub2marks }.
 	 */
 	int sub2marks;
 	/**
-	 * { sub3marks }
+	 * { sub3marks }.
 	 */
 	int sub3marks;
 	/**
-	 * { totalmarks }
+	 * { totalmarks }.
 	 */
 	int totalmarks;
 	/**
-	 * { rescategory }
+	 * { rescategory }.
 	 */
 	String rescategory;
 	/**
