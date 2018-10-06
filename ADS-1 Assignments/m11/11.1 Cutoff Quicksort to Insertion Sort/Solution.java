@@ -60,7 +60,7 @@ class InsertionSort {
 	 *
 	 * @param      inputarray  The inputarray
 	 */
-	void sort(final Comparable[] inputarray, int start, int end) {
+	void sort(final Comparable[] inputarray, final int start, final int end) {
 		for (int i = start + 1; i <= end; i++) {
 			for (int j = i; j > start; j--) {
 				if (greater(inputarray[j - 1], inputarray[j])) {
@@ -109,7 +109,19 @@ class Quicksort {
 		System.out.println(Arrays.toString(inputarray));
 		return j;
 	}
-	void sort(Comparable[] inputarray, int start, int end, int cutoff) {
+	/**
+	 * { Quick Sort function }.
+	 * Complexity:
+	 *             Best case: NlogN
+	 *             Worst case: N^2/2
+	 *             Average case:
+	 *
+	 * @param      inputarray  The inputarray
+	 * @param      start       The start
+	 * @param      end         The end
+	 * @param      cutoff      The cutoff
+	 */
+	void sort(final Comparable[] inputarray, final int start, final int end, final int cutoff) {
 		if (end - start < cutoff ) {
 			InsertionSort insertion = new InsertionSort();
 			insertion.sort(inputarray, start, end);
@@ -122,8 +134,19 @@ class Quicksort {
 		sort(inputarray, pivot + 1, end, cutoff);
 	}
 }
-class Solution {
-	public static void main(String[] args) {
+final class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+		//unused
+	}
+	/**
+	 * { Main method }.
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int testnum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < testnum; i++) {
