@@ -75,6 +75,9 @@ class InsertionSort {
 		}
 	}
 }
+/**
+ * Class for quicksort.
+ */
 class Quicksort {
 	/**
 	 * { To swap two items }.
@@ -145,11 +148,13 @@ class Quicksort {
 			return;
 		}
 		int pivot = partition(inputarray, start, end);
-		// System.out.println(pivot + "pivotval");
 		sort(inputarray, start, pivot - 1, cutoff);
 		sort(inputarray, pivot + 1, end, cutoff);
 	}
 }
+/**
+ * { Solution }.
+ */
 final class Solution {
 	/**
 	 * Constructs the object.
