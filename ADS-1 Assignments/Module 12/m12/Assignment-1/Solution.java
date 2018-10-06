@@ -94,22 +94,26 @@ class Solution {
 				                   array[i].rescategory);
 				open--;
 			} else if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
-				if (bc > 0 || sc > 0 || st > 0) {
+				if (array[i].rescategory.equals("BC") && bc > 0) {
 					System.out.println(array[i].studentname + "," +
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
-					if (array[i].rescategory.equals("BC")) {
-						bc--;
-					} else if (array[i].rescategory.equals("SC")) {
-						sc--;
-					} else if (array[i].rescategory.equals("ST")) {
-						st--;
-					} else {
-					}
+					bc--;
+				} else if (array[i].rescategory.equals("SC") && sc > 0) {
+					System.out.println(array[i].studentname + "," +
+					                   array[i].totalmarks + "," +
+					                   array[i].rescategory);
+					sc--;
+				} else if (array[i].rescategory.equals("ST") && st > 0) {
+					System.out.println(array[i].studentname + "," +
+					                   array[i].totalmarks + "," +
+					                   array[i].rescategory);
+					st--;
+				} else {
 				}
 			}
-			vacancy--;
 		}
+		vacancy--;
 	}
 	public static void print(studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
