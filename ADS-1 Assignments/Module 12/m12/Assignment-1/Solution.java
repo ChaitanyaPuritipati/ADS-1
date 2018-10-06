@@ -163,8 +163,11 @@ final class Solution {
             String line = scan.nextLine();
             String[] tokens = line.split(",");
             studentdata eachstudentdata = new studentdata(tokens[0], tokens[1],
-                    Integer.parseInt(tokens[2]), Integer.parseInt(tokens[three]),
-                    Integer.parseInt(tokens[four]), Integer.parseInt(tokens[five]), tokens[six]);
+                    Integer.parseInt(tokens[2]),
+                    Integer.parseInt(tokens[three]),
+                    Integer.parseInt(tokens[four]),
+                    Integer.parseInt(tokens[five]),
+                    tokens[six]);
             students[i] = eachstudentdata;
         }
         Insertionsort insertion = new Insertionsort();
