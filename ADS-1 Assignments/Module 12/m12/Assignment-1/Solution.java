@@ -59,52 +59,56 @@ final class Solution {
 	 * @param      sc       The screen
 	 * @param      st       { parameter_description }
 	 */
-	public static void meritfill(studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
+	public static void meritfill(final studentdata[] array, int vacancy, int open, int bc, int sc, int st) {
 		countcat(array);
+		int vacancynew = vacancy;
+		int opennew = open;
+		int bcnew = bc;
+		int scnew = sc;
+		int stnew = st;
 		studentdata[] merit = new studentdata[30];
 		int count = 0;
 		for (int i = 0; i < array.length; i++) {
-			if (vacancy == 0) {
+			if (vacancynew == 0) {
 				// System.out.println("entered");
 				break;
 			}
-			if (open > 0) {
+			if (opennew > 0) {
 				merit[count++] = array[i];
-				open--;
-				vacancy--;
+				opennew--;
+				vacancynew--;
 
 			} else {
 				if (array[i].rescategory.equals("BC") || array[i].rescategory.equals("SC") || array[i].rescategory.equals("ST")) {
-					if (array[i].rescategory.equals("BC") && bc > 0) {
+					if (array[i].rescategory.equals("BC") && bcnew > 0) {
+						merit[count++] = array[i];
+						bcnew--;
+						vacancynew--;
+					} else if (array[i].rescategory.equals("SC") && scnew > 0) {
 						
 						merit[count++] = array[i];
-						bc--;
-						vacancy--;
-					} else if (array[i].rescategory.equals("SC") && sc > 0) {
-						
+						scnew--;
+						vacancynew--;
+					} else if (array[i].rescategory.equals("ST") && stnew > 0) {
 						merit[count++] = array[i];
-						sc--;
-						vacancy--;
-					} else if (array[i].rescategory.equals("ST") && st > 0) {
-						merit[count++] = array[i];
-						st--;
-						vacancy--;
+						stnew--;
+						vacancynew--;
 					}
-				} else if (vacancy > 0 && bccount == 0 && sccount == 0 && stcount == 0) {
+				} else if (vacancynew > 0 && bccount == 0 && sccount == 0 && stcount == 0) {
 					merit[count++] = array[i];
-					vacancy--;
+					vacancynew--;
 				}
 			}
 
 		}
-		if (vacancy > 0) {
+		if (vacancynew > 0) {
 			for (int i = 0; i < array.length; i++) {
-				if (vacancy <= 0 ) {
+				if (vacancynew <= 0 ) {
 					break;
 				}
 				if (array[i] != merit[i]) {
 					merit[count++] = array[i];
-					vacancy--;
+					vacancynew--;
 				}
 			}
 		}
@@ -123,7 +127,7 @@ final class Solution {
 	 * O(N)
 	 * @param      array  The array
 	 */
-	public static void print(studentdata[] array) {
+	public static void print(final studentdata[] array) {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i].studentname + "," +
 			                   array[i].totalmarks + "," +
