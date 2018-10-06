@@ -147,11 +147,6 @@ class Solution {
 						                   array[i].rescategory);
 						st--;
 						vacancy--;
-					} else if(bc != 0 || sc != 0 || st != 0) {
-						System.out.println(array[i].studentname + "," +
-						                   array[i].totalmarks + "," +
-						                   array[i].rescategory);
-						vacancy--;
 					}
 				} else if (vacancy > 0 && bccount == 0 && sccount == 0 && stcount == 0) {
 					System.out.println(array[i].studentname + "," +
