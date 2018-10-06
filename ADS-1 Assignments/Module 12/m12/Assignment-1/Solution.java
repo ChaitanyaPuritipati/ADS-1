@@ -162,14 +162,17 @@ class Solution {
 			}
 
 		}
-		if(vacancy > 0) {
-			for(int i = 0; i < array.length; i++) {
-				if(array[i] != merit[i]) {
+		if (vacancy > 0) {
+			for (int i = 0; i < array.length; i++) {
+				if (vacancy <= 0 ) {
+					break;
+				}
+				if (array[i] != merit[i]) {
 					// merit.add(array[i]);
 					merit[count++] = array[i];
 					vacancy--;
 				}
-			} 
+			}
 		}
 		merit = Arrays.copyOf(merit, count);
 		Insertionsort newinsert = new Insertionsort();
@@ -179,7 +182,7 @@ class Solution {
 			                   array[i].totalmarks + "," +
 			                   array[i].rescategory);
 		}
-		
+
 	}
 
 	public static void print(studentdata[] array) {
