@@ -127,7 +127,7 @@ class Solution {
 						st--;
 						vacancy--;
 					}
-				} else if(vacancy > 0) {
+				} else if(vacancy > 0 && sc <= 0 && bc <= 0 && st <= 0) {
 					System.out.println(array[i].studentname + "," +
 					                   array[i].totalmarks + "," +
 					                   array[i].rescategory);
