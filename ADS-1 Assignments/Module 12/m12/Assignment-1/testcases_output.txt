@@ -54,6 +54,14 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
+
+entered
+divya,99,ST
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -127,6 +135,16 @@ Manoj,39,SC
 Anjali,38,SC
 Aryan,32,ST
 Shreya,23,SC
+
+entered
+divya,99,ST
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+Aditya,80,ST
+priya,72,SC
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -155,6 +173,11 @@ Amit,70,Open
 Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
+
+entered
+divya,99,Open
+Aditya,80,ST
+priya,76,SC
 ----------------------------------------
 ########## Testcase 3: Passed ##########
 Expected Output: 
@@ -271,6 +294,21 @@ Anjali,38,Open
 Aryan,32,Open
 shyam,23,Open
 Shreya,23,Open
+
+entered
+divya,99,Open
+tanvi,99,Open
+Ishita,99,Open
+Deepak,98,Open
+Ira,93,Open
+Raj,87,Open
+mahesh,87,Open
+riya,83,Open
+Aditya,80,Open
+priya,76,Open
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
 ----------------------------------------
 ########## Testcase 5: Passed ##########
 Expected Output: 

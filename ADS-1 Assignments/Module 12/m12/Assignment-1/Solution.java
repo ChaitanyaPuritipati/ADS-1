@@ -114,7 +114,7 @@ class Solution {
 		for (int i = 0; i < array.length; i++) {
 			if (vacancy == 0) {
 				// System.out.println("entered");
-				return;
+				break;
 			}
 			if (open > 0) {
 				// System.out.println(array[i].studentname + "," +
