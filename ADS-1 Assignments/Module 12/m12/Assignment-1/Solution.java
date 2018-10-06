@@ -99,7 +99,9 @@ final class Solution {
                         stnew--;
                         vacancynew--;
                     }
-                } else if (vacancynew > 0 && bccount == 0 && sccount == 0 && stcount == 0) {
+                } else if (vacancynew > 0
+                           && bccount == 0 && sccount == 0
+                           && stcount == 0) {
                     merit[count++] = array[i];
                     vacancynew--;
                 }
