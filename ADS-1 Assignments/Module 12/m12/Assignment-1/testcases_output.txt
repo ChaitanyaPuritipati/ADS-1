@@ -187,20 +187,13 @@ Priyanka,70,Open
 Tanya,66,BC
 Abhishek,60,BC
 
-11
+6
 divya,99,Open
 tanvi,90,ST
 Aditya,80,Open
 priya,76,SC
 Ajay,76,Open
 rahul,73,Open
-Amit,70,Open
-Priyanka,70,Open
-Tanya,66,BC
-Abhishek,60,BC
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
-	at Solution.meritfill(Solution.java:183)
-	at Solution.main(Solution.java:218)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -360,7 +353,20 @@ Manoj,32,SC
 Aryan,32,ST
 Shreya,23,SC
 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 30
-	at Solution.meritfill(Solution.java:173)
-	at Solution.main(Solution.java:218)
+15
+divya,99,ST
+Deepak,99,Open
+Ishita,99,Open
+Ira,93,ST
+tanvi,90,BC
+Raj,87,BC
+mahesh,87,BC
+riya,83,Open
+Aditya,80,ST
+Ajay,76,Open
+Amit,76,Open
+Arjun,75,Open
+rahul,73,Open
+priya,72,SC
+shyam,71,ST
 ----------------------------------------
