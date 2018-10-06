@@ -162,11 +162,11 @@ class Solution {
 			}
 
 		}
-		for (int i = 0; i < merit.length && merit[i] != null; i++) {
-			System.out.println(merit[i].studentname + "," +
-			                   merit[i].totalmarks + "," +
-			                   merit[i].rescategory);
-		}
+		// for (int i = 0; i < merit.length && merit[i] != null; i++) {
+		// 	System.out.println(merit[i].studentname + "," +
+		// 	                   merit[i].totalmarks + "," +
+		// 	                   merit[i].rescategory);
+		// }
 		if (vacancy > 0) {
 			System.out.println(vacancy);
 			System.out.println(count);

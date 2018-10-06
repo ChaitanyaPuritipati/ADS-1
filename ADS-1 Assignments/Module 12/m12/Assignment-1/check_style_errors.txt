@@ -86,8 +86,6 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:155: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:156: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:157: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:166:71: '+' should be on a new line. [OperatorWrap]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:167:70: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:174:49: ')' is preceded with whitespace. [ParenPad]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:190:71: '+' should be on a new line. [OperatorWrap]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:191:70: '+' should be on a new line. [OperatorWrap]
@@ -106,4 +104,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:218:98: '6' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:225: Line is longer than 80 characters (found 94). [LineLength]
 Audit done.
-Checkstyle ends with 106 errors.
+Checkstyle ends with 104 errors.
