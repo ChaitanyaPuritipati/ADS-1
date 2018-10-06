@@ -162,6 +162,9 @@ class Solution {
 			}
 
 		}
+		if(vacancy == 0) {
+			System.out.println("entered");
+		}
 		// for (int i = 0; i < merit.length && merit[i] != null; i++) {
 		// 	System.out.println(merit[i].studentname + "," +
 		// 	                   merit[i].totalmarks + "," +
