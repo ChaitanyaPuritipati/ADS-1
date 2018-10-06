@@ -76,6 +76,13 @@ class InsertionSort {
 	}
 }
 class Quicksort {
+	/**
+	 * { To swap two items }.
+	 *
+	 * @param      inputarray  The inputarray
+	 * @param      bigindex    The bigindex
+	 * @param      smallindex  The smallindex
+	 */
 	void exchange(final Comparable[] inputarray,
 	              final int bigindex,
 	              final int smallindex) {
@@ -90,7 +97,16 @@ class Quicksort {
 
 		inputarray[smallindex] = temp;
 	}
-	int partition(Comparable[] inputarray, int start, int end) {
+	/**
+	 * { Partition function }.
+	 *
+	 * @param      inputarray  The inputarray
+	 * @param      start       The start
+	 * @param      end         The end
+	 *
+	 * @return     { int value }
+	 */
+	int partition(final Comparable[] inputarray, final int start, final int end) {
 		int i = start + 1;
 		int j = end;
 		Comparable pivotval = inputarray[start];
