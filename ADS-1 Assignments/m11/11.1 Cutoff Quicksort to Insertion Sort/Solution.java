@@ -50,15 +50,12 @@ class InsertionSort {
 
 		inputarray[smallindex] = temp;
 	}
-
 	/**
-	 * { Sort function sorts the data according to the requirement }.
-	 *  Complexity:
-	 *             Best case: O(N)
-	 *             Worst case: O(N^2)
-	 *             Average case: O(N^2)
+	 * { Insertion sort function }.
 	 *
 	 * @param      inputarray  The inputarray
+	 * @param      start       The start
+	 * @param      end         The end
 	 */
 	void sort(final Comparable[] inputarray, final int start, final int end) {
 		for (int i = start + 1; i <= end; i++) {
@@ -109,7 +106,8 @@ class Quicksort {
 	 *
 	 * @return     { int value }
 	 */
-	int partition(final Comparable[] inputarray, final int start, final int end) {
+	int partition(final Comparable[] inputarray,
+	              final int start, final int end) {
 		int i = start + 1;
 		int j = end;
 		Comparable pivotval = inputarray[start];
