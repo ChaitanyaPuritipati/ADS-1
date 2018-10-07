@@ -123,15 +123,10 @@ final class Solution {
             }
         }
         merit = Arrays.copyOf(merit, count);
-        Insertionsort newinsert = new Insertionsort();
-        newinsert.sort(merit);
+        Arrays.sort(merit);
+        // Insertionsort newinsert = new Insertionsort();
+        // newinsert.sort(merit);
         print(merit);
-        // for (int k = 0; k < merit.length; k++) {
-        //     System.out.println(merit[k].studentname + ","
-        //                        + merit[k].totalmarks + ","
-        //                        + merit[k].rescategory);
-        // }
-
     }
 
     /**
