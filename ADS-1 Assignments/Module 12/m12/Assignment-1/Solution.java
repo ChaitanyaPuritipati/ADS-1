@@ -125,11 +125,12 @@ final class Solution {
         merit = Arrays.copyOf(merit, count);
         Insertionsort newinsert = new Insertionsort();
         newinsert.sort(merit);
-        for (int k = 0; k < merit.length; k++) {
-            System.out.println(merit[k].studentname + ","
-                               + merit[k].totalmarks + ","
-                               + merit[k].rescategory);
-        }
+        print(merit);
+        // for (int k = 0; k < merit.length; k++) {
+        //     System.out.println(merit[k].studentname + ","
+        //                        + merit[k].totalmarks + ","
+        //                        + merit[k].rescategory);
+        // }
 
     }
 
