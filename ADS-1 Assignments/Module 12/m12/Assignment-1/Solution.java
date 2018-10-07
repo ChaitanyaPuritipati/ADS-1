@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Arrays;
+import java.util.Collections;
 /**
  * Class for solution.
  */
@@ -123,7 +124,7 @@ final class Solution {
             }
         }
         merit = Arrays.copyOf(merit, count);
-        Arrays.sort(merit);
+        Arrays.sort(merit, Collections.reverseOrder());
         // Insertionsort newinsert = new Insertionsort();
         // newinsert.sort(merit);
         print(merit);
