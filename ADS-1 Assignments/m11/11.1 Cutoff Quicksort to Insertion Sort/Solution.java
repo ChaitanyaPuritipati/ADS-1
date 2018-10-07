@@ -103,6 +103,9 @@ class Quicksort {
     }
     /**
      * { Partition function }.
+     * Complexity: Best case: O(N)
+     *             Worst case: O(N^2)
+     *             Average case: O(N^2)
      *
      * @param      inputarray  The inputarray
      * @param      start       The start
@@ -137,9 +140,9 @@ class Quicksort {
     /**
      * { Quick Sort function }.
      * Complexity:
-     *             Best case: NlogN
-     *             Worst case: NlogN
-     *             Average case: NlogN
+     *             Best case: O(NlogN)
+     *             Worst case: O(NlogN)
+     *             Average case: O(NlogN)
      *
      * @param      inputarray  The inputarray
      * @param      start       The start
