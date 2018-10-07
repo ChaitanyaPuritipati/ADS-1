@@ -52,6 +52,9 @@ class InsertionSort {
     }
     /**
      * { Insertion sort function }.
+     * Complexity: Best case: O(N)
+     *             Worst case: O(N^2)
+     *             Average case: O(N^2)
      *
      * @param      inputarray  The inputarray
      * @param      start       The start
@@ -135,8 +138,8 @@ class Quicksort {
      * { Quick Sort function }.
      * Complexity:
      *             Best case: NlogN
-     *             Worst case: N^2/2
-     *             Average case:
+     *             Worst case: NlogN
+     *             Average case: NlogN
      *
      * @param      inputarray  The inputarray
      * @param      start       The start
