@@ -124,9 +124,9 @@ final class Solution {
             }
         }
         merit = Arrays.copyOf(merit, count);
-        Arrays.sort(merit, Collections.reverseOrder());
-        // Insertionsort newinsert = new Insertionsort();
-        // newinsert.sort(merit);
+        // Arrays.sort(merit, Collections.reverseOrder());
+        Insertionsort newinsert = new Insertionsort();
+        newinsert.sort(merit);
         print(merit);
     }
 
@@ -171,9 +171,9 @@ final class Solution {
                     tokens[six]);
             students[i] = eachstudentdata;
         }
-        // Insertionsort insertion = new Insertionsort();
-        // insertion.sort(students);
-         Arrays.sort(students, Collections.reverseOrder());
+        Insertionsort insertion = new Insertionsort();
+        insertion.sort(students);
+         // Arrays.sort(students, Collections.reverseOrder());
         print(students);
         System.out.println();
         meritfill(students, vacancynum,

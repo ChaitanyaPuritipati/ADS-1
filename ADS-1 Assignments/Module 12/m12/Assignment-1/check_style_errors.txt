@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 12\m12\Assignment-1\Solution.java:3:8: Unused import - java.util.Collections. [UnusedImports]
 Audit done.
+Checkstyle ends with 1 errors.
