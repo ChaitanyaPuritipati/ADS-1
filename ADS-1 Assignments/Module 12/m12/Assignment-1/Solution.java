@@ -171,8 +171,9 @@ final class Solution {
                     tokens[six]);
             students[i] = eachstudentdata;
         }
-        Insertionsort insertion = new Insertionsort();
-        insertion.sort(students);
+        // Insertionsort insertion = new Insertionsort();
+        // insertion.sort(students);
+         Arrays.sort(students, Collections.reverseOrder());
         print(students);
         System.out.println();
         meritfill(students, vacancynum,
