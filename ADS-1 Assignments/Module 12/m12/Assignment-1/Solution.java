@@ -99,37 +99,37 @@ final class Solution {
 						stnew--;
 						vacancynew--;
 					}
-					// } else if (vacancynew > 0
-					//            && bccount == 0 && sccount == 0
-					//            && stcount == 0) {
-					//     merit[count++] = array[i];
-					//     vacancynew--;
-					// }
+				} else if (vacancynew > 0
+				           && bccount == 0 && sccount == 0
+				           && stcount == 0) {
+					merit[count++] = array[i];
+					vacancynew--;
 				}
-
-			}
-			if (vacancynew > 0) {
-				for (int j = 0; j < array.length; j++) {
-					if (vacancynew <= 0) {
-						break;
-					}
-					if (array[j] != merit[j]) {
-						merit[count++] = array[j];
-						vacancynew--;
-					}
-				}
-			}
-			merit = Arrays.copyOf(merit, count);
-			Insertionsort newinsert = new Insertionsort();
-			newinsert.sort(merit);
-			for (int k = 0; k < merit.length; k++) {
-				System.out.println(merit[k].studentname + ","
-				                   + merit[k].totalmarks + ","
-				                   + merit[k].rescategory);
 			}
 
 		}
+		if (vacancynew > 0) {
+			for (int j = 0; j < array.length; j++) {
+				if (vacancynew <= 0) {
+					break;
+				}
+				if (array[j] != merit[j]) {
+					merit[count++] = array[j];
+					vacancynew--;
+				}
+			}
+		}
+		merit = Arrays.copyOf(merit, count);
+		Insertionsort newinsert = new Insertionsort();
+		newinsert.sort(merit);
+		for (int k = 0; k < merit.length; k++) {
+			System.out.println(merit[k].studentname + ","
+			                   + merit[k].totalmarks + ","
+			                   + merit[k].rescategory);
+		}
+
 	}
+
 	/**
 	 * { print }.
 	 * O(N)
