@@ -10,6 +10,8 @@ class minheap<Gen extends Comparable<Gen>>{
 	}
 	// int compareTo 
 	boolean less(Gen valueone, Gen valuetwo) {
+		System.out.println(valueone + "one");
+		System.out.println(valuetwo + "two");
 		return valueone.compareTo(valuetwo) <= 0;
 	}
 	boolean swim(Gen[] heaparr, int nodeval) {
