@@ -8,15 +8,15 @@ class Minheap<Gen extends Comparable<Gen>> {
 	/**
 	 * { Heaparray }.
 	 */
-	Gen[] heaparr;
+	private Gen[] heaparr;
 	/**
 	 * { counter }.
 	 */
-	int count;
+	private int count;
 	/**
 	 * { flag value }.
 	 */
-	int flag;
+	private int flag;
 	/**
 	 * Constructs the object.
 	 *
