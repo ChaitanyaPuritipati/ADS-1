@@ -5,9 +5,11 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Object; cannot be cast to java.base/[Ljava.lang.Comparable;
-	at minheap.<init>(Solution.java:7)
-	at Solution.main(Solution.java:58)
+Exception in thread "main" java.lang.NullPointerException
+	at minheap.less(Solution.java:13)
+	at minheap.swim(Solution.java:17)
+	at minheap.insert(Solution.java:27)
+	at Solution.main(Solution.java:60)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -18,9 +20,11 @@ false
 false
 false
 Your Output: 
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Object; cannot be cast to java.base/[Ljava.lang.Comparable;
-	at minheap.<init>(Solution.java:7)
-	at Solution.main(Solution.java:58)
+Exception in thread "main" java.lang.NullPointerException
+	at minheap.less(Solution.java:13)
+	at minheap.swim(Solution.java:17)
+	at minheap.insert(Solution.java:27)
+	at Solution.main(Solution.java:60)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 

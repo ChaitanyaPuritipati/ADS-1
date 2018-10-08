@@ -4,7 +4,7 @@ class minheap<Gen extends Comparable<Gen>>{
 	int count;
 	int flag;
 	minheap(int size) {
-		heaparr = (Gen[])new Object[size];
+		heaparr = (Gen[])new Comparable[size];
 		count = 0;
 		flag = 0;
 	}
@@ -55,7 +55,7 @@ class Solution {
 			switch (line) {
 			case "String":
 				String[] tokens = scan.nextLine().split(",");
-				minheap<String> minobj = new minheap<>(tokens.length);
+				minheap<String> minobj = new minheap<String>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobj.insert(tokens[j]);
 					if (returnval == 1) {

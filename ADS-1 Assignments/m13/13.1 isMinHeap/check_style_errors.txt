@@ -26,7 +26,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:25:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:25:20: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:37: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:58: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:58: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:60: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
 Checkstyle ends with 29 errors.
