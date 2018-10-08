@@ -87,7 +87,23 @@ class Solution {
 					}
 				}
 				System.out.println("true");
-				break;	
+				break;
+			case "Float":
+				tokens = scan.nextLine().split(",");
+				if(tokens[0].equals("")) {
+					System.out.println("false");
+					break;
+				}
+				minheap<Float> minobjflo = new minheap<Float>(tokens.length);
+				for (int j = 0; j < tokens.length; j++) {
+					int returnval = minobjflo.insert(Float.parseFloat(tokens[j]));
+					if (returnval == 1) {
+						System.out.println("false");
+						break outerloop;
+					}
+				}
+				System.out.println("true");
+				break;		
 			default:
 				// System.out.println("not checking");
 				break;
