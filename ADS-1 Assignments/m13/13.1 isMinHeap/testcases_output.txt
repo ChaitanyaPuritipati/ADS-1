@@ -52,9 +52,9 @@ true
 false
 false
 Your Output: 
-not checking
-not checking
-not checking
+false
+false
+false
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -62,7 +62,5 @@ true
 true
 false
 Your Output: 
-not checking
-not checking
-not checking
+
 ----------------------------------------

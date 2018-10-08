@@ -27,5 +27,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:59: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:69: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:71: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:81: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:83: Line is longer than 80 characters (found 104). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 31 errors.

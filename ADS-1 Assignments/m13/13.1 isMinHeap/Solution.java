@@ -76,8 +76,20 @@ class Solution {
 				}
 				System.out.println("true");
 				break;
+			case "Double":
+				tokens = scan.nextLine().split(",");
+				minheap<Double> minobjdou = new minheap<Double>(tokens.length);
+				for (int j = 0; j < tokens.length; j++) {
+					int returnval = minobjdou.insert(Double.parseDouble(tokens[j]));
+					if (returnval == 1) {
+						System.out.println("false");
+						break outerloop;
+					}
+				}
+				System.out.println("true");
+				break;	
 			default:
-				System.out.println("not checking");
+				// System.out.println("not checking");
 				break;
 			}
 
