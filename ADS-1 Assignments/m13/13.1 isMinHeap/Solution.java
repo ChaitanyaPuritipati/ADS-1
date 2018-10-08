@@ -1,16 +1,51 @@
 import java.util.Scanner;
+/**
+ * Class for minheap.
+ *
+ * @param      <Gen>  The generate
+ */
 class minheap<Gen extends Comparable<Gen>> {
+	/**
+	 * { Heaparray }.
+	 */
 	Gen[] heaparr;
+	/**
+	 * { counter }.
+	 */
 	int count;
+	/**
+	 * { flag value }.
+	 */
 	int flag;
-	minheap(int size) {
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      size  The size
+	 */
+	minheap(final int size) {
 		heaparr = (Gen[])new Comparable[size];
 		count = 0;
 		flag = 0;
 	}
+	/**
+	 * { To check if the first element is less than the second element }.
+	 *
+	 * @param      valueone  The valueone
+	 * @param      valuetwo  The valuetwo
+	 *
+	 * @return     { boolean type }
+	 */
 	boolean less(Gen valueone, Gen valuetwo) {
 		return valueone.compareTo(valuetwo) < 0;
 	}
+	/**
+	 * { To compare child node with its parents }.
+	 *
+	 * @param      heaparr  The heaparr
+	 * @param      nodeval  The nodeval
+	 *
+	 * @return     { boolean type }
+	 */
 	boolean swim(Gen[] heaparr, int nodeval) {
 		while (nodeval > 1) {
 			if (less(heaparr[nodeval], heaparr[(nodeval - 1) / 2])) {
@@ -21,6 +56,13 @@ class minheap<Gen extends Comparable<Gen>> {
 		}
 		return true;
 	}
+	/**
+	 * { To insert an element }.
+	 *
+	 * @param      item  The item
+	 *
+	 * @return     { int type }
+	 */
 	int insert(Gen item) {
 		heaparr[count++] = item;
 		if (!swim(heaparr, count - 1)) {
@@ -28,7 +70,6 @@ class minheap<Gen extends Comparable<Gen>> {
 		}
 		return flag;
 	}
-
 }
 /**
  * Class for solution.
@@ -105,11 +146,8 @@ class Solution {
 				System.out.println("true");
 				break;		
 			default:
-				// System.out.println("not checking");
 				break;
 			}
-
-
 		}
 	}
 }
