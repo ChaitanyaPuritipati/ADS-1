@@ -108,7 +108,8 @@ final class Solution {
                 break;
             case "Integer":
                 tokens = scan.nextLine().split(",");
-                Minheap<Integer> minobjint = new Minheap<Integer>(tokens.length);
+                Minheap<Integer> minobjint =
+                    new Minheap<Integer>(tokens.length);
                 for (int j = 0; j < tokens.length; j++) {
                     int returnval = minobjint.insert(
                                         Integer.parseInt(tokens[j]));
