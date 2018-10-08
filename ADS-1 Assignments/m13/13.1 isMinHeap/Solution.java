@@ -46,12 +46,13 @@ class Minheap<Gen extends Comparable<Gen>> {
      *
      * @return     { description_of_the_return_value }
      */
-    boolean swim(final Gen[] array, int nodeval) {
-        while (nodeval > 1) {
-            if (less(array[nodeval], array[(nodeval - 1) / 2])) {
+    boolean swim(final Gen[] array, final int nodeval) {
+        int nodevalnew = nodeval;
+        while (nodevalnew > 1) {
+            if (less(array[nodevalnew], array[(nodevalnew - 1) / 2])) {
                 return false;
             } else {
-                nodeval = (nodeval - 1) / 2;
+                nodevalnew = (nodevalnew - 1) / 2;
             }
         }
         return true;
