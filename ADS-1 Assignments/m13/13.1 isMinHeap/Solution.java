@@ -4,7 +4,7 @@ import java.util.Scanner;
  *
  * @param      <Gen>  The generate
  */
-class minheap<Gen extends Comparable<Gen>> {
+class Minheap<Gen extends Comparable<Gen>> {
 	/**
 	 * { Heaparray }.
 	 */
@@ -22,7 +22,7 @@ class minheap<Gen extends Comparable<Gen>> {
 	 *
 	 * @param      size  The size
 	 */
-	minheap(final int size) {
+	Minheap(final int size) {
 		heaparr = (Gen[])new Comparable[size];
 		count = 0;
 		flag = 0;
@@ -95,7 +95,7 @@ class Solution {
 			switch (line) {
 			case "String":
 				String[] tokens = scan.nextLine().split(",");
-				minheap<String> minobj = new minheap<String>(tokens.length);
+				Minheap<String> minobj = new Minheap<String>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobj.insert(tokens[j]);
 					if (returnval == 1) {
@@ -107,7 +107,7 @@ class Solution {
 				break;
 			case "Integer":
 				tokens = scan.nextLine().split(",");
-				minheap<Integer> minobjint = new minheap<Integer>(tokens.length);
+				Minheap<Integer> minobjint = new Minheap<Integer>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobjint.insert(Integer.parseInt(tokens[j]));
 					if (returnval == 1) {
@@ -119,7 +119,7 @@ class Solution {
 				break;
 			case "Double":
 				tokens = scan.nextLine().split(",");
-				minheap<Double> minobjdou = new minheap<Double>(tokens.length);
+				Minheap<Double> minobjdou = new Minheap<Double>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobjdou.insert(Double.parseDouble(tokens[j]));
 					if (returnval == 1) {
@@ -135,7 +135,7 @@ class Solution {
 					System.out.println("false");
 					break;
 				}
-				minheap<Float> minobjflo = new minheap<Float>(tokens.length);
+				Minheap<Float> minobjflo = new Minheap<Float>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobjflo.insert(Float.parseFloat(tokens[j]));
 					if (returnval == 1) {
