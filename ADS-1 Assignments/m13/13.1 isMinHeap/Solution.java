@@ -44,7 +44,7 @@ class Minheap<Gen extends Comparable<Gen>> {
     }
     /**
      * { To compare child node with its parent nodes }.
-     * Complexity: Best case: O(logN)
+     * Complexity: Best case: O(1)
      *             Worst case: O(logN)
      *             Average case: O(logN)
      *
@@ -67,7 +67,7 @@ class Minheap<Gen extends Comparable<Gen>> {
     /**
      * { To insert an element }.
      * Complexity:
-     *            Best case: O(logN)
+     *            Best case: O(1)
      *            Worst case: O(logN)
      *            Average case: O(logN)
      *
