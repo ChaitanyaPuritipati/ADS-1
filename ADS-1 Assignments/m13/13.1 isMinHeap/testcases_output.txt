@@ -1,68 +1,16 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 true
 false
 true
 false
 Your Output: 
-0nodevals
-1nodevals
-2nodevals
-Cone
-Atwo
-3nodevals
-Fone
-Btwo
-4nodevals
-Gone
-Btwo
-5nodevals
-Ione
-Ctwo
-Cone
-Atwo
-6nodevals
-Ione
-Ctwo
-Cone
-Atwo
-7nodevals
-Zone
-Ftwo
-Fone
-Btwo
 true
-0nodevals
-1nodevals
-2nodevals
-Fone
-Ntwo
 false
-0nodevals
-1nodevals
-2nodevals
-Hone
-Btwo
-3nodevals
-Pone
-Dtwo
-4nodevals
-Qone
-Dtwo
-5nodevals
-Qone
-Htwo
-Hone
-Btwo
 true
-0nodevals
-1nodevals
-2nodevals
-Xone
-Ztwo
 false
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 false
 false
@@ -71,44 +19,11 @@ false
 false
 false
 Your Output: 
-0nodevals
-1nodevals
-2nodevals
-Sone
-Xtwo
 false
-0nodevals
-1nodevals
-2nodevals
-SSone
-XXtwo
 false
-0nodevals
-1nodevals
-2nodevals
-Sone
-Xtwo
 false
-0nodevals
-1nodevals
-2nodevals
-Sone
-Xtwo
 false
-0nodevals
-1nodevals
-2nodevals
-Tone
-Btwo
-3nodevals
-Sone
-Xtwo
 false
-0nodevals
-1nodevals
-2nodevals
-Sone
-Xtwo
 false
 ----------------------------------------
 ########## Testcase 2: Failed ##########
