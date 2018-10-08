@@ -63,7 +63,7 @@ class Minheap<Gen extends Comparable<Gen>> {
      *
      * @return     { int type }
      */
-    int insert(Gen item) {
+    int insert(final Gen item) {
         heaparr[count++] = item;
         if (!swim(heaparr, count - 1)) {
             flag = 1;

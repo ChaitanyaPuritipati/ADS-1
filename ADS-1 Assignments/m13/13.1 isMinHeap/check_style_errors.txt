@@ -1,7 +1,6 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:49:37: Parameter nodeval should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:66:16: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:77: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:110: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:112: Line is longer than 80 characters (found 82). [LineLength]
@@ -10,4 +9,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:140: Line is longer than 80 characters (found 82). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m13\13.1 isMinHeap\Solution.java:147: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 9 errors.
