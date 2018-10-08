@@ -5,15 +5,62 @@ false
 true
 false
 Your Output: 
+0nodevals
 1nodevals
 2nodevals
-nullone
+Cone
 Atwo
-Exception in thread "main" java.lang.NullPointerException
-	at minheap.less(Solution.java:15)
-	at minheap.swim(Solution.java:20)
-	at minheap.insert(Solution.java:30)
-	at Solution.main(Solution.java:63)
+3nodevals
+Fone
+Btwo
+4nodevals
+Gone
+Btwo
+5nodevals
+Ione
+Ctwo
+Cone
+Atwo
+6nodevals
+Ione
+Ctwo
+Cone
+Atwo
+7nodevals
+Zone
+Ftwo
+Fone
+Btwo
+true
+0nodevals
+1nodevals
+2nodevals
+Fone
+Ntwo
+false
+0nodevals
+1nodevals
+2nodevals
+Hone
+Btwo
+3nodevals
+Pone
+Dtwo
+4nodevals
+Qone
+Dtwo
+5nodevals
+Qone
+Htwo
+Hone
+Btwo
+true
+0nodevals
+1nodevals
+2nodevals
+Xone
+Ztwo
+false
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -24,15 +71,45 @@ false
 false
 false
 Your Output: 
+0nodevals
 1nodevals
 2nodevals
-nullone
+Sone
 Xtwo
-Exception in thread "main" java.lang.NullPointerException
-	at minheap.less(Solution.java:15)
-	at minheap.swim(Solution.java:20)
-	at minheap.insert(Solution.java:30)
-	at Solution.main(Solution.java:63)
+false
+0nodevals
+1nodevals
+2nodevals
+SSone
+XXtwo
+false
+0nodevals
+1nodevals
+2nodevals
+Sone
+Xtwo
+false
+0nodevals
+1nodevals
+2nodevals
+Sone
+Xtwo
+false
+0nodevals
+1nodevals
+2nodevals
+Tone
+Btwo
+3nodevals
+Sone
+Xtwo
+false
+0nodevals
+1nodevals
+2nodevals
+Sone
+Xtwo
+false
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
