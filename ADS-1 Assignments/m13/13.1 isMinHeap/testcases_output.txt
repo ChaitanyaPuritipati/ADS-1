@@ -5,13 +5,15 @@ false
 true
 false
 Your Output: 
+1
+2
 nullone
 Atwo
 Exception in thread "main" java.lang.NullPointerException
 	at minheap.less(Solution.java:15)
-	at minheap.swim(Solution.java:19)
-	at minheap.insert(Solution.java:29)
-	at Solution.main(Solution.java:62)
+	at minheap.swim(Solution.java:20)
+	at minheap.insert(Solution.java:30)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -22,13 +24,15 @@ false
 false
 false
 Your Output: 
+1
+2
 nullone
 Xtwo
 Exception in thread "main" java.lang.NullPointerException
 	at minheap.less(Solution.java:15)
-	at minheap.swim(Solution.java:19)
-	at minheap.insert(Solution.java:29)
-	at Solution.main(Solution.java:62)
+	at minheap.swim(Solution.java:20)
+	at minheap.insert(Solution.java:30)
+	at Solution.main(Solution.java:63)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
