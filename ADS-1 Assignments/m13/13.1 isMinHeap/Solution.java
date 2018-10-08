@@ -9,7 +9,7 @@ class minheap<Gen extends Comparable<Gen>> {
 		flag = 0;
 	}
 	boolean less(Gen valueone, Gen valuetwo) {
-		return valueone.compareTo(valuetwo) <= 0;
+		return valueone.compareTo(valuetwo) < 0;
 	}
 	boolean swim(Gen[] heaparr, int nodeval) {
 		while (nodeval > 1) {
