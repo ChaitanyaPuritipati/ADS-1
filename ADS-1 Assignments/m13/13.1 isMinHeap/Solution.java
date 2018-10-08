@@ -35,7 +35,7 @@ class Minheap<Gen extends Comparable<Gen>> {
      *
      * @return     { boolean type }
      */
-    boolean less(Gen valueone, Gen valuetwo) {
+    boolean less(final Gen valueone, final Gen valuetwo) {
         return valueone.compareTo(valuetwo) < 0;
     }
     /**
@@ -46,7 +46,7 @@ class Minheap<Gen extends Comparable<Gen>> {
      *
      * @return     { boolean type }
      */
-    boolean swim(Gen[] heaparr, int nodeval) {
+    boolean swim(final Gen[] heaparr, int nodeval) {
         while (nodeval > 1) {
             if (less(heaparr[nodeval], heaparr[(nodeval - 1) / 2])) {
                 return false;
