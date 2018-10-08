@@ -110,7 +110,8 @@ final class Solution {
                 tokens = scan.nextLine().split(",");
                 Minheap<Integer> minobjint = new Minheap<Integer>(tokens.length);
                 for (int j = 0; j < tokens.length; j++) {
-                    int returnval = minobjint.insert(Integer.parseInt(tokens[j]));
+                    int returnval = minobjint.insert(
+                                        Integer.parseInt(tokens[j]));
                     if (returnval == 1) {
                         System.out.println("false");
                         break outerloop;
@@ -122,7 +123,8 @@ final class Solution {
                 tokens = scan.nextLine().split(",");
                 Minheap<Double> minobjdou = new Minheap<Double>(tokens.length);
                 for (int j = 0; j < tokens.length; j++) {
-                    int returnval = minobjdou.insert(Double.parseDouble(tokens[j]));
+                    int returnval = minobjdou.insert(
+                                        Double.parseDouble(tokens[j]));
                     if (returnval == 1) {
                         System.out.println("false");
                         break outerloop;
