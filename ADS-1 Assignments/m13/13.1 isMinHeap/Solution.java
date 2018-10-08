@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class minheap<Gen extends Comparable<Gen>>{
+class minheap<Gen extends Comparable<Gen>> {
 	Gen[] heaparr;
 	int count;
 	int flag;
@@ -8,14 +8,10 @@ class minheap<Gen extends Comparable<Gen>>{
 		count = 0;
 		flag = 0;
 	}
-	// int compareTo 
 	boolean less(Gen valueone, Gen valuetwo) {
-		// System.out.println(valueone + "one");
-		// System.out.println(valuetwo + "two");
 		return valueone.compareTo(valuetwo) <= 0;
 	}
 	boolean swim(Gen[] heaparr, int nodeval) {
-		// System.out.println(nodeval + "nodevals");
 		while (nodeval > 1) {
 			if (less(heaparr[nodeval], heaparr[(nodeval - 1) / 2])) {
 				return false;
@@ -61,6 +57,18 @@ class Solution {
 				minheap<String> minobj = new minheap<String>(tokens.length);
 				for (int j = 0; j < tokens.length; j++) {
 					int returnval = minobj.insert(tokens[j]);
+					if (returnval == 1) {
+						System.out.println("false");
+						break outerloop;
+					}
+				}
+				System.out.println("true");
+				break;
+			case "Integer":
+				tokens = scan.nextLine().split(",");
+				minheap<Integer> minobjint = new minheap<Integer>(tokens.length);
+				for (int j = 0; j < tokens.length; j++) {
+					int returnval = minobjint.insert(Integer.parseInt(tokens[j]));
 					if (returnval == 1) {
 						System.out.println("false");
 						break outerloop;
