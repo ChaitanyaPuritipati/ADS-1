@@ -75,7 +75,7 @@ class Minheap<Gen extends Comparable<Gen>> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -132,20 +132,21 @@ class Solution {
                 break;
             case "Float":
                 tokens = scan.nextLine().split(",");
-                if(tokens[0].equals("")) {
+                if (tokens[0].equals("")) {
                     System.out.println("false");
                     break;
                 }
                 Minheap<Float> minobjflo = new Minheap<Float>(tokens.length);
                 for (int j = 0; j < tokens.length; j++) {
-                    int returnval = minobjflo.insert(Float.parseFloat(tokens[j]));
+                    int returnval = minobjflo.insert(
+                                        Float.parseFloat(tokens[j]));
                     if (returnval == 1) {
                         System.out.println("false");
                         break outerloop;
                     }
                 }
                 System.out.println("true");
-                break;      
+                break;
             default:
                 break;
             }
