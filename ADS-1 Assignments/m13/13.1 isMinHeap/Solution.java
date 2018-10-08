@@ -15,7 +15,7 @@ class minheap<Gen extends Comparable<Gen>>{
 		return valueone.compareTo(valuetwo) <= 0;
 	}
 	boolean swim(Gen[] heaparr, int nodeval) {
-		System.out.println(nodeval);
+		System.out.println(nodeval + "nodevals");
 		while (nodeval > 1) {
 			if (less(heaparr[nodeval], heaparr[(nodeval - 1) / 2])) {
 				return false;

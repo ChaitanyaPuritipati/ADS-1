@@ -5,8 +5,8 @@ false
 true
 false
 Your Output: 
-1
-2
+1nodevals
+2nodevals
 nullone
 Atwo
 Exception in thread "main" java.lang.NullPointerException
@@ -24,8 +24,8 @@ false
 false
 false
 Your Output: 
-1
-2
+1nodevals
+2nodevals
 nullone
 Xtwo
 Exception in thread "main" java.lang.NullPointerException
