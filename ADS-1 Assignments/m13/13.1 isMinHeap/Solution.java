@@ -29,6 +29,10 @@ class Minheap<Gen extends Comparable<Gen>> {
     }
     /**
      * { To check if the first element is less than the second element }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @param      valueone  The valueone
      * @param      valuetwo  The valuetwo
@@ -40,6 +44,9 @@ class Minheap<Gen extends Comparable<Gen>> {
     }
     /**
      * { To compare child node with its parent nodes }.
+     * Complexity: Best case: O(logN)
+     *             Worst case: O(logN)
+     *             Average case: O(logN)
      *
      * @param      array    The array
      * @param      nodeval  The nodeval
@@ -59,6 +66,10 @@ class Minheap<Gen extends Comparable<Gen>> {
     }
     /**
      * { To insert an element }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      item  The item
      *
