@@ -39,12 +39,12 @@ class Minheap<Gen extends Comparable<Gen>> {
         return valueone.compareTo(valuetwo) < 0;
     }
     /**
-     * { To compare child node with its parents }.
+     * { To compare child node with its parent nodes }.
      *
-     * @param      heaparr  The heaparr
+     * @param      array    The array
      * @param      nodeval  The nodeval
      *
-     * @return     { boolean type }
+     * @return     { description_of_the_return_value }
      */
     boolean swim(final Gen[] array, int nodeval) {
         while (nodeval > 1) {
