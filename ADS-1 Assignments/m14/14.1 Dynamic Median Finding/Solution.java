@@ -1,3 +1,6 @@
+/**
+ * Author: Puritipati Chaitanya.
+ */
 import java.util.Scanner;
 /**
  * Class for solution.
