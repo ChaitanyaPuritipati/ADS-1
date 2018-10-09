@@ -1,6 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m14\14.1 Dynamic Median Finding\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m14\14.1 Dynamic Median Finding\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m14\14.1 Dynamic Median Finding\Solution.java:16:33: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 3 errors.
