@@ -29,7 +29,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	void put(Key keyval, Value val) {
 		int rankval = rank(keyval);
-		if(keys[rankval].compareTo(keyval) == 0 && size > 0) {
+		if(size > 0 && keys[rankval].compareTo(keyval) == 0) {
 			values[rankval] = val;
 			return;
 		}

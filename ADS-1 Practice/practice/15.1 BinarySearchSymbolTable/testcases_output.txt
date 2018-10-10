@@ -15,9 +15,12 @@ S 0
 X 7
 null
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:32)
-	at Solution.main(Solution.java:59)
+KeyvalAvalue2
+KeyvalCvalue4
+KeyvalEvalue1
+KeyvalHvalue5
+KeyvalRvalue3
+KeyvalSvalue0
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -37,9 +40,12 @@ O
 false
 null
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:32)
-	at Solution.main(Solution.java:59)
+KeyvalAvalue2
+KeyvalCvalue4
+KeyvalEvalue1
+KeyvalHvalue5
+KeyvalRvalue3
+KeyvalSvalue0
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -64,9 +70,12 @@ true
 5
 T
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:32)
-	at Solution.main(Solution.java:59)
+KeyvalAvalue2
+KeyvalCvalue4
+KeyvalEvalue1
+KeyvalHvalue5
+KeyvalRvalue3
+KeyvalSvalue0
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -89,9 +98,12 @@ true
 13
 P
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:32)
-	at Solution.main(Solution.java:59)
+KeyvalAvalue2
+KeyvalCvalue4
+KeyvalEvalue1
+KeyvalHvalue5
+KeyvalRvalue3
+KeyvalSvalue0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -109,7 +121,10 @@ S 0
 T 6
 Y 1
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:32)
-	at Solution.main(Solution.java:59)
+KeyvalAvalue2
+KeyvalCvalue4
+KeyvalEvalue1
+KeyvalHvalue5
+KeyvalRvalue3
+KeyvalSvalue0
 ----------------------------------------
