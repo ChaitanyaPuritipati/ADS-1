@@ -92,6 +92,6 @@ class Solution {
 		binobj.print();
 		System.out.println(binobj.contains("A"));
 		System.out.println(binobj.get("A"));
-		System.out.println(binobj.floor("C"));
+		System.out.println(binobj.floor("D"));
 	}
 }
