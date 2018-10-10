@@ -29,7 +29,9 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     /**
      * { To add elements into the Data Structure }.
      * Complexity:
-     *            Best case:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      keyval  The keyval
      * @param      val     The value
@@ -57,6 +59,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To calculate rank of the keyvalue }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      keyval  The keyval
      *
@@ -83,6 +89,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { Checks for presence of key }.
+     * Complexity:
+     *            Best case: O(1)
+     *            worst case: O(1)
+     *            Average case: O(1)
      *
      * @param      keyval  The keyval
      *
@@ -96,10 +106,14 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To retreive the value of key }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      keyval  The keyval
      *
-     * @return     { description_of_the_return_value }
+     * @return     { Value type }
      */
     public Value get(final Key keyval) {
         if (keyval == null) {
@@ -116,6 +130,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * Determines if empty.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @return     True if empty, False otherwise.
      */
@@ -124,6 +142,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To find max value }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @return     { key type }
      */
@@ -135,6 +157,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { Floor function }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      keyval  The keyval
      *
@@ -153,6 +179,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To delete min value }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      */
     public void deleteMin() {
         if (isEmpty()) {
@@ -163,7 +193,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To get minimum key }.
-     *
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      * @return     { Key type }
      */
     public Key min() {
@@ -174,6 +207,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To delete a key }.
+     *  Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      keyval  The keyval
      */
@@ -196,6 +233,10 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     }
     /**
      * { To print keys }.
+     * Complexity:
+     *            Best case: O(N)
+     *            Worst case: O(N)
+     *            Average case: O(N)
      *
      * @return     { String type }
      */
