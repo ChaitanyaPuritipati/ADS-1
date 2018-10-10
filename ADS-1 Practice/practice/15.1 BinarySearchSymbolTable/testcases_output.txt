@@ -15,10 +15,9 @@ S 0
 X 7
 null
 Your Output: 
-0rankval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:34)
-	at Solution.main(Solution.java:61)
+	at BinarySearchTree.put(Solution.java:32)
+	at Solution.main(Solution.java:59)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -38,10 +37,9 @@ O
 false
 null
 Your Output: 
-0rankval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:34)
-	at Solution.main(Solution.java:61)
+	at BinarySearchTree.put(Solution.java:32)
+	at Solution.main(Solution.java:59)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -66,10 +64,9 @@ true
 5
 T
 Your Output: 
-0rankval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:34)
-	at Solution.main(Solution.java:61)
+	at BinarySearchTree.put(Solution.java:32)
+	at Solution.main(Solution.java:59)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
