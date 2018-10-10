@@ -26,6 +26,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	void put(Key keyval, Value val) {
 		int rankval = rank(keyval);
+		System.out.println(rankval + "rankval");
 		if(keys[rankval].compareTo(keyval) == 0) {
 			values[rankval] = val;
 			return;
