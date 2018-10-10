@@ -69,7 +69,7 @@ class Solution {
 			binobj.put(tokens[i], i);
 		}
 		binobj.print();
-		binobj.max();
+		System.out.println(binobj.max());
 		binobj.deleteMin();
 		binobj.print();
 	}
