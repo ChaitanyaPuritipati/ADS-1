@@ -28,6 +28,7 @@ Keyval  H   value  5
 Keyval  R   value  3
 Keyval  S   value  0
 false
+4
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -60,6 +61,7 @@ Keyval  H   value  5
 Keyval  R   value  3
 Keyval  S   value  0
 false
+4
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -97,6 +99,7 @@ Keyval  H   value  5
 Keyval  R   value  3
 Keyval  S   value  0
 false
+4
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -132,6 +135,7 @@ Keyval  H   value  5
 Keyval  R   value  3
 Keyval  S   value  0
 false
+4
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -162,4 +166,5 @@ Keyval  H   value  5
 Keyval  R   value  3
 Keyval  S   value  0
 false
+4
 ----------------------------------------

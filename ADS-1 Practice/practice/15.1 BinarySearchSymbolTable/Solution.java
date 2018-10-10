@@ -24,6 +24,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return low;
 	}
+	Value get(Key keyval) {
+		if(!contains(keyval)) {
+			return null;
+		}
+		int rankval = rank(keyval);
+		return values[rankval];
+	}
 	boolean isEmpty() {
 		return size == 0;
 	}
@@ -77,5 +84,6 @@ class Solution {
 		binobj.deleteMin();
 		binobj.print();
 		System.out.println(binobj.contains("A"));
+		System.out.println(binobj.get("C"));
 	}
 }
