@@ -38,6 +38,7 @@ class BinarysearchST<Key extends Comparable<Key>, Value> {
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
 			int compare = item.compareTo(keys[mid]);
+			System.out.println(compare + "comp");
 			if (compare < 0) {
 				high = mid - 1;
 			} else if (compare > 0) {

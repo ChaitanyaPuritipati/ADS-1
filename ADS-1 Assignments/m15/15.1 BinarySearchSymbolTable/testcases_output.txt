@@ -15,12 +15,14 @@ S 0
 X 7
 null
 Your Output: 
+-14comp
+-4comp
 Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarysearchST.rank(Solution.java:40)
 	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:140)
+	at Solution.main(Solution.java:141)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -40,12 +42,14 @@ O
 false
 null
 Your Output: 
+-4comp
+18comp
 Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarysearchST.rank(Solution.java:40)
 	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:140)
+	at Solution.main(Solution.java:141)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -70,12 +74,14 @@ true
 5
 T
 Your Output: 
+-4comp
+3comp
 Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarysearchST.rank(Solution.java:40)
 	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:140)
+	at Solution.main(Solution.java:141)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -98,6 +104,63 @@ true
 13
 P
 Your Output: 
+7comp
+12comp
+5comp
+-8comp
+-1comp
+9comp
+9comp
+4comp
+16comp
+16comp
+7comp
+10comp
+10comp
+-6comp
+-4comp
+-4comp
+4comp
+-8comp
+-4comp
+0comp
+9comp
+9comp
+-1comp
+-6comp
+-2comp
+2comp
+-1comp
+5comp
+3comp
+3comp
+-4comp
+2comp
+0comp
+15comp
+6comp
+5comp
+-1comp
+-7comp
+-2comp
+0comp
+5comp
+4comp
+-11comp
+-5comp
+8comp
+3comp
+-8comp
+-2comp
+7comp
+-4comp
+3comp
+3comp
+0comp
+-4comp
+-2comp
+-2comp
+0comp
 C 10
 C 10
 C 10
@@ -113,9 +176,22 @@ R 9
 X 13
 Y 5
 Y
+20comp
+9comp
+1comp
+0comp
 13
+3comp
+-8comp
+-1comp
+0comp
 true
+19comp
+8comp
+0comp
 13
+11comp
+0comp
 P
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -134,11 +210,51 @@ S 0
 T 6
 Y 1
 Your Output: 
+6comp
+-6comp
+-23comp
+-11comp
+-10comp
+13comp
+-13comp
+10comp
+-3comp
+5comp
+-5comp
+-5comp
+-19comp
+-11comp
+-1comp
+-10comp
+-10comp
+1comp
+0comp
+-7comp
+3comp
+-7comp
+1comp
+-12comp
+1comp
+-7comp
 L
+-8comp
+2comp
+-1comp
 null
 Y
+8comp
+-5comp
+8comp
+0comp
 6
+3comp
+-10comp
+3comp
+-5comp
 false
+-11comp
+-1comp
+0comp
 B 8
 E 10
 L 5
