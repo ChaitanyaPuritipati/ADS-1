@@ -43,6 +43,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		System.out.println(rankval + "rank");
 		if (size > 0 && keys[rankval].compareTo(keyval) == 0) {
 			values[rankval] = val;
+			print();
 			return;
 		}
 		for (int i = size; i > rankval; i--) {
