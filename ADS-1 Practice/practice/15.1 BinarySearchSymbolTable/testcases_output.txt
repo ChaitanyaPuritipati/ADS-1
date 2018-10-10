@@ -15,12 +15,12 @@ S 0
 X 7
 null
 Your Output: 
-KeyvalAvalue2
-KeyvalCvalue4
-KeyvalEvalue1
-KeyvalHvalue5
-KeyvalRvalue3
-KeyvalSvalue0
+Keyval  A   value  2
+Keyval  C   value  4
+Keyval  E   value  1
+Keyval  H   value  5
+Keyval  R   value  3
+Keyval  S   value  0
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -40,12 +40,12 @@ O
 false
 null
 Your Output: 
-KeyvalAvalue2
-KeyvalCvalue4
-KeyvalEvalue1
-KeyvalHvalue5
-KeyvalRvalue3
-KeyvalSvalue0
+Keyval  A   value  2
+Keyval  C   value  4
+Keyval  E   value  1
+Keyval  H   value  5
+Keyval  R   value  3
+Keyval  S   value  0
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -70,12 +70,12 @@ true
 5
 T
 Your Output: 
-KeyvalAvalue2
-KeyvalCvalue4
-KeyvalEvalue1
-KeyvalHvalue5
-KeyvalRvalue3
-KeyvalSvalue0
+Keyval  A   value  2
+Keyval  C   value  4
+Keyval  E   value  1
+Keyval  H   value  5
+Keyval  R   value  3
+Keyval  S   value  0
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -98,12 +98,12 @@ true
 13
 P
 Your Output: 
-KeyvalAvalue2
-KeyvalCvalue4
-KeyvalEvalue1
-KeyvalHvalue5
-KeyvalRvalue3
-KeyvalSvalue0
+Keyval  A   value  2
+Keyval  C   value  4
+Keyval  E   value  1
+Keyval  H   value  5
+Keyval  R   value  3
+Keyval  S   value  0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -121,10 +121,10 @@ S 0
 T 6
 Y 1
 Your Output: 
-KeyvalAvalue2
-KeyvalCvalue4
-KeyvalEvalue1
-KeyvalHvalue5
-KeyvalRvalue3
-KeyvalSvalue0
+Keyval  A   value  2
+Keyval  C   value  4
+Keyval  E   value  1
+Keyval  H   value  5
+Keyval  R   value  3
+Keyval  S   value  0
 ----------------------------------------

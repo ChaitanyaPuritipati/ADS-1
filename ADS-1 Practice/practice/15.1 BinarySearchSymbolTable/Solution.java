@@ -43,7 +43,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	void print() {
 		for(int i = 0; i < size; i++) {
-			System.out.println("Keyval" + keys[i] + "value" + values[i]);
+			System.out.println("Keyval  " + keys[i] + "   value  " + values[i]);
 		}
 	}
 }
