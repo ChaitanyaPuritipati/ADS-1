@@ -58,9 +58,81 @@ R 3
 S 0
 6rank
 6sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:45)
-	at Solution.main(Solution.java:91)
+A 2
+C 4
+E 6
+H 5
+R 3
+S 0
+X 7
+0rank
+7sizeval
+A 8
+C 4
+E 6
+H 5
+R 3
+S 0
+X 7
+4rank
+7sizeval
+A 8
+C 4
+E 6
+H 5
+M 9
+R 3
+S 0
+X 7
+5rank
+8sizeval
+A 8
+C 4
+E 6
+H 5
+M 9
+P 10
+R 3
+S 0
+X 7
+4rank
+9sizeval
+A 8
+C 4
+E 6
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+2rank
+10sizeval
+A 8
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+X
+R
+1
+true
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+null
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -89,9 +161,99 @@ A 1
 E 0
 2rank
 2sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:45)
-	at Solution.main(Solution.java:91)
+A 1
+E 0
+S 2
+3rank
+3sizeval
+A 1
+E 0
+S 2
+Y 3
+2rank
+4sizeval
+A 1
+E 0
+Q 4
+S 2
+Y 3
+4rank
+5sizeval
+A 1
+E 0
+Q 4
+S 2
+U 5
+Y 3
+1rank
+6sizeval
+A 1
+E 6
+Q 4
+S 2
+U 5
+Y 3
+3rank
+6sizeval
+A 1
+E 6
+Q 4
+S 7
+U 5
+Y 3
+4rank
+6sizeval
+A 1
+E 6
+Q 4
+S 7
+T 8
+U 5
+Y 3
+2rank
+7sizeval
+A 1
+E 6
+I 9
+Q 4
+S 7
+T 8
+U 5
+Y 3
+3rank
+8sizeval
+A 1
+E 6
+I 9
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+3rank
+9sizeval
+A 1
+E 6
+I 9
+N 11
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
+	at BinarySearchTree.floor(Solution.java:79)
+	at Solution.main(Solution.java:109)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -130,9 +292,99 @@ R 2
 S 0
 3rank
 3sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:45)
-	at Solution.main(Solution.java:91)
+O 1
+R 2
+S 0
+T 3
+0rank
+4sizeval
+E 4
+O 1
+R 2
+S 0
+T 3
+5rank
+5sizeval
+E 4
+O 1
+R 2
+S 0
+T 3
+X 5
+0rank
+6sizeval
+A 6
+E 4
+O 1
+R 2
+S 0
+T 3
+X 5
+2rank
+7sizeval
+A 6
+E 4
+M 7
+O 1
+R 2
+S 0
+T 3
+X 5
+4rank
+8sizeval
+A 6
+E 4
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+2rank
+9sizeval
+A 6
+E 4
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+1rank
+10sizeval
+A 6
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+X
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+0
+0
+0
+0
+0
+9
+9
+true
+5
+T
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -160,9 +412,213 @@ Your Output:
 B 0
 1rank
 1sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:45)
-	at Solution.main(Solution.java:91)
+B 0
+I 1
+2rank
+2sizeval
+B 0
+I 1
+N 2
+0rank
+3sizeval
+A 3
+B 0
+I 1
+N 2
+4rank
+4sizeval
+A 3
+B 0
+I 1
+N 2
+R 4
+5rank
+5sizeval
+A 3
+B 0
+I 1
+N 2
+R 4
+Y 5
+5rank
+6sizeval
+A 3
+B 0
+I 1
+N 2
+R 4
+S 6
+Y 5
+2rank
+7sizeval
+A 3
+B 0
+E 7
+I 1
+N 2
+R 4
+S 6
+Y 5
+0rank
+8sizeval
+A 8
+B 0
+E 7
+I 1
+N 2
+R 4
+S 6
+Y 5
+5rank
+8sizeval
+A 8
+B 0
+E 7
+I 1
+N 2
+R 9
+S 6
+Y 5
+2rank
+8sizeval
+A 8
+B 0
+C 10
+E 7
+I 1
+N 2
+R 9
+S 6
+Y 5
+4rank
+9sizeval
+A 8
+B 0
+C 10
+E 7
+H 11
+I 1
+N 2
+R 9
+S 6
+Y 5
+3rank
+10sizeval
+A 8
+B 0
+C 10
+E 12
+H 11
+I 1
+N 2
+R 9
+S 6
+Y 5
+9rank
+10sizeval
+A 8
+B 0
+C 10
+E 12
+H 11
+I 1
+N 2
+R 9
+S 6
+X 13
+Y 5
+0rank
+11sizeval
+A 14
+B 0
+C 10
+E 12
+H 11
+I 1
+N 2
+R 9
+S 6
+X 13
+Y 5
+6rank
+11sizeval
+A 14
+B 0
+C 10
+E 12
+H 11
+I 1
+M 15
+N 2
+R 9
+S 6
+X 13
+Y 5
+8rank
+12sizeval
+A 14
+B 0
+C 10
+E 12
+H 11
+I 1
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+6rank
+13sizeval
+A 14
+B 0
+C 10
+E 12
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+3rank
+14sizeval
+A 14
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+B 0
+C 10
+E 18
+H 11
+I 1
+L 17
+M 15
+N 2
+P 16
+R 9
+S 6
+X 13
+Y 5
+Y
+12
+true
+13
+P
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -185,7 +641,95 @@ Your Output:
 S 0
 1rank
 1sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:45)
-	at Solution.main(Solution.java:91)
+S 0
+Y 1
+0rank
+2sizeval
+M 2
+S 0
+Y 1
+0rank
+3sizeval
+B 3
+M 2
+S 0
+Y 1
+2rank
+4sizeval
+B 3
+M 2
+O 4
+S 0
+Y 1
+1rank
+5sizeval
+B 3
+L 5
+M 2
+O 4
+S 0
+Y 1
+5rank
+6sizeval
+B 3
+L 5
+M 2
+O 4
+S 0
+T 6
+Y 1
+0rank
+7sizeval
+A 7
+B 3
+L 5
+M 2
+O 4
+S 0
+T 6
+Y 1
+1rank
+8sizeval
+A 7
+B 8
+L 5
+M 2
+O 4
+S 0
+T 6
+Y 1
+2rank
+8sizeval
+A 7
+B 8
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
+2rank
+8sizeval
+A 7
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
+M
+null
+Y
+7
+true
+B 8
+E 10
+L 9
+M 2
+O 4
+S 0
+T 6
+Y 1
 ----------------------------------------

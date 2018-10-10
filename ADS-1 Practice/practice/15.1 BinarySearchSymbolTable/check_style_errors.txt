@@ -21,6 +21,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:41:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:41:18: Parameter keyval should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:41:30: Parameter val should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:45: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:59:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:62:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:69:9: Missing a Javadoc comment. [JavadocMethod]
@@ -33,4 +34,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:86:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:118: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 34 errors.
