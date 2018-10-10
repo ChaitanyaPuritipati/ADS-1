@@ -16,27 +16,34 @@ X 7
 null
 Your Output: 
 0rank
+0sizeval
 0rank
+1sizeval
 E 1
 0rank
+2sizeval
 A 2
 E 1
 2rank
+3sizeval
 A 2
 E 1
 R 3
 1rank
+4sizeval
 A 2
 C 4
 E 1
 R 3
 3rank
+5sizeval
 A 2
 C 4
 E 1
 H 5
 R 3
 2rank
+6sizeval
 A 2
 C 4
 E 6
@@ -44,9 +51,10 @@ H 5
 R 3
 S 0
 6rank
+6sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:90)
+	at BinarySearchTree.put(Solution.java:45)
+	at Solution.main(Solution.java:91)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -67,12 +75,15 @@ false
 null
 Your Output: 
 0rank
+0sizeval
 0rank
+1sizeval
 A 1
 2rank
+2sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:90)
+	at BinarySearchTree.put(Solution.java:45)
+	at Solution.main(Solution.java:91)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -98,15 +109,19 @@ true
 T
 Your Output: 
 0rank
+0sizeval
 0rank
+1sizeval
 O 1
 1rank
+2sizeval
 O 1
 R 2
 3rank
+3sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:90)
+	at BinarySearchTree.put(Solution.java:45)
+	at Solution.main(Solution.java:91)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -130,10 +145,12 @@ true
 P
 Your Output: 
 0rank
+0sizeval
 1rank
+1sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:90)
+	at BinarySearchTree.put(Solution.java:45)
+	at Solution.main(Solution.java:91)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -152,8 +169,10 @@ T 6
 Y 1
 Your Output: 
 0rank
+0sizeval
 1rank
+1sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:90)
+	at BinarySearchTree.put(Solution.java:45)
+	at Solution.main(Solution.java:91)
 ----------------------------------------
