@@ -62,7 +62,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    public int rank(Key keyval) {
+    public int rank(final Key keyval) {
         if (keyval == null) {
             System.out.println("key is null");
         }
@@ -88,7 +88,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean contains(Key keyval) {
+    public boolean contains(final Key keyval) {
         if (keyval == null) {
             System.out.println("key is null");
         }
@@ -101,7 +101,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    public Value get(Key keyval) {
+    public Value get(final Key keyval) {
         if (keyval == null) {
             System.out.println("key is null");
         }
@@ -140,7 +140,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      *
      * @return     { key type }
      */
-    public Key floor(Key keyval) {
+    public Key floor(final Key keyval) {
         int i = rank(keyval);
         if (i < size && keyval.compareTo(keys[i]) == 0) {
             return keys[i];
@@ -176,7 +176,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      *
      * @param      keyval  The keyval
      */
-    public void delete(Key keyval) {
+    public void delete(final Key keyval) {
         if (keyval == null) {
             System.out.println("key is null");
         }
