@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 X
 R
@@ -28,9 +28,15 @@ P 10
 R 3
 S 0
 X 7
-null
+X 7
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(Solution.java:19)
+	at BinarySearchTree.contains(Solution.java:41)
+	at BinarySearchTree.get(Solution.java:31)
+	at BinarySearchTree.print(Solution.java:87)
+	at Solution.main(Solution.java:130)
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 Y
 O 10
@@ -55,16 +61,18 @@ S 7
 T 8
 U 5
 Y 3
-Y
-null
-Y
-null
-O
-1
-false
-null
+Y 3
+Y 3
+Y 3
+Y 3
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(Solution.java:19)
+	at BinarySearchTree.contains(Solution.java:41)
+	at BinarySearchTree.get(Solution.java:31)
+	at BinarySearchTree.print(Solution.java:87)
+	at Solution.main(Solution.java:130)
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 X
 E 10
@@ -97,18 +105,15 @@ R 2
 S 0
 T 3
 X 5
-0
-0
-0
-0
-0
-9
-9
-true
-5
-T
+X 5
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(Solution.java:19)
+	at BinarySearchTree.contains(Solution.java:41)
+	at BinarySearchTree.get(Solution.java:31)
+	at BinarySearchTree.print(Solution.java:87)
+	at Solution.main(Solution.java:130)
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 B 0
 C 10
@@ -142,13 +147,15 @@ R 9
 S 6
 X 13
 Y 5
-Y
-12
-true
-13
-P
+Y 5
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(Solution.java:19)
+	at BinarySearchTree.contains(Solution.java:41)
+	at BinarySearchTree.get(Solution.java:31)
+	at BinarySearchTree.print(Solution.java:87)
+	at Solution.main(Solution.java:130)
 ----------------------------------------
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 M
 null
@@ -177,4 +184,11 @@ O 4
 S 0
 T 6
 Y 1
+Y 1
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(Solution.java:19)
+	at BinarySearchTree.contains(Solution.java:41)
+	at BinarySearchTree.get(Solution.java:31)
+	at BinarySearchTree.print(Solution.java:87)
+	at Solution.main(Solution.java:130)
 ----------------------------------------

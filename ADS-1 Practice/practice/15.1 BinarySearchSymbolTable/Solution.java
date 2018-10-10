@@ -1,4 +1,7 @@
 import java.util.Scanner;
+import java.util.Iterator;
+import java.util.Arrays;
+import java.util.List;
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	Key[] keys;
 	Value[] values;
@@ -62,20 +65,36 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		size--;
 	}
-	void print() {
-		for (int i = 0; i < size; i++) {
-			System.out.println(keys[i] + " " + values[i]);
-		}
-	}
+	// void print() {
+	// 	for (int i = 0; i < size; i++) {
+	// 		System.out.println(keys[i] + " " + values[i]);
+	// 	}
+	// }
+
 	Key floor(Key keyval) {
 		int rankval = rank(keyval);
 		if (rankval < size && contains(keyval)) {
 			return keyval;
 		}
-		if(rankval == 0){
+		if (rankval == 0) {
 			return null;
 		}
 		return keys[rankval - 1];
+	}
+	void print() {
+		MyIterable<Key> mylist = new MyIterable<>(keys);
+		for(Key eachkey: mylist) {
+			System.out.println(eachkey + " "+get(eachkey));
+		}
+	}
+}
+class MyIterable<Key> implements Iterable<Key> {
+	private List<Key> list;
+	public MyIterable(Key[] k) {
+		list = Arrays.asList(k);
+	}
+	public Iterator<Key> iterator() {
+		return list.iterator();
 	}
 }
 class Solution {
@@ -96,25 +115,25 @@ class Solution {
 				System.out.println(binobj.contains(tokens[1]));
 				break;
 			case "max":
-			    System.out.println(binobj.max());
-			    break;
+				System.out.println(binobj.max());
+				break;
 			case "deleteMin":
-			    binobj.deleteMin();
-			    break;
+				binobj.deleteMin();
+				break;
 			case "rank":
-			    System.out.println(binobj.rank(tokens[1]));
-			    break;
+				System.out.println(binobj.rank(tokens[1]));
+				break;
 			case "floor":
-			    System.out.println(binobj.floor(tokens[1]));
-			    break;
+				System.out.println(binobj.floor(tokens[1]));
+				break;
 			case "keys":
-			    binobj.print();
-			    break;
+				binobj.print();
+				break;
 			case "get":
-			    System.out.println(binobj.get(tokens[1]));
-			    break;
+				System.out.println(binobj.get(tokens[1]));
+				break;
 			default:
-			    break;    
+				break;
 			}
 		}
 	}
