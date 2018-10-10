@@ -98,7 +98,25 @@ true
 13
 P
 Your Output: 
+C 10
+C 10
+C 10
+C 10
+C 10
+C 10
+E 18
+H 11
+I 1
+L 17
+P 16
+R 9
+X 13
+Y 5
+Y
 13
+true
+13
+P
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -116,5 +134,18 @@ S 0
 T 6
 Y 1
 Your Output: 
+L
 null
+Y
+6
+false
+B 8
+E 10
+L 5
+L 5
+L 9
+T 6
+Y 1
+Y 1
+Y 1
 ----------------------------------------
