@@ -67,6 +67,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			System.out.println("Keyval  " + keys[i] + "   value  " + values[i]);
 		}
 	}
+	Key floor(Key keyval) {
+		if(contains(keyval)) {
+			return keyval;
+		}
+		int rankval = rank(keyval);
+		return keys[rankval - 1];
+	}
 }
 class Solution {
 	private Solution() {
@@ -85,5 +92,6 @@ class Solution {
 		binobj.print();
 		System.out.println(binobj.contains("A"));
 		System.out.println(binobj.get("A"));
+		System.out.println(binobj.floor("C"));
 	}
 }

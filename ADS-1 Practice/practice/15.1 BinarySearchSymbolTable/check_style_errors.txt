@@ -37,11 +37,14 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:65:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:66:20: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:67: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:71: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:71: Missing a Javadoc comment. [JavadocType]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:72:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:75:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:75:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:79:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:70:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:70:19: Parameter keyval should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:71:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:78: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:78: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:79:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:82:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:82:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Practice\practice\15.1 BinarySearchSymbolTable\Solution.java:86:20: 'for' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 44 errors.
+Checkstyle ends with 47 errors.
