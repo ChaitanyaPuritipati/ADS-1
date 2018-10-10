@@ -157,7 +157,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     public void deleteMin() {
         if (isEmpty()) {
             System.out.println("No elements are available in"
-             + "the Symbol table to perform deletion");
+                               +"the Symbol table to perform deletion");
         }
         delete(min());
     }
@@ -170,7 +170,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         if (isEmpty()) {
             System.out.println("empty symbol table");
         }
-        return keys[0]; 
+        return keys[0];
     }
     /**
      * { To delete a key }.
@@ -187,8 +187,8 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
             return;
         }
         for (int j = i; j < size - 1; j++)  {
-            keys[j] = keys[j+1];
-            values[j] = values[j+1];
+            keys[j] = keys[j + 1];
+            values[j] = values[j + 1];
         }
         size--;
         keys[size] = null;
