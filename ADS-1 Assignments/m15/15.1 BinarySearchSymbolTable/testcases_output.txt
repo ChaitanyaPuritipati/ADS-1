@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 X
 R
@@ -15,16 +15,22 @@ S 0
 X 7
 null
 Your Output: 
--14comp
--4comp
-Exception in thread "main" java.lang.NullPointerException
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at BinarysearchST.rank(Solution.java:40)
-	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:141)
+X
+R
+1
+true
+C 4
+E 12
+H 5
+L 11
+M 9
+P 10
+R 3
+S 0
+X 7
+null
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Y
 O 10
@@ -42,16 +48,23 @@ O
 false
 null
 Your Output: 
--4comp
-18comp
-Exception in thread "main" java.lang.NullPointerException
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at BinarysearchST.rank(Solution.java:40)
-	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:141)
+Y
+O 10
+Q 4
+S 7
+T 8
+U 5
+Y 3
+Y
+null
+Y
+null
+O
+1
+false
+null
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 X
 E 10
@@ -74,16 +87,28 @@ true
 5
 T
 Your Output: 
--4comp
-3comp
-Exception in thread "main" java.lang.NullPointerException
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at java.base/java.lang.String.compareTo(Unknown Source)
-	at BinarysearchST.rank(Solution.java:40)
-	at BinarysearchST.put(Solution.java:19)
-	at Solution.main(Solution.java:141)
+X
+E 10
+L 9
+M 7
+O 1
+P 8
+R 2
+S 0
+T 3
+X 5
+0
+0
+0
+0
+0
+9
+9
+true
+5
+T
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 B 0
 C 10
@@ -104,97 +129,26 @@ true
 13
 P
 Your Output: 
-7comp
-12comp
-5comp
--8comp
--1comp
-9comp
-9comp
-4comp
-16comp
-16comp
-7comp
-10comp
-10comp
--6comp
--4comp
--4comp
-4comp
--8comp
--4comp
-0comp
-9comp
-9comp
--1comp
--6comp
--2comp
-2comp
--1comp
-5comp
-3comp
-3comp
--4comp
-2comp
-0comp
-15comp
-6comp
-5comp
--1comp
--7comp
--2comp
-0comp
-5comp
-4comp
--11comp
--5comp
-8comp
-3comp
--8comp
--2comp
-7comp
--4comp
-3comp
-3comp
-0comp
--4comp
--2comp
--2comp
-0comp
-C 10
-C 10
-C 10
-C 10
-C 10
+B 0
 C 10
 E 18
 H 11
 I 1
 L 17
+M 15
+N 2
 P 16
 R 9
+S 6
 X 13
 Y 5
 Y
-20comp
-9comp
-1comp
-0comp
-13
-3comp
--8comp
--1comp
-0comp
+12
 true
-19comp
-8comp
-0comp
 13
-11comp
-0comp
 P
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 M
 null
@@ -210,58 +164,17 @@ S 0
 T 6
 Y 1
 Your Output: 
-6comp
--6comp
--23comp
--11comp
--10comp
-13comp
--13comp
-10comp
--3comp
-5comp
--5comp
--5comp
--19comp
--11comp
--1comp
--10comp
--10comp
-1comp
-0comp
--7comp
-3comp
--7comp
-1comp
--12comp
-1comp
--7comp
-L
--8comp
-2comp
--1comp
+M
 null
 Y
-8comp
--5comp
-8comp
-0comp
-6
-3comp
--10comp
-3comp
--5comp
-false
--11comp
--1comp
-0comp
+7
+true
 B 8
 E 10
-L 5
-L 5
 L 9
+M 2
+O 4
+S 0
 T 6
-Y 1
-Y 1
 Y 1
 ----------------------------------------
