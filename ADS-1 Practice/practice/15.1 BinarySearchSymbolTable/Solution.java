@@ -27,6 +27,10 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	boolean isEmpty() {
 		return size == 0;
 	}
+	boolean contains(Key keyval) {
+		int rankval = rank(keyval);
+		return keyval.compareTo(keys[rankval]) == 0;
+	}
 	void put(Key keyval, Value val) {
 		int rankval = rank(keyval);
 		if(size > 0 && keys[rankval].compareTo(keyval) == 0) {
@@ -72,5 +76,6 @@ class Solution {
 		System.out.println(binobj.max());
 		binobj.deleteMin();
 		binobj.print();
+		binobj.contains("A");
 	}
 }
