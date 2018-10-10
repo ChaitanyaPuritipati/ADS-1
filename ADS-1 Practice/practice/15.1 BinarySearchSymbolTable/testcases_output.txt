@@ -30,7 +30,7 @@ S 0
 X 7
 null
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Y
 O 10
@@ -61,9 +61,8 @@ Y
 null
 O
 1
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
-	at BinarySearchTree.contains(Solution.java:42)
-	at Solution.main(Solution.java:116)
+false
+null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
 Expected Output: 
