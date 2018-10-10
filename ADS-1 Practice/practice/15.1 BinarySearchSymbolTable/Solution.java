@@ -51,6 +51,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		keys[rankval] = keyval;
 		values[rankval] = val;
+		print();
 		size++;
 	}
 	Key max() {

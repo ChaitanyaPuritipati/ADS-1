@@ -17,15 +17,30 @@ null
 Your Output: 
 0rank
 0rank
+E 1
 0rank
+A 2
+E 1
 2rank
+A 2
+E 1
+R 3
 1rank
+A 2
+C 4
+E 1
+R 3
 3rank
+A 2
+C 4
+E 1
+H 5
+R 3
 2rank
 6rank
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:89)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -47,10 +62,11 @@ null
 Your Output: 
 0rank
 0rank
+A 1
 2rank
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:89)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -77,11 +93,14 @@ T
 Your Output: 
 0rank
 0rank
+O 1
 1rank
+O 1
+R 2
 3rank
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:89)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -108,7 +127,7 @@ Your Output:
 1rank
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:89)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -130,5 +149,5 @@ Your Output:
 1rank
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:44)
-	at Solution.main(Solution.java:88)
+	at Solution.main(Solution.java:89)
 ----------------------------------------
