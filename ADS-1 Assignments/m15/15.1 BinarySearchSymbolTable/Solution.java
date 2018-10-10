@@ -157,7 +157,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
     public void deleteMin() {
         if (isEmpty()) {
             System.out.println("No elements are available in"
-                               +"the Symbol table to perform deletion");
+                               + "the Symbol table to perform deletion");
         }
         delete(min());
     }
@@ -214,7 +214,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -226,7 +226,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] array = scan.nextLine().split(" ");
         BinarySearchST binobj = new BinarySearchST();
