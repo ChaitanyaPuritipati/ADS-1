@@ -41,6 +41,16 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		values[rankval] = val;
 		size++;
 	}
+	Key max() {
+		return keys[size - 1]; 
+	}
+	void deleteMin() {
+		for(int i = 0; i < size - 1; i++) {
+			keys[i] = keys[i + 1];
+			values[i] = values[i + 1];
+		}
+		size--;
+	}
 	void print() {
 		for(int i = 0; i < size; i++) {
 			System.out.println("Keyval  " + keys[i] + "   value  " + values[i]);
@@ -58,6 +68,9 @@ class Solution {
 		for(int i = 0; i < tokens.length; i++) {
 			binobj.put(tokens[i], i);
 		}
+		binobj.print();
+		binobj.max();
+		binobj.deleteMin();
 		binobj.print();
 	}
 }
