@@ -30,7 +30,7 @@ S 0
 X 7
 null
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 Y
 O 10
@@ -56,9 +56,9 @@ T 8
 U 5
 Y 3
 Y
-B
+null
 Y
-D
+null
 O
 1
 false
