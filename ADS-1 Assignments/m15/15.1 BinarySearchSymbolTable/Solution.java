@@ -22,14 +22,14 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
      * Constructs the object.
      */
     BinarySearchST() {
-    	final int twenty = 20;
+        final int twenty = 20;
         keys = (Key[]) new Comparable[twenty];
         values = (Value[]) new Object[twenty];
     }
     /**
      * { To add elements into the Data Structure }.
      * Complexity:
-     *            Best case: 
+     *            Best case:
      *
      * @param      keyval  The keyval
      * @param      val     The value
@@ -45,7 +45,7 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
         int i = rank(keyval);
         if (i < size && keys[i].compareTo(keyval) == 0) {
             values[i] = val;
-            return; 
+            return;
         }
         for (int j = size; j > i; j--) {
             keys[j] = keys[j - 1];
@@ -214,57 +214,57 @@ class BinarySearchST<Key extends Comparable<Key>, Value> {
  * Class for solution.
  */
 class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		//unused
-	}
-	/**
-	 * { Main function }.
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		String[] array = scan.nextLine().split(" ");
-		BinarySearchST binobj = new BinarySearchST();
-		for (int i = 0; i < array.length; i++) {
-			binobj.put(array[i], i);
-		}
-		while (scan.hasNext()) {
-			String[] tokens = scan.nextLine().split(" ");
-			switch (tokens[0]) {
-			case "get":
-				System.out.println(binobj.get(tokens[1]));
-				break;
-			case "max":
-				System.out.println(binobj.max());
-				break;
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //unused
+    }
+    /**
+     * { Main function }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String[] array = scan.nextLine().split(" ");
+        BinarySearchST binobj = new BinarySearchST();
+        for (int i = 0; i < array.length; i++) {
+            binobj.put(array[i], i);
+        }
+        while (scan.hasNext()) {
+            String[] tokens = scan.nextLine().split(" ");
+            switch (tokens[0]) {
+            case "get":
+                System.out.println(binobj.get(tokens[1]));
+                break;
+            case "max":
+                System.out.println(binobj.max());
+                break;
 
-			case "floor":
-				System.out.println(binobj.floor(tokens[1]));
-				break;
+            case "floor":
+                System.out.println(binobj.floor(tokens[1]));
+                break;
 
-			case "rank":
-				System.out.println(binobj.rank(tokens[1]));
-				break;
+            case "rank":
+                System.out.println(binobj.rank(tokens[1]));
+                break;
 
-			case "contains":
-				System.out.println(binobj.contains(tokens[1]));
-				break;
+            case "contains":
+                System.out.println(binobj.contains(tokens[1]));
+                break;
 
-			case "deleteMin":
-				binobj.deleteMin();
-				break;
+            case "deleteMin":
+                binobj.deleteMin();
+                break;
 
-			case "keys":
-				System.out.println(binobj.keys());
-				break;
+            case "keys":
+                System.out.println(binobj.keys());
+                break;
 
-			default:
-				break;
-			}
-		}
-	}
+            default:
+                break;
+            }
+        }
+    }
 }
