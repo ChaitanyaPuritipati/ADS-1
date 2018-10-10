@@ -3,9 +3,9 @@ class BinarysearchST<Key extends Comparable<Key>, Value> {
 	private Key[] keys;
 	private Value[] values;
 	private int size;
-	BinarysearchST(int length) {
-		keys = (Key[]) new Comparable[length];
-		values = (Value[]) new Object[length];
+	BinarysearchST() {
+		keys = (Key[]) new Comparable[20];
+		values = (Value[]) new Object[20];
 		size = 0;
 	}
 	void put(Key item, Value itemval) {
@@ -136,7 +136,7 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String[] array = scan.nextLine().split(" ");
-		BinarysearchST binobj = new BinarysearchST(array.length);
+		BinarysearchST binobj = new BinarysearchST();
 		for (int i = 0; i < array.length; i++) {
 			binobj.put(array[i], i);
 		}

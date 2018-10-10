@@ -6,7 +6,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:4:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:6:24: Parameter length should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:7:47: '20' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:8:47: '20' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:11:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:11:18: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:11:28: Parameter itemval should be final. [FinalParameters]
@@ -33,4 +34,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:136:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:136:33: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 34 errors.
