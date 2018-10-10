@@ -76,6 +76,6 @@ class Solution {
 		System.out.println(binobj.max());
 		binobj.deleteMin();
 		binobj.print();
-		binobj.contains("A");
+		System.out.println(binobj.contains("A"));
 	}
 }
