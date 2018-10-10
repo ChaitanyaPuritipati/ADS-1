@@ -69,7 +69,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	Key floor(Key keyval) {
 		int rankval = rank(keyval);
-		if (contains(keyval)) {
+		if (rankval < size && contains(keyval)) {
 			return keyval;
 		}
 		if(rankval == 0){
@@ -117,15 +117,5 @@ class Solution {
 			    break;    
 			}
 		}
-		// String[] tokens = str.split(" ");
-		// for(int i = 0; i < tokens.length; i++) {
-		// 	binobj.put(tokens[i], i);
-		// }
-		// binobj.print();
-		// System.out.println(binobj.max());
-		// binobj.deleteMin();
-		// binobj.print();
-		// System.out.println(binobj.get("A"));
-		// System.out.println(binobj.floor("I"));
 	}
 }
