@@ -84,6 +84,6 @@ class Solution {
 		binobj.deleteMin();
 		binobj.print();
 		System.out.println(binobj.contains("A"));
-		System.out.println(binobj.get("C"));
+		System.out.println(binobj.get("A"));
 	}
 }
