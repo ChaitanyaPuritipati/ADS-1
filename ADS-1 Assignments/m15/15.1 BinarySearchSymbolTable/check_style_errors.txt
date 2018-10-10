@@ -1,13 +1,11 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:111: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:159: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:172: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:189:29: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:189:30: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:190:33: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:190:34: '+' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:216: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:228:29: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:173: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:190:29: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:190:30: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:191:33: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:191:34: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:217: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m15\15.1 BinarySearchSymbolTable\Solution.java:229:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 8 errors.
