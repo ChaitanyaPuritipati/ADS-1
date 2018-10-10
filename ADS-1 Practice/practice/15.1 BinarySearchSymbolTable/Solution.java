@@ -40,11 +40,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	void put(Key keyval, Value val) {
 		int rankval = rank(keyval);
-		System.out.println(rankval + "rank");
-		System.out.println(size + "sizeval");
 		if (size > 0 && rankval < size && keys[rankval].compareTo(keyval) == 0) {
 			values[rankval] = val;
-			print();
 			return;
 		}
 		for (int i = size; i > rankval; i--) {
@@ -54,7 +51,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		keys[rankval] = keyval;
 		values[rankval] = val;
 		size++;
-		print();
 	}
 	Key max() {
 		return keys[size - 1];
