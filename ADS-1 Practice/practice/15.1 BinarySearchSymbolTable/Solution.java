@@ -68,10 +68,10 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 	}
 	Key floor(Key keyval) {
-		if (contains(keyval) || size == 1) {
+		int rankval = rank(keyval);
+		if (contains(keyval) || rankval == 0) {
 			return keyval;
 		}
-		int rankval = rank(keyval);
 		return keys[rankval - 1];
 	}
 }

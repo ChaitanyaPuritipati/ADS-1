@@ -56,9 +56,13 @@ T 8
 U 5
 Y 3
 Y
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: -1
-	at BinarySearchTree.floor(Solution.java:75)
-	at Solution.main(Solution.java:105)
+B
+Y
+D
+O
+1
+false
+null
 ----------------------------------------
 ########## Testcase 2: Passed ##########
 Expected Output: 
