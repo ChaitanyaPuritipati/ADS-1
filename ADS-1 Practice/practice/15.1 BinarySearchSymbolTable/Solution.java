@@ -82,9 +82,10 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		return keys[rankval - 1];
 	}
 	void print() {
+		keys = Arrays.copyOf(keys, size);
 		MyIterable<Key> mylist = new MyIterable<>(keys);
 		for(Key eachkey: mylist) {
-			System.out.println(eachkey + " "+get(eachkey));
+			System.out.println(eachkey + " "+ get(eachkey));
 		}
 	}
 }
