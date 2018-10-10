@@ -24,10 +24,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return low;
 	}
+	boolean isEmpty() {
+		return size == 0;
+	}
 	void put(Key keyval, Value val) {
 		int rankval = rank(keyval);
-		System.out.println(rankval + "rankval");
-		if(keys[rankval].compareTo(keyval) == 0) {
+		if(keys[rankval].compareTo(keyval) == 0 && size > 0) {
 			values[rankval] = val;
 			return;
 		}
