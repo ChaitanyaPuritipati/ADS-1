@@ -1,20 +1,27 @@
 import java.util.Scanner;
+/**
+ * Class for key.
+ */
 class Key implements Comparable<Key> {
-	String bookname;
-	String bookauthor;
-	String bookcost;
+	private String bookname;
+	private String bookauthor;
+	private String bookcost;
 	Key(String name, String author, String cost) {
 		this.bookname = name;
 		this.bookauthor = author;
 		this.bookcost = cost;
 	}
+	// public String getbook() {
+	// 	return this.bookname;
+	// }
+	// public String getauthor() {
+	// 	return this.bookauthor;
+	// }
+	// public String getcost() {
+	// 	return this.bookcost;
+	// }
 	public int compareTo(Key other) {
 		return this.bookname.compareTo(other.bookname);
-	}
-	public String toString() {
-		String str = "";
-		str = str + bookname + bookauthor + bookcost;
-		return str;
 	}
 }
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
@@ -35,7 +42,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	void put(Key item, Value itemval) {
 		Node newnode = new Node(item, itemval);
-		// System.out.println(newnode.keydata + "keyval");
 		if (isEmpty()) {
 			newnode.left = null;
 			newnode.right = null;
@@ -47,12 +53,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		while (!(test.left == null && test.right == null)) {
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
-				if(test.right == null) {
+				if (test.right == null) {
 					break;
 				}
 				test = test.right;
 			} else if (compare < 0) {
-				if(test.left == null) {
+				if (test.left == null) {
 					break;
 				}
 				test = test.left;
@@ -76,19 +82,18 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			test.right.right = null;
 			size++;
 		}
-
 	}
 	Value get(Key item) {
 		Node test = head;
 		while (!(test.left == null && test.right == null)) {
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
-				if(test.right == null) {
+				if (test.right == null) {
 					break;
 				}
 				test = test.right;
 			} else if (compare < 0) {
-				if(test.left == null) {
+				if (test.left == null) {
 					break;
 				}
 				test = test.left;
@@ -96,7 +101,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				break;
 			}
 		}
-		if(item.compareTo(test.keydata) == 0) {
+		if (item.compareTo(test.keydata) == 0) {
 			return test.valdata;
 		}
 		return null;
