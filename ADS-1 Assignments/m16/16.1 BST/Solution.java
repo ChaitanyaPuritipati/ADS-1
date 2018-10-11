@@ -60,9 +60,13 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 		System.out.println(compare + "compare in put");
 		if (compare < 0) {
 			test.left = newnode;
+			test.right.left = null;
+			test.right.right = null;
 			size++;
 		} else if (compare > 0) {
 			test.right = newnode;
+			test.right.left = null;
+			test.right.right = null;
 			size++;
 		}
 	}
