@@ -87,7 +87,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				test = test.right;
 			} else if (compare < 0) {
 				test = test.left;
-			} 
+			} else {
+				break;
+			}
 		}
 		System.out.println(test.keydata + "testprint");
 		if(item.compareTo(test.keydata) == 0) {
