@@ -3,10 +3,6 @@ Expected Output:
 1
 Your Output: 
 AlgorithmsBob Sedgewick6000.0keyval before putting
-2sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.get(Solution.java:76)
-	at Solution.main(Solution.java:109)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -17,10 +13,8 @@ Expected Output:
 Your Output: 
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
-3sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.get(Solution.java:76)
-	at Solution.main(Solution.java:109)
+HarryJK600.0keyval before putting
+HarryJK600.0keyval before putting
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -29,8 +23,6 @@ null
 Your Output: 
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
-3sizeval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.get(Solution.java:76)
-	at Solution.main(Solution.java:109)
+HarryJK600.0keyval before putting
+HarryJK600.0keyval before putting
 ----------------------------------------

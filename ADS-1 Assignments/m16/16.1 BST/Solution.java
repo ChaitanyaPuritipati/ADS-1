@@ -104,10 +104,10 @@ class Solution {
 				Key newkey = new Key(tokens[1], tokens[2], tokens[3]);
 				bstobj.put(newkey, Integer.parseInt(tokens[4]));
 				break;
-			case "get":
-				newkey = new Key(tokens[1], tokens[2], tokens[3]);
-				System.out.println(bstobj.get(newkey));
-				break;
+			// case "get":
+			// 	newkey = new Key(tokens[1], tokens[2], tokens[3]);
+			// 	System.out.println(bstobj.get(newkey));
+			// 	break;
 			default:
 				break;
 			}
