@@ -24,7 +24,7 @@ ITViswas400.0testkey
 entered
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:59)
-	at Solution.main(Solution.java:114)
+	at Solution.main(Solution.java:115)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -42,5 +42,5 @@ ITViswas400.0testkey
 entered
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:59)
-	at Solution.main(Solution.java:114)
+	at Solution.main(Solution.java:115)
 ----------------------------------------
