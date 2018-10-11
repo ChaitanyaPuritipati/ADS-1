@@ -3,6 +3,7 @@ Expected Output:
 1
 Your Output: 
 AlgorithmsBob Sedgewick6000.0keyval before putting
+2
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -15,6 +16,7 @@ HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
+5
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -25,4 +27,5 @@ HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
 HarryJK600.0keyval before putting
+5
 ----------------------------------------
