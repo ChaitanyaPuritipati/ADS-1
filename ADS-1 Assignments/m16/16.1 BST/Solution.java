@@ -3,35 +3,55 @@ import java.util.Scanner;
  * Class for key.
  */
 class Key implements Comparable<Key> {
+	/**
+	 * { Name of the book }.
+	 */
 	private String bookname;
+	/**
+	 * { Author of the book }.
+	 */
 	private String bookauthor;
+	/**
+	 * { Cost of the book }.
+	 */
 	private String bookcost;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      name    The name
+	 * @param      author  The author
+	 * @param      cost    The cost
+	 */
 	Key(String name, String author, String cost) {
 		this.bookname = name;
 		this.bookauthor = author;
 		this.bookcost = cost;
 	}
-	// public String getbook() {
-	// 	return this.bookname;
-	// }
-	// public String getauthor() {
-	// 	return this.bookauthor;
-	// }
-	// public String getcost() {
-	// 	return this.bookcost;
-	// }
+	/**
+	 * { To compare names }.
+	 *
+	 * @param      other  The other
+	 *
+	 * @return     { int value }
+	 */
 	public int compareTo(Key other) {
 		return this.bookname.compareTo(other.bookname);
 	}
 }
+/**
+ * Class for binary search tree.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
-	Node head = null;
-	int size = 0;
+	private Node head = null;
+	private int size = 0;
 	class Node {
-		Node left;
-		Node right;
-		Key keydata;
-		Value valdata;
+		private Node left;
+		private Node right;
+		private Key keydata;
+		private Value valdata;
 		Node(Key keyval, Value val) {
 			this.keydata = keyval;
 			this.valdata = val;
