@@ -2,6 +2,7 @@
 Expected Output: 
 1
 Your Output: 
+15inside while
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:47)
 	at Solution.main(Solution.java:104)
@@ -13,6 +14,7 @@ Expected Output:
 7
 2
 Your Output: 
+1inside while
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:47)
 	at Solution.main(Solution.java:104)
@@ -22,6 +24,7 @@ Expected Output:
 null
 7
 Your Output: 
+1inside while
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.put(Solution.java:47)
 	at Solution.main(Solution.java:104)
