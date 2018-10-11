@@ -16,13 +16,15 @@ Your Output:
 HarryJK600.0keyval before putting
 ITViswas400.0right2
 entered
+ITViswas400.0testkey
 ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
+ITViswas400.0testkey
 entered
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
-	at Solution.main(Solution.java:113)
+	at BinarySearchTree.put(Solution.java:59)
+	at Solution.main(Solution.java:114)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -32,11 +34,13 @@ Your Output:
 HarryJK600.0keyval before putting
 ITViswas400.0right2
 entered
+ITViswas400.0testkey
 ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
+ITViswas400.0testkey
 entered
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
-	at Solution.main(Solution.java:113)
+	at BinarySearchTree.put(Solution.java:59)
+	at Solution.main(Solution.java:114)
 ----------------------------------------

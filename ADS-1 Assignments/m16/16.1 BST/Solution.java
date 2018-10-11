@@ -56,6 +56,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				test.valdata = newnode.valdata;
 				return;
 			}
+			System.out.println(test.keydata + "testkey");
 		}
 		int compare = item.compareTo(test.keydata);
 		System.out.println(test.keydata + "keyval before putting");
