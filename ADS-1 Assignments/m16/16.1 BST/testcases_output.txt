@@ -16,12 +16,11 @@ Your Output:
 7
 2
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 null
 7
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.get(Solution.java:83)
-	at Solution.main(Solution.java:115)
+null
+7
 ----------------------------------------

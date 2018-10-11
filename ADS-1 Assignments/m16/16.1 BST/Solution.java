@@ -83,8 +83,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		while (!(test.left == null && test.right == null)) {
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
+				if(test.right == null) {
+					break;
+				}
 				test = test.right;
 			} else if (compare < 0) {
+				if(test.left == null) {
+					break;
+				}
 				test = test.left;
 			} else {
 				break;
