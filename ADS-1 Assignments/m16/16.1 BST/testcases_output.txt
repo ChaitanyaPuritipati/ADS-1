@@ -2,6 +2,7 @@
 Expected Output: 
 1
 Your Output: 
+entered not empty
 AlgorithmsBob Sedgewick6000.0keyval before putting
 AlgorithmsBob Sedgewick6000.0leftval
 AlgorithmsBob Sedgewick6000.0rightval
@@ -14,15 +15,19 @@ Expected Output:
 7
 2
 Your Output: 
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
@@ -33,15 +38,19 @@ Expected Output:
 null
 7
 Your Output: 
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval
+entered not empty
 HarryJK600.0keyval before putting
 HarryJK600.0leftval
 HarryJK600.0rightval

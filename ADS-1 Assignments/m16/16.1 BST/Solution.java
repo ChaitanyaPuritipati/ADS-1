@@ -43,6 +43,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			size++;
 			return;
 		}
+		System.out.println("entered not empty");
 		Node test = head;
 		while (test.left != null && test.right != null) {
 			System.out.println("entered");
