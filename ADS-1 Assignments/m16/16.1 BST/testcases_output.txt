@@ -4,7 +4,7 @@ Expected Output:
 Your Output: 
 AlgorithmsBob Sedgewick6000.0keyval
 Pythoneric5000keyval
-35compare in put
+15compare in put
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -15,14 +15,13 @@ Expected Output:
 Your Output: 
 HarryJK600.0keyval
 ITViswas400.0keyval
-12compare in put
-StreetKiran800.0keyval
 1compare in put
+StreetKiran800.0keyval
+11compare in put
 HelloAjay200.0keyval
--9compare in put
+4compare in put
 HelloAjay200.0keyval
--9inside while
-0compare in put
+4compare in put
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -31,12 +30,11 @@ null
 Your Output: 
 HarryJK600.0keyval
 ITViswas400.0keyval
-12compare in put
-StreetKiran800.0keyval
 1compare in put
+StreetKiran800.0keyval
+11compare in put
 HelloAjay200.0keyval
--9compare in put
+4compare in put
 HelloAjay200.0keyval
--9inside while
-0compare in put
+4compare in put
 ----------------------------------------

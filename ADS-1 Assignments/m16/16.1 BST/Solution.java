@@ -9,7 +9,7 @@ class Key implements Comparable<Key> {
 		this.bookcost = cost;
 	}
 	public int compareTo(Key other) {
-		return this.bookauthor.compareTo(other.bookauthor);
+		return this.bookname.compareTo(other.bookname);
 	}
 	public String toString() {
 		String str = "";
