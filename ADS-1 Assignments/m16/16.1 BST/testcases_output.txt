@@ -18,15 +18,15 @@ entered not empty
 HarryJK600.0keyval before putting
 ITViswas400.0right2
 entered not empty
-HarryJK600.0keyval before putting
+entered
+ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered not empty
-HarryJK600.0keyval before putting
-HelloAjay200.0right5
-entered not empty
-HarryJK600.0keyval before putting
-HelloAjay200.0right7
-5
+entered
+entered
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(Solution.java:48)
+	at Solution.main(Solution.java:114)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -37,13 +37,13 @@ entered not empty
 HarryJK600.0keyval before putting
 ITViswas400.0right2
 entered not empty
-HarryJK600.0keyval before putting
+entered
+ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered not empty
-HarryJK600.0keyval before putting
-HelloAjay200.0right5
-entered not empty
-HarryJK600.0keyval before putting
-HelloAjay200.0right7
-5
+entered
+entered
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(Solution.java:48)
+	at Solution.main(Solution.java:114)
 ----------------------------------------
