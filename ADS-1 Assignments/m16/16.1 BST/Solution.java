@@ -22,7 +22,7 @@ class Key implements Comparable<Key> {
      * @param      author  The author
      * @param      cost    The cost
      */
-    Key(String name, String author, String cost) {
+    Key(final String name, final String author, final String cost) {
         this.bookname = name;
         this.bookauthor = author;
         this.bookcost = cost;

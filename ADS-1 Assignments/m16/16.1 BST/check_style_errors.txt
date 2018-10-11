@@ -1,7 +1,4 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:25:9: Parameter name should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:25:22: Parameter author should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:25:37: Parameter cost should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:37:26: Parameter other should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:82:14: Parameter keyval should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:82:26: Parameter val should be final. [FinalParameters]
@@ -14,4 +11,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:192:60: '4' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:195:63: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 11 errors.
