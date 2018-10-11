@@ -1,7 +1,8 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 1
 Your Output: 
+0compare in getwhile
 1
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -11,9 +12,17 @@ Expected Output:
 7
 2
 Your Output: 
+11compare in getwhile
+10compare in getwhile
 null
+4compare in getwhile
+-1compare in getwhile
 null
+4compare in getwhile
+-1compare in getwhile
 null
+1compare in getwhile
+0compare in getwhile
 2
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -21,7 +30,9 @@ Expected Output:
 null
 7
 Your Output: 
+4compare in getwhile
+-1compare in getwhile
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:83)
-	at Solution.main(Solution.java:112)
+	at Solution.main(Solution.java:113)
 ----------------------------------------
