@@ -17,7 +17,7 @@ class Key implements Comparable<Key> {
 		return str;
 	}
 }
-class BinarySearchTree<Key extends Comparable<Key>,Value> {
+class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	Node head = null;
 	int size = 0;
 	class Node {
@@ -35,7 +35,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 	}
 	void put(Key item, Value itemval) {
 		Node newnode = new Node(item, itemval);
-		System.out.println(newnode.keydata + "keyval");
+		// System.out.println(newnode.keydata + "keyval");
 		if (isEmpty()) {
 			head = newnode;
 			head.left = null;
@@ -46,7 +46,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 		Node test = head;
 		while (test.left != null && test.right != null) {
 			int compare = item.compareTo(test.keydata);
-			System.out.println(compare + "inside while");
+			// System.out.println(compare + "inside while");
 			if (compare > 0) {
 				test = test.right;
 			} else if (compare < 0) {
@@ -57,7 +57,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 			}
 		}
 		int compare = item.compareTo(test.keydata);
-		System.out.println(compare + "compare in put");
+		// System.out.println(compare + "compare in put");
 		if (compare < 0) {
 			test.left = newnode;
 			test.right.left = null;
@@ -72,11 +72,10 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 	}
 	Value get(Key item) {
 		Node test = head;
-		System.out.println(test.keydata + "name");
 		while (test.left != null && test.right != null) {
-			System.out.println("entered");
+			System.out.println(test.keydata + "testprint");
 			int compare = item.compareTo(test.keydata);
-			System.out.println(compare + "comp");
+			// System.out.println(compare + "comp");
 			if (compare > 0) {
 				test = test.right;
 			} else if (compare < 0) {

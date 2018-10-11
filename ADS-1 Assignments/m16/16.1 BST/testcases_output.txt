@@ -2,10 +2,6 @@
 Expected Output: 
 1
 Your Output: 
-AlgorithmsBob Sedgewick6000.0keyval
-Pythoneric5000keyval
-15compare in put
-AlgorithmsBob Sedgewick6000.0name
 null
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -15,22 +11,9 @@ Expected Output:
 7
 2
 Your Output: 
-HarryJK600.0keyval
-ITViswas400.0keyval
-1compare in put
-StreetKiran800.0keyval
-11compare in put
-HarryJK600.0name
 null
-HelloAjay200.0keyval
-4compare in put
-HarryJK600.0name
 null
-HelloAjay200.0keyval
-4compare in put
-HarryJK600.0name
 null
-HarryJK600.0name
 null
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -38,17 +21,6 @@ Expected Output:
 null
 7
 Your Output: 
-HarryJK600.0keyval
-ITViswas400.0keyval
-1compare in put
-StreetKiran800.0keyval
-11compare in put
-HarryJK600.0name
 null
-HelloAjay200.0keyval
-4compare in put
-HelloAjay200.0keyval
-4compare in put
-HarryJK600.0name
 null
 ----------------------------------------
