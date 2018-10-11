@@ -44,7 +44,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			return;
 		}
 		Node test = head;
-		while (test.left != null && test.right != null) {
+		while (!(test.left != null && test.right != null)) {
 			int compare = item.compareTo(test.keydata);
 			// System.out.println(compare + "inside while");
 			if (compare > 0) {
@@ -59,14 +59,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		int compare = item.compareTo(test.keydata);
 		// System.out.println(compare + "compare in put");
 		if (compare < 0) {
-			test = newnode;
-			test.left = null;
-			test.right = null;
+			test.left = newnode;
+			test.right.left = null;
+			test.right.right = null;
 			size++;
 		} else if (compare > 0) {
-			test = newnode;
-			test.left = null;
-			test.right = null;
+			test.right = newnode;
+			test.right.left = null;
+			test.right.right = null;
 			size++;
 		}
 	}
