@@ -45,7 +45,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		Node test = head;
 		while (!(test.left == null && test.right == null)) {
-			// System.out.println("entered");
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
 				if(test.right == null) {
@@ -63,29 +62,26 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			}
 		}
 		int compare = item.compareTo(test.keydata);
-		// System.out.println(test.keydata + "keyval before putting");
 		if (compare == 0) {
-			// System.out.println("entered after while");
 			test.valdata = newnode.valdata;
 			return;
 		} else if (compare < 0) {
 			test.left = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			// System.out.println(test.left.keydata + "left" + test.left.valdata);
 			size++;
 		} else if (compare > 0) {
 			test.right = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			// System.out.println(test.right.keydata + "right" + test.right.valdata);
 			size++;
 		}
 
 	}
 	Value get(Key item) {
 		Node test = head;
-		while (test.left != null && test.right != null) {
+		while (!(test.left == null && test.right == null)) {
+			System.out.println("hellogetwhile");
 			int compare = item.compareTo(test.keydata);
 			// System.out.println(compare + "comp");
 			if (compare > 0) {
