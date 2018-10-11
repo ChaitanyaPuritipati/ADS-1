@@ -21,9 +21,11 @@ StreetKiran800.0right6
 entered
 entered
 entered in while
+ITViswas400.0
 entered
 entered
 entered in while
+ITViswas400.0
 3
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -39,8 +41,10 @@ StreetKiran800.0right6
 entered
 entered
 entered in while
+ITViswas400.0
 entered
 entered
 entered in while
+ITViswas400.0
 3
 ----------------------------------------
