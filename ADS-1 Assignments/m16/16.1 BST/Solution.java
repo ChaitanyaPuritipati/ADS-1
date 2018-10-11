@@ -101,8 +101,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     void put(Key item, Value itemval) {
         Node newnode = new Node(item, itemval);
         if (isEmpty()) {
-            // newnode.left = null;
-            // newnode.right = null;
             head = newnode;
             size++;
             return;
@@ -168,10 +166,21 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         return null;
     }
 }
+/**
+ * Class for solution.
+ */
 class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {
         //unused.
     }
+    /**
+     * { Main function }.
+     *
+     * @param      args  The arguments
+     */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         BinarySearchTree<Key, Integer> bstobj = new BinarySearchTree<>();
