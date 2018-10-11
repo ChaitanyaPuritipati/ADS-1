@@ -2,10 +2,10 @@
 Expected Output: 
 1
 Your Output: 
-15inside while
+2sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
-	at Solution.main(Solution.java:105)
+	at BinarySearchTree.get(Solution.java:76)
+	at Solution.main(Solution.java:109)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -14,18 +14,18 @@ Expected Output:
 7
 2
 Your Output: 
-1inside while
+3sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
-	at Solution.main(Solution.java:105)
+	at BinarySearchTree.get(Solution.java:76)
+	at Solution.main(Solution.java:109)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-1inside while
+3sizeval
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
-	at Solution.main(Solution.java:105)
+	at BinarySearchTree.get(Solution.java:76)
+	at Solution.main(Solution.java:109)
 ----------------------------------------
