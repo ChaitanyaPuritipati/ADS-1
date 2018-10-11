@@ -1,10 +1,8 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 1
 Your Output: 
-hellogetwhile
 1
-2
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -13,28 +11,17 @@ Expected Output:
 7
 2
 Your Output: 
-hellogetwhile
-hellogetwhile
 null
-hellogetwhile
-hellogetwhile
 null
-hellogetwhile
-hellogetwhile
 null
-hellogetwhile
-hellogetwhile
 2
-4
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-hellogetwhile
-hellogetwhile
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:83)
-	at Solution.main(Solution.java:114)
+	at Solution.main(Solution.java:112)
 ----------------------------------------

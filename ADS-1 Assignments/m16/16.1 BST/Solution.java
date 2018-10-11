@@ -81,9 +81,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	Value get(Key item) {
 		Node test = head;
 		while (!(test.left == null && test.right == null)) {
-			System.out.println("hellogetwhile");
 			int compare = item.compareTo(test.keydata);
-			// System.out.println(compare + "comp");
 			if (compare > 0) {
 				test = test.right;
 			} else if (compare < 0) {
@@ -117,6 +115,5 @@ class Solution {
 				break;
 			}
 		}
-		System.out.println(bstobj.size);
 	}
 }
