@@ -183,16 +183,18 @@ class Solution {
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        final int three = 3;
+        final int four = 4;
         BinarySearchTree<Key, Integer> bstobj = new BinarySearchTree<>();
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
-                Key newkey = new Key(tokens[1], tokens[2], tokens[3]);
-                bstobj.put(newkey, Integer.parseInt(tokens[4]));
+                Key newkey = new Key(tokens[1], tokens[2], tokens[three]);
+                bstobj.put(newkey, Integer.parseInt(tokens[four]));
                 break;
             case "get":
-                newkey = new Key(tokens[1], tokens[2], tokens[3]);
+                newkey = new Key(tokens[1], tokens[2], tokens[three]);
                 System.out.println(bstobj.get(newkey));
                 break;
             default:

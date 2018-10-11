@@ -4,8 +4,5 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:145:15: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:172: Class Solution should be declared as final. [FinalClass]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:184:29: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:191:67: '3' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:192:60: '4' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:195:63: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 5 errors.
