@@ -3,7 +3,9 @@ Expected Output:
 1
 Your Output: 
 AlgorithmsBob Sedgewick6000.0keyval before putting
-2
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(Solution.java:61)
+	at Solution.main(Solution.java:107)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -13,10 +15,9 @@ Expected Output:
 2
 Your Output: 
 HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-5
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(Solution.java:61)
+	at Solution.main(Solution.java:107)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -24,8 +25,7 @@ null
 7
 Your Output: 
 HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-HarryJK600.0keyval before putting
-5
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(Solution.java:61)
+	at Solution.main(Solution.java:107)
 ----------------------------------------
