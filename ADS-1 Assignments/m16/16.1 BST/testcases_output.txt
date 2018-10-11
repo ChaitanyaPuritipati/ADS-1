@@ -20,9 +20,13 @@ ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
 entered
+ITViswas400.0keyval before putting
+HelloAjay200.0left5
 entered
 entered
-3
+HelloAjay200.0keyval before putting
+entered after while
+4
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -36,7 +40,11 @@ ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
 entered
+ITViswas400.0keyval before putting
+HelloAjay200.0left5
 entered
 entered
-3
+HelloAjay200.0keyval before putting
+entered after while
+4
 ----------------------------------------

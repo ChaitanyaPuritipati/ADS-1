@@ -49,12 +49,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
 				if(test.right == null) {
-					return;
+					break;
 				}
 				test = test.right;
 			} else if (compare < 0) {
 				if(test.left == null) {
-					return;
+					break;
 				}
 				test = test.left;
 			} else {
