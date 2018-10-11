@@ -49,5 +49,6 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:102:83: '3' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:103:76: '4' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:106: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:106:79: '3' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 50 errors.
+Checkstyle ends with 51 errors.
