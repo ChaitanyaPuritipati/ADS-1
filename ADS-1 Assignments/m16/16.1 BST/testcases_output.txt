@@ -20,9 +20,11 @@ ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
 entered
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:60)
-	at Solution.main(Solution.java:114)
+entered in while
+entered
+entered
+entered in while
+3
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -36,7 +38,9 @@ ITViswas400.0keyval before putting
 StreetKiran800.0right6
 entered
 entered
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:60)
-	at Solution.main(Solution.java:114)
+entered in while
+entered
+entered
+entered in while
+3
 ----------------------------------------
