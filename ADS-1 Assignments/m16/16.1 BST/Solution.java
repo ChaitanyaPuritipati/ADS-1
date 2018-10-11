@@ -29,6 +29,10 @@ class Key implements Comparable<Key> {
     }
     /**
      * { To compare names }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @param      other  The other
      *
@@ -86,6 +90,10 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     }
     /**
      * Determines if empty.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @return     True if empty, False otherwise.
      */
@@ -93,7 +101,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         return size == 0;
     }
     /**
-     * { Put function }.
+     * { To insert keys }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      *
      * @param      item     The item
      * @param      itemval  The itemval
@@ -136,8 +148,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         }
     }
     /**
-     * { function_description }.
-     *
+     * { To retrieve value of the key }.
+     * Complexity:
+     *            Best case: O(logN)
+     *            Worst case: O(logN)
+     *            Average case: O(logN)
      * @param      item  The item
      *
      * @return     { description_of_the_return_value }
