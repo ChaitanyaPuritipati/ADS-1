@@ -21,7 +21,7 @@ StreetKiran800.0right6
 entered
 entered
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
+	at BinarySearchTree.put(Solution.java:60)
 	at Solution.main(Solution.java:114)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -37,6 +37,6 @@ StreetKiran800.0right6
 entered
 entered
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:47)
+	at BinarySearchTree.put(Solution.java:60)
 	at Solution.main(Solution.java:114)
 ----------------------------------------
