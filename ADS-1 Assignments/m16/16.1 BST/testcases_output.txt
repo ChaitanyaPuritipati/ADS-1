@@ -15,10 +15,13 @@ Your Output:
 HarryJK600.0name
 null
 HarryJK600.0name
+-9comp
 null
 HarryJK600.0name
+-9comp
 null
 HarryJK600.0name
+12comp
 null
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -29,5 +32,6 @@ Your Output:
 HarryJK600.0name
 null
 HarryJK600.0name
+-9comp
 null
 ----------------------------------------
