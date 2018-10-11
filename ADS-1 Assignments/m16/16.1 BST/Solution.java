@@ -101,8 +101,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     void put(Key item, Value itemval) {
         Node newnode = new Node(item, itemval);
         if (isEmpty()) {
-            newnode.left = null;
-            newnode.right = null;
+            // newnode.left = null;
+            // newnode.right = null;
             head = newnode;
             size++;
             return;
@@ -131,13 +131,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
             return;
         } else if (compare < 0) {
             test.left = newnode;
-            // test.left.left = null;
-            // test.left.right = null;
             size++;
         } else if (compare > 0) {
             test.right = newnode;
-            // test.right.left = null;
-            // test.right.right = null;
             size++;
         }
     }
