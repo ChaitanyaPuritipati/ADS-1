@@ -2,7 +2,5 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:101:14: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:101:24: Parameter itemval should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:145:15: Parameter item should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:172: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:184:29: Parameter args should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 3 errors.

@@ -169,7 +169,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -181,7 +181,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         final int three = 3;
         final int four = 4;
