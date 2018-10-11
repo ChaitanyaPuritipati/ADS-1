@@ -2,9 +2,10 @@
 Expected Output: 
 1
 Your Output: 
-AlgorithmsBob Sedgewick6000.0keyval before putting
-Pythoneric5000right2
-2
+2sizeval
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.get(Solution.java:89)
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -13,38 +14,18 @@ Expected Output:
 7
 2
 Your Output: 
-HarryJK600.0keyval before putting
-ITViswas400.0right2
-entered
-ITViswas400.0keyval before putting
-StreetKiran800.0right6
-entered
-entered
-ITViswas400.0keyval before putting
-HelloAjay200.0left5
-entered
-entered
-HelloAjay200.0keyval before putting
-entered after while
-4
+3sizeval
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.get(Solution.java:89)
+	at Solution.main(Solution.java:122)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-HarryJK600.0keyval before putting
-ITViswas400.0right2
-entered
-ITViswas400.0keyval before putting
-StreetKiran800.0right6
-entered
-entered
-ITViswas400.0keyval before putting
-HelloAjay200.0left5
-entered
-entered
-HelloAjay200.0keyval before putting
-entered after while
-4
+3sizeval
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.get(Solution.java:89)
+	at Solution.main(Solution.java:122)
 ----------------------------------------

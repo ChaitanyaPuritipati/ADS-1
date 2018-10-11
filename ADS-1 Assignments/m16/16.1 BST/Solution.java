@@ -45,7 +45,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		Node test = head;
 		while (!(test.left == null && test.right == null)) {
-			System.out.println("entered");
+			// System.out.println("entered");
 			int compare = item.compareTo(test.keydata);
 			if (compare > 0) {
 				if(test.right == null) {
@@ -63,22 +63,22 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			}
 		}
 		int compare = item.compareTo(test.keydata);
-		System.out.println(test.keydata + "keyval before putting");
+		// System.out.println(test.keydata + "keyval before putting");
 		if (compare == 0) {
-			System.out.println("entered after while");
+			// System.out.println("entered after while");
 			test.valdata = newnode.valdata;
 			return;
 		} else if (compare < 0) {
 			test.left = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			System.out.println(test.left.keydata + "left" + test.left.valdata);
+			// System.out.println(test.left.keydata + "left" + test.left.valdata);
 			size++;
 		} else if (compare > 0) {
 			test.right = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			System.out.println(test.right.keydata + "right" + test.right.valdata);
+			// System.out.println(test.right.keydata + "right" + test.right.valdata);
 			size++;
 		}
 
@@ -117,10 +117,10 @@ class Solution {
 				Key newkey = new Key(tokens[1], tokens[2], tokens[3]);
 				bstobj.put(newkey, Integer.parseInt(tokens[4]));
 				break;
-			// case "get":
-			// 	newkey = new Key(tokens[1], tokens[2], tokens[3]);
-			// 	System.out.println(bstobj.get(newkey));
-			// 	break;
+			case "get":
+				newkey = new Key(tokens[1], tokens[2], tokens[3]);
+				System.out.println(bstobj.get(newkey));
+				break;
 			default:
 				break;
 			}
