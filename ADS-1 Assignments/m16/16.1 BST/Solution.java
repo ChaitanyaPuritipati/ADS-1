@@ -37,8 +37,8 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 		Node newnode = new Node(item, itemval);
 		if (isEmpty()) {
 			head = newnode;
-			newnode.left = null;
-			newnode.right = null;
+			head.left = null;
+			head.right = null;
 			size++;
 			return;
 		}
