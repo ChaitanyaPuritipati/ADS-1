@@ -2,6 +2,7 @@
 Expected Output: 
 1
 Your Output: 
+AlgorithmsBob Sedgewick6000.0keyval before putting
 2sizeval
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:76)
@@ -14,6 +15,8 @@ Expected Output:
 7
 2
 Your Output: 
+HarryJK600.0keyval before putting
+HarryJK600.0keyval before putting
 3sizeval
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:76)
@@ -24,6 +27,8 @@ Expected Output:
 null
 7
 Your Output: 
+HarryJK600.0keyval before putting
+HarryJK600.0keyval before putting
 3sizeval
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:76)
