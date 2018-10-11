@@ -53,6 +53,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			} else if (compare < 0) {
 				test = test.left;
 			} else {
+				System.out.println("entered in while");
 				test.valdata = newnode.valdata;
 				return;
 			}
@@ -60,7 +61,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		int compare = item.compareTo(test.keydata);
 		System.out.println(test.keydata + "keyval before putting");
 		if(compare == 0) {
-			System.out.println("entered");
+			System.out.println("entered after while");
 			test.valdata = newnode.valdata;
 		}
 		else if (compare < 0) {
