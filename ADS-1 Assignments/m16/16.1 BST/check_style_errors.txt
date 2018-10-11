@@ -38,6 +38,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:36:28: Parameter itemval should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:63:19: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:66:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:71: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:77: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:82:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:82:19: Parameter item should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:102: Class Solution should be declared as final. [FinalClass]
@@ -51,4 +53,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:114:76: '4' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m16\16.1 BST\Solution.java:117: Line is longer than 80 characters (found 82). [LineLength]
 Audit done.
-Checkstyle ends with 51 errors.
+Checkstyle ends with 53 errors.

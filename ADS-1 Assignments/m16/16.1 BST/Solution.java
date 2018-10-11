@@ -68,13 +68,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			test.left = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			System.out.println(test.left.keydata + "left");
+			System.out.println(test.left.keydata + "left" + test.left.valdata);
 			size++;
 		} else if (compare > 0) {
 			test.right = newnode;
 			test.right.left = null;
 			test.right.right = null;
-			System.out.println(test.right.keydata + "right");
+			System.out.println(test.right.keydata + "right" + test.right.valdata);
 			size++;
 		}
 

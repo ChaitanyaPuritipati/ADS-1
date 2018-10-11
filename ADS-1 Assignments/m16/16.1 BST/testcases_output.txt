@@ -4,7 +4,7 @@ Expected Output:
 Your Output: 
 entered not empty
 AlgorithmsBob Sedgewick6000.0keyval before putting
-Pythoneric5000right
+Pythoneric5000right2
 2
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -16,16 +16,16 @@ Expected Output:
 Your Output: 
 entered not empty
 HarryJK600.0keyval before putting
-ITViswas400.0right
+ITViswas400.0right2
 entered not empty
 HarryJK600.0keyval before putting
-StreetKiran800.0right
+StreetKiran800.0right6
 entered not empty
 HarryJK600.0keyval before putting
-HelloAjay200.0right
+HelloAjay200.0right5
 entered not empty
 HarryJK600.0keyval before putting
-HelloAjay200.0right
+HelloAjay200.0right7
 5
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -35,15 +35,15 @@ null
 Your Output: 
 entered not empty
 HarryJK600.0keyval before putting
-ITViswas400.0right
+ITViswas400.0right2
 entered not empty
 HarryJK600.0keyval before putting
-StreetKiran800.0right
+StreetKiran800.0right6
 entered not empty
 HarryJK600.0keyval before putting
-HelloAjay200.0right
+HelloAjay200.0right5
 entered not empty
 HarryJK600.0keyval before putting
-HelloAjay200.0right
+HelloAjay200.0right7
 5
 ----------------------------------------
