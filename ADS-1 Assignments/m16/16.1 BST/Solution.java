@@ -34,7 +34,7 @@ class Key implements Comparable<Key> {
      *
      * @return     { int value }
      */
-    public int compareTo(Key other) {
+    public int compareTo(final Key other) {
         return this.bookname.compareTo(other.bookname);
     }
 }
@@ -79,7 +79,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
          * @param      keyval  The keyval
          * @param      val     The value
          */
-        Node(Key keyval, Value val) {
+        Node(final Key keyval, final Value val) {
             this.keydata = keyval;
             this.valdata = val;
         }
