@@ -98,7 +98,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      * @param      item     The item
      * @param      itemval  The itemval
      */
-    void put(Key item, Value itemval) {
+    void put(final Key item, final Value itemval) {
         Node newnode = new Node(item, itemval);
         if (isEmpty()) {
             head = newnode;
@@ -142,7 +142,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    Value get(Key item) {
+    Value get(final Key item) {
         Node test = head;
         while (!(test.left == null && test.right == null)) {
             int compare = item.compareTo(test.keydata);
