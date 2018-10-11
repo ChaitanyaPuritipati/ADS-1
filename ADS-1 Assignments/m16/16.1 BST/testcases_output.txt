@@ -2,8 +2,7 @@
 Expected Output: 
 1
 Your Output: 
-AlgorithmsBob Sedgewick6000.0name
-null
+35compare in put
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -12,30 +11,20 @@ Expected Output:
 7
 2
 Your Output: 
-HarryJK600.0name
-null
-HarryJK600.0name
-entered
--9comp
-null
-HarryJK600.0name
-entered
--9comp
-null
-HarryJK600.0name
-entered
-12comp
-null
+12compare in put
+1compare in put
+-9compare in put
+-9inside while
+0compare in put
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
 null
 7
 Your Output: 
-HarryJK600.0name
-null
-HarryJK600.0name
-entered
--9comp
-null
+12compare in put
+1compare in put
+-9compare in put
+-9inside while
+0compare in put
 ----------------------------------------

@@ -45,6 +45,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 		Node test = head;
 		while (test.left != null && test.right != null) {
 			int compare = item.compareTo(test.keydata);
+			System.out.println(compare + "inside while");
 			if (compare > 0) {
 				test = test.right;
 			} else if (compare < 0) {
@@ -55,6 +56,7 @@ class BinarySearchTree<Key extends Comparable<Key>,Value> {
 			}
 		}
 		int compare = item.compareTo(test.keydata);
+		System.out.println(compare + "compare in put");
 		if (compare < 0) {
 			test.left = newnode;
 			size++;
@@ -95,10 +97,10 @@ class Solution {
 				Key newkey = new Key(tokens[1], tokens[2], tokens[3]);
 				bstobj.put(newkey, Integer.parseInt(tokens[4]));
 				break;
-			case "get":
-				newkey = new Key(tokens[1], tokens[2], tokens[3]);
-				System.out.println(bstobj.get(newkey));
-				break;
+			// case "get":
+			// 	newkey = new Key(tokens[1], tokens[2], tokens[3]);
+			// 	System.out.println(bstobj.get(newkey));
+			// 	break;
 			default:
 				break;
 			}
