@@ -290,6 +290,7 @@ class Solution {
 			Cubesum current = minpqobj.delMin();
 			if (current.getSum() == previous) {
 				System.out.println("entered");
+				System.out.println(current.getSum());
 				ntimes++;
 				if (ntimes == numtimes) {
 					rtime++;
