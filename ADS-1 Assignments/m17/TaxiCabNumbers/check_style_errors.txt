@@ -97,7 +97,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:277:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:284:55: '100' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:285:37: '1000' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:309:49: '500' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:310: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:308:49: '500' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:309: Line is longer than 80 characters (found 102). [LineLength]
 Audit done.
 Checkstyle ends with 100 errors.
