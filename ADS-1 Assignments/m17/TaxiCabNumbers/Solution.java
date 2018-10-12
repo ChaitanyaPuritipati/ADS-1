@@ -101,12 +101,14 @@ final class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
+        final int ftt = 522;
+        final int hun = 100;
         Scanner scan = new Scanner(System.in);
         String[] tokens = scan.nextLine().split(" ");
         int reqtime = Integer.parseInt(tokens[0]);
         int numtimes = Integer.parseInt(tokens[1]);
-        MinPQ<Cubesum> minpqobj = new MinPQ<>(100);
-        for (int i = 0; i < 522; i++) {
+        MinPQ<Cubesum> minpqobj = new MinPQ<>(hun);
+        for (int i = 0; i < ftt; i++) {
             minpqobj.insert(new Cubesum(i, i));
         }
         int previous = -1;
@@ -126,7 +128,7 @@ final class Solution {
             } else {
                 ntimes = 1;
             }
-            if (current.getsecondnum() < 522) {
+            if (current.getsecondnum() < ftt) {
                 minpqobj.insert(new Cubesum(current.getfirstnum(), current.getsecondnum() + 1));
             }
             previous = current.getSum();

@@ -1,8 +1,5 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:108:47: '100' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:109:29: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:129:42: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:130: Line is longer than 80 characters (found 96). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:132: Line is longer than 80 characters (found 96). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 2 errors.
