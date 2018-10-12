@@ -280,7 +280,7 @@ class Solution {
 		int reqtime = Integer.parseInt(tokens[0]);
 		int numtimes = Integer.parseInt(tokens[1]);
 		MinPQ<Cubesum> minpqobj = new MinPQ<>(100);
-		for (int i = 0; i < 521; i++) {
+		for (int i = 0; i < 522; i++) {
 			minpqobj.insert(new Cubesum(i, i));
 		}
 		int previous = -1;
@@ -300,7 +300,7 @@ class Solution {
 			} else {
 				ntimes = 1;
 			}
-			if (current.secondnum < 521) {
+			if (current.secondnum < 522) {
 				minpqobj.insert(new Cubesum(current.firstnum, current.secondnum + 1));
 			}
 			previous = current.getSum();
