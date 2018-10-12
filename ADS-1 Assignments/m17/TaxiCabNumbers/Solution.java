@@ -280,7 +280,7 @@ class Solution {
 		int reqtime = Integer.parseInt(tokens[0]);
 		int numtimes = Integer.parseInt(tokens[1]);
 		MinPQ<Cubesum> minpqobj = new MinPQ<>(100);
-		for (int i = 0; i < 522; i++) {
+		for (int i = 0; i < 500; i++) {
 			minpqobj.insert(new Cubesum(i, i));
 		}
 		int previous = -1;
@@ -291,7 +291,6 @@ class Solution {
 			if (current.getSum() == previous) {
 				ntimes++;
 				if (ntimes == numtimes) {
-					// System.out.println(current.getSum() + "-----sumval");
 					rtime++;
 				}
 				if (rtime == reqtime) {
@@ -301,7 +300,7 @@ class Solution {
 			} else {
 				ntimes = 1;
 			}
-			if (current.secondnum < 522) {
+			if (current.secondnum < 500) {
 				minpqobj.insert(new Cubesum(current.firstnum, current.secondnum + 1));
 			}
 			previous = current.getSum();
