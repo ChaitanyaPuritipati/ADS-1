@@ -37,7 +37,7 @@ class Cubesum implements Comparable<Cubesum> {
      *
      * @return     { description_of_the_return_value }
      */
-    public int compareTo(Cubesum other) {
+    public int compareTo(final Cubesum other) {
         if (this.sum > other.sum) {
             return 1;
         }
@@ -88,7 +88,7 @@ class Cubesum implements Comparable<Cubesum> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
@@ -100,7 +100,7 @@ class Solution {
      *
      * @param      args  The arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] tokens = scan.nextLine().split(" ");
         int reqtime = Integer.parseInt(tokens[0]);

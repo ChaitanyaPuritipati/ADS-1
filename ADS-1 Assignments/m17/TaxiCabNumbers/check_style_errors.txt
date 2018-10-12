@@ -1,11 +1,8 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:40:26: Parameter other should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:91: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:103:29: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:108:47: '100' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:109:29: '522' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:129:42: '522' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:130: Line is longer than 80 characters (found 96). [LineLength]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 5 errors.
