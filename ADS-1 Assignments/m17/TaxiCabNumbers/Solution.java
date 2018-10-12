@@ -59,23 +59,35 @@ class Cubesum implements Comparable<Cubesum> {
         return sum;
     }
     /**
-     * { function_description }.
+     * { getSecondnum }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
-     * @return     { description_of_the_return_value }
+     * @return     { int type }
      */
     public int getsecondnum() {
         return secondnum;
     }
     /**
      * { getfirstnum }.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
-     * @return     { description_of_the_return_value }
+     * @return     { int type }
      */
     public int getfirstnum() {
         return firstnum;
     }
     /**
      * Returns a string representation of the object.
+     * Complexity:
+     *            Best case: O(1)
+     *            Worst case: O(1)
+     *            Average case: O(1)
      *
      * @return     String representation of the object.
      */
