@@ -294,7 +294,7 @@ class Solution {
 					rtime++;
 				}
 				if (rtime == reqtime) {
-					System.out.println(current);
+					System.out.println(current.getSum());
 					return;
 				}
 			} else {
