@@ -129,7 +129,9 @@ final class Solution {
                 ntimes = 1;
             }
             if (current.getsecondnum() < ftt) {
-                minpqobj.insert(new Cubesum(current.getfirstnum(), current.getsecondnum() + 1));
+                minpqobj.insert(new Cubesum(
+                                    current.getfirstnum(),
+                                    current.getsecondnum() + 1));
             }
             previous = current.getSum();
         }
