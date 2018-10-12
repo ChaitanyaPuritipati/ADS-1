@@ -294,6 +294,7 @@ class Solution {
 				System.out.println("entered");
 				System.out.println(current.getSum());
 				ntimes++;
+				System.out.println(ntimes + "ntimes");
 				if (ntimes == numtimes) {
 					rtime++;
 				}
