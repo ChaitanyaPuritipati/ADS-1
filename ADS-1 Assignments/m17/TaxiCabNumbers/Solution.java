@@ -291,7 +291,7 @@ class Solution {
 			if (current.getSum() == previous) {
 				ntimes++;
 				if (ntimes == numtimes) {
-					System.out.println(current.getSum() + "-----sumval");
+					// System.out.println(current.getSum() + "-----sumval");
 					rtime++;
 				}
 				if (rtime == reqtime) {
