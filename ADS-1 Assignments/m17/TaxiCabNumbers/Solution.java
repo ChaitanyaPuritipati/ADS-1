@@ -287,7 +287,7 @@ class Solution {
 		}
 		int previous = -1;
 		int ntimes = 1;
-		int rtime = 1;
+		int rtime = 0;
 		while (!minpqobj.isEmpty()) {
 			Cubesum current = minpqobj.delMin();
 			if (current.getSum() == previous) {
@@ -304,7 +304,7 @@ class Solution {
 				}
 			} else {
 				ntimes = 1;
-				rtime = 1;
+				rtime = 0;
 			}
 			if (current.secondnum < 500) {
 				minpqobj.insert(new Cubesum(current.firstnum, current.secondnum + 1));
