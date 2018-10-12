@@ -3,9 +3,24 @@ import java.util.Scanner;
  * Class for cubesum.
  */
 class Cubesum implements Comparable<Cubesum> {
+	/**
+	 * { firstnum variable }.
+	 */
 	private int firstnum;
+	/**
+	 * { secondnum variable }.
+	 */
 	private int secondnum;
+	/**
+	 * { sum variable }.
+	 */
 	private int sum;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      first   The first
+	 * @param      second  The second
+	 */
 	Cubesum(final int first, final int second) {
 		this.sum = (first * first * first) + (second * second * second);
 		this.firstnum = first;

@@ -1,18 +1,14 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:7:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:8:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:9:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:25:30: Parameter other should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:26: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:27: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:72: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:84:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:89:55: '100' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:90:37: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:110:54: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:111: Line is longer than 80 characters (found 112). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:40:30: Parameter other should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:41: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:42: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:87: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:99:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:104:55: '100' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:105:37: '522' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:125:54: '522' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:126: Line is longer than 80 characters (found 112). [LineLength]
 Audit done.
-Checkstyle ends with 15 errors.
+Checkstyle ends with 11 errors.
