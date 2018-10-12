@@ -300,7 +300,6 @@ class Solution {
 				}
 			} else {
 				ntimes = 1;
-				rtime = 0;
 			}
 			if (current.secondnum < 522) {
 				minpqobj.insert(new Cubesum(current.firstnum, current.secondnum + 1));
