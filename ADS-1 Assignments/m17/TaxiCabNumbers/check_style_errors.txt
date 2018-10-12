@@ -97,7 +97,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:277:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:282:55: '100' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:283:37: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:304:49: '522' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:305: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:305:49: '522' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m17\TaxiCabNumbers\Solution.java:306: Line is longer than 80 characters (found 102). [LineLength]
 Audit done.
 Checkstyle ends with 100 errors.
