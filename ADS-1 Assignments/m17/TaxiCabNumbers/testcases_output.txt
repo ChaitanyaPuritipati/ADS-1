@@ -2,6 +2,8 @@
 Expected Output: 
 1729
 Your Output: 
+1req
+2num
 entered
 1729
 entered
@@ -1135,6 +1137,8 @@ entered
 Expected Output: 
 4673088
 Your Output: 
+100req
+2num
 entered
 1729
 entered
@@ -2268,6 +2272,8 @@ entered
 Expected Output: 
 86488136
 Your Output: 
+450req
+2num
 entered
 1729
 entered
@@ -3401,6 +3407,8 @@ entered
 Expected Output: 
 87539319
 Your Output: 
+1req
+3num
 entered
 1729
 1729
@@ -3409,6 +3417,8 @@ entered
 Expected Output: 
 143604279
 Your Output: 
+3req
+3num
 entered
 1729
 entered

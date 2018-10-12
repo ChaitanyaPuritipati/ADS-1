@@ -279,6 +279,8 @@ class Solution {
 		String[] tokens = scan.nextLine().split(" ");
 		int reqtime = Integer.parseInt(tokens[0]);
 		int numtimes = Integer.parseInt(tokens[1]);
+		System.out.println(reqtime + "req");
+		System.out.println(numtimes + "num");
 		MinPQ<Cubesum> minpqobj = new MinPQ<>(100);
 		for (int i = 0; i < 1000; i++) {
 			minpqobj.insert(new Cubesum(i, i));
