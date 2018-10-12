@@ -289,9 +289,9 @@ class Solution {
 		while (!minpqobj.isEmpty()) {
 			Cubesum current = minpqobj.delMin();
 			if (current.getSum() == previous) {
-				System.out.println(current.getSum() + "sumval");
 				ntimes++;
 				if (ntimes == numtimes) {
+					System.out.println(current.getSum() + "-----sumval");
 					rtime++;
 				}
 				if (rtime == reqtime) {
