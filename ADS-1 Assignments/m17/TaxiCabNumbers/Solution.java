@@ -305,7 +305,7 @@ class Solution {
 				ntimes = 1;
 				rtime = 0;
 			}
-			if (current.secondnum < 500) {
+			if (current.secondnum < 1000) {
 				minpqobj.insert(new Cubesum(current.firstnum, current.secondnum + 1));
 			}
 			previous = current.getSum();
