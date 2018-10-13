@@ -111,7 +111,8 @@ final class Solution {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(
-					                maxpqbest.getstockname());
+					                maxpqbest.getstockname(
+					                ));
 					maxST.put(
 					    maxpqbest.getstockname(),
 					    ++value);
