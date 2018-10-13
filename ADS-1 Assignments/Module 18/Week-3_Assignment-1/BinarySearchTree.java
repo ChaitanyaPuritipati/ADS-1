@@ -29,6 +29,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         keys = (Key[]) new Comparable[twenty];
         values = (Value[]) new Object[twenty];
     }
+    /**
+     * { To get keys }.
+     * Complexity: O(N)
+     *
+     * @return     { description_of_the_return_value }
+     */
     public ArrayList<Key> getkeys() {
 		ArrayList<Key> ar = new ArrayList<>(Arrays.asList(keys));
 		return ar;
