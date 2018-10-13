@@ -54,30 +54,35 @@ class Solution {
 				count++;
 			}
 			Stock maxathour = maxpqobj.max();
-			// System.out.println(maxathour + "max");
 			Stock minathour = minpqobj.min();
-			// System.out.println(minathour + "min");
 			for (Stock eachmaxstock : maxpqobj) {
-				// System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
 					if (!maxST.contains(eachmaxstock.getstockname())) {
-						 maxST.put(eachmaxstock.getstockname(), 1);
+						maxST.put(eachmaxstock.getstockname(), 1);
 					}
 					int value = maxST.get(eachmaxstock.getstockname());
 					maxST.put(eachmaxstock.getstockname(), value++);
 				} else {
-					maxST.put(eachmaxstock.getstockname(), 0);
+					if (!maxST.contains(eachmaxstock.getstockname())) {
+						maxST.put(eachmaxstock.getstockname(), 0);
+					}
+					int prevvalue = maxST.get(eachmaxstock.getstockname());
+					maxST.put(eachmaxstock.getstockname(), prevvalue);
 				}
 			}
 			for (Stock eachminstock : minpqobj) {
 				if (eachminstock.compareTo(minathour) == 0) {
-					 if (!minST.contains(eachminstock.getstockname())) {
-						 minST.put(eachminstock.getstockname(), 1);
-					 }
+					if (!minST.contains(eachminstock.getstockname())) {
+						minST.put(eachminstock.getstockname(), 1);
+					}
 					int valuemin = minST.get(eachminstock.getstockname());
 					minST.put(eachminstock.getstockname(), valuemin++);
 				} else {
-					minST.put(eachminstock.getstockname(), 0);
+					if (!minST.contains(eachminstock.getstockname())) {
+						minST.put(eachminstock.getstockname(), 0);
+					}
+					int prevminval = minST.get(eachminstock.getstockname());
+					minST.put(eachminstock.getstockname(), prevminval);
 				}
 			}
 			for (int j = 0; j < 5; j++) {
