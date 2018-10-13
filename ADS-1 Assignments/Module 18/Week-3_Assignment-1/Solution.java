@@ -129,13 +129,13 @@ final class Solution {
 			String[] querydetails = scan.nextLine().split(",");
 			if (querydetails[0].equals("get")) {
 				if (querydetails[1].equals("maxST")) {
-					if(!maxST.contains(querydetails[2])) {
+					if (!maxST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
 						System.out.println(maxST.get(querydetails[2]));
 					}
 				} else {
-					if(!minST.contains(querydetails[2])) {
+					if (!minST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
 						System.out.println(minST.get(querydetails[2]));
@@ -143,9 +143,9 @@ final class Solution {
 				}
 
 			}
-			if(querydetails[0].equals("intersection")) {
-				for(String eachkey: maxST.getkeys()) {
-					if(eachkey != null && minST.contains(eachkey)) {
+			if (querydetails[0].equals("intersection")) {
+				for (String eachkey : maxST.getkeys()) {
+					if (eachkey != null && minST.contains(eachkey)) {
 						System.out.println(eachkey);
 					}
 				}
