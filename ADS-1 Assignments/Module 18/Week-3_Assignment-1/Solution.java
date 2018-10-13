@@ -87,10 +87,12 @@ final class Solution {
 	 */
 	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
+		final int five = 5;
+		final int six = 6;
 		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
 		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
 		int stocknum = Integer.parseInt(scan.nextLine());
-		for (int i = 0; i < 6; i++) {
+		for (int i = 0; i < six; i++) {
 			int count = 0;
 			MinPQ<Stock> minpqobj = new MinPQ<>();
 			MaxPQ<Stock> maxpqobj = new MaxPQ<>();
@@ -101,7 +103,7 @@ final class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			for (int j = 0; j < 5; j++) {
+			for (int j = 0; j < five; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(maxpqbest.getstockname());
@@ -112,7 +114,7 @@ final class Solution {
 				System.out.println(maxpqbest);
 			}
 			System.out.println();
-			for (int k = 0; k < 5; k++) {
+			for (int k = 0; k < five; k++) {
 				Stock minpqworst = minpqobj.delMin();
 				if (minST.contains(minpqworst.getstockname())) {
 					int valuemin = minST.get(minpqworst.getstockname());
