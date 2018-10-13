@@ -26,7 +26,7 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:75: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:78:45: '5' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:83:45: '5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:93: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:95: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:94: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:96: Line is longer than 80 characters (found 87). [LineLength]
 Audit done.
 Checkstyle ends with 29 errors.

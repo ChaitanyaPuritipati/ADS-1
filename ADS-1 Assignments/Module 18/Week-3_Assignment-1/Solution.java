@@ -84,6 +84,7 @@ class Solution {
 				Stock minpqworst = minpqobj.delMin();
 				System.out.println(minpqworst);
 			}
+			System.out.println();
 		}
 		int querynum = Integer.parseInt(scan.nextLine());
 		for (int l = 0; l < querynum; l++) {
