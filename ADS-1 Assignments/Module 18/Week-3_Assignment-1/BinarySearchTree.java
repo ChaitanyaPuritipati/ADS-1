@@ -147,30 +147,31 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 */
 	void print() {
 		Key[] keysnew = Arrays.copyOf(keys, size);
-		for(int i = keysnew.length - 1; i > 0; i--) {
-			System.out.println(keysnew[i] + " "+ get(keysnew[i]));
+		MyIterable<Key> mylist = new MyIterable<>(keysnew);
+		for(Key eachkey: mylist) {
+			System.out.println(eachkey + " "+ get(eachkey));
 		}
 	}
 }
-// class MyIterable<Key> implements Iterable<Key> {
-// 	/**
-// 	 * { var_description }.
-// 	 */
-// 	private List<Key> list;
-// 	/**
-// 	 * Constructs the object.
-// 	 *
-// 	 * @param      k     { parameter_description }
-// 	 */
-// 	public MyIterable(Key[] k) {
-// 		list = Arrays.asList(k);
-// 	}
-// 	/**
-// 	 * { function_description }.
-// 	 *
-// 	 * @return     { description_of_the_return_value }
-// 	 */
-// 	public Iterator<Key> iterator() {
-// 		return list.iterator();
-// 	}
-// }
+class MyIterable<Key> implements Iterable<Key> {
+	/**
+	 * { var_description }.
+	 */
+	private List<Key> list;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      k     { parameter_description }
+	 */
+	public MyIterable(Key[] k) {
+		list = Arrays.asList(k);
+	}
+	/**
+	 * { function_description }.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public Iterator<Key> iterator() {
+		return list.iterator();
+	}
+}
