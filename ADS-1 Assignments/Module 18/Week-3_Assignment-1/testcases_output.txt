@@ -75,6 +75,7 @@ Your Output:
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 ICRA 2.84eachmaxstock
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
@@ -109,6 +110,7 @@ Bajaj Finserv 0.64
 Merck Ltd 5.83max
 Honeywell Auto -1.08min
 Merck Ltd 5.83eachmaxstock
+entered
 Bajaj Finserv 5.64eachmaxstock
 ICRA 4.84eachmaxstock
 Schaeffler India 4.59eachmaxstock
@@ -143,6 +145,7 @@ GSK Cons Health 0.84
 Tasty Bite Eat 5.23max
 WABCO India -1.33min
 Tasty Bite Eat 5.23eachmaxstock
+entered
 Bajaj Finserv 4.64eachmaxstock
 Nestle India 4.57eachmaxstock
 ICRA 3.84eachmaxstock
@@ -177,6 +180,7 @@ Oracle Fin 0.52
 Merck Ltd 4.83max
 ICRA -2.84min
 Merck Ltd 4.83eachmaxstock
+entered
 MRF 3.48eachmaxstock
 3M India 2.56eachmaxstock
 Bosch -0.3eachmaxstock
@@ -211,6 +215,7 @@ HEG Ltd -1.61
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 ICRA 2.84eachmaxstock
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
@@ -245,6 +250,7 @@ Bajaj Finserv 0.64
 ICRA 5.84max
 Eicher Motors -1.6min
 ICRA 5.84eachmaxstock
+entered
 Lakshmi Machine 4.7eachmaxstock
 Merck Ltd 3.83eachmaxstock
 Bajaj Finserv 3.64eachmaxstock
@@ -353,6 +359,7 @@ Your Output:
 Larsen & Toubro 4.11max
 Nalwa Sons Invst -0.06min
 Larsen & Toubro 4.11eachmaxstock
+entered
 Vinati Organics 4.03eachmaxstock
 APL Apollo Tube 3.18eachmaxstock
 Fine Organic Industries Ltd. 2.29eachmaxstock
@@ -377,6 +384,7 @@ Ceat 0.23
 Larsen & Toubro 4.08max
 Ceat -0.06min
 Larsen & Toubro 4.08eachmaxstock
+entered
 Jubilant Food 4.08eachmaxstock
 NIIT Tech 3.21eachmaxstock
 Vinati Organics 3.03eachmaxstock
@@ -401,6 +409,7 @@ APL Apollo Tube 2.18
 Chola Inv Fin 4.47max
 Nalwa Sons Invst -0.06min
 Chola Inv Fin 4.47eachmaxstock
+entered
 Jubilant Food 4.08eachmaxstock
 Vinati Organics 4.03eachmaxstock
 Fine Organic Industries Ltd. 3.29eachmaxstock
@@ -425,6 +434,7 @@ Endurance Technologies Ltd. 1.1
 Chola Inv Fin 3.47max
 Larsen & Toubro -4.11min
 Chola Inv Fin 3.47eachmaxstock
+entered
 Fine Organic Industries Ltd. 3.29eachmaxstock
 APL Apollo Tube 2.18eachmaxstock
 Ceat 1.23eachmaxstock
@@ -449,6 +459,7 @@ NIIT Tech 0.34
 Larsen & Toubro 3.11max
 Nalwa Sons Invst -2.06min
 Larsen & Toubro 3.11eachmaxstock
+entered
 APL Apollo Tube 2.18eachmaxstock
 Jubilant Food 2.08eachmaxstock
 Ceat 1.23eachmaxstock
@@ -473,6 +484,7 @@ Endurance Technologies Ltd. 1.1
 Larsen & Toubro 5.11max
 Ceat -1.23min
 Larsen & Toubro 5.11eachmaxstock
+entered
 Jubilant Food 5.08eachmaxstock
 Endurance Technologies Ltd. 4.1eachmaxstock
 Nalwa Sons Invst 4.06eachmaxstock
@@ -576,6 +588,7 @@ Your Output:
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 ICRA 2.84eachmaxstock
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
@@ -610,6 +623,7 @@ Bajaj Finserv 0.64
 Merck Ltd 5.83max
 Honeywell Auto -1.08min
 Merck Ltd 5.83eachmaxstock
+entered
 Bajaj Finserv 5.64eachmaxstock
 ICRA 4.84eachmaxstock
 Schaeffler India 4.59eachmaxstock
@@ -644,6 +658,7 @@ GSK Cons Health 0.84
 Tasty Bite Eat 5.23max
 WABCO India -1.33min
 Tasty Bite Eat 5.23eachmaxstock
+entered
 Bajaj Finserv 4.64eachmaxstock
 Nestle India 4.57eachmaxstock
 ICRA 3.84eachmaxstock
@@ -678,6 +693,7 @@ Oracle Fin 0.52
 Merck Ltd 4.83max
 ICRA -2.84min
 Merck Ltd 4.83eachmaxstock
+entered
 MRF 3.48eachmaxstock
 3M India 2.56eachmaxstock
 Bosch -0.3eachmaxstock
@@ -712,6 +728,7 @@ HEG Ltd -1.61
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 ICRA 2.84eachmaxstock
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
@@ -746,6 +763,7 @@ Bajaj Finserv 0.64
 ICRA 5.84max
 Eicher Motors -1.6min
 ICRA 5.84eachmaxstock
+entered
 Lakshmi Machine 4.7eachmaxstock
 Merck Ltd 3.83eachmaxstock
 Bajaj Finserv 3.64eachmaxstock
@@ -864,6 +882,7 @@ Your Output:
 Larsen & Toubro 4.11max
 Nalwa Sons Invst -0.06min
 Larsen & Toubro 4.11eachmaxstock
+entered
 Vinati Organics 4.03eachmaxstock
 APL Apollo Tube 3.18eachmaxstock
 Fine Organic Industries Ltd. 2.29eachmaxstock
@@ -888,6 +907,7 @@ Ceat 0.23
 Larsen & Toubro 4.08max
 Ceat -0.06min
 Larsen & Toubro 4.08eachmaxstock
+entered
 Jubilant Food 4.08eachmaxstock
 NIIT Tech 3.21eachmaxstock
 Vinati Organics 3.03eachmaxstock
@@ -912,6 +932,7 @@ APL Apollo Tube 2.18
 Chola Inv Fin 4.47max
 Nalwa Sons Invst -0.06min
 Chola Inv Fin 4.47eachmaxstock
+entered
 Jubilant Food 4.08eachmaxstock
 Vinati Organics 4.03eachmaxstock
 Fine Organic Industries Ltd. 3.29eachmaxstock
@@ -936,6 +957,7 @@ Endurance Technologies Ltd. 1.1
 Chola Inv Fin 3.47max
 Larsen & Toubro -4.11min
 Chola Inv Fin 3.47eachmaxstock
+entered
 Fine Organic Industries Ltd. 3.29eachmaxstock
 APL Apollo Tube 2.18eachmaxstock
 Ceat 1.23eachmaxstock
@@ -960,6 +982,7 @@ NIIT Tech 0.34
 Larsen & Toubro 3.11max
 Nalwa Sons Invst -2.06min
 Larsen & Toubro 3.11eachmaxstock
+entered
 APL Apollo Tube 2.18eachmaxstock
 Jubilant Food 2.08eachmaxstock
 Ceat 1.23eachmaxstock
@@ -984,6 +1007,7 @@ Endurance Technologies Ltd. 1.1
 Larsen & Toubro 5.11max
 Ceat -1.23min
 Larsen & Toubro 5.11eachmaxstock
+entered
 Jubilant Food 5.08eachmaxstock
 Endurance Technologies Ltd. 4.1eachmaxstock
 Nalwa Sons Invst 4.06eachmaxstock
@@ -1107,6 +1131,7 @@ Your Output:
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
 ICRA 2.15eachmaxstock
@@ -1141,6 +1166,7 @@ Bajaj Finserv 0.64
 Bajaj Finserv 5.64max
 Merck Ltd -5.83min
 Bajaj Finserv 5.64eachmaxstock
+entered
 Schaeffler India 4.59eachmaxstock
 Sanofi India 4.0eachmaxstock
 Nestle India 4.0eachmaxstock
@@ -1175,6 +1201,7 @@ TTK Prestige 0.0
 Tasty Bite Eat 5.23max
 Bajaj Finserv -4.64min
 Tasty Bite Eat 5.23eachmaxstock
+entered
 Nestle India 4.57eachmaxstock
 ICRA 3.84eachmaxstock
 Lakshmi Machine 3.7eachmaxstock
@@ -1209,6 +1236,7 @@ Merck Ltd -1.61
 Merck Ltd 4.83max
 ICRA -2.84min
 Merck Ltd 4.83eachmaxstock
+entered
 MRF 3.48eachmaxstock
 3M India 2.56eachmaxstock
 Bosch -0.3eachmaxstock
@@ -1243,6 +1271,7 @@ HEG Ltd -1.61
 Merck Ltd 4.83max
 Bosch 0.3min
 Merck Ltd 4.83eachmaxstock
+entered
 ICRA 2.84eachmaxstock
 Schaeffler India 2.57eachmaxstock
 TTK Prestige 2.15eachmaxstock
@@ -1277,6 +1306,7 @@ Bajaj Finserv 0.64
 ICRA 5.84max
 Eicher Motors -1.6min
 ICRA 5.84eachmaxstock
+entered
 Lakshmi Machine 4.7eachmaxstock
 Merck Ltd 3.83eachmaxstock
 Bajaj Finserv 3.64eachmaxstock

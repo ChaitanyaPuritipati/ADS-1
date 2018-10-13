@@ -61,6 +61,7 @@ class Solution {
 			for (Stock eachmaxstock : maxpqobj) {
 				System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
+					System.out.println("entered");
 					maxfreq++;
 					maxST.put(eachmaxstock.getstockname(), maxfreq);
 				} else {
