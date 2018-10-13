@@ -29,7 +29,7 @@ class Stock implements Comparable<Stock> {
 	}
 	public String toString() {
 		String str = "";
-		str = str + this.stockname + this.stockchange;
+		str = str + this.stockname + " " +this.stockchange;
 		return str;
 	}
 }
@@ -51,31 +51,24 @@ class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			// for (Stock eachdetail : minpqobj) {
-			// 	System.out.println(eachdetail);
-			// }
-			// System.out.println("Hourly min print");
-			// for (Stock eachdetail2 : maxpqobj) {
-			// 	System.out.println(eachdetail2);
-			// }
-			// System.out.println("Hourly max print");
-			// System.out.println("------------------------------------");
-
 			BinarySearchTree<String, Float> stockbest = new  BinarySearchTree<>();
 			BinarySearchTree<String, Float> stockworst = new BinarySearchTree<>();
 			for (int j = 0; j < 5; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
-				System.out.println(maxpqbest + "maxpqval");
+				System.out.println(maxpqbest);
 				stockbest.put(maxpqbest.getstockname(), maxpqbest.getstockchange());
+			}
+			System.out.println();
+			for(int k = 0; k < 5; k++) {
 				Stock minpqworst = minpqobj.delMin();
-				System.out.println(minpqworst + "minpqbest");
+				System.out.println(minpqworst);
 				stockworst.put(minpqworst.getstockname(), minpqworst.getstockchange());
 			}
-			System.out.println("------------------------");
-			stockbest.print();
 			System.out.println();
-			stockworst.print();
-			System.out.println();
+			// stockbest.print();
+			// System.out.println();
+			// stockworst.print();
+			// System.out.println();
 		}
 	}
 }
