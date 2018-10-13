@@ -112,7 +112,9 @@ final class Solution {
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(
 					                maxpqbest.getstockname());
-					maxST.put(maxpqbest.getstockname(), ++value);
+					maxST.put(
+					    maxpqbest.getstockname(),
+					    ++value);
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
 				}
