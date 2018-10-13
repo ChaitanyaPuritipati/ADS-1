@@ -1,17 +1,49 @@
 import java.util.Scanner;
+/**
+ * Class for stock.
+ */
 class Stock implements Comparable<Stock> {
+	/**
+	 * { nameofthestock }.
+	 */
 	private String stockname;
+	/**
+	 * { changevalueofstock }.
+	 */
 	private float stockchange;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      name    The name
+	 * @param      change  The change
+	 */
 	Stock(String name, float change) {
 		this.stockname = name;
 		this.stockchange = change;
 	}
+	/**
+	 * { getstockname }.
+	 *
+	 * @return     { String type }
+	 */
 	public String getstockname() {
 		return this.stockname;
 	}
+	/**
+	 * { getstockchange }.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public float getstockchange() {
 		return this.stockchange;
 	}
+	/**
+	 * { For comparing }.
+	 *
+	 * @param      other  The other
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int compareTo(Stock other) {
 		if (this.stockchange > other.stockchange) {
 			return 1;
@@ -27,16 +59,32 @@ class Stock implements Comparable<Stock> {
 		}
 		return 0;
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		String str = "";
 		str = str + this.stockname + " " + this.stockchange;
 		return str;
 	}
 }
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 		//unused.
 	}
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
@@ -53,15 +101,11 @@ class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			// Arraylist<Stock> maxathour = new Arraylist<>();
-			// Arraylist<Stock> minathour = new Arraylist<>();
 			for (int j = 0; j < 5; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(maxpqbest.getstockname());
-					// System.out.println(value + "everytime");
 					maxST.put(maxpqbest.getstockname(), ++value);
-					// System.out.println(maxST.get(maxpqbest.getstockname()));
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
 				}
@@ -100,7 +144,6 @@ class Solution {
 
 			}
 			if(querydetails[0].equals("intersection")) {
-				// System.out.println();
 				for(String eachkey: maxST.getkeys()) {
 					if(eachkey != null && minST.contains(eachkey)) {
 						System.out.println(eachkey);
