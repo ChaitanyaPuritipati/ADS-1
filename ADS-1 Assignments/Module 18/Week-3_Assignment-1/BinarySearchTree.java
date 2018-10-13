@@ -147,7 +147,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 */
 	void print() {
 		Key[] keysnew = Arrays.copyOf(keys, size);
-		for(int i = keysnew.length; i > 0; i--) {
+		for(int i = keysnew.length - 1; i > 0; i--) {
 			System.out.println(keysnew[i] + " "+ get(keysnew[i]));
 		}
 	}
