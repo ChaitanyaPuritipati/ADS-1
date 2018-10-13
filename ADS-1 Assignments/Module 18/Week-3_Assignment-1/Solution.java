@@ -53,48 +53,61 @@ class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			Stock maxathour = maxpqobj.max();
-			Stock minathour = minpqobj.min();
-			for (Stock eachmaxstock : maxpqobj) {
-				if (eachmaxstock.compareTo(maxathour) == 0) {
-					if (!maxST.contains(eachmaxstock.getstockname())) {
-						maxST.put(eachmaxstock.getstockname(), 1);
-					}
-					int value = maxST.get(eachmaxstock.getstockname());
-					maxST.put(eachmaxstock.getstockname(), value++);
-				} else {
-					if (!maxST.contains(eachmaxstock.getstockname())) {
-						maxST.put(eachmaxstock.getstockname(), 0);
-					}
-					int prevvalue = maxST.get(eachmaxstock.getstockname());
-					maxST.put(eachmaxstock.getstockname(), prevvalue);
-				}
-			}
-			for (Stock eachminstock : minpqobj) {
-				if (eachminstock.compareTo(minathour) == 0) {
-					if (!minST.contains(eachminstock.getstockname())) {
-						minST.put(eachminstock.getstockname(), 1);
-					}
-					int valuemin = minST.get(eachminstock.getstockname());
-					minST.put(eachminstock.getstockname(), valuemin++);
-				} else {
-					if (!minST.contains(eachminstock.getstockname())) {
-						minST.put(eachminstock.getstockname(), 0);
-					}
-					int prevminval = minST.get(eachminstock.getstockname());
-					minST.put(eachminstock.getstockname(), prevminval);
-				}
-			}
+			// Arraylist<Stock> maxathour = new Arraylist<>();
+			// Arraylist<Stock> minathour = new Arraylist<>();
 			for (int j = 0; j < 5; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
+				if (maxST.contains(maxpqbest.getstockname())) {
+					int value = maxST.get(maxpqbest.getstockname());
+					maxST.put(maxpqbest.getstockname(), value++);
+				} else {
+					maxST.put(maxpqbest.getstockname(), 1);
+				}
 				System.out.println(maxpqbest);
 			}
 			System.out.println();
 			for (int k = 0; k < 5; k++) {
 				Stock minpqworst = minpqobj.delMin();
+				if (minST.contains(minpqworst.getstockname())) {
+					int valuemin = minST.get(minpqworst.getstockname());
+					minST.put(minpqworst.getstockname(), valuemin++);
+				} else {
+					minST.put(minpqworst.getstockname(), 1);
+				}
 				System.out.println(minpqworst);
 			}
 			System.out.println();
+			// for (Stock eachmaxstock : maxpqobj) {
+			// 	if (maxST.contains()) {
+			// 		if (!maxST.contains(eachmaxstock.getstockname())) {
+			// 			maxST.put(eachmaxstock.getstockname(), 1);
+			// 		}
+			// 		int value = maxST.get(eachmaxstock.getstockname());
+			// 		maxST.put(eachmaxstock.getstockname(), value++);
+			// 		// } else {
+			// 		// 	if (!maxST.contains(eachmaxstock.getstockname())) {
+			// 		// 		maxST.put(eachmaxstock.getstockname(), 0);
+			// 		// 	}
+			// 		// 	int prevvalue = maxST.get(eachmaxstock.getstockname());
+			// 		// 	maxST.put(eachmaxstock.getstockname(), prevvalue);
+			// 		// }
+			// 	}
+			// 	for (Stock eachminstock : minpqobj) {
+			// 		if (eachminstock.compareTo(minathour) == 0) {
+			// 			if (!minST.contains(eachminstock.getstockname())) {
+			// 				minST.put(eachminstock.getstockname(), 1);
+			// 			}
+			// 			int valuemin = minST.get(eachminstock.getstockname());
+			// 			minST.put(eachminstock.getstockname(), valuemin++);
+			// 		} else {
+			// 			if (!minST.contains(eachminstock.getstockname())) {
+			// 				minST.put(eachminstock.getstockname(), 0);
+			// 			}
+			// 			int prevminval = minST.get(eachminstock.getstockname());
+			// 			minST.put(eachminstock.getstockname(), prevminval);
+			// 		}
+			// 	}
+
 		}
 		int querynum = Integer.parseInt(scan.nextLine());
 		for (int l = 0; l < querynum; l++) {
