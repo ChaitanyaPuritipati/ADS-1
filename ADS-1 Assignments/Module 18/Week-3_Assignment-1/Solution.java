@@ -12,9 +12,6 @@ class Stock implements Comparable<Stock> {
 	public float getstockchange() {
 		return this.stockchange;
 	}
-	public int compareTo(String other) {
-		return this.stockname.compareTo(other);
-	}
 	public int compareTo(Stock other) {
 		if (this.stockchange > other.stockchange) {
 			return 1;
@@ -65,9 +62,9 @@ class Solution {
 			for (Stock eachmaxstock : maxpqobj) {
 				// System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
-					// if (!maxST.contains(eachmaxstock.getstockname())) {
-						// maxST.put(eachmaxstock.getstockname(), 1);
-					// }
+					if (!maxST.contains(eachmaxstock.getstockname())) {
+						 maxST.put(eachmaxstock.getstockname(), 1);
+					}
 					int value = maxST.get(eachmaxstock.getstockname());
 					maxST.put(eachmaxstock.getstockname(), value++);
 				} else {
@@ -76,9 +73,9 @@ class Solution {
 			}
 			for (Stock eachminstock : minpqobj) {
 				if (eachminstock.compareTo(minathour) == 0) {
-					// if (!minST.contains(eachminstock.getstockname())) {
-						// minST.put(eachminstock.getstockname(), 1);
-					// }
+					 if (!minST.contains(eachminstock.getstockname())) {
+						 minST.put(eachminstock.getstockname(), 1);
+					 }
 					int valuemin = minST.get(eachminstock.getstockname());
 					minST.put(eachminstock.getstockname(), valuemin++);
 				} else {
