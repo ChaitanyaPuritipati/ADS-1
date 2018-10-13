@@ -54,9 +54,12 @@ class Solution {
 			for(Stock eachdetail : minpqobj) {
 				System.out.println(eachdetail);
 			}
+			System.out.println("Hourly min print");
 			for(Stock eachdetail2 : maxpqobj) {
 				System.out.println(eachdetail2);
 			}
+			System.out.println("Hourly max print");
+			System.out.println("------------------------------------");
 			// BinarySearchTree<String, FLoat> stockbest = new  BinarySearchTree<>();
 			// BinarySearchTree<String, FLoat> stockworst = new BinarySearchTree<>();
 			// for(int j = 0; j < 5; j++) {
