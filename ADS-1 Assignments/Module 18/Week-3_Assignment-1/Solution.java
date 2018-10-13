@@ -110,7 +110,8 @@ final class Solution {
 			for (int j = 0; j < five; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
-					int value = maxST.get(maxpqbest.getstockname());
+					int value = maxST.get(
+					                maxpqbest.getstockname());
 					maxST.put(maxpqbest.getstockname(), ++value);
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
