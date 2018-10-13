@@ -112,7 +112,6 @@ final class Solution {
             MaxPQ<Stock> maxpqobj = new MaxPQ<>();
 
             //To enter details
-            
             while (count < stocknum) {
                 String[] details = scan.nextLine().split(",");
                 Stock stockobj = new Stock(
