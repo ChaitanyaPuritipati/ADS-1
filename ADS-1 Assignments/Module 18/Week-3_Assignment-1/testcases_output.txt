@@ -77,61 +77,9 @@ Bosch0.3minpqbest
 ICRA2.84maxpqval
 Abbott India0.46minpqbest
 Schaeffler India2.57maxpqval
-MRF0.48minpqbest
-TTK Prestige2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-Merck Ltd5.83maxpqval
-Honeywell Auto-1.08minpqbest
-Bajaj Finserv5.64maxpqval
-TTK Prestige0.15minpqbest
-ICRA4.84maxpqval
-WABCO India0.33minpqbest
-Schaeffler India4.59maxpqval
-Eicher Motors0.6minpqbest
-Nestle India4.57maxpqval
-GSK Cons Health0.84minpqbest
-Tasty Bite Eat5.23maxpqval
-WABCO India-1.33minpqbest
-Bajaj Finserv4.64maxpqval
-Sanofi India-1.21minpqbest
-Nestle India4.57maxpqval
-GSK Cons Health-0.84minpqbest
-ICRA3.84maxpqval
-Abbott India0.46minpqbest
-Lakshmi Machine3.7maxpqval
-Oracle Fin0.52minpqbest
-Merck Ltd4.83maxpqval
-ICRA-2.84minpqbest
-MRF3.48maxpqval
-Schaeffler India-2.57minpqbest
-3M India2.56maxpqval
-TTK Prestige-2.15minpqbest
-Bosch-0.3maxpqval
-Bharat Rasayan-2.0minpqbest
-Abbott India-0.46maxpqval
-HEG Ltd-1.61minpqbest
-Merck Ltd4.83maxpqval
-Bosch0.3minpqbest
-ICRA2.84maxpqval
-Abbott India0.46minpqbest
-Schaeffler India2.57maxpqval
-MRF0.48minpqbest
-TTK Prestige2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-ICRA5.84maxpqval
-Eicher Motors-1.6minpqbest
-Lakshmi Machine4.7maxpqval
-Honeywell Auto-1.08minpqbest
-Merck Ltd3.83maxpqval
-Sanofi India0.21minpqbest
-Bajaj Finserv3.64maxpqval
-Tasty Bite Eat0.23minpqbest
-TTK Prestige3.15maxpqval
-WABCO India0.33minpqbest
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(BinarySearchTree.java:98)
+	at Solution.main(Solution.java:69)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -210,63 +158,9 @@ Your Output:
 Larsen & Toubro4.11maxpqval
 Nalwa Sons Invst-0.06minpqbest
 Vinati Organics4.03maxpqval
-Jubilant Food0.08minpqbest
-APL Apollo Tube3.18maxpqval
-Endurance Technologies Ltd.0.1minpqbest
-Fine Organic Industries Ltd.2.29maxpqval
-NIIT Tech0.21minpqbest
-Chola Inv Fin1.47maxpqval
-Ceat0.23minpqbest
-Larsen & Toubro4.08maxpqval
-Ceat-0.06minpqbest
-Jubilant Food4.08maxpqval
-Nalwa Sons Invst-0.06minpqbest
-NIIT Tech3.21maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Vinati Organics3.03maxpqval
-Fine Organic Industries Ltd.1.29minpqbest
-Chola Inv Fin2.47maxpqval
-APL Apollo Tube2.18minpqbest
-Chola Inv Fin4.47maxpqval
-Nalwa Sons Invst-0.06minpqbest
-Jubilant Food4.08maxpqval
-APL Apollo Tube0.18minpqbest
-Vinati Organics4.03maxpqval
-NIIT Tech0.21minpqbest
-Fine Organic Industries Ltd.3.29maxpqval
-Ceat0.23minpqbest
-Larsen & Toubro1.11maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Chola Inv Fin3.47maxpqval
-Larsen & Toubro-4.11minpqbest
-Fine Organic Industries Ltd.3.29maxpqval
-Endurance Technologies Ltd.-0.1minpqbest
-APL Apollo Tube2.18maxpqval
-Nalwa Sons Invst-0.1minpqbest
-Ceat1.23maxpqval
-Jubilant Food0.08minpqbest
-Vinati Organics1.03maxpqval
-NIIT Tech0.34minpqbest
-Larsen & Toubro3.11maxpqval
-Nalwa Sons Invst-2.06minpqbest
-APL Apollo Tube2.18maxpqval
-Fine Organic Industries Ltd.0.29minpqbest
-Jubilant Food2.08maxpqval
-Chola Inv Fin0.47minpqbest
-Ceat1.23maxpqval
-Vinati Organics1.03minpqbest
-NIIT Tech1.21maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Larsen & Toubro5.11maxpqval
-Ceat-1.23minpqbest
-Jubilant Food5.08maxpqval
-NIIT Tech0.21minpqbest
-Endurance Technologies Ltd.4.1maxpqval
-Fine Organic Industries Ltd.0.29minpqbest
-Nalwa Sons Invst4.06maxpqval
-Vinati Organics1.03minpqbest
-APL Apollo Tube2.18maxpqval
-Chola Inv Fin1.47minpqbest
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(BinarySearchTree.java:98)
+	at Solution.main(Solution.java:69)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -352,61 +246,9 @@ Bosch0.3minpqbest
 ICRA2.84maxpqval
 Abbott India0.46minpqbest
 Schaeffler India2.57maxpqval
-MRF0.48minpqbest
-TTK Prestige2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-Merck Ltd5.83maxpqval
-Honeywell Auto-1.08minpqbest
-Bajaj Finserv5.64maxpqval
-TTK Prestige0.15minpqbest
-ICRA4.84maxpqval
-WABCO India0.33minpqbest
-Schaeffler India4.59maxpqval
-Eicher Motors0.6minpqbest
-Nestle India4.57maxpqval
-GSK Cons Health0.84minpqbest
-Tasty Bite Eat5.23maxpqval
-WABCO India-1.33minpqbest
-Bajaj Finserv4.64maxpqval
-Sanofi India-1.21minpqbest
-Nestle India4.57maxpqval
-GSK Cons Health-0.84minpqbest
-ICRA3.84maxpqval
-Abbott India0.46minpqbest
-Lakshmi Machine3.7maxpqval
-Oracle Fin0.52minpqbest
-Merck Ltd4.83maxpqval
-ICRA-2.84minpqbest
-MRF3.48maxpqval
-Schaeffler India-2.57minpqbest
-3M India2.56maxpqval
-TTK Prestige-2.15minpqbest
-Bosch-0.3maxpqval
-Bharat Rasayan-2.0minpqbest
-Abbott India-0.46maxpqval
-HEG Ltd-1.61minpqbest
-Merck Ltd4.83maxpqval
-Bosch0.3minpqbest
-ICRA2.84maxpqval
-Abbott India0.46minpqbest
-Schaeffler India2.57maxpqval
-MRF0.48minpqbest
-TTK Prestige2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-ICRA5.84maxpqval
-Eicher Motors-1.6minpqbest
-Lakshmi Machine4.7maxpqval
-Honeywell Auto-1.08minpqbest
-Merck Ltd3.83maxpqval
-Sanofi India0.21minpqbest
-Bajaj Finserv3.64maxpqval
-Tasty Bite Eat0.23minpqbest
-TTK Prestige3.15maxpqval
-WABCO India0.33minpqbest
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(BinarySearchTree.java:98)
+	at Solution.main(Solution.java:69)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -490,63 +332,9 @@ Your Output:
 Larsen & Toubro4.11maxpqval
 Nalwa Sons Invst-0.06minpqbest
 Vinati Organics4.03maxpqval
-Jubilant Food0.08minpqbest
-APL Apollo Tube3.18maxpqval
-Endurance Technologies Ltd.0.1minpqbest
-Fine Organic Industries Ltd.2.29maxpqval
-NIIT Tech0.21minpqbest
-Chola Inv Fin1.47maxpqval
-Ceat0.23minpqbest
-Larsen & Toubro4.08maxpqval
-Ceat-0.06minpqbest
-Jubilant Food4.08maxpqval
-Nalwa Sons Invst-0.06minpqbest
-NIIT Tech3.21maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Vinati Organics3.03maxpqval
-Fine Organic Industries Ltd.1.29minpqbest
-Chola Inv Fin2.47maxpqval
-APL Apollo Tube2.18minpqbest
-Chola Inv Fin4.47maxpqval
-Nalwa Sons Invst-0.06minpqbest
-Jubilant Food4.08maxpqval
-APL Apollo Tube0.18minpqbest
-Vinati Organics4.03maxpqval
-NIIT Tech0.21minpqbest
-Fine Organic Industries Ltd.3.29maxpqval
-Ceat0.23minpqbest
-Larsen & Toubro1.11maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Chola Inv Fin3.47maxpqval
-Larsen & Toubro-4.11minpqbest
-Fine Organic Industries Ltd.3.29maxpqval
-Endurance Technologies Ltd.-0.1minpqbest
-APL Apollo Tube2.18maxpqval
-Nalwa Sons Invst-0.1minpqbest
-Ceat1.23maxpqval
-Jubilant Food0.08minpqbest
-Vinati Organics1.03maxpqval
-NIIT Tech0.34minpqbest
-Larsen & Toubro3.11maxpqval
-Nalwa Sons Invst-2.06minpqbest
-APL Apollo Tube2.18maxpqval
-Fine Organic Industries Ltd.0.29minpqbest
-Jubilant Food2.08maxpqval
-Chola Inv Fin0.47minpqbest
-Ceat1.23maxpqval
-Vinati Organics1.03minpqbest
-NIIT Tech1.21maxpqval
-Endurance Technologies Ltd.1.1minpqbest
-Larsen & Toubro5.11maxpqval
-Ceat-1.23minpqbest
-Jubilant Food5.08maxpqval
-NIIT Tech0.21minpqbest
-Endurance Technologies Ltd.4.1maxpqval
-Fine Organic Industries Ltd.0.29minpqbest
-Nalwa Sons Invst4.06maxpqval
-Vinati Organics1.03minpqbest
-APL Apollo Tube2.18maxpqval
-Chola Inv Fin1.47minpqbest
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(BinarySearchTree.java:98)
+	at Solution.main(Solution.java:69)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -645,61 +433,7 @@ Your Output:
 Merck Ltd4.83maxpqval
 Bosch0.3minpqbest
 Schaeffler India2.57maxpqval
-Abbott India0.48minpqbest
-TTK Prestige2.15maxpqval
-MRF0.48minpqbest
-ICRA2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-Bajaj Finserv5.64maxpqval
-Merck Ltd-5.83minpqbest
-Schaeffler India4.59maxpqval
-Honeywell Auto-1.08minpqbest
-Sanofi India4.0maxpqval
-Abbott India0.0minpqbest
-Nestle India4.0maxpqval
-Eicher Motors0.0minpqbest
-ICRA4.0maxpqval
-TTK Prestige0.0minpqbest
-Tasty Bite Eat5.23maxpqval
-Bajaj Finserv-4.64minpqbest
-Nestle India4.57maxpqval
-Schaeffler India-2.57minpqbest
-ICRA3.84maxpqval
-Bharat Rasayan-2.0minpqbest
-Lakshmi Machine3.7maxpqval
-HEG Ltd-1.61minpqbest
-Bosch2.3maxpqval
-Merck Ltd-1.61minpqbest
-Merck Ltd4.83maxpqval
-ICRA-2.84minpqbest
-MRF3.48maxpqval
-Schaeffler India-2.57minpqbest
-3M India2.56maxpqval
-TTK Prestige-2.15minpqbest
-Bosch-0.3maxpqval
-Bharat Rasayan-2.0minpqbest
-Abbott India-0.46maxpqval
-HEG Ltd-1.61minpqbest
-Merck Ltd4.83maxpqval
-Bosch0.3minpqbest
-ICRA2.84maxpqval
-Abbott India0.46minpqbest
-Schaeffler India2.57maxpqval
-MRF0.48minpqbest
-TTK Prestige2.15maxpqval
-Oracle Fin0.52minpqbest
-Bharat Rasayan2.0maxpqval
-Bajaj Finserv0.64minpqbest
-ICRA5.84maxpqval
-Eicher Motors-1.6minpqbest
-Lakshmi Machine4.7maxpqval
-Honeywell Auto-1.08minpqbest
-Merck Ltd3.83maxpqval
-Sanofi India0.21minpqbest
-Bajaj Finserv3.64maxpqval
-Tasty Bite Eat0.23minpqbest
-TTK Prestige3.15maxpqval
-WABCO India0.33minpqbest
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.put(BinarySearchTree.java:98)
+	at Solution.main(Solution.java:69)
 ----------------------------------------
