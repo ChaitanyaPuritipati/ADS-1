@@ -1,12 +1,11 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:103: Line is longer than 80 characters (found 101). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:111: Line is longer than 80 characters (found 88). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:112: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:122: Line is longer than 80 characters (found 92). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:123: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:139: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:145: Line is longer than 80 characters (found 95). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:152: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:113: Line is longer than 80 characters (found 88). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:114: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:124: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:125: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:141: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:147: Line is longer than 80 characters (found 95). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:154: Line is longer than 80 characters (found 89). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 8 errors.

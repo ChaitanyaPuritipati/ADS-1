@@ -100,7 +100,9 @@ final class Solution {
 			MaxPQ<Stock> maxpqobj = new MaxPQ<>();
 			while (count < stocknum) {
 				String[] details = scan.nextLine().split(",");
-				Stock stockobj = new Stock(details[0], Float.parseFloat(details[1]));
+				Stock stockobj = new Stock(
+				    details[0], Float.parseFloat(
+				        details[1]));
 				minpqobj.insert(stockobj);
 				maxpqobj.insert(stockobj);
 				count++;
