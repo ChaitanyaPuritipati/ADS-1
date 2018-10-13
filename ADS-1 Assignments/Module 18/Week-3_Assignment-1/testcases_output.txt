@@ -82,6 +82,19 @@ TTK Prestige2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.84
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.46
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 Merck Ltd5.83maxpqval
 Honeywell Auto-1.08minpqbest
 Bajaj Finserv5.64maxpqval
@@ -92,6 +105,19 @@ Schaeffler India4.59maxpqval
 Eicher Motors0.6minpqbest
 Nestle India4.57maxpqval
 GSK Cons Health0.84minpqbest
+------------------------
+Bajaj Finserv 5.64
+ICRA 4.84
+Merck Ltd 5.83
+Nestle India 4.57
+Schaeffler India 4.59
+
+Eicher Motors 0.6
+GSK Cons Health 0.84
+Honeywell Auto -1.08
+TTK Prestige 0.15
+WABCO India 0.33
+
 Tasty Bite Eat5.23maxpqval
 WABCO India-1.33minpqbest
 Bajaj Finserv4.64maxpqval
@@ -102,6 +128,19 @@ ICRA3.84maxpqval
 Abbott India0.46minpqbest
 Lakshmi Machine3.7maxpqval
 Oracle Fin0.52minpqbest
+------------------------
+Bajaj Finserv 4.64
+ICRA 3.84
+Lakshmi Machine 3.7
+Nestle India 4.57
+Tasty Bite Eat 5.23
+
+Abbott India 0.46
+GSK Cons Health -0.84
+Oracle Fin 0.52
+Sanofi India -1.21
+WABCO India -1.33
+
 Merck Ltd4.83maxpqval
 ICRA-2.84minpqbest
 MRF3.48maxpqval
@@ -112,6 +151,19 @@ Bosch-0.3maxpqval
 Bharat Rasayan-2.0minpqbest
 Abbott India-0.46maxpqval
 HEG Ltd-1.61minpqbest
+------------------------
+3M India 2.56
+Abbott India -0.46
+Bosch -0.3
+MRF 3.48
+Merck Ltd 4.83
+
+Bharat Rasayan -2.0
+HEG Ltd -1.61
+ICRA -2.84
+Schaeffler India -2.57
+TTK Prestige -2.15
+
 Merck Ltd4.83maxpqval
 Bosch0.3minpqbest
 ICRA2.84maxpqval
@@ -122,6 +174,19 @@ TTK Prestige2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.84
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.46
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 ICRA5.84maxpqval
 Eicher Motors-1.6minpqbest
 Lakshmi Machine4.7maxpqval
@@ -132,6 +197,18 @@ Bajaj Finserv3.64maxpqval
 Tasty Bite Eat0.23minpqbest
 TTK Prestige3.15maxpqval
 WABCO India0.33minpqbest
+------------------------
+Bajaj Finserv 3.64
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -217,6 +294,19 @@ Fine Organic Industries Ltd.2.29maxpqval
 NIIT Tech0.21minpqbest
 Chola Inv Fin1.47maxpqval
 Ceat0.23minpqbest
+------------------------
+APL Apollo Tube 3.18
+Chola Inv Fin 1.47
+Fine Organic Industries Ltd. 2.29
+Larsen & Toubro 4.11
+Vinati Organics 4.03
+
+Ceat 0.23
+Endurance Technologies Ltd. 0.1
+Jubilant Food 0.08
+NIIT Tech 0.21
+Nalwa Sons Invst -0.06
+
 Larsen & Toubro4.08maxpqval
 Ceat-0.06minpqbest
 Jubilant Food4.08maxpqval
@@ -227,6 +317,19 @@ Vinati Organics3.03maxpqval
 Fine Organic Industries Ltd.1.29minpqbest
 Chola Inv Fin2.47maxpqval
 APL Apollo Tube2.18minpqbest
+------------------------
+Chola Inv Fin 2.47
+Jubilant Food 4.08
+Larsen & Toubro 4.08
+NIIT Tech 3.21
+Vinati Organics 3.03
+
+APL Apollo Tube 2.18
+Ceat -0.06
+Endurance Technologies Ltd. 1.1
+Fine Organic Industries Ltd. 1.29
+Nalwa Sons Invst -0.06
+
 Chola Inv Fin4.47maxpqval
 Nalwa Sons Invst-0.06minpqbest
 Jubilant Food4.08maxpqval
@@ -237,6 +340,19 @@ Fine Organic Industries Ltd.3.29maxpqval
 Ceat0.23minpqbest
 Larsen & Toubro1.11maxpqval
 Endurance Technologies Ltd.1.1minpqbest
+------------------------
+Chola Inv Fin 4.47
+Fine Organic Industries Ltd. 3.29
+Jubilant Food 4.08
+Larsen & Toubro 1.11
+Vinati Organics 4.03
+
+APL Apollo Tube 0.18
+Ceat 0.23
+Endurance Technologies Ltd. 1.1
+NIIT Tech 0.21
+Nalwa Sons Invst -0.06
+
 Chola Inv Fin3.47maxpqval
 Larsen & Toubro-4.11minpqbest
 Fine Organic Industries Ltd.3.29maxpqval
@@ -247,6 +363,19 @@ Ceat1.23maxpqval
 Jubilant Food0.08minpqbest
 Vinati Organics1.03maxpqval
 NIIT Tech0.34minpqbest
+------------------------
+APL Apollo Tube 2.18
+Ceat 1.23
+Chola Inv Fin 3.47
+Fine Organic Industries Ltd. 3.29
+Vinati Organics 1.03
+
+Endurance Technologies Ltd. -0.1
+Jubilant Food 0.08
+Larsen & Toubro -4.11
+NIIT Tech 0.34
+Nalwa Sons Invst -0.1
+
 Larsen & Toubro3.11maxpqval
 Nalwa Sons Invst-2.06minpqbest
 APL Apollo Tube2.18maxpqval
@@ -257,6 +386,19 @@ Ceat1.23maxpqval
 Vinati Organics1.03minpqbest
 NIIT Tech1.21maxpqval
 Endurance Technologies Ltd.1.1minpqbest
+------------------------
+APL Apollo Tube 2.18
+Ceat 1.23
+Jubilant Food 2.08
+Larsen & Toubro 3.11
+NIIT Tech 1.21
+
+Chola Inv Fin 0.47
+Endurance Technologies Ltd. 1.1
+Fine Organic Industries Ltd. 0.29
+Nalwa Sons Invst -2.06
+Vinati Organics 1.03
+
 Larsen & Toubro5.11maxpqval
 Ceat-1.23minpqbest
 Jubilant Food5.08maxpqval
@@ -267,6 +409,18 @@ Nalwa Sons Invst4.06maxpqval
 Vinati Organics1.03minpqbest
 APL Apollo Tube2.18maxpqval
 Chola Inv Fin1.47minpqbest
+------------------------
+APL Apollo Tube 2.18
+Endurance Technologies Ltd. 4.1
+Jubilant Food 5.08
+Larsen & Toubro 5.11
+Nalwa Sons Invst 4.06
+
+Ceat -1.23
+Chola Inv Fin 1.47
+Fine Organic Industries Ltd. 0.29
+NIIT Tech 0.21
+Vinati Organics 1.03
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -357,6 +511,19 @@ TTK Prestige2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.84
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.46
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 Merck Ltd5.83maxpqval
 Honeywell Auto-1.08minpqbest
 Bajaj Finserv5.64maxpqval
@@ -367,6 +534,19 @@ Schaeffler India4.59maxpqval
 Eicher Motors0.6minpqbest
 Nestle India4.57maxpqval
 GSK Cons Health0.84minpqbest
+------------------------
+Bajaj Finserv 5.64
+ICRA 4.84
+Merck Ltd 5.83
+Nestle India 4.57
+Schaeffler India 4.59
+
+Eicher Motors 0.6
+GSK Cons Health 0.84
+Honeywell Auto -1.08
+TTK Prestige 0.15
+WABCO India 0.33
+
 Tasty Bite Eat5.23maxpqval
 WABCO India-1.33minpqbest
 Bajaj Finserv4.64maxpqval
@@ -377,6 +557,19 @@ ICRA3.84maxpqval
 Abbott India0.46minpqbest
 Lakshmi Machine3.7maxpqval
 Oracle Fin0.52minpqbest
+------------------------
+Bajaj Finserv 4.64
+ICRA 3.84
+Lakshmi Machine 3.7
+Nestle India 4.57
+Tasty Bite Eat 5.23
+
+Abbott India 0.46
+GSK Cons Health -0.84
+Oracle Fin 0.52
+Sanofi India -1.21
+WABCO India -1.33
+
 Merck Ltd4.83maxpqval
 ICRA-2.84minpqbest
 MRF3.48maxpqval
@@ -387,6 +580,19 @@ Bosch-0.3maxpqval
 Bharat Rasayan-2.0minpqbest
 Abbott India-0.46maxpqval
 HEG Ltd-1.61minpqbest
+------------------------
+3M India 2.56
+Abbott India -0.46
+Bosch -0.3
+MRF 3.48
+Merck Ltd 4.83
+
+Bharat Rasayan -2.0
+HEG Ltd -1.61
+ICRA -2.84
+Schaeffler India -2.57
+TTK Prestige -2.15
+
 Merck Ltd4.83maxpqval
 Bosch0.3minpqbest
 ICRA2.84maxpqval
@@ -397,6 +603,19 @@ TTK Prestige2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.84
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.46
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 ICRA5.84maxpqval
 Eicher Motors-1.6minpqbest
 Lakshmi Machine4.7maxpqval
@@ -407,6 +626,18 @@ Bajaj Finserv3.64maxpqval
 Tasty Bite Eat0.23minpqbest
 TTK Prestige3.15maxpqval
 WABCO India0.33minpqbest
+------------------------
+Bajaj Finserv 3.64
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -497,6 +728,19 @@ Fine Organic Industries Ltd.2.29maxpqval
 NIIT Tech0.21minpqbest
 Chola Inv Fin1.47maxpqval
 Ceat0.23minpqbest
+------------------------
+APL Apollo Tube 3.18
+Chola Inv Fin 1.47
+Fine Organic Industries Ltd. 2.29
+Larsen & Toubro 4.11
+Vinati Organics 4.03
+
+Ceat 0.23
+Endurance Technologies Ltd. 0.1
+Jubilant Food 0.08
+NIIT Tech 0.21
+Nalwa Sons Invst -0.06
+
 Larsen & Toubro4.08maxpqval
 Ceat-0.06minpqbest
 Jubilant Food4.08maxpqval
@@ -507,6 +751,19 @@ Vinati Organics3.03maxpqval
 Fine Organic Industries Ltd.1.29minpqbest
 Chola Inv Fin2.47maxpqval
 APL Apollo Tube2.18minpqbest
+------------------------
+Chola Inv Fin 2.47
+Jubilant Food 4.08
+Larsen & Toubro 4.08
+NIIT Tech 3.21
+Vinati Organics 3.03
+
+APL Apollo Tube 2.18
+Ceat -0.06
+Endurance Technologies Ltd. 1.1
+Fine Organic Industries Ltd. 1.29
+Nalwa Sons Invst -0.06
+
 Chola Inv Fin4.47maxpqval
 Nalwa Sons Invst-0.06minpqbest
 Jubilant Food4.08maxpqval
@@ -517,6 +774,19 @@ Fine Organic Industries Ltd.3.29maxpqval
 Ceat0.23minpqbest
 Larsen & Toubro1.11maxpqval
 Endurance Technologies Ltd.1.1minpqbest
+------------------------
+Chola Inv Fin 4.47
+Fine Organic Industries Ltd. 3.29
+Jubilant Food 4.08
+Larsen & Toubro 1.11
+Vinati Organics 4.03
+
+APL Apollo Tube 0.18
+Ceat 0.23
+Endurance Technologies Ltd. 1.1
+NIIT Tech 0.21
+Nalwa Sons Invst -0.06
+
 Chola Inv Fin3.47maxpqval
 Larsen & Toubro-4.11minpqbest
 Fine Organic Industries Ltd.3.29maxpqval
@@ -527,6 +797,19 @@ Ceat1.23maxpqval
 Jubilant Food0.08minpqbest
 Vinati Organics1.03maxpqval
 NIIT Tech0.34minpqbest
+------------------------
+APL Apollo Tube 2.18
+Ceat 1.23
+Chola Inv Fin 3.47
+Fine Organic Industries Ltd. 3.29
+Vinati Organics 1.03
+
+Endurance Technologies Ltd. -0.1
+Jubilant Food 0.08
+Larsen & Toubro -4.11
+NIIT Tech 0.34
+Nalwa Sons Invst -0.1
+
 Larsen & Toubro3.11maxpqval
 Nalwa Sons Invst-2.06minpqbest
 APL Apollo Tube2.18maxpqval
@@ -537,6 +820,19 @@ Ceat1.23maxpqval
 Vinati Organics1.03minpqbest
 NIIT Tech1.21maxpqval
 Endurance Technologies Ltd.1.1minpqbest
+------------------------
+APL Apollo Tube 2.18
+Ceat 1.23
+Jubilant Food 2.08
+Larsen & Toubro 3.11
+NIIT Tech 1.21
+
+Chola Inv Fin 0.47
+Endurance Technologies Ltd. 1.1
+Fine Organic Industries Ltd. 0.29
+Nalwa Sons Invst -2.06
+Vinati Organics 1.03
+
 Larsen & Toubro5.11maxpqval
 Ceat-1.23minpqbest
 Jubilant Food5.08maxpqval
@@ -547,6 +843,18 @@ Nalwa Sons Invst4.06maxpqval
 Vinati Organics1.03minpqbest
 APL Apollo Tube2.18maxpqval
 Chola Inv Fin1.47minpqbest
+------------------------
+APL Apollo Tube 2.18
+Endurance Technologies Ltd. 4.1
+Jubilant Food 5.08
+Larsen & Toubro 5.11
+Nalwa Sons Invst 4.06
+
+Ceat -1.23
+Chola Inv Fin 1.47
+Fine Organic Industries Ltd. 0.29
+NIIT Tech 0.21
+Vinati Organics 1.03
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -652,6 +960,19 @@ ICRA2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.15
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.48
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 Bajaj Finserv5.64maxpqval
 Merck Ltd-5.83minpqbest
 Schaeffler India4.59maxpqval
@@ -662,6 +983,19 @@ Nestle India4.0maxpqval
 Eicher Motors0.0minpqbest
 ICRA4.0maxpqval
 TTK Prestige0.0minpqbest
+------------------------
+Bajaj Finserv 5.64
+ICRA 4.0
+Nestle India 4.0
+Sanofi India 4.0
+Schaeffler India 4.59
+
+Abbott India 0.0
+Eicher Motors 0.0
+Honeywell Auto -1.08
+Merck Ltd -5.83
+TTK Prestige 0.0
+
 Tasty Bite Eat5.23maxpqval
 Bajaj Finserv-4.64minpqbest
 Nestle India4.57maxpqval
@@ -672,6 +1006,19 @@ Lakshmi Machine3.7maxpqval
 HEG Ltd-1.61minpqbest
 Bosch2.3maxpqval
 Merck Ltd-1.61minpqbest
+------------------------
+Bosch 2.3
+ICRA 3.84
+Lakshmi Machine 3.7
+Nestle India 4.57
+Tasty Bite Eat 5.23
+
+Bajaj Finserv -4.64
+Bharat Rasayan -2.0
+HEG Ltd -1.61
+Merck Ltd -1.61
+Schaeffler India -2.57
+
 Merck Ltd4.83maxpqval
 ICRA-2.84minpqbest
 MRF3.48maxpqval
@@ -682,6 +1029,19 @@ Bosch-0.3maxpqval
 Bharat Rasayan-2.0minpqbest
 Abbott India-0.46maxpqval
 HEG Ltd-1.61minpqbest
+------------------------
+3M India 2.56
+Abbott India -0.46
+Bosch -0.3
+MRF 3.48
+Merck Ltd 4.83
+
+Bharat Rasayan -2.0
+HEG Ltd -1.61
+ICRA -2.84
+Schaeffler India -2.57
+TTK Prestige -2.15
+
 Merck Ltd4.83maxpqval
 Bosch0.3minpqbest
 ICRA2.84maxpqval
@@ -692,6 +1052,19 @@ TTK Prestige2.15maxpqval
 Oracle Fin0.52minpqbest
 Bharat Rasayan2.0maxpqval
 Bajaj Finserv0.64minpqbest
+------------------------
+Bharat Rasayan 2.0
+ICRA 2.84
+Merck Ltd 4.83
+Schaeffler India 2.57
+TTK Prestige 2.15
+
+Abbott India 0.46
+Bajaj Finserv 0.64
+Bosch 0.3
+MRF 0.48
+Oracle Fin 0.52
+
 ICRA5.84maxpqval
 Eicher Motors-1.6minpqbest
 Lakshmi Machine4.7maxpqval
@@ -702,4 +1075,16 @@ Bajaj Finserv3.64maxpqval
 Tasty Bite Eat0.23minpqbest
 TTK Prestige3.15maxpqval
 WABCO India0.33minpqbest
+------------------------
+Bajaj Finserv 3.64
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 ----------------------------------------
