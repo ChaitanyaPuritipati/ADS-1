@@ -76,7 +76,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.contains(BinarySearchTree.java:88)
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -156,7 +156,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.contains(BinarySearchTree.java:88)
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -241,7 +241,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.contains(BinarySearchTree.java:88)
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -326,7 +326,7 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.contains(BinarySearchTree.java:88)
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:68)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -426,5 +426,5 @@ Exception in thread "main" java.lang.NullPointerException
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at java.base/java.lang.String.compareTo(Unknown Source)
 	at BinarySearchTree.contains(BinarySearchTree.java:88)
-	at Solution.main(Solution.java:65)
+	at Solution.main(Solution.java:68)
 ----------------------------------------

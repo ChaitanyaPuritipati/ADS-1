@@ -12,6 +12,9 @@ class Stock implements Comparable<Stock> {
 	public float getstockchange() {
 		return this.stockchange;
 	}
+	public int compareTo(String other) {
+		return this.stockname.compareTo(other);
+	}
 	public int compareTo(Stock other) {
 		if (this.stockchange > other.stockchange) {
 			return 1;
