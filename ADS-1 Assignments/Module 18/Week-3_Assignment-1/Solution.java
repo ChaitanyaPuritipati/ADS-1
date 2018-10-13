@@ -61,6 +61,7 @@ class Solution {
 					int value = maxST.get(maxpqbest.getstockname());
 					System.out.println(value + "everytime");
 					maxST.put(maxpqbest.getstockname(), value++);
+					System.out.println(maxST.get(maxpqbest.getstockname()));
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
 				}
