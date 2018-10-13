@@ -59,9 +59,9 @@ class Solution {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(maxpqbest.getstockname());
-					System.out.println(value + "everytime");
+					// System.out.println(value + "everytime");
 					maxST.put(maxpqbest.getstockname(), ++value);
-					System.out.println(maxST.get(maxpqbest.getstockname()));
+					// System.out.println(maxST.get(maxpqbest.getstockname()));
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
 				}
@@ -72,7 +72,7 @@ class Solution {
 				Stock minpqworst = minpqobj.delMin();
 				if (minST.contains(minpqworst.getstockname())) {
 					int valuemin = minST.get(minpqworst.getstockname());
-					minST.put(minpqworst.getstockname(), valuemin++);
+					minST.put(minpqworst.getstockname(), ++valuemin);
 				} else {
 					minST.put(minpqworst.getstockname(), 1);
 				}
