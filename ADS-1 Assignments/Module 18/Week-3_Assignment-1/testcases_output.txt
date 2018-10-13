@@ -598,8 +598,10 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 
 2
+0
 null
 4
+0
 null
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -770,8 +772,10 @@ WABCO India 0.33
 
 2
 1
+0
 null
 2
+0
 null
 2
 1

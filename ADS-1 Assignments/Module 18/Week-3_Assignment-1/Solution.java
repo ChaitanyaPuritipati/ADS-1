@@ -79,45 +79,20 @@ class Solution {
 				System.out.println(minpqworst);
 			}
 			System.out.println();
-			// for (Stock eachmaxstock : maxpqobj) {
-			// 	if (maxST.contains()) {
-			// 		if (!maxST.contains(eachmaxstock.getstockname())) {
-			// 			maxST.put(eachmaxstock.getstockname(), 1);
-			// 		}
-			// 		int value = maxST.get(eachmaxstock.getstockname());
-			// 		maxST.put(eachmaxstock.getstockname(), value++);
-			// 		// } else {
-			// 		// 	if (!maxST.contains(eachmaxstock.getstockname())) {
-			// 		// 		maxST.put(eachmaxstock.getstockname(), 0);
-			// 		// 	}
-			// 		// 	int prevvalue = maxST.get(eachmaxstock.getstockname());
-			// 		// 	maxST.put(eachmaxstock.getstockname(), prevvalue);
-			// 		// }
-			// 	}
-			// 	for (Stock eachminstock : minpqobj) {
-			// 		if (eachminstock.compareTo(minathour) == 0) {
-			// 			if (!minST.contains(eachminstock.getstockname())) {
-			// 				minST.put(eachminstock.getstockname(), 1);
-			// 			}
-			// 			int valuemin = minST.get(eachminstock.getstockname());
-			// 			minST.put(eachminstock.getstockname(), valuemin++);
-			// 		} else {
-			// 			if (!minST.contains(eachminstock.getstockname())) {
-			// 				minST.put(eachminstock.getstockname(), 0);
-			// 			}
-			// 			int prevminval = minST.get(eachminstock.getstockname());
-			// 			minST.put(eachminstock.getstockname(), prevminval);
-			// 		}
-			// 	}
-
 		}
 		int querynum = Integer.parseInt(scan.nextLine());
 		for (int l = 0; l < querynum; l++) {
 			String[] querydetails = scan.nextLine().split(",");
 			if (querydetails[0].equals("get")) {
 				if (querydetails[1].equals("maxST")) {
+					if(!maxST.contains(querydetails[2])) {
+						System.out.println("0");
+					}
 					System.out.println(maxST.get(querydetails[2]));
 				} else {
+					if(!minST.contains(querydetails[2])) {
+						System.out.println("0");
+					}
 					System.out.println(minST.get(querydetails[2]));
 				}
 			}
