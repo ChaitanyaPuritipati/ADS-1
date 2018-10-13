@@ -42,6 +42,8 @@ class Solution {
 		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
 		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
 		int stocknum = Integer.parseInt(scan.nextLine());
+		// int maxfreq = 0;
+		// int minfreq = 0;
 		for (int i = 0; i < 6; i++) {
 			int count = 0;
 			MinPQ<Stock> minpqobj = new MinPQ<>();
@@ -54,29 +56,30 @@ class Solution {
 				count++;
 			}
 			Stock maxathour = maxpqobj.max();
-			System.out.println(maxathour + "max");
+			// System.out.println(maxathour + "max");
 			Stock minathour = minpqobj.min();
-			System.out.println(minathour + "min");
-			int maxfreq = 0;
+			// System.out.println(minathour + "min");
 			for (Stock eachmaxstock : maxpqobj) {
-				System.out.println(eachmaxstock + "eachmaxstock");
+				// System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
-					System.out.println("entered");
-					maxfreq++;
-					maxST.put(eachmaxstock.getstockname(), maxfreq);
+					if (!maxST.contains(eachmaxstock.getstockname())) {
+						maxST.put(eachmaxstock.getstockname(), 1);
+					}
+					int value = maxST.get(eachmaxstock.getstockname());
+					maxST.put(eachmaxstock.getstockname(), value++);
 				} else {
-					maxfreq = 0;
-					maxST.put(eachmaxstock.getstockname(), maxfreq);
+					maxST.put(eachmaxstock.getstockname(), 0);
 				}
 			}
-			int minfreq = 0;
 			for (Stock eachminstock : minpqobj) {
-				if (eachminstock.compareTo(maxathour) == 0) {
-					minfreq++;
-					minST.put(eachminstock.getstockname(), minfreq);
+				if (eachminstock.compareTo(minathour) == 0) {
+					if (!minST.contains(eachminstock.getstockname())) {
+						minST.put(eachminstock.getstockname(), 1);
+					}
+					int valuemin = minST.get(eachminstock.getstockname());
+					minST.put(eachminstock.getstockname(), valuemin++);
 				} else {
-					minfreq = 0;
-					minST.put(eachminstock.getstockname(), minfreq);
+					minST.put(eachminstock.getstockname(), 0);
 				}
 			}
 			for (int j = 0; j < 5; j++) {
