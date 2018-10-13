@@ -125,9 +125,10 @@ final class Solution {
 			for (int k = 0; k < five; k++) {
 				Stock minpqworst = minpqobj.delMin();
 				if (minST.contains(minpqworst.getstockname())) {
-					int valuemin = minST.get(
-					                   minpqworst.getstockname(
-					                   ));
+					int valuemin =
+					    minST.get(
+					        minpqworst.getstockname(
+					        ));
 					minST.put(minpqworst.getstockname(),
 					          ++valuemin);
 				} else {
