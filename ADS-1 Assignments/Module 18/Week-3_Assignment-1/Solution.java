@@ -125,10 +125,14 @@ final class Solution {
 			for (int k = 0; k < five; k++) {
 				Stock minpqworst = minpqobj.delMin();
 				if (minST.contains(minpqworst.getstockname())) {
-					int valuemin = minST.get(minpqworst.getstockname());
-					minST.put(minpqworst.getstockname(), ++valuemin);
+					int valuemin = minST.get(
+					                   minpqworst.getstockname(
+					                   ));
+					minST.put(minpqworst.getstockname(),
+					          ++valuemin);
 				} else {
-					minST.put(minpqworst.getstockname(), 1);
+					minST.put(minpqworst.getstockname(),
+					          1);
 				}
 				System.out.println(minpqworst);
 			}
@@ -142,20 +146,23 @@ final class Solution {
 					if (!maxST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
-						System.out.println(maxST.get(querydetails[2]));
+						System.out.println(maxST.get(
+						                       querydetails[2]));
 					}
 				} else {
 					if (!minST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
-						System.out.println(minST.get(querydetails[2]));
+						System.out.println(minST.get(
+						                       querydetails[2]));
 					}
 				}
 
 			}
 			if (querydetails[0].equals("intersection")) {
 				for (String eachkey : maxST.getkeys()) {
-					if (eachkey != null && minST.contains(eachkey)) {
+					if (eachkey != null && minST.contains(
+					            eachkey)) {
 						System.out.println(eachkey);
 					}
 				}
