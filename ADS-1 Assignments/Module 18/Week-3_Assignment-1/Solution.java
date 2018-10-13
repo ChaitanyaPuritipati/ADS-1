@@ -54,9 +54,12 @@ class Solution {
 				count++;
 			}
 			Stock maxathour = maxpqobj.max();
+			System.out.println(maxathour + "max");
 			Stock minathour = minpqobj.min();
+			System.out.println(minathour + "min");
 			int maxfreq = 0;
 			for (Stock eachmaxstock : maxpqobj) {
+				System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
 					maxfreq++;
 					maxST.put(eachmaxstock.getstockname(), maxfreq);
