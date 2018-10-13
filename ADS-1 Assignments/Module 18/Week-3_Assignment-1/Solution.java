@@ -56,8 +56,8 @@ class Solution {
 			Stock maxathour = maxpqobj.max();
 			Stock minathour = minpqobj.min();
 			int maxfreq = 0;
-			for(Stock eachmaxstock: maxpqobj) {
-				if(eachmaxstock.compareTo(maxathour) == 0) {
+			for (Stock eachmaxstock : maxpqobj) {
+				if (eachmaxstock.compareTo(maxathour) == 0) {
 					maxfreq++;
 					maxST.put(eachmaxstock.getstockname(), maxfreq);
 				} else {
@@ -66,8 +66,8 @@ class Solution {
 				}
 			}
 			int minfreq = 0;
-			for(Stock eachminstock : minpqobj) {
-				if(eachminstock.compareTo(maxathour) == 0) {
+			for (Stock eachminstock : minpqobj) {
+				if (eachminstock.compareTo(maxathour) == 0) {
 					minfreq++;
 					minST.put(eachminstock.getstockname(), minfreq);
 				} else {
@@ -84,17 +84,18 @@ class Solution {
 				Stock minpqworst = minpqobj.delMin();
 				System.out.println(minpqworst);
 			}
-			int querynum = Integer.parseInt(scan.nextLine());
-			for(int l = 0; l < querynum; l++) {
-				String[] querydetails = scan.nextLine().split(",");
-				if(querydetails[0].equals("get")) {
-					if(querydetails[1].equals("maxST")) {
-						System.out.println(maxST.get(querydetails[2]));
-					} else {
-						System.out.println(minST.get(querydetails[2]));
-					}
+		}
+		int querynum = Integer.parseInt(scan.nextLine());
+		for (int l = 0; l < querynum; l++) {
+			String[] querydetails = scan.nextLine().split(",");
+			if (querydetails[0].equals("get")) {
+				if (querydetails[1].equals("maxST")) {
+					System.out.println(maxST.get(querydetails[2]));
+				} else {
+					System.out.println(minST.get(querydetails[2]));
 				}
 			}
 		}
+
 	}
 }
