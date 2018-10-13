@@ -65,9 +65,9 @@ class Solution {
 			for (Stock eachmaxstock : maxpqobj) {
 				// System.out.println(eachmaxstock + "eachmaxstock");
 				if (eachmaxstock.compareTo(maxathour) == 0) {
-					if (!maxST.contains(eachmaxstock.getstockname())) {
-						maxST.put(eachmaxstock.getstockname(), 1);
-					}
+					// if (!maxST.contains(eachmaxstock.getstockname())) {
+						// maxST.put(eachmaxstock.getstockname(), 1);
+					// }
 					int value = maxST.get(eachmaxstock.getstockname());
 					maxST.put(eachmaxstock.getstockname(), value++);
 				} else {
