@@ -602,7 +602,7 @@ Chola Inv Fin 1.47
 4
 0
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Merck Ltd 4.83
 Schaeffler India 2.57
@@ -776,7 +776,6 @@ WABCO India 0.33
 2
 1
 1
-
 Abbott India
 Bajaj Finserv
 Bharat Rasayan
