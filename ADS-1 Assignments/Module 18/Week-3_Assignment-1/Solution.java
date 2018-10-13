@@ -70,7 +70,9 @@ class Solution {
 				stockworst.put(minpqworst.getstockname(), minpqworst.getstockchange());
 			}
 			stockbest.print();
+			System.out.println();
 			stockworst.print();
+			System.out.println();
 		}
 	}
 }
