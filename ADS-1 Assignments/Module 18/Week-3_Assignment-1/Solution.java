@@ -146,9 +146,9 @@ final class Solution {
 					if (!maxST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
-						System.out.println(maxST.get(
-						                       querydetails[2]
-						                   ));
+						System.out.println(
+						    maxST.get(querydetails[2]
+						             ));
 					}
 				} else {
 					if (!minST.contains(querydetails[2])) {
