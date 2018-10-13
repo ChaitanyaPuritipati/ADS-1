@@ -51,20 +51,26 @@ class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			for(Stock eachdetail : minpqobj) {
-				System.out.println(eachdetail);
-			}
-			System.out.println("Hourly min print");
-			for(Stock eachdetail2 : maxpqobj) {
-				System.out.println(eachdetail2);
-			}
-			System.out.println("Hourly max print");
-			System.out.println("------------------------------------");
-			// BinarySearchTree<String, FLoat> stockbest = new  BinarySearchTree<>();
-			// BinarySearchTree<String, FLoat> stockworst = new BinarySearchTree<>();
-			// for(int j = 0; j < 5; j++) {
+			// for(Stock eachdetail : minpqobj) {
+			// 	System.out.println(eachdetail);
+			// }
+			// System.out.println("Hourly min print");
+			// for(Stock eachdetail2 : maxpqobj) {
+			// 	System.out.println(eachdetail2);
+			// }
+			// System.out.println("Hourly max print");
+			// System.out.println("------------------------------------");
 
-			// } 
+			BinarySearchTree<String, Float> stockbest = new  BinarySearchTree<>();
+			BinarySearchTree<String, Float> stockworst = new BinarySearchTree<>();
+			for (int j = 0; j < 5; j++) {
+				Stock maxpqbest = maxpqobj.delMax();
+				stockbest.put(maxpqbest.getstockname(), maxpqbest.getstockchange());
+				Stock minpqworst = minpqobj.delMin();
+				stockworst.put(minpqworst.getstockname(), minpqworst.getstockchange());
+			}
+			stockbest.print();
+			stockworst.print();
 		}
 	}
 }

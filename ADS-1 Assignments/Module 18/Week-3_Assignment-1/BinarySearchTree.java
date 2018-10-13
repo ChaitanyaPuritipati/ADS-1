@@ -153,3 +153,25 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 	}
 }
+class MyIterable<Key> implements Iterable<Key> {
+	/**
+	 * { var_description }.
+	 */
+	private List<Key> list;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      k     { parameter_description }
+	 */
+	public MyIterable(Key[] k) {
+		list = Arrays.asList(k);
+	}
+	/**
+	 * { function_description }.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public Iterator<Key> iterator() {
+		return list.iterator();
+	}
+}
