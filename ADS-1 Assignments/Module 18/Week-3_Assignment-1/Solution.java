@@ -89,8 +89,10 @@ final class Solution {
 		Scanner scan = new Scanner(System.in);
 		final int five = 5;
 		final int six = 6;
-		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
-		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
+		BinarySearchTree<String, Integer> maxST
+		    = new  BinarySearchTree<>();
+		BinarySearchTree<String, Integer> minST
+		    = new BinarySearchTree<>();
 		int stocknum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < six; i++) {
 			int count = 0;
