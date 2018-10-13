@@ -89,15 +89,30 @@ final class Solution {
         Scanner scan = new Scanner(System.in);
         final int five = 5;
         final int six = 6;
+        // Initialized Binarymaxsymboltree
+
         BinarySearchTree<String, Integer> maxST
             = new  BinarySearchTree<>();
+
+        // Initialized Binaryminsymboltree
+
         BinarySearchTree<String, Integer> minST
             = new BinarySearchTree<>();
         int stocknum = Integer.parseInt(scan.nextLine());
+
         for (int i = 0; i < six; i++) {
             int count = 0;
+
+            //Intialized minpq
+
             MinPQ<Stock> minpqobj = new MinPQ<>();
+
+            //Initialized maxpq
+
             MaxPQ<Stock> maxpqobj = new MaxPQ<>();
+
+            //To enter details
+            
             while (count < stocknum) {
                 String[] details = scan.nextLine().split(",");
                 Stock stockobj = new Stock(
@@ -107,6 +122,9 @@ final class Solution {
                 maxpqobj.insert(stockobj);
                 count++;
             }
+
+            //To fill maxST
+
             for (int j = 0; j < five; j++) {
                 Stock maxpqbest = maxpqobj.delMax();
                 if (maxST.contains(maxpqbest.getstockname())) {
@@ -122,6 +140,7 @@ final class Solution {
                 System.out.println(maxpqbest);
             }
             System.out.println();
+            //To fill minST
             for (int k = 0; k < five; k++) {
                 Stock minpqworst = minpqobj.delMin();
                 if (minST.contains(minpqworst.getstockname())) {
@@ -139,7 +158,9 @@ final class Solution {
             }
             System.out.println();
         }
+
         int querynum = Integer.parseInt(scan.nextLine());
+        //For queries
         for (int l = 0; l < querynum; l++) {
             String[] querydetails = scan.nextLine().split(",");
             if (querydetails[0].equals("get")) {

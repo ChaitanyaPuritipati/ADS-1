@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:115: Line has trailing spaces. [RegexpSingleline]
 Audit done.
+Checkstyle ends with 1 errors.
