@@ -42,8 +42,6 @@ class Solution {
 		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
 		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
 		int stocknum = Integer.parseInt(scan.nextLine());
-		// int maxfreq = 0;
-		// int minfreq = 0;
 		for (int i = 0; i < 6; i++) {
 			int count = 0;
 			MinPQ<Stock> minpqobj = new MinPQ<>();
