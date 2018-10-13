@@ -290,7 +290,7 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 Merck Ltd 4.83
 ICRA 2.84
@@ -442,11 +442,14 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 
 5
+
 2
+
 1
+
 3
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 Larsen & Toubro 4.11
 Vinati Organics 4.03
@@ -598,8 +601,11 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 
 2
+
 0
+
 4
+
 0
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -769,11 +775,22 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 
 2
+
 1
+
 0
+
 2
+
 0
+
 2
+
 1
+
 1
+
+
+Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Comparable; cannot be cast to java.base/[Ljava.lang.String;
+	at Solution.main(Solution.java:103)
 ----------------------------------------

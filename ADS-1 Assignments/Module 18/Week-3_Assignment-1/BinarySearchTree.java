@@ -27,6 +27,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         keys = (Key[]) new Comparable[twenty];
         values = (Value[]) new Object[twenty];
     }
+    public Key[] getkeys() {
+    	return keys;
+    }
     /**
      * { To add elements into the Data Structure }.
      * Complexity:

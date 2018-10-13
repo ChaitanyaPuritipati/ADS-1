@@ -98,6 +98,14 @@ class Solution {
 					}
 				}
 			}
+			System.out.println();
+			if(querydetails[0].equals("intersection")) {
+				for(String eachkey: maxST.getkeys()) {
+					if(minST.contains(eachkey)) {
+						System.out.println(eachkey);
+					}
+				}
+			}
 		}
 
 	}
