@@ -97,9 +97,10 @@ class Solution {
 						System.out.println(minST.get(querydetails[2]));
 					}
 				}
-				System.out.println();
+
 			}
 			if(querydetails[0].equals("intersection")) {
+				System.out.println();
 				for(String eachkey: maxST.getkeys()) {
 					if(minST.contains(eachkey)) {
 						System.out.println(eachkey);
