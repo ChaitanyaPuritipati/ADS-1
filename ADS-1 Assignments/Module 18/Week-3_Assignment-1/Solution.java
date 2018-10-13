@@ -147,14 +147,16 @@ final class Solution {
 						System.out.println("0");
 					} else {
 						System.out.println(maxST.get(
-						                       querydetails[2]));
+						                       querydetails[2]
+						                   ));
 					}
 				} else {
 					if (!minST.contains(querydetails[2])) {
 						System.out.println("0");
 					} else {
 						System.out.println(minST.get(
-						                       querydetails[2]));
+						                       querydetails[2]
+						                   ));
 					}
 				}
 
