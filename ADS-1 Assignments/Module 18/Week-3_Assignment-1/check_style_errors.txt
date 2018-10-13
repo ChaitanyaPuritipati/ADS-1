@@ -19,11 +19,10 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:40:33: Parameter args should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:43:37: '6' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:49: Line is longer than 80 characters (found 101). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:62: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:64: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:65: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:66:45: '5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:68: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:70: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:62: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:64: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:65: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:68: Line is longer than 80 characters (found 108). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:70: Line is longer than 80 characters (found 111). [LineLength]
 Audit done.
-Checkstyle ends with 26 errors.
+Checkstyle ends with 25 errors.
