@@ -777,6 +777,23 @@ WABCO India 0.33
 1
 1
 
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Comparable; cannot be cast to java.base/[Ljava.lang.String;
-	at Solution.main(Solution.java:104)
+Abbott India
+Bajaj Finserv
+Bharat Rasayan
+Bosch
+ICRA
+MRF
+Merck Ltd
+Sanofi India
+Schaeffler India
+TTK Prestige
+Tasty Bite Eat
+key is null
+key is null
+key is null
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.rank(BinarySearchTree.java:89)
+	at BinarySearchTree.get(BinarySearchTree.java:135)
+	at BinarySearchTree.contains(BinarySearchTree.java:115)
+	at Solution.main(Solution.java:105)
 ----------------------------------------

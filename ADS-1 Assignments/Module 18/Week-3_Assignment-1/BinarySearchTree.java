@@ -1,5 +1,7 @@
 // import java.util.Scanner;
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
 /**
  * Class for binary search st.
  *
@@ -27,9 +29,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
         keys = (Key[]) new Comparable[twenty];
         values = (Value[]) new Object[twenty];
     }
-    public Key[] getkeys() {
-    	return keys;
-    }
+    public ArrayList<Key> getkeys() {
+		ArrayList<Key> ar = new ArrayList<>(Arrays.asList(keys));
+		return ar;
+	}
+    // public Key[] getkeys() {
+    // 	return keys;
+    // }
     /**
      * { To add elements into the Data Structure }.
      * Complexity:
