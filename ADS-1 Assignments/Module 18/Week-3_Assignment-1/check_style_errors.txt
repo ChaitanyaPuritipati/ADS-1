@@ -35,6 +35,5 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:102:27: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:104:36: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:105:43: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 18\Week-3_Assignment-1\Solution.java:105:67: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 37 errors.
+Checkstyle ends with 36 errors.

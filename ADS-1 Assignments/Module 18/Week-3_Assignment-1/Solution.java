@@ -102,7 +102,7 @@ class Solution {
 			if(querydetails[0].equals("intersection")) {
 				System.out.println();
 				for(String eachkey: maxST.getkeys()) {
-					if(minST.contains((String)eachkey)) {
+					if(minST.contains(eachkey)) {
 						System.out.println(eachkey);
 					}
 				}
