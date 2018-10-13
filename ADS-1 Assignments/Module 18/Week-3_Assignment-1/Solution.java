@@ -76,9 +76,9 @@ class Solution {
 			}
 			for (Stock eachminstock : minpqobj) {
 				if (eachminstock.compareTo(minathour) == 0) {
-					if (!minST.contains(eachminstock.getstockname())) {
-						minST.put(eachminstock.getstockname(), 1);
-					}
+					// if (!minST.contains(eachminstock.getstockname())) {
+						// minST.put(eachminstock.getstockname(), 1);
+					// }
 					int valuemin = minST.get(eachminstock.getstockname());
 					minST.put(eachminstock.getstockname(), valuemin++);
 				} else {
