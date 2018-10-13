@@ -17,7 +17,7 @@ class Stock implements Comparable<Stock> {
 	 * @param      name    The name
 	 * @param      change  The change
 	 */
-	Stock(String name, float change) {
+	Stock(final String name, final float change) {
 		this.stockname = name;
 		this.stockchange = change;
 	}
@@ -44,7 +44,7 @@ class Stock implements Comparable<Stock> {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	public int compareTo(Stock other) {
+	public int compareTo(final Stock other) {
 		if (this.stockchange > other.stockchange) {
 			return 1;
 		}
@@ -73,7 +73,7 @@ class Stock implements Comparable<Stock> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
 	/**
 	 * Constructs the object.
 	 */
@@ -85,7 +85,7 @@ class Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
 		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
