@@ -84,12 +84,12 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-1
+1everytime
 Merck Ltd 5.83
 Bajaj Finserv 5.64
-1
+1everytime
 ICRA 4.84
-1
+1everytime
 Schaeffler India 4.59
 Nestle India 4.57
 
@@ -100,11 +100,11 @@ Eicher Motors 0.6
 GSK Cons Health 0.84
 
 Tasty Bite Eat 5.23
-1
+1everytime
 Bajaj Finserv 4.64
-1
+1everytime
 Nestle India 4.57
-1
+1everytime
 ICRA 3.84
 Lakshmi Machine 3.7
 
@@ -114,7 +114,7 @@ GSK Cons Health -0.84
 Abbott India 0.46
 Oracle Fin 0.52
 
-1
+1everytime
 Merck Ltd 4.83
 MRF 3.48
 3M India 2.56
@@ -127,15 +127,15 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-1
+1everytime
 Merck Ltd 4.83
-1
+1everytime
 ICRA 2.84
-1
+1everytime
 Schaeffler India 2.57
-1
+1everytime
 TTK Prestige 2.15
-1
+1everytime
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -144,15 +144,15 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-1
+1everytime
 ICRA 5.84
-1
+1everytime
 Lakshmi Machine 4.7
-1
+1everytime
 Merck Ltd 3.83
-1
+1everytime
 Bajaj Finserv 3.64
-1
+1everytime
 TTK Prestige 3.15
 
 Eicher Motors -1.6
@@ -247,13 +247,13 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-1
+1everytime
 Larsen & Toubro 4.08
 Jubilant Food 4.08
 NIIT Tech 3.21
-1
+1everytime
 Vinati Organics 3.03
-1
+1everytime
 Chola Inv Fin 2.47
 
 Ceat -0.06
@@ -262,15 +262,15 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-1
+1everytime
 Chola Inv Fin 4.47
-1
+1everytime
 Jubilant Food 4.08
-1
+1everytime
 Vinati Organics 4.03
-1
+1everytime
 Fine Organic Industries Ltd. 3.29
-1
+1everytime
 Larsen & Toubro 1.11
 
 Nalwa Sons Invst -0.06
@@ -279,14 +279,14 @@ NIIT Tech 0.21
 Ceat 0.23
 Endurance Technologies Ltd. 1.1
 
-1
+1everytime
 Chola Inv Fin 3.47
-1
+1everytime
 Fine Organic Industries Ltd. 3.29
-1
+1everytime
 APL Apollo Tube 2.18
 Ceat 1.23
-1
+1everytime
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -295,15 +295,15 @@ Nalwa Sons Invst -0.1
 Jubilant Food 0.08
 NIIT Tech 0.34
 
-1
+1everytime
 Larsen & Toubro 3.11
-1
+1everytime
 APL Apollo Tube 2.18
-1
+1everytime
 Jubilant Food 2.08
-1
+1everytime
 Ceat 1.23
-1
+1everytime
 NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
@@ -312,13 +312,13 @@ Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
 
-1
+1everytime
 Larsen & Toubro 5.11
-1
+1everytime
 Jubilant Food 5.08
 Endurance Technologies Ltd. 4.1
 Nalwa Sons Invst 4.06
-1
+1everytime
 APL Apollo Tube 2.18
 
 Ceat -1.23
@@ -418,12 +418,12 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-1
+1everytime
 Merck Ltd 5.83
 Bajaj Finserv 5.64
-1
+1everytime
 ICRA 4.84
-1
+1everytime
 Schaeffler India 4.59
 Nestle India 4.57
 
@@ -434,11 +434,11 @@ Eicher Motors 0.6
 GSK Cons Health 0.84
 
 Tasty Bite Eat 5.23
-1
+1everytime
 Bajaj Finserv 4.64
-1
+1everytime
 Nestle India 4.57
-1
+1everytime
 ICRA 3.84
 Lakshmi Machine 3.7
 
@@ -448,7 +448,7 @@ GSK Cons Health -0.84
 Abbott India 0.46
 Oracle Fin 0.52
 
-1
+1everytime
 Merck Ltd 4.83
 MRF 3.48
 3M India 2.56
@@ -461,15 +461,15 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-1
+1everytime
 Merck Ltd 4.83
-1
+1everytime
 ICRA 2.84
-1
+1everytime
 Schaeffler India 2.57
-1
+1everytime
 TTK Prestige 2.15
-1
+1everytime
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -478,15 +478,15 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-1
+1everytime
 ICRA 5.84
-1
+1everytime
 Lakshmi Machine 4.7
-1
+1everytime
 Merck Ltd 3.83
-1
+1everytime
 Bajaj Finserv 3.64
-1
+1everytime
 TTK Prestige 3.15
 
 Eicher Motors -1.6
@@ -591,13 +591,13 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
-1
+1everytime
 Larsen & Toubro 4.08
 Jubilant Food 4.08
 NIIT Tech 3.21
-1
+1everytime
 Vinati Organics 3.03
-1
+1everytime
 Chola Inv Fin 2.47
 
 Ceat -0.06
@@ -606,15 +606,15 @@ Endurance Technologies Ltd. 1.1
 Fine Organic Industries Ltd. 1.29
 APL Apollo Tube 2.18
 
-1
+1everytime
 Chola Inv Fin 4.47
-1
+1everytime
 Jubilant Food 4.08
-1
+1everytime
 Vinati Organics 4.03
-1
+1everytime
 Fine Organic Industries Ltd. 3.29
-1
+1everytime
 Larsen & Toubro 1.11
 
 Nalwa Sons Invst -0.06
@@ -623,14 +623,14 @@ NIIT Tech 0.21
 Ceat 0.23
 Endurance Technologies Ltd. 1.1
 
-1
+1everytime
 Chola Inv Fin 3.47
-1
+1everytime
 Fine Organic Industries Ltd. 3.29
-1
+1everytime
 APL Apollo Tube 2.18
 Ceat 1.23
-1
+1everytime
 Vinati Organics 1.03
 
 Larsen & Toubro -4.11
@@ -639,15 +639,15 @@ Nalwa Sons Invst -0.1
 Jubilant Food 0.08
 NIIT Tech 0.34
 
-1
+1everytime
 Larsen & Toubro 3.11
-1
+1everytime
 APL Apollo Tube 2.18
-1
+1everytime
 Jubilant Food 2.08
-1
+1everytime
 Ceat 1.23
-1
+1everytime
 NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
@@ -656,13 +656,13 @@ Chola Inv Fin 0.47
 Vinati Organics 1.03
 Endurance Technologies Ltd. 1.1
 
-1
+1everytime
 Larsen & Toubro 5.11
-1
+1everytime
 Jubilant Food 5.08
 Endurance Technologies Ltd. 4.1
 Nalwa Sons Invst 4.06
-1
+1everytime
 APL Apollo Tube 2.18
 
 Ceat -1.23
@@ -783,11 +783,11 @@ Oracle Fin 0.52
 Bajaj Finserv 0.64
 
 Bajaj Finserv 5.64
-1
+1everytime
 Schaeffler India 4.59
 Sanofi India 4.0
 Nestle India 4.0
-1
+1everytime
 ICRA 4.0
 
 Merck Ltd -5.83
@@ -797,9 +797,9 @@ Eicher Motors 0.0
 TTK Prestige 0.0
 
 Tasty Bite Eat 5.23
-1
+1everytime
 Nestle India 4.57
-1
+1everytime
 ICRA 3.84
 Lakshmi Machine 3.7
 Bosch 2.3
@@ -810,11 +810,11 @@ Bharat Rasayan -2.0
 HEG Ltd -1.61
 Merck Ltd -1.61
 
-1
+1everytime
 Merck Ltd 4.83
 MRF 3.48
 3M India 2.56
-1
+1everytime
 Bosch -0.3
 Abbott India -0.46
 
@@ -824,15 +824,15 @@ TTK Prestige -2.15
 Bharat Rasayan -2.0
 HEG Ltd -1.61
 
-1
+1everytime
 Merck Ltd 4.83
-1
+1everytime
 ICRA 2.84
-1
+1everytime
 Schaeffler India 2.57
-1
+1everytime
 TTK Prestige 2.15
-1
+1everytime
 Bharat Rasayan 2.0
 
 Bosch 0.3
@@ -841,15 +841,15 @@ MRF 0.48
 Oracle Fin 0.52
 Bajaj Finserv 0.64
 
-1
+1everytime
 ICRA 5.84
-1
+1everytime
 Lakshmi Machine 4.7
-1
+1everytime
 Merck Ltd 3.83
-1
+1everytime
 Bajaj Finserv 3.64
-1
+1everytime
 TTK Prestige 3.15
 
 Eicher Motors -1.6

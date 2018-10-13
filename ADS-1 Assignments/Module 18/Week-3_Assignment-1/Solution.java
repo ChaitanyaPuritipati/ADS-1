@@ -59,7 +59,7 @@ class Solution {
 				Stock maxpqbest = maxpqobj.delMax();
 				if (maxST.contains(maxpqbest.getstockname())) {
 					int value = maxST.get(maxpqbest.getstockname());
-					System.out.println(value);
+					System.out.println(value + "everytime");
 					maxST.put(maxpqbest.getstockname(), value++);
 				} else {
 					maxST.put(maxpqbest.getstockname(), 1);
