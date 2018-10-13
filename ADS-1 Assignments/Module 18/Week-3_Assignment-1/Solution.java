@@ -29,7 +29,7 @@ class Stock implements Comparable<Stock> {
 	}
 	public String toString() {
 		String str = "";
-		str = str + this.stockname + " " +this.stockchange;
+		str = str + this.stockname + " " + this.stockchange;
 		return str;
 	}
 }
@@ -39,6 +39,8 @@ class Solution {
 	}
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
+		BinarySearchTree<String, Integer> maxST = new  BinarySearchTree<>();
+		BinarySearchTree<String, Integer> minST = new BinarySearchTree<>();
 		int stocknum = Integer.parseInt(scan.nextLine());
 		for (int i = 0; i < 6; i++) {
 			int count = 0;
@@ -51,24 +53,48 @@ class Solution {
 				maxpqobj.insert(stockobj);
 				count++;
 			}
-			BinarySearchTree<String, Float> stockbest = new  BinarySearchTree<>();
-			BinarySearchTree<String, Float> stockworst = new BinarySearchTree<>();
+			Stock maxathour = maxpqobj.max();
+			Stock minathour = minpqobj.min();
+			int maxfreq = 0;
+			for(Stock eachmaxstock: maxpqobj) {
+				if(eachmaxstock.compareTo(maxathour) == 0) {
+					maxfreq++;
+					maxST.put(eachmaxstock.getstockname(), maxfreq);
+				} else {
+					maxfreq = 0;
+					maxST.put(eachmaxstock.getstockname(), maxfreq);
+				}
+			}
+			int minfreq = 0;
+			for(Stock eachminstock : minpqobj) {
+				if(eachminstock.compareTo(maxathour) == 0) {
+					minfreq++;
+					minST.put(eachminstock.getstockname(), minfreq);
+				} else {
+					minfreq = 0;
+					minST.put(eachminstock.getstockname(), minfreq);
+				}
+			}
 			for (int j = 0; j < 5; j++) {
 				Stock maxpqbest = maxpqobj.delMax();
 				System.out.println(maxpqbest);
-				stockbest.put(maxpqbest.getstockname(), maxpqbest.getstockchange());
 			}
 			System.out.println();
-			for(int k = 0; k < 5; k++) {
+			for (int k = 0; k < 5; k++) {
 				Stock minpqworst = minpqobj.delMin();
 				System.out.println(minpqworst);
-				stockworst.put(minpqworst.getstockname(), minpqworst.getstockchange());
 			}
-			System.out.println();
-			// stockbest.print();
-			// System.out.println();
-			// stockworst.print();
-			// System.out.println();
+			int querynum = Integer.parseInt(scan.nextLine());
+			for(int l = 0; l < querynum; l++) {
+				String[] querydetails = scan.nextLine().split(",");
+				if(querydetails[0].equals("get")) {
+					if(querydetails[1].equals("maxST")) {
+						System.out.println(maxST.get(querydetails[2]));
+					} else {
+						System.out.println(minST.get(querydetails[2]));
+					}
+				}
+			}
 		}
 	}
 }
