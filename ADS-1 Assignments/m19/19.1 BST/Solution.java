@@ -52,8 +52,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			if (item.compareTo(test.key) == 0) {
 				return test.value;
 			} else if (item.compareTo(test.key) > 0) {
+				if(test.right == null) {
+					return null;
+				}
 				test = test.right;
 			} else {
+				if(test.left == null) {
+					return null;
+				}
 				test = test.left;
 			}
 		}

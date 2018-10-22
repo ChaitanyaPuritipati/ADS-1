@@ -41,7 +41,6 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 7
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.get(Solution.java:51)
-	at Solution.main(Solution.java:113)
+null
+null
 ----------------------------------------
