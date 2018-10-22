@@ -172,6 +172,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				System.out.println(index + "index val in if ");
 				if (index != 0) {
 					int req = val + 1 - count;
+					System.out.println(req + "reqval");
 					if (req <= index) {
 						return keyarr[index - req];
 					}
