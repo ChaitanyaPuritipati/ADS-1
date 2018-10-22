@@ -8,9 +8,13 @@ Hello, Ajay, 200.0
 Algorithms, Bob Sedgewick, 6000.0
 Python, eric, 5000.0
 Your Output: 
+1
+Python, eric, 5000.0
+2
+Algorithms, Bob Sedgewick, 6000.0
 Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Object; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.<init>(Solution.java:38)
-	at Solution.main(Solution.java:188)
+	at BinarySearchTree.select(Solution.java:160)
+	at Solution.main(Solution.java:215)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -25,9 +29,17 @@ Street, Kiran, 800.0
 IT, Viswas, 400.0
 2
 Your Output: 
+Harry, JK, 600.0
+6
+Street, Kiran, 800.0
+Street, Kiran, 800.0
+5
+Harry, JK, 600.0
+7
+Street, Kiran, 800.0
 Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Object; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.<init>(Solution.java:38)
-	at Solution.main(Solution.java:188)
+	at BinarySearchTree.select(Solution.java:160)
+	at Solution.main(Solution.java:215)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -41,7 +53,12 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 7
 Your Output: 
+Harry, JK, 600.0
+Harry, JK, 600.0
+Street, Kiran, 800.0
+null
+IT, Viswas, 400.0
 Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Object; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.<init>(Solution.java:38)
-	at Solution.main(Solution.java:188)
+	at BinarySearchTree.select(Solution.java:160)
+	at Solution.main(Solution.java:215)
 ----------------------------------------

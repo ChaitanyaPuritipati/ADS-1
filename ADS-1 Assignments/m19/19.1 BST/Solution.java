@@ -35,7 +35,6 @@ class Key implements Comparable<Key> {
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	private Node head;
 	private int size;
-	private Node[] keyarr = (Node[])new Object[10];
 	class Node {
 		Key key;
 		Value value;
@@ -158,6 +157,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		return test.key;
 	}
 	public Key select(int val) {
+		Node[] keyarr = (Node[])new Object[10];
 		int count = 0;
 		int index = 0;
 		Node test = head;
