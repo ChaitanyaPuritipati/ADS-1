@@ -12,6 +12,7 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
+Algorithms, Bob Sedgewick, 6000.0
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -28,6 +29,7 @@ IT, Viswas, 400.0
 Your Output: 
 Harry, JK, 600.0
 6
+Street, Kiran, 800.0
 5
 Harry, JK, 600.0
 7
@@ -48,8 +50,7 @@ Street, Kiran, 800.0
 Your Output: 
 Harry, JK, 600.0
 Harry, JK, 600.0
-null
-Harry, JK, 600.0
-Street, Kiran, 800.0
-7
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.floor(Solution.java:123)
+	at Solution.main(Solution.java:161)
 ----------------------------------------
