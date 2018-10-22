@@ -12,11 +12,11 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
-Python, eric, 5000.0
-Algorithms, Bob Sedgewick, 6000.0
-Python, eric, 5000.0
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.select(Solution.java:173)
+	at Solution.main(Solution.java:220)
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 Harry, JK, 600.0
 6
@@ -37,8 +37,9 @@ Street, Kiran, 800.0
 Harry, JK, 600.0
 7
 Street, Kiran, 800.0
-IT, Viswas, 400.0
-2
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.select(Solution.java:173)
+	at Solution.main(Solution.java:220)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -57,8 +58,7 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-IT, Viswas, 400.0
-Harry, JK, 600.0
-Street, Kiran, 800.0
-7
+Exception in thread "main" java.lang.NullPointerException
+	at BinarySearchTree.select(Solution.java:173)
+	at Solution.main(Solution.java:220)
 ----------------------------------------

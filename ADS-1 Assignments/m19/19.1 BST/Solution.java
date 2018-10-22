@@ -161,17 +161,22 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		int index = 0;
 		Key[] keyarr = (Key[])new Comparable[100];
 		Node test = head;
-		while(count != val + 1) {
-			if(test.left == null) {
-				// if(keyarr.length != 0) {
-				//     keyarr = (Key[])new Comparable[100];
-				// 	// index = 0;
-				// }
+		Node temp = null;
+		while (count != val + 1) {
+			if (test.left == null) {
+				if (keyarr.length != 0) {
+					// keyarr = (Key[])new Comparable[100];
+					test = temp;
+					index = 0;
+				}
 				count++;
 				test = test.right;
 			} else {
+				if (index == 0) {
+					temp = test;
+				}
 				keyarr[index++] = test.key;
-				if(count + index == val + 1) {
+				if (count + index == val + 1) {
 					return keyarr[index - 1];
 				}
 			}
@@ -212,8 +217,8 @@ class Solution {
 				System.out.println(bstobj.ceiling(newkey));
 				break;
 			case "select":
-			    System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
-			    break;	
+				System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
+				break;
 			default:
 			}
 		}
