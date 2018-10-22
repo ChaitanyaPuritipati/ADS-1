@@ -325,7 +325,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
     public Key select(final int val) {
         int count = 0;
         int index = 0;
-        Key[] keyarr = (Key[])new Comparable[100];
+        final int hund = 100;
+        Key[] keyarr = (Key[]) new Comparable[hund];
         Node test = head;
         Node temp = null;
         while (count != val + 1) {
@@ -361,11 +362,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
-    Solution() {
+    private Solution() {
         //unused
     }
     /**
@@ -375,16 +376,18 @@ class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
+        final int three = 3;
+        final int four = 4;
         BinarySearchTree<Key, Integer> bstobj = new BinarySearchTree<>();
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
-                Key newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
-                bstobj.put(newkey, Integer.parseInt(tokens[4]));
+                Key newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
+                bstobj.put(newkey, Integer.parseInt(tokens[four]));
                 break;
             case "get":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
+                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.get(newkey));
                 break;
             case "min":
@@ -394,11 +397,11 @@ class Solution {
                 System.out.println(bstobj.max());
                 break;
             case "floor":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
+                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.floor(newkey));
                 break;
             case "ceiling":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
+                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.ceiling(newkey));
                 break;
             case "select":
