@@ -49,6 +49,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		Node test = head;
 		while (!(test.left == null && test.right == null)) {
+			System.out.println(test.key + "keyval");
 			if (item.compareTo(test.key) == 0) {
 				return test.value;
 			} else if (item.compareTo(test.key) > 0) {
