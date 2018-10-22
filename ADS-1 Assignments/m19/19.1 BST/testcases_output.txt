@@ -16,7 +16,8 @@ Pythoneric5000keyval
 HelloAjay200.0before looping
 HelloAjay200.0keyval
 ITViswas400.0before looping
-null
+ITViswas400.0keyval
+2
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -35,17 +36,20 @@ HarryJK600.0keyval
 ITViswas400.0before looping
 ITViswas400.0keyval
 StreetKiran800.0before looping
-null
+StreetKiran800.0keyval
+6
 HarryJK600.0keyval
 ITViswas400.0before looping
 ITViswas400.0keyval
 HelloAjay200.0before looping
-null
+HelloAjay200.0keyval
+5
 HarryJK600.0keyval
 ITViswas400.0before looping
 ITViswas400.0keyval
 HelloAjay200.0before looping
-null
+HelloAjay200.0keyval
+7
 HarryJK600.0keyval
 ITViswas400.0before looping
 ITViswas400.0keyval
@@ -71,5 +75,6 @@ HarryJK600.0keyval
 ITViswas400.0before looping
 ITViswas400.0keyval
 HelloAjay200.0before looping
-null
+HelloAjay200.0keyval
+7
 ----------------------------------------
