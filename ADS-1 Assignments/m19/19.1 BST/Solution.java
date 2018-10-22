@@ -35,6 +35,7 @@ class Key implements Comparable<Key> {
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	private Node head;
 	private int size;
+	private Node[] keyarr = (Node[])new Object[10];
 	class Node {
 		Key key;
 		Value value;
@@ -156,6 +157,27 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	public Key select(int val) {
+		int count = 0;
+		int index = 0;
+		Node test = head;
+		while(count != val + 1) {
+			if(test.left == null) {
+				if(keyarr.length != 0) {
+					test = keyarr[0];
+					index = 0;
+				}
+				count++;
+				test = test.right;
+			} else {
+				keyarr[index++] = test;
+				if(count + keyarr.length == val + 1) {
+					return keyarr[index - 1].key;
+				}
+			}
+		}
+		return test.key;
+	}
 }
 class Solution {
 	Solution() {
@@ -189,6 +211,9 @@ class Solution {
 				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
 				System.out.println(bstobj.ceiling(newkey));
 				break;
+			case "select":
+			    System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
+			    break;	
 			default:
 			}
 		}
