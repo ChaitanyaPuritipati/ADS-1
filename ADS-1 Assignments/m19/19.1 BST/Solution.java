@@ -168,9 +168,11 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 					// keyarr = (Key[])new Comparable[100];
 					test = temp;
 					index = 0;
+				} else {
+					count++;
+					test = test.right;
 				}
-				count++;
-				test = test.right;
+
 			} else {
 				if (index == 0) {
 					temp = test;
