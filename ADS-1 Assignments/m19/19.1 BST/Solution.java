@@ -169,7 +169,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				// 	return test.key;
 				// }
 				if (index != 0) {
-					int req = val - count;
+					int req = val + 1 - count;
 					if (req <= index) {
 						return keyarr[index - req];
 					}
