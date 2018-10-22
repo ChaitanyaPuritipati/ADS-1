@@ -22,7 +22,7 @@ class Key implements Comparable<Key> {
 	 * @param      author  The author
 	 * @param      price   The price
 	 */
-	Key(String name, String author, float price) {
+	Key(final String name, final String author, final float price) {
 		this.bookname = name;
 		this.bookauthor = author;
 		this.bookprice = price;
@@ -71,7 +71,7 @@ class Key implements Comparable<Key> {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	public int compareTo(Key other) {
+	public int compareTo(final Key other) {
 		if (this.getname().compareTo(other.getname()) > 0) {
 			return 1;
 		}
@@ -135,7 +135,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		 * @param      keyval  The keyval
 		 * @param      val     The value
 		 */
-		Node(Key keyval, Value val) {
+		Node(final Key keyval, final Value val) {
 			this.key = keyval;
 			this.value = val;
 		}
@@ -158,7 +158,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 *
 	 * @return     { Value }
 	 */
-	public Value get(Key item) {
+	public Value get(final Key item) {
 		if (isEmpty()) {
 			return null;
 		}
@@ -189,7 +189,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 * @param      item     The item
 	 * @param      itemval  The itemval
 	 */
-	public void put(Key item, Value itemval) {
+	public void put(final Key item, final Value itemval) {
 		Node newnode = new Node(item, itemval);
 		if (isEmpty()) {
 			head = newnode;
@@ -264,7 +264,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 *
 	 * @return     { Key }
 	 */
-	public Key floor(Key item) {
+	public Key floor(final Key item) {
 		Node test = head;
 		while (true) {
 			if (item.compareTo(test.key) > 0) {
@@ -293,7 +293,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 *
 	 * @return     { Key }
 	 */
-	public Key ceiling(Key item) {
+	public Key ceiling(final Key item) {
 		Node test = head;
 		while (true) {
 			if (item.compareTo(test.key) > 0) {
@@ -322,7 +322,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	 *
 	 * @return     { Key value }
 	 */
-	public Key select(int val) {
+	public Key select(final int val) {
 		int count = 0;
 		int index = 0;
 		Key[] keyarr = (Key[])new Comparable[100];
@@ -373,7 +373,7 @@ class Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner scan = new Scanner(System.in);
 		BinarySearchTree<Key, Integer> bstobj = new BinarySearchTree<>();
 		while (scan.hasNext()) {
