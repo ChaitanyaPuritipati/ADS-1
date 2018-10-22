@@ -165,9 +165,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		while (count != val + 1) {
 			if (test.left == null) {
 				count++;
-				if (count == val + 1) {
-					return test.key;
-				}
+				// if (count == val + 1) {
+				// 	return test.key;
+				// }
 				if (index != 0) {
 					int req = val - count;
 					if (req <= index) {
@@ -178,21 +178,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				} else {
 					test = test.right;
 				}
-				// 	count++;
-				// 	if (count == val) {
-				// 		return test.key;
-				// 	}
-				// 	count = count + index;
-				// 	if(count == val) {
-				// 		return keyarr[index - 1];
-				// 	}
-				// 	test = temp.right;
-				// 	index = 0;
-				// } else {
-				// 	count++;
-				// 	test = test.right;
-				// }
-
 			} else {
 				if (index == 0) {
 					temp = test;
@@ -200,7 +185,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				keyarr[index++] = test.key;
 			}
 		}
-		 return test.key;
+		return test.key;
 	}
 }
 class Solution {

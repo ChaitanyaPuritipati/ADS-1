@@ -13,8 +13,8 @@ Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
-	at BinarySearchTree.select(Solution.java:200)
-	at Solution.main(Solution.java:239)
+	at BinarySearchTree.select(Solution.java:185)
+	at Solution.main(Solution.java:224)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -38,8 +38,8 @@ Harry, JK, 600.0
 7
 Street, Kiran, 800.0
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
-	at BinarySearchTree.select(Solution.java:200)
-	at Solution.main(Solution.java:239)
+	at BinarySearchTree.select(Solution.java:185)
+	at Solution.main(Solution.java:224)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -59,6 +59,6 @@ Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
-	at BinarySearchTree.select(Solution.java:200)
-	at Solution.main(Solution.java:239)
+	at BinarySearchTree.select(Solution.java:185)
+	at Solution.main(Solution.java:224)
 ----------------------------------------
