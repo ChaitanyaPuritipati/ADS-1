@@ -128,7 +128,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				test = test.right;
 			} else if (item.compareTo(test.key) < 0) {
 				if (test.left == null) {
-					break;
+					return null;
 				}
 				test = test.left;
 			} else {
@@ -141,12 +141,20 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node test = head;
 		while (true) {
 			if (item.compareTo(test.key) > 0) {
-
+				if (test.right == null) {
+					return null;
+				}
 				test = test.right;
 			} else if (item.compareTo(test.key) < 0) {
+				if (test.left == null) {
+					break;
+				}
 				test = test.left;
+			} else {
+				return item;
 			}
 		}
+		return test.key;
 	}
 }
 class Solution {
@@ -176,6 +184,10 @@ class Solution {
 			case "floor":
 				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
 				System.out.println(bstobj.floor(newkey) + "floor");
+				break;
+			case "ceiling":
+				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
+				System.out.println(bstobj.ceiling(newkey) + "ceiling");
 				break;
 			default:
 			}
