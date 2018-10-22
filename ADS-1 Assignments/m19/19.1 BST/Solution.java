@@ -198,7 +198,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				keyarr[index++] = test.key;
 			}
 		}
-		 return test.key;
+		 return null;
 	}
 }
 class Solution {
