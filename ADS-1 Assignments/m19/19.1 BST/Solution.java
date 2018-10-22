@@ -385,7 +385,9 @@ final class Solution {
             String[] tokens = scan.nextLine().split(",");
             switch (tokens[0]) {
             case "put":
-                Key newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
+                Key newkey = new Key(
+                    tokens[1], tokens[2]
+                    , Float.parseFloat(tokens[three]));
                 bstobj.put(newkey, Integer.parseInt(tokens[four]));
                 break;
             case "get":
