@@ -1,22 +1,76 @@
 import java.util.Scanner;
+/**
+ * Class for key.
+ */
 class Key implements Comparable<Key> {
+	/**
+	 * { bookname }.
+	 */
 	private String bookname;
+	/**
+	 * { bookauthor }.
+	 */
 	private String bookauthor;
+	/**
+	 * { bookprice }.
+	 */
 	private float bookprice;
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      name    The name
+	 * @param      author  The author
+	 * @param      price   The price
+	 */
 	Key(String name, String author, float price) {
 		this.bookname = name;
 		this.bookauthor = author;
 		this.bookprice = price;
 	}
+	/**
+	 * { getname function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(1)
+	 *              Average case: O(1)
+	 * @return     { String type }
+	 */
 	public String getname() {
 		return this.bookname;
 	}
+	/**
+	 * { getauthor function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(1)
+	 *              Average case: O(1)
+	 * @return     { String type }
+	 */
 	public String getauthor() {
 		return this.bookauthor;
 	}
+	/**
+	 * { getprice function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(1)
+	 *              Average case: O(1)
+	 *
+	 * @return     { float type }
+	 */
 	public float getprice() {
 		return this.bookprice;
 	}
+	/**
+	 * { CompareTo function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(1)
+	 *              Average case: O(1)
+	 * @param      other  The other
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int compareTo(Key other) {
 		if (this.getname().compareTo(other.getname()) > 0) {
 			return 1;
@@ -26,28 +80,84 @@ class Key implements Comparable<Key> {
 		}
 		return 0;
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(1)
+	 *              Average case: O(1)
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		String str = "";
 		str = str + this.bookname + ", " + this.bookauthor + ", " + this.bookprice;
 		return str;
 	}
 }
+/**
+ * Class for binary search tree.
+ *
+ * @param      <Key>    The key
+ * @param      <Value>  The value
+ */
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
+	/**
+	 * { head node }.
+	 */
 	private Node head;
+	/**
+	 * { size value }.
+	 */
 	private int size;
+	/**
+	 * Class for node.
+	 */
 	class Node {
+		/**
+		 * { key }.
+		 */
 		Key key;
+		/**
+		 * { value }.
+		 */
 		Value value;
+		/**
+		 * { left }.
+		 */
 		Node left;
+		/**
+		 * { right }.
+		 */
 		Node right;
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      keyval  The keyval
+		 * @param      val     The value
+		 */
 		Node(Key keyval, Value val) {
 			this.key = keyval;
 			this.value = val;
 		}
 	}
+	/**
+	 * Determines if empty.
+	 *
+	 * @return     True if empty, False otherwise.
+	 */
 	public boolean isEmpty() {
 		return size == 0;
 	}
+	/**
+	 * { get function }.
+	 * Complexities:
+	 *              Best case: O(logN)
+	 *              Worst case: O(N)
+	 *              Average case: O(logN)
+	 * @param      item  The item
+	 *
+	 * @return     { Value }
+	 */
 	public Value get(Key item) {
 		if (isEmpty()) {
 			return null;
@@ -70,6 +180,15 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return null;
 	}
+	/**
+	 * { put function }.
+	 * Complexities:
+	 *              Best case: O(logN)
+	 *              Worst case: O(N)
+	 *              Average case: O(logN)
+	 * @param      item     The item
+	 * @param      itemval  The itemval
+	 */
 	public void put(Key item, Value itemval) {
 		Node newnode = new Node(item, itemval);
 		if (isEmpty()) {
@@ -104,6 +223,15 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			test.value = newnode.value;
 		}
 	}
+	/**
+	 * { min function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(N)
+	 *              Average case: O(logN)
+	 *
+	 * @return     { Key }
+	 */
 	public Key min() {
 		Node test = head;
 		while (test.left != null) {
@@ -111,6 +239,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	/**
+	 * { max function }.
+	 * Complexities:
+	 *              Best case: O(1)
+	 *              Worst case: O(N)
+	 *              Average case: O(logN)
+	 * @return     { Key }
+	 */
 	public Key max() {
 		Node test = head;
 		while (test.right != null) {
@@ -118,6 +254,16 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	/**
+	 * { floor }.
+	 *Complexities:
+	 *              Best case: O(logN)
+	 *              Worst case: O(logN)
+	 *              Average case: O(logN)
+	 * @param      item  The item
+	 *
+	 * @return     { Key }
+	 */
 	public Key floor(Key item) {
 		Node test = head;
 		while (true) {
@@ -137,6 +283,16 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	/**
+	 * { ceiling function }.
+	 * Complexities:
+	 *              Best case: O(logN)
+	 *              Worst case: O(logN)
+	 *              Average case: O(logN)
+	 * @param      item  The item
+	 *
+	 * @return     { Key }
+	 */
 	public Key ceiling(Key item) {
 		Node test = head;
 		while (true) {
@@ -156,6 +312,16 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	/**
+	 * { select function }.
+	 * Complexities:
+	 *              Best case: O(logN)
+	 *              Worst case: O(logN)
+	 *              Average case: O(logN)
+	 * @param      val   The value
+	 *
+	 * @return     { Key value }
+	 */
 	public Key select(int val) {
 		int count = 0;
 		int index = 0;
@@ -164,10 +330,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node temp = null;
 		while (count != val + 1) {
 			if (test.left == null) {
-				// System.out.println(test.key + "testval");
 				++count;
-				// System.out.println(count + "countval");
-				// System.out.println(index + "indexval");
 				if (count == val + 1) {
 					return test.key;
 				}
@@ -195,10 +358,21 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		return test.key;
 	}
 }
+/**
+ * Class for solution.
+ */
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
 		//unused
 	}
+	/**
+	 * { Main function }.
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		BinarySearchTree<Key, Integer> bstobj = new BinarySearchTree<>();
