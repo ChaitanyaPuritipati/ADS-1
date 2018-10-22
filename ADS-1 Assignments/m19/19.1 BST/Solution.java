@@ -163,15 +163,15 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node test = head;
 		while(count != val + 1) {
 			if(test.left == null) {
-				if(keyarr.length != 0) {
-				    keyarr = (Key[])new Comparable[100];
-					// index = 0;
-				}
+				// if(keyarr.length != 0) {
+				//     keyarr = (Key[])new Comparable[100];
+				// 	// index = 0;
+				// }
 				count++;
 				test = test.right;
 			} else {
 				keyarr[index++] = test.key;
-				if(count + keyarr.length == val + 1) {
+				if(count + index == val + 1) {
 					return keyarr[index - 1];
 				}
 			}
