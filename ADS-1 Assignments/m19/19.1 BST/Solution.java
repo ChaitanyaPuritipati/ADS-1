@@ -28,7 +28,7 @@ class Key implements Comparable<Key> {
 	}
 	public String toString() {
 		String str = "";
-		str = str + this.bookname + this.bookauthor + this.bookprice;
+		str = str + this.bookname + ", " + this.bookauthor + ", " + this.bookprice;
 		return str;
 	}
 }
@@ -57,12 +57,12 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 			if (item.compareTo(test.key) == 0) {
 				return test.value;
 			} else if (item.compareTo(test.key) > 0) {
-				if(test.right == null) {
+				if (test.right == null) {
 					return null;
 				}
 				test = test.right;
 			} else {
-				if(test.left == null) {
+				if (test.left == null) {
 					return null;
 				}
 				test = test.left;
@@ -106,14 +106,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	public Key min() {
 		Node test = head;
-		while(test.left != null) {
+		while (test.left != null) {
 			test = test.left;
 		}
 		return test.key;
 	}
 	public Key max() {
 		Node test = head;
-		while(test.right != null) {
+		while (test.right != null) {
 			test = test.right;
 		}
 		return test.key;
@@ -138,11 +138,11 @@ class Solution {
 				System.out.println(bstobj.get(newkey));
 				break;
 			case "min":
-			    System.out.println(bstobj.min());
-			    break;
+				System.out.println(bstobj.min());
+				break;
 			case "max":
-			    System.out.println(bstobj.max());
-			    break;    
+				System.out.println(bstobj.max());
+				break;
 			default:
 			}
 		}
