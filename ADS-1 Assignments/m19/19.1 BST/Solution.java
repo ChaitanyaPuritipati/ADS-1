@@ -175,6 +175,8 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 					}
 					index = 0;
 					test =  temp.right;
+				} else {
+					test = test.right;
 				}
 				// 	count++;
 				// 	if (count == val) {
