@@ -78,7 +78,8 @@ Hello, Ajay, 200.0testval
 Street, Kiran, 800.0testval
 3countval
 0indexval
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:166)
-	at Solution.main(Solution.java:228)
+Street, Kiran, 800.0
+Harry, JK, 600.0
+Street, Kiran, 800.0
+7
 ----------------------------------------

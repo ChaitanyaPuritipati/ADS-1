@@ -179,6 +179,9 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 					index = 0;
 					test =  temp.right;
 				} else {
+					if (test.right == null) {
+						break;
+					}
 					test = test.right;
 				}
 			} else {
