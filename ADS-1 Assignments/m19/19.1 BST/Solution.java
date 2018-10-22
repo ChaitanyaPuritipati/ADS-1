@@ -122,8 +122,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node test = head;
 		while(item.compareTo(test.key) >= 0) {
 			if(item.compareTo(test.key) > 0) {
+				if(test.right == null) {
+					break;
+				}
 				test = test.right;
 			} else if(item.compareTo(test.key) < 0) {
+				if(test.left == null) {
+					break;
+				}
 				test = test.left;
 			} else {
 				return item;
@@ -131,6 +137,19 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	// public Key ceiling(Key item) {
+	// 	Node test = head;
+	// 	while(item.compareTo(test.key) >= 0) {
+	// 		if(item.compareTo(test.key) > 0) {
+	// 			test = test.right;
+	// 		} else if(item.compareTo(test.key) < 0) {
+	// 			test = test.left;
+	// 		} else {
+	// 			return item;
+	// 		}
+	// 	}
+	// 	return test.key;
+	// }
 }
 class Solution {
 	Solution() {

@@ -50,7 +50,9 @@ Street, Kiran, 800.0
 Your Output: 
 Harry, JK, 600.0
 Harry, JK, 600.0
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.floor(Solution.java:123)
-	at Solution.main(Solution.java:161)
+Street, Kiran, 800.0floor
+null
+Harry, JK, 600.0
+Street, Kiran, 800.0
+7
 ----------------------------------------
