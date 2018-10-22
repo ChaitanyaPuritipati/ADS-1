@@ -111,6 +111,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
+	public Key max() {
+		Node test = head;
+		while(test.right != null) {
+			test = test.right;
+		}
+		return test.key;
+	}
 }
 class Solution {
 	Solution() {
@@ -130,6 +137,12 @@ class Solution {
 				newkey = new Key(tokens[1], tokens[2], tokens[3]);
 				System.out.println(bstobj.get(newkey));
 				break;
+			case "min":
+			    System.out.println(bstobj.min());
+			    break;
+			case "max":
+			    System.out.println(bstobj.max());
+			    break;    
 			default:
 			}
 		}
