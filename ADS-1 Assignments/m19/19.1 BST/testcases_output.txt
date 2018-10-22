@@ -12,8 +12,8 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
-Algorithms, Bob Sedgewick, 6000.0floor
-Python, eric, 5000.0ceiling
+Algorithms, Bob Sedgewick, 6000.0
+Python, eric, 5000.0
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -30,8 +30,8 @@ IT, Viswas, 400.0
 Your Output: 
 Harry, JK, 600.0
 6
-Street, Kiran, 800.0floor
-Street, Kiran, 800.0ceiling
+Street, Kiran, 800.0
+Street, Kiran, 800.0
 5
 Harry, JK, 600.0
 7
@@ -52,9 +52,9 @@ Street, Kiran, 800.0
 Your Output: 
 Harry, JK, 600.0
 Harry, JK, 600.0
-Street, Kiran, 800.0floor
+Street, Kiran, 800.0
 null
-IT, Viswas, 400.0ceiling
+IT, Viswas, 400.0
 Harry, JK, 600.0
 Street, Kiran, 800.0
 7

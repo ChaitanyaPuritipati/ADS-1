@@ -183,11 +183,11 @@ class Solution {
 				break;
 			case "floor":
 				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
-				System.out.println(bstobj.floor(newkey) + "floor");
+				System.out.println(bstobj.floor(newkey));
 				break;
 			case "ceiling":
 				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
-				System.out.println(bstobj.ceiling(newkey) + "ceiling");
+				System.out.println(bstobj.ceiling(newkey));
 				break;
 			default:
 			}
