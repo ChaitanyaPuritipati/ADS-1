@@ -12,9 +12,9 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:167)
-	at Solution.main(Solution.java:222)
+Python, eric, 5000.0
+Algorithms, Bob Sedgewick, 6000.0
+Python, eric, 5000.0
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -37,8 +37,8 @@ Street, Kiran, 800.0
 Harry, JK, 600.0
 7
 Street, Kiran, 800.0
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:167)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 100
+	at BinarySearchTree.select(Solution.java:179)
 	at Solution.main(Solution.java:222)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -58,7 +58,8 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:167)
-	at Solution.main(Solution.java:222)
+IT, Viswas, 400.0
+Harry, JK, 600.0
+Street, Kiran, 800.0
+7
 ----------------------------------------
