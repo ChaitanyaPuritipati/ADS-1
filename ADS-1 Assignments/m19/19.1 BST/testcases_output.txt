@@ -8,11 +8,11 @@ Hello, Ajay, 200.0
 Algorithms, Bob Sedgewick, 6000.0
 Python, eric, 5000.0
 Your Output: 
-Key@67b64c45keyval
+AlgorithmsBob Sedgewick6000.0keyval
 1
-Key@67b64c45keyval
-Key@4411d970keyval
-Key@6442b0a6keyval
+AlgorithmsBob Sedgewick6000.0keyval
+Pythoneric5000keyval
+HelloAjay200.0keyval
 null
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -28,17 +28,17 @@ Street, Kiran, 800.0
 IT, Viswas, 400.0
 2
 Your Output: 
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 null
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 null
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 null
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 2
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -53,10 +53,10 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 7
 Your Output: 
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 null
-Key@67b64c45keyval
-Key@4411d970keyval
+HarryJK600.0keyval
+ITViswas400.0keyval
 null
 ----------------------------------------

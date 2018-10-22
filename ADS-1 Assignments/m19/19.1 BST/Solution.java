@@ -26,6 +26,11 @@ class Key implements Comparable<Key> {
 		}
 		return 0;
 	}
+	public String toString() {
+		String str = "";
+		str = str + this.bookname + this.bookauthor + this.bookprice;
+		return str;
+	}
 }
 class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	private Node head;
