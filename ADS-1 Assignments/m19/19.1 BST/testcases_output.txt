@@ -12,8 +12,10 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
+Algorithms, Bob Sedgewick, 6000.0testval
 1countval
 0indexval
+Hello, Ajay, 200.0testval
 2countval
 1indexval
 Hello, Ajay, 200.0
@@ -41,8 +43,10 @@ Street, Kiran, 800.0
 Harry, JK, 600.0
 7
 Street, Kiran, 800.0
+Harry, JK, 600.0testval
 1countval
 0indexval
+Hello, Ajay, 200.0testval
 2countval
 1indexval
 IT, Viswas, 400.0
@@ -65,13 +69,16 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
+Harry, JK, 600.0testval
 1countval
 0indexval
+Hello, Ajay, 200.0testval
 2countval
 1indexval
+Street, Kiran, 800.0testval
 3countval
 0indexval
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.select(Solution.java:166)
-	at Solution.main(Solution.java:227)
+	at Solution.main(Solution.java:228)
 ----------------------------------------

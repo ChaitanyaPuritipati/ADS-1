@@ -164,6 +164,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node temp = null;
 		while (count != val + 1) {
 			if (test.left == null) {
+				System.out.println(test.key + "testval");
 				++count;
 				System.out.println(count + "countval");
 				System.out.println(index + "indexval");
