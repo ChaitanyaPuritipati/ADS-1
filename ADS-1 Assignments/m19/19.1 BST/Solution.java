@@ -187,6 +187,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 					temp = test;
 				}
 				System.out.println(index + "index val");
+				System.out.println(test.key + "valofkey");
 				keyarr[index++] = test.key;
 				test = test.left;
 			}
