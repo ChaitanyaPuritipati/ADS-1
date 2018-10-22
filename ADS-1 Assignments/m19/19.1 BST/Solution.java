@@ -164,7 +164,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		while(count != val + 1) {
 			if(test.left == null) {
 				if(keyarr.length != 0) {
-					// test = keyarr[0];
+				    keyarr = (Key[])new Comparable[10];
 					index = 0;
 				}
 				count++;

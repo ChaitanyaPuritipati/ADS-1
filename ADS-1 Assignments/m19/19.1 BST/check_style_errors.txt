@@ -47,10 +47,12 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:159:27: Parameter val should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:162:39: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:162:54: '10' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:164:22: 'while' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:165:27: 'if' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:166:35: 'if' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:174:35: 'if' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:164:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:165:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:166:35: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:167:53: 'typecast' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:167:68: '10' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:174:35: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:182: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:182:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:183:9: Missing a Javadoc comment. [JavadocMethod]
@@ -69,4 +71,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:215: Line is longer than 80 characters (found 91). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:216: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 69 errors.
+Checkstyle ends with 71 errors.
