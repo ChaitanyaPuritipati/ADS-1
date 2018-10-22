@@ -54,7 +54,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		Node test = head;
 		while (test != null) {
-			// System.out.println(test.key + "keyval");
 			if (item.compareTo(test.key) == 0) {
 				return test.value;
 			} else if (item.compareTo(test.key) > 0) {
@@ -68,7 +67,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				}
 				test = test.left;
 			}
-			// System.out.println(test.key + "before looping");
 		}
 		return null;
 	}
@@ -105,6 +103,13 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		} else {
 			test.value = newnode.value;
 		}
+	}
+	public Key min() {
+		Node test = head;
+		while(test.left != null) {
+			test = test.left;
+		}
+		return test.key;
 	}
 }
 class Solution {
