@@ -90,7 +90,9 @@ class Key implements Comparable<Key> {
      */
     public String toString() {
         String str = "";
-        str = str + this.bookname + ", " + this.bookauthor + ", " + this.bookprice;
+        str = str + this.bookname +
+              ", " + this.bookauthor +
+              ", " + this.bookprice;
         return str;
     }
 }
