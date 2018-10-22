@@ -12,8 +12,8 @@ Your Output:
 Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Comparable; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.select(Solution.java:162)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at BinarySearchTree.select(Solution.java:173)
 	at Solution.main(Solution.java:215)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -37,8 +37,8 @@ Street, Kiran, 800.0
 Harry, JK, 600.0
 7
 Street, Kiran, 800.0
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Comparable; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.select(Solution.java:162)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at BinarySearchTree.select(Solution.java:173)
 	at Solution.main(Solution.java:215)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -58,7 +58,7 @@ Harry, JK, 600.0
 Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
-Exception in thread "main" java.lang.ClassCastException: java.base/[Ljava.lang.Comparable; cannot be cast to [LBinarySearchTree$Node;
-	at BinarySearchTree.select(Solution.java:162)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at BinarySearchTree.select(Solution.java:173)
 	at Solution.main(Solution.java:215)
 ----------------------------------------
