@@ -25,9 +25,9 @@ IT, Viswas, 400.0
 2
 Your Output: 
 null
-Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.put(Solution.java:70)
-	at Solution.main(Solution.java:103)
+null
+null
+2
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -43,5 +43,5 @@ Street, Kiran, 800.0
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.get(Solution.java:51)
-	at Solution.main(Solution.java:107)
+	at Solution.main(Solution.java:113)
 ----------------------------------------
