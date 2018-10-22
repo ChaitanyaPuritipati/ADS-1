@@ -13,9 +13,11 @@ Python, eric, 5000.0
 2
 Algorithms, Bob Sedgewick, 6000.0
 0count val
+0index val in if 
 1count val
 0index val
 1count val
+1index val in if 
 null
 Algorithms, Bob Sedgewick, 6000.0
 Python, eric, 5000.0
@@ -42,9 +44,11 @@ Harry, JK, 600.0
 7
 Street, Kiran, 800.0
 0count val
+0index val in if 
 1count val
 0index val
 1count val
+1index val in if 
 IT, Viswas, 400.0
 2
 ----------------------------------------
@@ -66,12 +70,15 @@ Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
 0count val
+0index val in if 
 1count val
 0index val
 1count val
+1index val in if 
 2count val
+0index val in if 
 3count val
 Exception in thread "main" java.lang.NullPointerException
 	at BinarySearchTree.select(Solution.java:167)
-	at Solution.main(Solution.java:227)
+	at Solution.main(Solution.java:228)
 ----------------------------------------
