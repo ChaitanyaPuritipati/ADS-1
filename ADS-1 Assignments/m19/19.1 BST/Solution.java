@@ -120,14 +120,14 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	}
 	public Key floor(Key item) {
 		Node test = head;
-		while(item.compareTo(test.key) >= 0) {
-			if(item.compareTo(test.key) > 0) {
-				if(test.right == null) {
+		while (true) {
+			if (item.compareTo(test.key) > 0) {
+				if (test.right == null) {
 					break;
 				}
 				test = test.right;
-			} else if(item.compareTo(test.key) < 0) {
-				if(test.left == null) {
+			} else if (item.compareTo(test.key) < 0) {
+				if (test.left == null) {
 					break;
 				}
 				test = test.left;
@@ -137,19 +137,17 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		}
 		return test.key;
 	}
-	// public Key ceiling(Key item) {
-	// 	Node test = head;
-	// 	while(item.compareTo(test.key) >= 0) {
-	// 		if(item.compareTo(test.key) > 0) {
-	// 			test = test.right;
-	// 		} else if(item.compareTo(test.key) < 0) {
-	// 			test = test.left;
-	// 		} else {
-	// 			return item;
-	// 		}
-	// 	}
-	// 	return test.key;
-	// }
+	public Key ceiling(Key item) {
+		Node test = head;
+		while (true) {
+			if (item.compareTo(test.key) > 0) {
+
+				test = test.right;
+			} else if (item.compareTo(test.key) < 0) {
+				test = test.left;
+			}
+		}
+	}
 }
 class Solution {
 	Solution() {
@@ -176,9 +174,9 @@ class Solution {
 				System.out.println(bstobj.max());
 				break;
 			case "floor":
-			    newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
-			    System.out.println(bstobj.floor(newkey) + "floor");
-			    break;	
+				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
+				System.out.println(bstobj.floor(newkey) + "floor");
+				break;
 			default:
 			}
 		}
