@@ -163,18 +163,15 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 		Node test = head;
 		Node temp = null;
 		while (count != val + 1) {
-			// System.out.println(count + "count val");
 			if (test.left == null) {
 				++count;
+				System.out.println(count + "countval");
 				if (count == val + 1) {
 					return test.key;
 				}
-				// System.out.println(index + "index val in if ");
 				if (index != 0) {
 					int req = val + 1 - count;
-					// System.out.println(req + "reqval");
 					if (req <= index) {
-						// System.out.println("entered");
 						return keyarr[index - req];
 					}
 					index = 0;
@@ -186,8 +183,6 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				if (index == 0) {
 					temp = test;
 				}
-				// System.out.println(index + "index val");
-				// System.out.println(test.key + "valofkey");
 				keyarr[index++] = test.key;
 				test = test.left;
 			}
