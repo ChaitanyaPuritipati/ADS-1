@@ -391,7 +391,9 @@ final class Solution {
                 bstobj.put(newkey, Integer.parseInt(tokens[four]));
                 break;
             case "get":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
+                newkey = new Key(
+                    tokens[1], tokens[2],
+                    Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.get(newkey));
                 break;
             case "min":
@@ -401,15 +403,22 @@ final class Solution {
                 System.out.println(bstobj.max());
                 break;
             case "floor":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
+                newkey = new Key(
+                    tokens[1], tokens[2],
+                    Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.floor(newkey));
                 break;
             case "ceiling":
-                newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[three]));
+                newkey = new Key(
+                    tokens[1], tokens[2],
+                    Float.parseFloat(tokens[three]));
                 System.out.println(bstobj.ceiling(newkey));
                 break;
             case "select":
-                System.out.println(bstobj.select(Integer.parseInt(tokens[1])));
+                System.out.println(
+                    bstobj.select(
+                        Integer.parseInt(
+                            tokens[1])));
                 break;
             default:
             }
