@@ -47,6 +47,8 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:159:27: Parameter val should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:162:39: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:162:54: '100' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:172: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:177: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:198: Missing a Javadoc comment. [JavadocType]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:198:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:199:9: Missing a Javadoc comment. [JavadocMethod]
@@ -64,4 +66,4 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:227:96: '3' is a magic number. [MagicNumber]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:231: Line is longer than 80 characters (found 95). [LineLength]
 Audit done.
-Checkstyle ends with 64 errors.
+Checkstyle ends with 66 errors.
