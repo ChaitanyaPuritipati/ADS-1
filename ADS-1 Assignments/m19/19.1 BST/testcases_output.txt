@@ -38,8 +38,8 @@ Harry, JK, 600.0
 7
 Street, Kiran, 800.0
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:172)
-	at Solution.main(Solution.java:222)
+	at BinarySearchTree.select(Solution.java:173)
+	at Solution.main(Solution.java:225)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -59,6 +59,6 @@ Street, Kiran, 800.0
 null
 IT, Viswas, 400.0
 Exception in thread "main" java.lang.NullPointerException
-	at BinarySearchTree.select(Solution.java:172)
-	at Solution.main(Solution.java:222)
+	at BinarySearchTree.select(Solution.java:173)
+	at Solution.main(Solution.java:225)
 ----------------------------------------
