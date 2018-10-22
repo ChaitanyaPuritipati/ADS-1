@@ -2,8 +2,8 @@ import java.util.Scanner;
 class Key implements Comparable<Key> {
 	private String bookname;
 	private String bookauthor;
-	private String bookprice;
-	Key(String name, String author, String price) {
+	private float bookprice;
+	Key(String name, String author, float price) {
 		this.bookname = name;
 		this.bookauthor = author;
 		this.bookprice = price;
@@ -14,7 +14,7 @@ class Key implements Comparable<Key> {
 	public String getauthor() {
 		return this.bookauthor;
 	}
-	public String getprice() {
+	public float getprice() {
 		return this.bookprice;
 	}
 	public int compareTo(Key other) {
@@ -28,7 +28,7 @@ class Key implements Comparable<Key> {
 	}
 	public String toString() {
 		String str = "";
-		str = str + this.bookname + ", " + this.bookauthor + ", " + this.bookprice +".0";
+		str = str + this.bookname + ", " + this.bookauthor + ", " + this.bookprice;
 		return str;
 	}
 }
@@ -130,11 +130,11 @@ class Solution {
 			String[] tokens = scan.nextLine().split(",");
 			switch (tokens[0]) {
 			case "put":
-				Key newkey = new Key(tokens[1], tokens[2], tokens[3]);
+				Key newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
 				bstobj.put(newkey, Integer.parseInt(tokens[4]));
 				break;
 			case "get":
-				newkey = new Key(tokens[1], tokens[2], tokens[3]);
+				newkey = new Key(tokens[1], tokens[2], Float.parseFloat(tokens[3]));
 				System.out.println(bstobj.get(newkey));
 				break;
 			case "min":
