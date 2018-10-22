@@ -159,7 +159,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 	public Key select(int val) {
 		int count = 0;
 		int index = 0;
-		Node[] keyarr = (Node[])new Object[10];
+		Node[] keyarr = (Node[])new Comparable[10];
 		Node test = head;
 		while(count != val + 1) {
 			if(test.left == null) {
