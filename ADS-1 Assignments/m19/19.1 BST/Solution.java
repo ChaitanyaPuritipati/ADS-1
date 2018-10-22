@@ -68,6 +68,7 @@ class BinarySearchTree<Key extends Comparable<Key>, Value> {
 				}
 				test = test.left;
 			}
+			System.out.println(test.key + "before looping");
 		}
 		return null;
 	}
