@@ -1,8 +1,7 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:390:20: ',' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:394: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:404: Line is longer than 80 characters (found 88). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m19\19.1 BST\Solution.java:408: Line is longer than 80 characters (found 88). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 4 errors.
