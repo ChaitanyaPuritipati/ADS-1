@@ -7,27 +7,29 @@ import java.util.Scanner;
  */
 class Book implements Comparable<Book> {
     /**
-     * varible for name.
+     * { bookname }.
      */
     private String bookname;
     /**
-     * varible for author.
+     * { bookauthor }.
      */
     private String bookauthor;
     /**
-     * varible for price.
+     * { bookprice }.
      */
     private float bookprice;
     /**
      * Constructs the object.
      */
-    Book() { }
+    Book() { 
+        //unused.
+    }
     /**
      * Constructs the object.
      *
-     * @param      name1    The name 1
-     * @param      author1  The author 1
-     * @param      price1   The price 1
+     * @param      name    The name
+     * @param      author  The author
+     * @param      price   The price
      */
     Book(final String name, final String author, final float price) {
         this.bookname = name;

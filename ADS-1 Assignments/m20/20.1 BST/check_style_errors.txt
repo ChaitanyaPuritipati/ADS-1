@@ -1,10 +1,5 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:28:8: Unused @param tag for 'name1'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:29:8: Unused @param tag for 'author1'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:30:8: Unused @param tag for 'price1'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:32:23: Expected @param tag for 'name'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:32:42: Expected @param tag for 'author'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:32:62: Expected @param tag for 'price'. [JavadocMethod]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:201:5: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:203:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 2 errors.
