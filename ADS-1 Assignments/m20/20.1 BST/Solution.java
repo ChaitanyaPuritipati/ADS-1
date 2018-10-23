@@ -9,15 +9,15 @@ class Book implements Comparable<Book> {
     /**
      * varible for name.
      */
-    private String name;
+    private String bookname;
     /**
      * varible for author.
      */
-    private String author;
+    private String bookauthor;
     /**
      * varible for price.
      */
-    private float price;
+    private float bookprice;
     /**
      * Constructs the object.
      */
@@ -29,10 +29,10 @@ class Book implements Comparable<Book> {
      * @param      author1  The author 1
      * @param      price1   The price 1
      */
-    Book(final String name1, final String author1, final float price1) {
-        this.name = name1;
-        this.author = author1;
-        this.price = price1;
+    Book(final String name, final String author, final float price) {
+        this.bookname = name;
+        this.bookauthor = author;
+        this.bookprice = price;
     }
     /**
      * Gets the name.
@@ -40,7 +40,7 @@ class Book implements Comparable<Book> {
      * @return     The name.
      */
     public String getName() {
-        return name;
+        return bookname;
     }
     /**
      * Gets the author.
@@ -48,7 +48,7 @@ class Book implements Comparable<Book> {
      * @return     The author.
      */
     public String getAuthor() {
-        return author;
+        return bookauthor;
     }
     /**
      * Gets the price.
@@ -56,7 +56,7 @@ class Book implements Comparable<Book> {
      * @return     The price.
      */
     public float getPrice() {
-        return price;
+        return bookprice;
     }
     /**
      * compares the objects.
@@ -66,7 +66,7 @@ class Book implements Comparable<Book> {
      * @return     integer
      */
     public int compareTo(final Book other) {
-        return this.name.compareTo(other.name);
+        return this.bookname.compareTo(other.bookname);
     }
     /**
      * Returns a string representation of the object.
