@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m20\20.1 BST\Solution.java:203:5: File contains tab characters (this is the first instance). [FileTabCharacter]
 Audit done.
-Checkstyle ends with 2 errors.

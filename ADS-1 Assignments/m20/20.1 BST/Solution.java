@@ -21,7 +21,7 @@ class Book implements Comparable<Book> {
     /**
      * Constructs the object.
      */
-    Book() { 
+    Book() {
         //unused.
     }
     /**
@@ -200,7 +200,7 @@ class BinarySearchTree {
      * Constructs the object.
      */
     BinarySearchTree() {
-    	//unused.
+        //unused.
     }
     /**
      * Determines if empty.
