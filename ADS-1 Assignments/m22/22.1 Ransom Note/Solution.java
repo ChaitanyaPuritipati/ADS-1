@@ -25,13 +25,15 @@ class Solution {
 				int count = schstobj.get(ransomwords[j]);
 				schstobj.put(ransomwords[j], --count);
 			} else {
-				flag = 1;
+				// flag = 1;
+				System.out.println("No");
+				return;
 			}
 		}
-		if (flag == 1) {
-			System.out.println("No");
-		} else {
+		// if (flag == 1) {
+		// 	System.out.println("No");
+		// } else {
 			System.out.println("Yes");
-		}
+		// }
 	}
 }
