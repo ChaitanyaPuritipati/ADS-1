@@ -11,8 +11,15 @@ class Solution {
 		SeparateChainingHashST<String, Integer> schstobj = new SeparateChainingHashST<>();
 		String[] magwords = scan.nextLine().split(" ");
 		String[] ransomwords = scan.nextLine().split(" ");
-		for(int i = 0; i < magwordsnum; i++) {
+		for (int i = 0; i < magwordsnum; i++) {
 			schstobj.put(magwords[i], i);
 		}
+		for (int j = 0; j < ransomwordsnum; j++) {
+			if(!schstobj.contains(ransomwords[j])) {
+				System.out.println("No");
+				return;
+			}
+		}
+		System.out.println("Yes");
 	}
 }
