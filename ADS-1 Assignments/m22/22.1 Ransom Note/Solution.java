@@ -14,19 +14,24 @@ class Solution {
 		for (int i = 0; i < magwordsnum; i++) {
 			if (schstobj.contains(magwords[i])) {
 				int countvar = schstobj.get(magwords[i]);
-				schstobj.put(magwords[i], countvar + 1); 
+				schstobj.put(magwords[i], countvar + 1);
 			} else {
 				schstobj.put(magwords[i], 1);
 			}
 		}
+		int flag = 0;
 		for (int j = 0; j < ransomwordsnum; j++) {
-			if(schstobj.contains(ransomwords[j]) && schstobj.get(ransomwords[j]) > 0) {
+			if (schstobj.contains(ransomwords[j]) && schstobj.get(ransomwords[j]) > 0) {
 				int count = schstobj.get(ransomwords[j]);
 				schstobj.put(ransomwords[j], --count);
 			} else {
-				System.out.println("No");
+				flag = 1;
 			}
 		}
-		System.out.println("Yes");
+		if (flag == 1) {
+			System.out.println("No");
+		} else {
+			System.out.println("Yes");
+		}
 	}
 }
