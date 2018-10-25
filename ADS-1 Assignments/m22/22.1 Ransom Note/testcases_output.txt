@@ -8,18 +8,50 @@ Yes
 Expected Output: 
 No
 Your Output: 
+No
 Yes
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 No
 Your Output: 
 No
+Yes
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
 No
 Your Output: 
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
+No
 Yes
 ----------------------------------------
 ########## Testcase 4: Passed ##########

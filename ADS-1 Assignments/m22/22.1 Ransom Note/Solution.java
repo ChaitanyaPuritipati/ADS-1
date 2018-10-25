@@ -12,12 +12,19 @@ class Solution {
 		String[] magwords = scan.nextLine().split(" ");
 		String[] ransomwords = scan.nextLine().split(" ");
 		for (int i = 0; i < magwordsnum; i++) {
-			schstobj.put(magwords[i], i);
+			if (schstobj.contains(magwords[i])) {
+				int countvar = schstobj.get(magwords[i]);
+				schstobj.put(magwords[i], countvar + 1); 
+			} else {
+				schstobj.put(magwords[i], 1);
+			}
 		}
 		for (int j = 0; j < ransomwordsnum; j++) {
-			if(!schstobj.contains(ransomwords[j])) {
+			if(schstobj.contains(ransomwords[j]) && schstobj.get(ransomwords[j]) > 0) {
+				int count = schstobj.get(ransomwords[j]);
+				schstobj.put(ransomwords[j], --count);
+			} else {
 				System.out.println("No");
-				return;
 			}
 		}
 		System.out.println("Yes");
