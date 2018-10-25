@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:2: Class Solution should be declared as final. [FinalClass]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:6:33: Parameter args should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:11: Line is longer than 80 characters (found 98). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\m22\22.1 Ransom Note\Solution.java:14:20: 'for' is not followed by whitespace. [WhitespaceAround]
+Audit done.
+Checkstyle ends with 9 errors.
