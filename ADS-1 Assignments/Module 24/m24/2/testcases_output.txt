@@ -58,6 +58,9 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
+less
+less
+less
 Megon
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -125,8 +128,16 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
+less
+less
+less
 Megon
+less
+less
 Rivest
+less
+less
+less
 Megon
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -846,7 +857,14 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
+less
+less
+less
 Pamela Haag
+less
+less
+less
+less
 Mary Curran Hackett
 Ruby Jackson
 Charles B. Macdonald
@@ -858,6 +876,9 @@ David Jacobs
 Jeannette Haien
 Daniel Hahn
 Sara Palacios
+less
+less
+less
 Pamela Haag
 Charles Panati
 Fiona MacKenzie
@@ -894,6 +915,9 @@ Kinley MacGregor
 Liza Palmer
 Libby Jackson
 Kristin Halbrook
+less
+less
+less
 Pamela Haag
 Auston Habershaw
 Chris Packham
