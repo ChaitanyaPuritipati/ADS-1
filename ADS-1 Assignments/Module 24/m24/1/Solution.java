@@ -37,14 +37,14 @@ class Solution {
 			if (querytokens[0].equals("get")) {
 				if (Integer.parseInt(querytokens[2]) == 1) {
 					if (schsobj.get(Integer.parseInt(querytokens[1])) == null) {
-						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])));
+						System.out.println("Student doesn't exists...");
 					} else {
 						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getname());
 					}
 
 				} else {
 					if (schsobj.get(Integer.parseInt(querytokens[1])) == null) {
-						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])));
+						System.out.println("Student doesn't exists...");
 					} else {
 						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getmarks());
 					}
