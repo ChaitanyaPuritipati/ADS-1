@@ -15,9 +15,9 @@ Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:22:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:25:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:25:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:29:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:29:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:31: Line is longer than 80 characters (found 97). [LineLength]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:34:29: '85.5' is a magic number. [MagicNumber]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:35:29: '76.7' is a magic number. [MagicNumber]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\2\Solution.java:36:29: '76.7' is a magic number. [MagicNumber]
 Audit done.
 Checkstyle ends with 20 errors.

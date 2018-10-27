@@ -7,6 +7,7 @@ Abegg
 Your Output: 
 Adams103
 Peter113
+---------------
 Rivest118
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -62,6 +63,7 @@ Peter113
 Alice101
 Rachel Caine66
 Access135
+---------------
 Adams103
 Rivest118
 Sasha Cagen34
@@ -136,6 +138,7 @@ Peter113
 Alice101
 Rachel Caine66
 Access135
+---------------
 Adams103
 Rivest118
 Sasha Cagen34
@@ -861,6 +864,7 @@ Michael Haag10002
 Gene Hackman10013
 J.D. Jackson10089
 Andy Paciorek10233
+---------------
 Heather Hach10009
 John W. Jacobs10119
 James B. Maas10154
