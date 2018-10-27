@@ -25,8 +25,6 @@ class Solution {
 			Student studentobj = new Student(tokens[1], Double.parseDouble(tokens[2]));
 			schsobj.put(Integer.parseInt(tokens[0]), studentobj);
 		}
-		for(Integer i: schsobj.keys()) {
-			System.out.println(i);
-		}
+		System.out.println(schsobj.get(118));
 	}
 }
