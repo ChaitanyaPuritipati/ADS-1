@@ -5,16 +5,28 @@ Rivest
 Dan
 Abegg
 Your Output: 
+88.7
+76.7
+78.4
+76.7
+17.3
+76.7
+56.4
+76.7
+65.4
+76.7
+76.7
+76.7
 Clark141
 Exception in thread "main" java.lang.NullPointerException
 	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
 	at Solution.main(Solution.java:36)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -65,17 +77,33 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
+88.3
+76.7
+78.2
+76.7
+17.5
+76.7
+56.7
+76.7
+65.7
+76.7
+76.4
+76.7
+77.3
+76.7
+76.5
+76.7
 Exception in thread "main" java.lang.NullPointerException
 	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
 	at Solution.main(Solution.java:36)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -143,17 +171,33 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
+88.3
+76.7
+78.2
+76.7
+17.5
+76.7
+56.7
+76.7
+65.7
+76.7
+76.4
+76.7
+77.3
+76.7
+76.5
+76.7
 Exception in thread "main" java.lang.NullPointerException
 	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
 	at Solution.main(Solution.java:36)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -873,22 +917,50 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
+97.83
+76.7
+90.74
+76.7
+10.31
+76.7
+30.97
+76.7
+73.58
+76.7
+83.43
+76.7
+76.48
+76.7
+81.1
+76.7
+79.87
+76.7
+79.38
+76.7
+79.31
+76.7
+78.56
+76.7
+76.93
+76.7
+76.56
+76.7
 Exception in thread "main" java.lang.NullPointerException
 	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:440)
-	at BST.range(BST.java:434)
-	at BST.range(BST.java:434)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:442)
+	at BST.range(BST.java:436)
+	at BST.range(BST.java:436)
 	at Solution.main(Solution.java:36)
 ----------------------------------------
