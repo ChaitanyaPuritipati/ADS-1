@@ -438,7 +438,7 @@ public class BST<Key extends Comparable<Key>, Value> {
             System.out.println(x.val);
         }
         if(max.compareTo(x.key) <= 0) {
-            less(x.left, max);
+            less(x.right, max);
         }
 
     }

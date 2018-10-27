@@ -59,9 +59,9 @@ Abegg
 Brian Caffrey
 Your Output: 
 88.3
-78.2
-17.5
-Megon
+100.0
+100.1
+100.7
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -129,16 +129,17 @@ Megon
 Meili Cady
 Your Output: 
 88.3
-78.2
-17.5
-Megon
+100.0
+100.1
+100.7
 88.3
-78.2
-Rivest
+100.0
+100.1
+100.7
 88.3
-78.2
-17.5
-Megon
+100.0
+100.1
+100.7
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -858,14 +859,11 @@ Thelma Page
 Vicky Hales-Dutton
 Your Output: 
 97.83
-90.74
-10.31
-Pamela Haag
+99.46
+99.9
 97.83
-90.74
-10.31
-5.41
-Mary Curran Hackett
+99.46
+99.9
 Ruby Jackson
 Charles B. Macdonald
 Greg Page
@@ -877,9 +875,8 @@ Jeannette Haien
 Daniel Hahn
 Sara Palacios
 97.83
-90.74
-10.31
-Pamela Haag
+99.46
+99.9
 Charles Panati
 Fiona MacKenzie
 Mark Haddon
@@ -916,9 +913,8 @@ Liza Palmer
 Libby Jackson
 Kristin Halbrook
 97.83
-90.74
-10.31
-Pamela Haag
+99.46
+99.9
 Auston Habershaw
 Chris Packham
 Nafisa Haji
