@@ -61,6 +61,7 @@ Your Output:
 88.3
 78.2
 17.5
+entered
 Megon
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -131,13 +132,16 @@ Your Output:
 88.3
 78.2
 17.5
+entered
 Megon
 88.3
 78.2
+entered
 Rivest
 88.3
 78.2
 17.5
+entered
 Megon
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -860,11 +864,13 @@ Your Output:
 97.83
 90.74
 10.31
+entered
 Pamela Haag
 97.83
 90.74
 10.31
 5.41
+entered
 Mary Curran Hackett
 Ruby Jackson
 Charles B. Macdonald
@@ -879,6 +885,7 @@ Sara Palacios
 97.83
 90.74
 10.31
+entered
 Pamela Haag
 Charles Panati
 Fiona MacKenzie
@@ -918,6 +925,7 @@ Kristin Halbrook
 97.83
 90.74
 10.31
+entered
 Pamela Haag
 Auston Habershaw
 Chris Packham

@@ -435,6 +435,7 @@ public class BST<Key extends Comparable<Key>, Value> {
         }
         System.out.println(x.key);
         if (max.compareTo(x.key) > 0) {
+            System.out.println("entered");
             System.out.println(x.val);
         }
         if(max.compareTo(x.key) <= 0) {
