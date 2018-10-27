@@ -19,7 +19,6 @@ Your Output:
 76.7
 Clark141
 Exception in thread "main" java.lang.NullPointerException
-	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
 	at BST.range(BST.java:445)
 	at BST.range(BST.java:445)
@@ -94,7 +93,6 @@ Your Output:
 76.5
 76.7
 Exception in thread "main" java.lang.NullPointerException
-	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
 	at BST.range(BST.java:445)
 	at BST.range(BST.java:439)
@@ -188,7 +186,6 @@ Your Output:
 76.5
 76.7
 Exception in thread "main" java.lang.NullPointerException
-	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
 	at BST.range(BST.java:445)
 	at BST.range(BST.java:439)
@@ -946,7 +943,6 @@ Your Output:
 76.56
 76.7
 Exception in thread "main" java.lang.NullPointerException
-	at BST$Node.access$100(BST.java:41)
 	at BST.range(BST.java:433)
 	at BST.range(BST.java:445)
 	at BST.range(BST.java:439)

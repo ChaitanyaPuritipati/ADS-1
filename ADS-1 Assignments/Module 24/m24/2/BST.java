@@ -39,9 +39,9 @@ public class BST<Key extends Comparable<Key>, Value> {
     public Node root;             // root of BST
 
     private class Node {
-        private Key key;           // sorted by key
-        private Value val;         // associated data
-        private Node left, right;  // left and right subtrees
+        public Key key;           // sorted by key
+        public Value val;         // associated data
+        public Node left, right;  // left and right subtrees
         private int size;          // number of nodes in subtree
 
         public Node(Key key, Value val, int size) {
