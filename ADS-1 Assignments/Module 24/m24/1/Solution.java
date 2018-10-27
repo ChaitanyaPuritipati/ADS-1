@@ -25,20 +25,29 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int putnum = Integer.parseInt(scan.nextLine());
-		SeparateChainingHashST<Integer, Student> schsobj= new SeparateChainingHashST<>();
-		for(int i = 0; i < putnum; i++) {
+		SeparateChainingHashST<Integer, Student> schsobj = new SeparateChainingHashST<>();
+		for (int i = 0; i < putnum; i++) {
 			String[] tokens = scan.nextLine().split(",");
 			Student studentobj = new Student(tokens[1], Double.parseDouble(tokens[2]));
 			schsobj.put(Integer.parseInt(tokens[0]), studentobj);
 		}
 		int querynum = Integer.parseInt(scan.nextLine());
-		for(int j = 0; j < querynum; j++) {
+		for (int j = 0; j < querynum; j++) {
 			String[] querytokens = scan.nextLine().split(" ");
-			if(querytokens[0].equals("get")) {
-				if(Integer.parseInt(querytokens[2]) == 1) {
-					System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getname());
+			if (querytokens[0].equals("get")) {
+				if (Integer.parseInt(querytokens[2]) == 1) {
+					if (schsobj.get(Integer.parseInt(querytokens[1])) == null) {
+						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])));
+					} else {
+						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getname());
+					}
+
 				} else {
-					System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getmarks());
+					if (schsobj.get(Integer.parseInt(querytokens[1])) == null) {
+						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])));
+					} else {
+						System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getmarks());
+					}
 				}
 			}
 		}
