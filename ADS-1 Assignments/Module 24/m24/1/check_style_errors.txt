@@ -1,17 +1,11 @@
 Starting audit...
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:20:17: Parameter name should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:20:30: Parameter marks should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:20:13: Parameter name should be final. [FinalParameters]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:20:26: Parameter marks should be final. [FinalParameters]
 [ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:55: Class Solution should be declared as final. [FinalClass]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:67:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:70: Line is longer than 80 characters (found 98). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:73: Line is longer than 80 characters (found 99). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:81: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:82: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:84: Line is longer than 80 characters (found 124). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:88: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:89: Line is longer than 80 characters (found 96). [LineLength]
-[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:91: Line is longer than 80 characters (found 125). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:70: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:73: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:84: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] C:\Users\DELL\Desktop\MSIT\ADS-1\ADS-1 Assignments\Module 24\m24\1\Solution.java:91: Line is longer than 80 characters (found 101). [LineLength]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 8 errors.
