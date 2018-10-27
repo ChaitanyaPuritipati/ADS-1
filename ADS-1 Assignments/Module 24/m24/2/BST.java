@@ -432,6 +432,9 @@ public class BST<Key extends Comparable<Key>, Value> {
     public void range(Node x, Comparable min, Comparable max) {
         System.out.println(x.key);
         System.out.println(min);
+        if(x == null) {
+            return;
+        }
         if(min.compareTo(x.key) < 0) {
             range(x.left, min, max);
         }
