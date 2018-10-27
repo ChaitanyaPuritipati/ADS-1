@@ -58,10 +58,7 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Sasha Cagen34
-Rivest118
-Abegg111
-Brian Caffrey21
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -128,10 +125,7 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Sasha Cagen34
-Rivest118
-Abegg111
-Brian Caffrey21
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -850,6 +844,40 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
+Ruby Jackson10102
+Charles B. Macdonald10179
+Greg Page10245
+Andrew Macdonald10176
+Alex James10150
+Marina Palmer10285
+David Jacobs10114
+Jeannette Haien10045
+Daniel Hahn10042
+Sara Palacios10266
+Charles Panati10297
+Fiona MacKenzie10216
+Mark Haddon10019
+Julie Mac10159
+James Macdonald10182
+Jane MacDougall10190
+Tim Page10253
+Harvey B. Mackay10214
+Jennifer Page10248
+Audrey Mackaman10212
+Burton L. Mack10208
+Jessie Haas10005
+Joshilyn Jackson10092
+Melissa Jacobs10122
+Michael Hale10064
+Jeff MacGregor10197
+Fiona MacDonald10181
+Katharina Hagena10035
+Sarah Jacoby10132
+Anna-Liisa Hakkarainen10054
+Joie Jager-Hyman10142
+Alex Palmer10276
+David Hagedorn10030
+M MacCallum10173
 James B. Maas10154
 Manoj Pandey10300
 John W. Jacobs10119
@@ -861,26 +889,19 @@ Kinley MacGregor10198
 Liza Palmer10284
 Libby Jackson10095
 Kristin Halbrook10058
-Virginia Macgregor10199
-Betty Halbreich10057
-Cindy Dr. Pan10296
-Bruce Hale10060
-Jeff Mack10209
-Annie Maccoby10174
-Heather Hach10009
-Jean Reynolds Page10247
-Jamuna Pai10255
-Myla Jackson10097
-Kady MacDonald Denton10189
-Roger Lea MacBride10169
-Ruby Jackson10102
-Charles B. Macdonald10179
-Greg Page10245
-Andrew Macdonald10176
-Alex James10150
-Marina Palmer10285
-David Jacobs10114
-Jeannette Haien10045
-Daniel Hahn10042
-Sara Palacios10266
+Auston Habershaw10008
+Chris Packham10237
+Nafisa Haji10053
+Rebecca Paley10269
+Marilyn Hagerty10037
+Shaili Jain M.D.10148
+Al Jaffee10138
+Nasim Marie Jafry10140
+Laura Holmes Haddad10015
+David H. Hackworth10014
+Shelley Jackson10103
+Daniel Palmer10278
+Marianna Palk10272
+Thelma Page10252
+Vicky Hales-Dutton10069
 ----------------------------------------

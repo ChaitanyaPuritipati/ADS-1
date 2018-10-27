@@ -31,11 +31,12 @@ class Solution {
 			Student studentobj = new Student(tokens[1], Integer.parseInt(tokens[0]));
 			bstobj.put(Double.parseDouble(tokens[2]), studentobj);
 		}
-		Double min = 76.7;
-		Double max = 85.5;
-		bstobj.range(bstobj.root, min, max);
-		min = 65.0;
-		max = 70.0;
-		bstobj.range(bstobj.root, min, max);
+		int querynum = Integer.parseInt(scan.nextLine());
+		for(int j = 0; j < querynum; j++) {
+			String[] querytokens = scan.nextLine().split(" ");
+			if(querytokens[0].equals("BE")) {
+				bstobj.range(bstobj.root, Double.parseDouble(querytokens[1]), Double.parseDouble(querytokens[2]));
+			}
+		}
 	}
 }
