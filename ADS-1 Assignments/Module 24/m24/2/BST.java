@@ -430,10 +430,10 @@ public class BST<Key extends Comparable<Key>, Value> {
         return 1 + Math.max(height(x.left), height(x.right));
     }
     public void less(Node x, Comparable max) {
-        System.out.println("less");
         if(x == null) {
             return;
         }
+        System.out.println(x.key);
         if (max.compareTo(x.key) > 0) {
             System.out.println(x.val);
         }
@@ -443,7 +443,6 @@ public class BST<Key extends Comparable<Key>, Value> {
 
     }
     public void range(Node x, Comparable min, Comparable max) {
-        System.out.println("entered");
         if (x == null) {
             return;
         }

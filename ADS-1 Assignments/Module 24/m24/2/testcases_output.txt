@@ -85,9 +85,9 @@ entered
 entered
 entered
 entered
-less
-less
-less
+88.3
+78.2
+17.5
 Megon
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -155,16 +155,16 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-less
-less
-less
+88.3
+78.2
+17.5
 Megon
-less
-less
+88.3
+78.2
 Rivest
-less
-less
-less
+88.3
+78.2
+17.5
 Megon
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -884,14 +884,14 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-less
-less
-less
+97.83
+90.74
+10.31
 Pamela Haag
-less
-less
-less
-less
+97.83
+90.74
+10.31
+5.41
 Mary Curran Hackett
 entered
 entered
@@ -937,9 +937,9 @@ entered
 Sara Palacios
 entered
 entered
-less
-less
-less
+97.83
+90.74
+10.31
 Pamela Haag
 entered
 entered
@@ -1058,9 +1058,9 @@ entered
 Kristin Halbrook
 entered
 entered
-less
-less
-less
+97.83
+90.74
+10.31
 Pamela Haag
 entered
 entered
