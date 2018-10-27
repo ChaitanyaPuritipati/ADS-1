@@ -429,21 +429,33 @@ public class BST<Key extends Comparable<Key>, Value> {
         if (x == null) return -1;
         return 1 + Math.max(height(x.left), height(x.right));
     }
-    public void range(Node x, Comparable min, Comparable max) {
+    public void less(Node x, Comparable max) {
         if(x == null) {
             return;
         }
-        if(min.compareTo(x.key) < 0) {
+        if (max.compareTo(x.key) > 0) {
+            System.out.println(x.val);
+        }
+        if(max.compareTo(x.key) <= 0) {
+            less(x.left, max);
+        }
+
+    }
+    public void range(Node x, Comparable min, Comparable max) {
+        if (x == null) {
+            return;
+        }
+        if (min.compareTo(x.key) < 0) {
             // System.out.println(x.key);
             // System.out.println("entered lesser");
             range(x.left, min, max);
         }
-        if(min.compareTo(x.key) <= 0 && max.compareTo(x.key) >= 0) {
+        if (min.compareTo(x.key) <= 0 && max.compareTo(x.key) >= 0) {
             // System.out.println(x.key);
             // System.out.println("entered range");
             System.out.println(x.val);
         }
-        if(max.compareTo(x.key) > 0) {
+        if (max.compareTo(x.key) > 0) {
             // System.out.println(x.key);
             // System.out.println("entered greater");
             range(x.right, min, max);

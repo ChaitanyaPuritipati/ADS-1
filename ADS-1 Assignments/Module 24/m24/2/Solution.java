@@ -36,6 +36,8 @@ class Solution {
 			String[] querytokens = scan.nextLine().split(" ");
 			if(querytokens[0].equals("BE")) {
 				bstobj.range(bstobj.root, Double.parseDouble(querytokens[1]), Double.parseDouble(querytokens[2]));
+			} else if(querytokens[0].equals("LE")) {
+				bstobj.less(bstobj.root, Double.parseDouble(querytokens[1]));
 			}
 		}
 	}
