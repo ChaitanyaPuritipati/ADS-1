@@ -522,6 +522,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
     // number of keys less than key in the subtree rooted at x
     private int rank(Key key, Node x) {
         if (x == null) return 0;
+        System.out.println(x.val + "in rank");
         int cmp = key.compareTo(x.key);
         if      (cmp < 0) {
             return rank(key, x.left);
