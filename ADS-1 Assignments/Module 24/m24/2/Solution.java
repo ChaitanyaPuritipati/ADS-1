@@ -32,6 +32,6 @@ class Solution {
 			redobj.put(Double.parseDouble(tokens[2]), studentobj);
 		}
 		System.out.println(redobj.rank(85.5) - redobj.rank(76.7));
-		
+		System.out.println(redobj.rank(70.0) - redobj.rank(65.0));
 	}
 }

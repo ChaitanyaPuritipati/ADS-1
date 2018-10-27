@@ -6,6 +6,7 @@ Dan
 Abegg
 Your Output: 
 2
+1
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -55,6 +56,7 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
+2
 2
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -122,6 +124,7 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
+2
 2
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -842,4 +845,5 @@ Thelma Page
 Vicky Hales-Dutton
 Your Output: 
 23
+10
 ----------------------------------------
