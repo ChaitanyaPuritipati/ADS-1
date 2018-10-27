@@ -433,16 +433,21 @@ public class BST<Key extends Comparable<Key>, Value> {
         if(x == null) {
             return;
         }
-        System.out.println(x.key);
         if (max.compareTo(x.key) > 0) {
             System.out.println(x.val);
             less(x.left, max);
             less(x.right, max);
         }
-        if(max.compareTo(x.key) <= 0) {
-            less(x.left, max);
+    }
+    public void great(Node x, Comparable max) {
+        if(x == null) {
+            return;
         }
-
+        if (max.compareTo(x.key) < 0) {
+            System.out.println(x.val);
+            great(x.left, max);
+            great(x.right, max);
+        }
     }
     public void range(Node x, Comparable min, Comparable max) {
         if (x == null) {

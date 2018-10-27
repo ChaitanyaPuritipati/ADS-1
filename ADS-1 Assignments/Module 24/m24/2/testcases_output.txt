@@ -58,57 +58,22 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-88.3
-78.2
-17.5
-Megon
-11.2
-Hank
-2.0
-Steve Cafferty
-13.3
-Deborah Cadbury
-14.4
-Dan Caddy
-15.45
-Neil Cadigan
-56.7
-John
-45.9
-Douglas
-44.7
-Tony
-35.5
-Simon
-23.4
-Daniel
-19.65
-Meili Cady
-24.3
-James Cain
-43.8
-Greig Caigou
-42.3
-George Cain
-45.4
-Keith
-45.5
-Meg Cabot
-49.3
-Fred
-54.3
-Sally Cabot
-55.4
-Tim Cain
-54.7
-Rovina Cai
-65.7
-Abegg
-64.6
-Tim Cahill
-76.4
-66.4
-Brian Caffrey
+Alice
+Rivest
+Access
+Rachel Caine
+Bob
+Adams
+Peter
+Biba Caggiano
+David Cabot
+Wayne
+Yassi
+Charles
+Jonathan Cainer
+Jeannette Caines
+Knuth
+Maria Cabezas
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -175,136 +140,7 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-88.3
-78.2
-17.5
-Megon
-11.2
-Hank
-2.0
-Steve Cafferty
-13.3
-Deborah Cadbury
-14.4
-Dan Caddy
-15.45
-Neil Cadigan
-56.7
-John
-45.9
-Douglas
-44.7
-Tony
-35.5
-Simon
-23.4
-Daniel
-19.65
-Meili Cady
-24.3
-James Cain
-43.8
-Greig Caigou
-42.3
-George Cain
-45.4
-Keith
-45.5
-Meg Cabot
-49.3
-Fred
-54.3
-Sally Cabot
-55.4
-Tim Cain
-54.7
-Rovina Cai
-65.7
-Abegg
-64.6
-Tim Cahill
-76.4
-66.4
-Brian Caffrey
-88.3
-78.2
-Rivest
-17.5
-Megon
-11.2
-Hank
-2.0
-Steve Cafferty
-13.3
-Deborah Cadbury
-14.4
-Dan Caddy
-15.45
-Neil Cadigan
-56.7
-John
-45.9
-Douglas
-44.7
-Tony
-35.5
-Simon
-23.4
-Daniel
-19.65
-Meili Cady
-24.3
-James Cain
-43.8
-Greig Caigou
-42.3
-George Cain
-45.4
-Keith
-45.5
-Meg Cabot
-49.3
-Fred
-54.3
-Sally Cabot
-55.4
-Tim Cain
-54.7
-Rovina Cai
-65.7
-Abegg
-64.6
-Tim Cahill
-76.4
-Clark
-66.4
-Brian Caffrey
-77.3
-Sasha Cagen
-76.5
-Rhian Cahill
-85.6
-88.3
-78.2
-17.5
-Megon
-11.2
-Hank
-2.0
-Steve Cafferty
-13.3
-Deborah Cadbury
-14.4
-Dan Caddy
-15.45
-Neil Cadigan
-56.7
-45.9
-44.7
-35.5
-23.4
-19.65
-Meili Cady
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -1023,455 +859,76 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-97.83
-90.74
-10.31
-Pamela Haag
-5.41
-Mary Curran Hackett
-3.391
-Thomas Hackett
-3.336
-Margaret Peterson Haddix
-1.603
-John W. Jacobs M.D.
-1.224
-Laurence Packer
-0.051
-Ed J. Paine
-1.156
-Macky Pamintuan
-1.651
-Michael Panckridge
-4.058
-June Hadley
-4.048
-Margaret Haffner
-3.876
-Elaine Hall
-3.813
-Emma Page
-4.893
-William Hague
-4.731
-Kathryn Jacobi
-4.539
-Melissa P
-4.782
-Chris Pallace
-6.627
-Jenna Bush Hager
-5.739
-Sheila Hale
-6.364
-Gildart Jackson
-5.843
-Jeremy Jackson
-5.852
-Harvey Mackay
-7.213
-John Hale
-7.065
-Korey Jackson
-7.034
-Danielle Paige
-6.892
-Cindy Pan
-10.3
-Nathan Hale
-8.36
-Derek Jacobi
-7.803
-Katie MacAlister
-8.108
-Bonnie MacBird
-8.759
-Meredith Jaeger
-8.463
-Joseph A. Maciariello
-8.495
-David Packard
-8.834
-Rebecca Pacheco
-10.0
-Scott Palmer
-30.97
-Charlie Haas
-20.62
-T. T. Macan
-15.56
-Tracy Hafen
-14.24
-Kristin Hahn
-11.63
-Peter Haining
-11.09
-Amanda Hall
-10.42
-Bernie Mac
-11.58
-Madhur Jaffrey
-11.23
-Marianna Palka
-12.06
-Rona Jaffe
-11.84
-Bonner Paddock
-12.7
-Sara MacDonald
-12.21
-Alison Mackey
-12.42
-Jim Paillot
-12.86
-Daniel Paisner
-14.88
-Colin Jack
-14.77
-Philip MacDonald
-14.37
-Aggie MacKenzie
-19.32
-Chuck Hagel
-17.54
-Kellie Hailes
-17.5
-Ian Jackman
-16.78
-Emma Jackson
-16.5
-Michele Jaffe
-15.89
-Shvetha Jaishankar
-17.2
-Peter Jackson
-17.39
-Magnus MacFarlane-Barrow
-17.55
-Kennell Jackson
-17.86
-Richard Jackson
-18.28
-Carrington MacDuffie
-19.24
-Katherine Hall Page
-30.75
-Marylin Hafner
-24.02
-Michael Hague
-23.87
-Carla Hall
-23.21
-Andrew Jacobson
-21.24
-Catherine Macaulay
-21.53
-Frank Pacetta
-21.98
-Iva-Marie Palmer
-28.69
-Cynthia Jabar
-24.34
-Albert Jack
-24.84
-Jerome A. Jackson
-24.4
-Rachel Jacobs
-24.51
-Stuart MacBride
-27.87
-Meredith L. Jacobs
-25.92
-Robin MacArthur
-25.44
-Barry Pain
-26.54
-Bonnie MacBird
-26.33
-Betty MacDonald
-26.87
+H3CZ
+Keith Habersberger
+Tessa Hadley
+John Jacobs
 Amanda Mackenzie Stuart
-28.06
+Alison Mackey PhD
+Elaine Pagels
+Sammy Hagar
+Namita Jain
+Yamile Saied Méndez
+H3CZ
+Michael Haag
 Kevin MacAllister
-28.71
-Howard Jacobson
-30.1
-Saskia Maarleveld
-29.77
-D. J. MacHale
-30.31
-Louise Mack
-30.69
-Sarah Palin
-73.58
-35.14
-Auston Habershaw
-32.81
-Bethany Hagen
-31.38
-Mick Jackson
-31.84
-Melanie MacHugh
-31.82
-Bethany Palmer
-32.99
-Tiffany D. Jackson
-34.21
-Adele Jacques
-34.0
-Mark Palmer
-62.17
-Taylor Hackford
-36.4
-David H. Hackworth
-36.24
-Laura Holmes Haddad
-35.6
-Marilyn Hagerty
-35.46
-Nafisa Haji
-35.15
-Chris Packham
-35.47
-Rebecca Paley
-35.74
-Al Jaffee
-35.71
-Shaili Jain M.D.
-35.81
-Nasim Marie Jafry
-54.08
-Gerry Hadden
-43.12
-Anthony Haden-Guest
-40.1
-Rawi Hage
-39.78
-Vicky Hales-Dutton
-36.88
-Shelley Jackson
-39.15
-Thelma Page
-38.7
-Marianna Palk
-37.03
-Daniel Palmer
-40.06
-Guru Jagat
-42.81
-Don Hagen
-41.03
-Steve Hagen
-40.43
-Kathryn Miller Haines
-40.95
-Ruth H. Jacobs
-40.94
-Stuart MacBride
-41.33
-Margie Palatini
-43.06
-Steve Jackson
-48.77
-William Haefeli
-44.63
-Debra W. Haffner
-43.91
-W. G. Hale
-43.33
-Dana Jacobi
-44.22
-Carlos Pan
-46.81
-David Halberstam
-45.32
-Alan Jacobs
-45.09
-George Jacobs
-45.28
-Niccolo Machiavelli
-45.39
-Kate Jacoby
-46.77
-Olivia Mace
-47.48
-Kathleen Hale
-47.14
-Colleen Padilla
-48.28
-Allan Hall
-48.67
-Richard Jacoby
-48.84
-Jennifer Haigh
-49.47
-Gordon Jack
-49.4
-Douglas Palmer
-53.48
-Ellen Jackson
-52.12
-Tracey Jackson
-50.89
-Piers A. Jacob
-50.88
-Kathryn Ma
-50.75
-Ellie Macdonald
-50.24
-Amanda Maciel
-49.66
-Ron Padgett
-50.59
-Christopher N. Page
-50.8
-Portia MacIntosh
-51.43
-Norm MacDonald
-52.26
-Helena S. Paige
-52.46
-Penny Palmano
-53.79
-Gracie MacGregor
-55.34
-Merle Haggard
-54.45
-A.N.D Haksar
-54.82
-James Graham Hale
-60.27
-Sylvie Haisman
-57.53
-Shannon Hale
-56.43
-Steven Pacey
-56.76
-Edward Paice
-59.67
-Simon Jacobson
-59.62
-Steph Jagger
-57.7
-Norm Macdonald
-59.14
-George Packer
-57.79
-Michael Page
-59.63
-Roger O.M.D. Jahnke
-59.69
-Warren Mackenzie
-59.95
-Tim Andres Pabon
-61.6
-Dana C. Jack
-60.37
-Nate Jackson
-61.23
-Madeleine Maby
-60.54
-Linden MacIntyre
-61.06
-Juliette MacIver
-62.03
-Aparna Jain
-62.0
-Bristol Palin
-71.85
-69.74
-69.73
-62.74
-David Haig
-63.57
-Bradley Jackson
-63.33
-Sophie Jaff
-62.8
-Lorrie Mack
-65.06
-Ruby Jackson
-64.08
-Robert Ian MacKenzie
-69.29
-68.0
-Alex James
-66.37
-Andrew Macdonald
-66.2
-Charles B. Macdonald
-66.25
-Greg Page
-69.17
-97.83
-90.74
-10.31
-5.41
-Mary Curran Hackett
-3.391
-Thomas Hackett
-3.336
-Margaret Peterson Haddix
-1.603
-John W. Jacobs M.D.
-1.224
-Laurence Packer
-0.051
-Ed J. Paine
-1.156
-Macky Pamintuan
-1.651
-Michael Panckridge
-4.058
-June Hadley
-4.048
-Margaret Haffner
-3.876
-Elaine Hall
-3.813
-Emma Page
-4.893
-William Hague
-4.731
-Kathryn Jacobi
-4.539
-Melissa P
-4.782
-Chris Pallace
-6.627
-Jenna Bush Hager
-5.739
-Sheila Hale
-6.364
-Gildart Jackson
-5.843
-Jeremy Jackson
-5.852
-Harvey Mackay
-7.213
-John Hale
-7.065
-Korey Jackson
-7.034
-Danielle Paige
-6.892
-Cindy Pan
-10.3
-8.36
-Derek Jacobi
-7.803
-Katie MacAlister
-8.108
-Bonnie MacBird
-8.759
-Meredith Jaeger
-8.463
-Joseph A. Maciariello
-8.495
-David Packard
-8.834
-Rebecca Pacheco
-10.0
+Maxwell Mackenzie
+Keach Hagey
+H. JACKSON
+John Hornor Jacobs
+Michael Jaime-Becerra
+David Macfarlane
+Jake Page
+Peter Maas
+Terrence J
+Sean Padraic
+Sang Pak
+Thomas Pakenham
+Shane Jacobson
+Stuart B. MacBride
+Hannah Paasch
+Helen Palmer
+Svetlana Palmer
+Wayne Pacelle
+Keith Habersberger
+Tessa Hadley
+John Jacobs
+Amanda Mackenzie Stuart
+Alison Mackey PhD
+Elaine Pagels
+Sammy Hagar
+Namita Jain
+Yamile Saied Méndez
+H3CZ
+Michael Haag
+Kevin MacAllister
+Maxwell Mackenzie
+Keach Hagey
+H. JACKSON
+John Hornor Jacobs
+Michael Jaime-Becerra
+David Macfarlane
+Jake Page
+Peter Maas
+Terrence J
+Sean Padraic
+Sang Pak
+Thomas Pakenham
+Shane Jacobson
+Stuart B. MacBride
+Hannah Paasch
+Helen Palmer
+Svetlana Palmer
+Wayne Pacelle
+Keith Habersberger
+Tessa Hadley
+John Jacobs
+Amanda Mackenzie Stuart
+Alison Mackey PhD
+Elaine Pagels
+Sammy Hagar
+Namita Jain
+Yamile Saied Méndez
 Ruby Jackson
 Charles B. Macdonald
 Greg Page
@@ -1482,179 +939,6 @@ David Jacobs
 Jeannette Haien
 Daniel Hahn
 Sara Palacios
-97.83
-90.74
-10.31
-Pamela Haag
-5.41
-Mary Curran Hackett
-3.391
-Thomas Hackett
-3.336
-Margaret Peterson Haddix
-1.603
-John W. Jacobs M.D.
-1.224
-Laurence Packer
-0.051
-Ed J. Paine
-1.156
-Macky Pamintuan
-1.651
-Michael Panckridge
-4.058
-June Hadley
-4.048
-Margaret Haffner
-3.876
-Elaine Hall
-3.813
-Emma Page
-4.893
-William Hague
-4.731
-Kathryn Jacobi
-4.539
-Melissa P
-4.782
-Chris Pallace
-6.627
-Jenna Bush Hager
-5.739
-Sheila Hale
-6.364
-Gildart Jackson
-5.843
-Jeremy Jackson
-5.852
-Harvey Mackay
-7.213
-John Hale
-7.065
-Korey Jackson
-7.034
-Danielle Paige
-6.892
-Cindy Pan
-10.3
-Nathan Hale
-8.36
-Derek Jacobi
-7.803
-Katie MacAlister
-8.108
-Bonnie MacBird
-8.759
-Meredith Jaeger
-8.463
-Joseph A. Maciariello
-8.495
-David Packard
-8.834
-Rebecca Pacheco
-10.0
-Scott Palmer
-30.97
-20.62
-T. T. Macan
-15.56
-Tracy Hafen
-14.24
-Kristin Hahn
-11.63
-Peter Haining
-11.09
-Amanda Hall
-10.42
-Bernie Mac
-11.58
-Madhur Jaffrey
-11.23
-Marianna Palka
-12.06
-Rona Jaffe
-11.84
-Bonner Paddock
-12.7
-Sara MacDonald
-12.21
-Alison Mackey
-12.42
-Jim Paillot
-12.86
-Daniel Paisner
-14.88
-Colin Jack
-14.77
-Philip MacDonald
-14.37
-Aggie MacKenzie
-19.32
-Chuck Hagel
-17.54
-Kellie Hailes
-17.5
-Ian Jackman
-16.78
-Emma Jackson
-16.5
-Michele Jaffe
-15.89
-Shvetha Jaishankar
-17.2
-Peter Jackson
-17.39
-Magnus MacFarlane-Barrow
-17.55
-Kennell Jackson
-17.86
-Richard Jackson
-18.28
-Carrington MacDuffie
-19.24
-Katherine Hall Page
-30.75
-24.02
-Michael Hague
-23.87
-Carla Hall
-23.21
-Andrew Jacobson
-21.24
-Catherine Macaulay
-21.53
-Frank Pacetta
-21.98
-Iva-Marie Palmer
-28.69
-Cynthia Jabar
-24.34
-Albert Jack
-24.84
-Jerome A. Jackson
-24.4
-Rachel Jacobs
-24.51
-Stuart MacBride
-27.87
-Meredith L. Jacobs
-25.92
-Robin MacArthur
-25.44
-Barry Pain
-26.54
-Bonnie MacBird
-26.33
-Betty MacDonald
-26.87
-Amanda Mackenzie Stuart
-28.06
-Kevin MacAllister
-28.71
-Howard Jacobson
-30.1
-29.77
-D. J. MacHale
 Charles Panati
 Fiona MacKenzie
 Mark Haddon
@@ -1690,136 +974,6 @@ Kinley MacGregor
 Liza Palmer
 Libby Jackson
 Kristin Halbrook
-97.83
-90.74
-10.31
-Pamela Haag
-5.41
-Mary Curran Hackett
-3.391
-Thomas Hackett
-3.336
-Margaret Peterson Haddix
-1.603
-John W. Jacobs M.D.
-1.224
-Laurence Packer
-0.051
-Ed J. Paine
-1.156
-Macky Pamintuan
-1.651
-Michael Panckridge
-4.058
-June Hadley
-4.048
-Margaret Haffner
-3.876
-Elaine Hall
-3.813
-Emma Page
-4.893
-William Hague
-4.731
-Kathryn Jacobi
-4.539
-Melissa P
-4.782
-Chris Pallace
-6.627
-Jenna Bush Hager
-5.739
-Sheila Hale
-6.364
-Gildart Jackson
-5.843
-Jeremy Jackson
-5.852
-Harvey Mackay
-7.213
-John Hale
-7.065
-Korey Jackson
-7.034
-Danielle Paige
-6.892
-Cindy Pan
-10.3
-Nathan Hale
-8.36
-Derek Jacobi
-7.803
-Katie MacAlister
-8.108
-Bonnie MacBird
-8.759
-Meredith Jaeger
-8.463
-Joseph A. Maciariello
-8.495
-David Packard
-8.834
-Rebecca Pacheco
-10.0
-Scott Palmer
-30.97
-20.62
-15.56
-Tracy Hafen
-14.24
-Kristin Hahn
-11.63
-Peter Haining
-11.09
-Amanda Hall
-10.42
-Bernie Mac
-11.58
-Madhur Jaffrey
-11.23
-Marianna Palka
-12.06
-Rona Jaffe
-11.84
-Bonner Paddock
-12.7
-Sara MacDonald
-12.21
-Alison Mackey
-12.42
-Jim Paillot
-12.86
-Daniel Paisner
-14.88
-Colin Jack
-14.77
-Philip MacDonald
-14.37
-Aggie MacKenzie
-19.32
-Chuck Hagel
-17.54
-Kellie Hailes
-17.5
-Ian Jackman
-16.78
-Emma Jackson
-16.5
-Michele Jaffe
-15.89
-Shvetha Jaishankar
-17.2
-Peter Jackson
-17.39
-Magnus MacFarlane-Barrow
-17.55
-Kennell Jackson
-17.86
-Richard Jackson
-18.28
-Carrington MacDuffie
-19.24
-Katherine Hall Page
 Auston Habershaw
 Chris Packham
 Nafisa Haji
