@@ -62,7 +62,6 @@ Your Output:
 78.2
 17.5
 entered
-Megon
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -133,16 +132,13 @@ Your Output:
 78.2
 17.5
 entered
-Megon
 88.3
 78.2
 entered
-Rivest
 88.3
 78.2
 17.5
 entered
-Megon
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -865,13 +861,11 @@ Your Output:
 90.74
 10.31
 entered
-Pamela Haag
 97.83
 90.74
 10.31
 5.41
 entered
-Mary Curran Hackett
 Ruby Jackson
 Charles B. Macdonald
 Greg Page
@@ -886,7 +880,6 @@ Sara Palacios
 90.74
 10.31
 entered
-Pamela Haag
 Charles Panati
 Fiona MacKenzie
 Mark Haddon
@@ -926,7 +919,6 @@ Kristin Halbrook
 90.74
 10.31
 entered
-Pamela Haag
 Auston Habershaw
 Chris Packham
 Nafisa Haji
