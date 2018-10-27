@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Class for student.
  */
-final class Student {
+class Student {
     /**
      * { studentname }.
      */
@@ -52,7 +52,7 @@ final class Student {
 /**
  * Class for solution.
  */
-class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */
