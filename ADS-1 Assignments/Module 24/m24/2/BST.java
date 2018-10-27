@@ -434,18 +434,18 @@ public class BST<Key extends Comparable<Key>, Value> {
             return;
         }
         if(min.compareTo(x.key) < 0) {
-            System.out.println(x.key);
-            System.out.println("entered lesser");
+            // System.out.println(x.key);
+            // System.out.println("entered lesser");
             range(x.left, min, max);
         }
         if(min.compareTo(x.key) <= 0 && max.compareTo(x.key) >= 0) {
-            System.out.println(x.key);
-            System.out.println("entered range");
+            // System.out.println(x.key);
+            // System.out.println("entered range");
             System.out.println(x.val);
         }
         if(max.compareTo(x.key) > 0) {
-            System.out.println(x.key);
-            System.out.println("entered greater");
+            // System.out.println(x.key);
+            // System.out.println("entered greater");
             range(x.right, min, max);
         }
     }
