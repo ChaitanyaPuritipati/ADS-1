@@ -6,27 +6,32 @@ Dan
 Abegg
 Your Output: 
 88.7
-76.7
+entered lesser
 78.4
-76.7
+entered lesser
 17.3
-76.7
+entered greater
 56.4
-76.7
+entered greater
 65.4
+entered greater
 76.7
-76.7
-76.7
+entered range
 Clark141
-Exception in thread "main" java.lang.NullPointerException
-	at BST.range(BST.java:433)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at Solution.main(Solution.java:36)
+76.7
+entered greater
+78.4
+entered range
+Rivest118
+78.4
+entered greater
+88.5
+entered lesser
+85.5
+entered lesser
+85.5
+entered range
+Dan142
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -77,32 +82,33 @@ Abegg
 Brian Caffrey
 Your Output: 
 88.3
-76.7
+entered lesser
 78.2
-76.7
+entered lesser
 17.5
-76.7
+entered greater
 56.7
-76.7
+entered greater
 65.7
-76.7
+entered greater
 76.4
-76.7
+entered greater
 77.3
-76.7
+entered lesser
 76.5
-76.7
-Exception in thread "main" java.lang.NullPointerException
-	at BST.range(BST.java:433)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at Solution.main(Solution.java:36)
+entered greater
+77.3
+entered range
+Sasha Cagen34
+77.3
+entered greater
+78.2
+entered range
+Rivest118
+78.2
+entered greater
+85.6
+entered lesser
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -170,32 +176,33 @@ Megon
 Meili Cady
 Your Output: 
 88.3
-76.7
+entered lesser
 78.2
-76.7
+entered lesser
 17.5
-76.7
+entered greater
 56.7
-76.7
+entered greater
 65.7
-76.7
+entered greater
 76.4
-76.7
+entered greater
 77.3
-76.7
+entered lesser
 76.5
-76.7
-Exception in thread "main" java.lang.NullPointerException
-	at BST.range(BST.java:433)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at Solution.main(Solution.java:36)
+entered greater
+77.3
+entered range
+Sasha Cagen34
+77.3
+entered greater
+78.2
+entered range
+Rivest118
+78.2
+entered greater
+85.6
+entered lesser
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -915,48 +922,186 @@ Thelma Page
 Vicky Hales-Dutton
 Your Output: 
 97.83
-76.7
+entered lesser
 90.74
-76.7
+entered lesser
 10.31
-76.7
+entered greater
 30.97
-76.7
+entered greater
 73.58
-76.7
+entered greater
 83.43
-76.7
+entered lesser
 76.48
-76.7
+entered greater
 81.1
-76.7
+entered lesser
 79.87
-76.7
+entered lesser
 79.38
-76.7
+entered lesser
 79.31
-76.7
+entered lesser
 78.56
-76.7
+entered lesser
 76.93
-76.7
+entered lesser
 76.56
-76.7
-Exception in thread "main" java.lang.NullPointerException
-	at BST.range(BST.java:433)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:445)
-	at BST.range(BST.java:439)
-	at BST.range(BST.java:439)
-	at Solution.main(Solution.java:36)
+entered greater
+76.93
+entered range
+James B. Maas10154
+76.93
+entered greater
+77.69
+entered lesser
+77.69
+entered range
+Manoj Pandey10300
+77.69
+entered greater
+78.56
+entered range
+John W. Jacobs10119
+78.56
+entered greater
+79.09
+entered lesser
+78.96
+entered lesser
+78.96
+entered range
+Thomas Paine10262
+78.96
+entered greater
+79.09
+entered range
+Richard Mabey10156
+79.09
+entered greater
+79.31
+entered range
+Jo Jackson King10107
+79.31
+entered greater
+79.38
+entered range
+Nick Page10251
+79.38
+entered greater
+79.58
+entered lesser
+79.49
+entered lesser
+79.49
+entered range
+Kinley MacGregor10198
+79.49
+entered greater
+79.51
+entered lesser
+79.51
+entered range
+Liza Palmer10284
+79.51
+entered greater
+79.58
+entered range
+Libby Jackson10095
+79.58
+entered greater
+79.87
+entered range
+Kristin Halbrook10058
+79.87
+entered greater
+80.31
+entered lesser
+80.31
+entered range
+Virginia Macgregor10199
+80.31
+entered greater
+81.1
+entered range
+Betty Halbreich10057
+81.1
+entered greater
+81.72
+entered lesser
+81.65
+entered lesser
+81.65
+entered range
+Cindy Dr. Pan10296
+81.65
+entered greater
+81.72
+entered range
+Bruce Hale10060
+81.72
+entered greater
+82.63
+entered lesser
+82.13
+entered lesser
+82.13
+entered range
+Jeff Mack10209
+82.13
+entered greater
+82.63
+entered range
+Annie Maccoby10174
+82.63
+entered greater
+83.43
+entered range
+Heather Hach10009
+83.43
+entered greater
+87.16
+entered lesser
+87.0
+entered lesser
+85.69
+entered lesser
+84.43
+entered lesser
+83.66
+entered lesser
+83.66
+entered range
+Jean Reynolds Page10247
+83.66
+entered greater
+84.28
+entered lesser
+84.28
+entered range
+Jamuna Pai10255
+84.28
+entered greater
+84.43
+entered range
+Myla Jackson10097
+84.43
+entered greater
+85.27
+entered lesser
+84.78
+entered lesser
+84.78
+entered range
+Kady MacDonald Denton10189
+84.78
+entered greater
+85.27
+entered range
+Roger Lea MacBride10169
+85.27
+entered greater
+85.55
+entered lesser
 ----------------------------------------
