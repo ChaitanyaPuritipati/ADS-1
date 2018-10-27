@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Class for student.
  */
-class Student {
+final class Student {
     /**
      * { studentname }.
      */
@@ -67,7 +67,8 @@ class Solution {
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
         int putnum = Integer.parseInt(scan.nextLine());
-        SeparateChainingHashST<Integer, Student> schsobj = new SeparateChainingHashST<>();
+        SeparateChainingHashST<Integer, Student> schsobj =
+            new SeparateChainingHashST<>();
         for (int i = 0; i < putnum; i++) {
             String[] tokens = scan.nextLine().split(",");
             Student studentobj = new Student(tokens[1], Double.parseDouble(tokens[2]));
