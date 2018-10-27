@@ -95,7 +95,10 @@ final class Solution {
                     if (schsobj.get(Integer.parseInt(querytokens[1])) == null) {
                         System.out.println("Student doesn't exists...");
                     } else {
-                        System.out.println(schsobj.get(Integer.parseInt(querytokens[1])).getmarks());
+                        System.out.println(
+                            schsobj.get(
+                                Integer.parseInt(
+                                    querytokens[1])).getmarks());
                     }
                 }
             }
