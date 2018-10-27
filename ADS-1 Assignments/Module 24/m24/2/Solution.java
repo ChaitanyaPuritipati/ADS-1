@@ -34,5 +34,8 @@ class Solution {
 		Double min = 76.7;
 		Double max = 85.5;
 		bstobj.range(bstobj.root, min, max);
+		min = 65.0;
+		max = 70.0;
+		bstobj.range(bstobj.root, min, max);
 	}
 }

@@ -8,6 +8,7 @@ Your Output:
 Clark141
 Rivest118
 Dan142
+Abegg111
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -59,6 +60,8 @@ Brian Caffrey
 Your Output: 
 Sasha Cagen34
 Rivest118
+Abegg111
+Brian Caffrey21
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -127,6 +130,8 @@ Meili Cady
 Your Output: 
 Sasha Cagen34
 Rivest118
+Abegg111
+Brian Caffrey21
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -868,4 +873,14 @@ Jamuna Pai10255
 Myla Jackson10097
 Kady MacDonald Denton10189
 Roger Lea MacBride10169
+Ruby Jackson10102
+Charles B. Macdonald10179
+Greg Page10245
+Andrew Macdonald10176
+Alex James10150
+Marina Palmer10285
+David Jacobs10114
+Jeannette Haien10045
+Daniel Hahn10042
+Sara Palacios10266
 ----------------------------------------
