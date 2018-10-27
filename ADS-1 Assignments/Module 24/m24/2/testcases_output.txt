@@ -5,10 +5,10 @@ Rivest
 Dan
 Abegg
 Your Output: 
-Adams103
-Peter113
----------------
 Rivest118
+---------------
+John110
+Neil143
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -58,15 +58,12 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Adams103
-Peter113
-Alice101
-Rachel Caine66
-Access135
----------------
-Adams103
+John110
 Rivest118
-Sasha Cagen34
+---------------
+John110
+Clark141
+Rhian Cahill26
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -133,15 +130,12 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Adams103
-Peter113
-Alice101
-Rachel Caine66
-Access135
----------------
-Adams103
+John110
 Rivest118
-Sasha Cagen34
+---------------
+John110
+Clark141
+Rhian Cahill26
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -860,12 +854,14 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-Michael Haag10002
-Gene Hackman10013
-J.D. Jackson10089
-Andy Paciorek10233
----------------
+Taylor Hackford10012
 Heather Hach10009
-John W. Jacobs10119
-James B. Maas10154
+Kady MacDonald Denton10189
+Roger Lea MacBride10169
+---------------
+Taylor Hackford10012
+Jessie Haas10005
+Anna-Liisa Hakkarainen10054
+David Hagedorn10030
+M MacCallum10173
 ----------------------------------------
