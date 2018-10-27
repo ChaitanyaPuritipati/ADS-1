@@ -17,7 +17,7 @@ class Student {
      * @param      name   The name
      * @param      marks  The marks
      */
-    Student(String name, double marks) {
+    Student(final String name, final double marks) {
         this.studentname = name;
         this.totalmarks = marks;
     }
