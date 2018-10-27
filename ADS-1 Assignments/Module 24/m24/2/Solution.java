@@ -14,7 +14,7 @@ class Student {
 	}
 	public String toString() {
 		String str = "";
-		str = str + this.studentname + this.rollnumber;
+		str = str + this.studentname;
 		return str;
 	}
 }

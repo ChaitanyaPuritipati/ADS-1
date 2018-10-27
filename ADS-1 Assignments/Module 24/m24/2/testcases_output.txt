@@ -1,14 +1,14 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Clark
 Rivest
 Dan
 Abegg
 Your Output: 
-Clark141
-Rivest118
-Dan142
-Abegg111
+Clark
+Rivest
+Dan
+Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -844,64 +844,64 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-Ruby Jackson10102
-Charles B. Macdonald10179
-Greg Page10245
-Andrew Macdonald10176
-Alex James10150
-Marina Palmer10285
-David Jacobs10114
-Jeannette Haien10045
-Daniel Hahn10042
-Sara Palacios10266
-Charles Panati10297
-Fiona MacKenzie10216
-Mark Haddon10019
-Julie Mac10159
-James Macdonald10182
-Jane MacDougall10190
-Tim Page10253
-Harvey B. Mackay10214
-Jennifer Page10248
-Audrey Mackaman10212
-Burton L. Mack10208
-Jessie Haas10005
-Joshilyn Jackson10092
-Melissa Jacobs10122
-Michael Hale10064
-Jeff MacGregor10197
-Fiona MacDonald10181
-Katharina Hagena10035
-Sarah Jacoby10132
-Anna-Liisa Hakkarainen10054
-Joie Jager-Hyman10142
-Alex Palmer10276
-David Hagedorn10030
-M MacCallum10173
-James B. Maas10154
-Manoj Pandey10300
-John W. Jacobs10119
-Thomas Paine10262
-Richard Mabey10156
-Jo Jackson King10107
-Nick Page10251
-Kinley MacGregor10198
-Liza Palmer10284
-Libby Jackson10095
-Kristin Halbrook10058
-Auston Habershaw10008
-Chris Packham10237
-Nafisa Haji10053
-Rebecca Paley10269
-Marilyn Hagerty10037
-Shaili Jain M.D.10148
-Al Jaffee10138
-Nasim Marie Jafry10140
-Laura Holmes Haddad10015
-David H. Hackworth10014
-Shelley Jackson10103
-Daniel Palmer10278
-Marianna Palk10272
-Thelma Page10252
-Vicky Hales-Dutton10069
+Ruby Jackson
+Charles B. Macdonald
+Greg Page
+Andrew Macdonald
+Alex James
+Marina Palmer
+David Jacobs
+Jeannette Haien
+Daniel Hahn
+Sara Palacios
+Charles Panati
+Fiona MacKenzie
+Mark Haddon
+Julie Mac
+James Macdonald
+Jane MacDougall
+Tim Page
+Harvey B. Mackay
+Jennifer Page
+Audrey Mackaman
+Burton L. Mack
+Jessie Haas
+Joshilyn Jackson
+Melissa Jacobs
+Michael Hale
+Jeff MacGregor
+Fiona MacDonald
+Katharina Hagena
+Sarah Jacoby
+Anna-Liisa Hakkarainen
+Joie Jager-Hyman
+Alex Palmer
+David Hagedorn
+M MacCallum
+James B. Maas
+Manoj Pandey
+John W. Jacobs
+Thomas Paine
+Richard Mabey
+Jo Jackson King
+Nick Page
+Kinley MacGregor
+Liza Palmer
+Libby Jackson
+Kristin Halbrook
+Auston Habershaw
+Chris Packham
+Nafisa Haji
+Rebecca Paley
+Marilyn Hagerty
+Shaili Jain M.D.
+Al Jaffee
+Nasim Marie Jafry
+Laura Holmes Haddad
+David H. Hackworth
+Shelley Jackson
+Daniel Palmer
+Marianna Palk
+Thelma Page
+Vicky Hales-Dutton
 ----------------------------------------
