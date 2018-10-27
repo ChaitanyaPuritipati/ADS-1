@@ -31,5 +31,8 @@ class Solution {
 			Student studentobj = new Student(tokens[1], Integer.parseInt(tokens[0]));
 			bstobj.put(Double.parseDouble(tokens[2]), studentobj);
 		}
+		Double min = 76.7;
+		Double max = 85.5;
+		bstobj.range(bstobj.root, min, max);
 	}
 }

@@ -36,7 +36,7 @@ import java.util.NoSuchElementException;
  *  @author Kevin Wayne
  */
 public class BST<Key extends Comparable<Key>, Value> {
-    private Node root;             // root of BST
+    public Node root;             // root of BST
 
     private class Node {
         private Key key;           // sorted by key
@@ -428,6 +428,17 @@ public class BST<Key extends Comparable<Key>, Value> {
     private int height(Node x) {
         if (x == null) return -1;
         return 1 + Math.max(height(x.left), height(x.right));
+    }
+    public void range(Node x, Comparable min, Comparable max) {
+        if(min.compareTo(x.key) < 0) {
+            range(x.left, min, max);
+        }
+        if(min.compareTo(x.key) <= 0 && max.compareTo(x.key) >= 0) {
+            System.out.println(x.val);
+        }
+        if(max.compareTo(x.key) > 0) {
+            range(x.right, min, max);
+        }
     }
 
     /**
