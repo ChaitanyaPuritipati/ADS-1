@@ -61,7 +61,11 @@ Your Output:
 88.3
 78.2
 17.5
-entered
+Megon
+11.2
+Hank
+2.0
+Steve Cafferty
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -131,14 +135,28 @@ Your Output:
 88.3
 78.2
 17.5
-entered
+Megon
+11.2
+Hank
+2.0
+Steve Cafferty
 88.3
 78.2
-entered
+Rivest
+17.5
+Megon
+11.2
+Hank
+2.0
+Steve Cafferty
 88.3
 78.2
 17.5
-entered
+Megon
+11.2
+Hank
+2.0
+Steve Cafferty
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -860,12 +878,34 @@ Your Output:
 97.83
 90.74
 10.31
-entered
+Pamela Haag
+5.41
+Mary Curran Hackett
+3.391
+Thomas Hackett
+3.336
+Margaret Peterson Haddix
+1.603
+John W. Jacobs M.D.
+1.224
+Laurence Packer
+0.051
+Ed J. Paine
 97.83
 90.74
 10.31
 5.41
-entered
+Mary Curran Hackett
+3.391
+Thomas Hackett
+3.336
+Margaret Peterson Haddix
+1.603
+John W. Jacobs M.D.
+1.224
+Laurence Packer
+0.051
+Ed J. Paine
 Ruby Jackson
 Charles B. Macdonald
 Greg Page
@@ -879,7 +919,19 @@ Sara Palacios
 97.83
 90.74
 10.31
-entered
+Pamela Haag
+5.41
+Mary Curran Hackett
+3.391
+Thomas Hackett
+3.336
+Margaret Peterson Haddix
+1.603
+John W. Jacobs M.D.
+1.224
+Laurence Packer
+0.051
+Ed J. Paine
 Charles Panati
 Fiona MacKenzie
 Mark Haddon
@@ -918,7 +970,19 @@ Kristin Halbrook
 97.83
 90.74
 10.31
-entered
+Pamela Haag
+5.41
+Mary Curran Hackett
+3.391
+Thomas Hackett
+3.336
+Margaret Peterson Haddix
+1.603
+John W. Jacobs M.D.
+1.224
+Laurence Packer
+0.051
+Ed J. Paine
 Auston Habershaw
 Chris Packham
 Nafisa Haji
