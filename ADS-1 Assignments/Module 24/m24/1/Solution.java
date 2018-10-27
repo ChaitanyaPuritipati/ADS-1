@@ -71,7 +71,10 @@ final class Solution {
             new SeparateChainingHashST<>();
         for (int i = 0; i < putnum; i++) {
             String[] tokens = scan.nextLine().split(",");
-            Student studentobj = new Student(tokens[1], Double.parseDouble(tokens[2]));
+            Student studentobj
+                = new Student(
+                tokens[1], Double.parseDouble(
+                    tokens[2]));
             schsobj.put(Integer.parseInt(tokens[0]), studentobj);
         }
         int querynum = Integer.parseInt(scan.nextLine());
