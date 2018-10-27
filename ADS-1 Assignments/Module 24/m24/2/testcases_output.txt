@@ -1,14 +1,33 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Clark
 Rivest
 Dan
 Abegg
 Your Output: 
+entered
+entered
+entered
+entered
+entered
+entered
 Clark
+entered
 Rivest
+entered
+entered
+entered
 Dan
+entered
+entered
+entered
+entered
+entered
+entered
 Abegg
+entered
+entered
+entered
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -58,6 +77,14 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 less
 less
 less
@@ -866,72 +893,232 @@ less
 less
 less
 Mary Curran Hackett
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 Ruby Jackson
+entered
+entered
+entered
+entered
+entered
 Charles B. Macdonald
+entered
+entered
 Greg Page
+entered
 Andrew Macdonald
+entered
 Alex James
+entered
+entered
 Marina Palmer
+entered
 David Jacobs
+entered
 Jeannette Haien
+entered
 Daniel Hahn
+entered
+entered
+entered
 Sara Palacios
+entered
+entered
 less
 less
 less
 Pamela Haag
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 Charles Panati
+entered
 Fiona MacKenzie
+entered
 Mark Haddon
+entered
+entered
 Julie Mac
+entered
+entered
 James Macdonald
+entered
+entered
 Jane MacDougall
+entered
+entered
+entered
+entered
+entered
 Tim Page
+entered
 Harvey B. Mackay
+entered
+entered
 Jennifer Page
+entered
 Audrey Mackaman
+entered
 Burton L. Mack
+entered
 Jessie Haas
+entered
+entered
+entered
+entered
+entered
+entered
 Joshilyn Jackson
+entered
+entered
 Melissa Jacobs
+entered
 Michael Hale
+entered
+entered
+entered
 Jeff MacGregor
+entered
 Fiona MacDonald
+entered
 Katharina Hagena
+entered
+entered
+entered
 Sarah Jacoby
+entered
 Anna-Liisa Hakkarainen
+entered
+entered
 Joie Jager-Hyman
+entered
+entered
 Alex Palmer
+entered
 David Hagedorn
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 M MacCallum
+entered
 James B. Maas
+entered
+entered
 Manoj Pandey
+entered
 John W. Jacobs
+entered
+entered
+entered
 Thomas Paine
+entered
 Richard Mabey
+entered
 Jo Jackson King
+entered
 Nick Page
+entered
+entered
+entered
 Kinley MacGregor
+entered
+entered
 Liza Palmer
+entered
 Libby Jackson
+entered
 Kristin Halbrook
+entered
+entered
 less
 less
 less
 Pamela Haag
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 Auston Habershaw
+entered
+entered
+entered
+entered
+entered
+entered
+entered
 Chris Packham
+entered
 Nafisa Haji
+entered
+entered
 Rebecca Paley
+entered
 Marilyn Hagerty
+entered
+entered
+entered
 Shaili Jain M.D.
+entered
 Al Jaffee
+entered
+entered
 Nasim Marie Jafry
+entered
 Laura Holmes Haddad
+entered
 David H. Hackworth
+entered
+entered
+entered
+entered
+entered
+entered
 Shelley Jackson
+entered
+entered
+entered
+entered
 Daniel Palmer
+entered
 Marianna Palk
+entered
 Thelma Page
+entered
 Vicky Hales-Dutton
+entered
+entered
 ----------------------------------------

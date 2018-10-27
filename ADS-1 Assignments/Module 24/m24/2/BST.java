@@ -443,6 +443,7 @@ public class BST<Key extends Comparable<Key>, Value> {
 
     }
     public void range(Node x, Comparable min, Comparable max) {
+        System.out.println("entered");
         if (x == null) {
             return;
         }
