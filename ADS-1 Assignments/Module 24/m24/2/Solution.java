@@ -31,5 +31,7 @@ class Solution {
 			Student studentobj = new Student(tokens[1], Integer.parseInt(tokens[0]));
 			redobj.put(Double.parseDouble(tokens[2]), studentobj);
 		}
+		System.out.println(redobj.rank(85.5) - redobj.rank(76.7));
+		
 	}
 }
