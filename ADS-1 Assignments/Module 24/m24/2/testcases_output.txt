@@ -5,18 +5,7 @@ Rivest
 Dan
 Abegg
 Your Output: 
-Rivest118in rank
-Rivest118
-Adams103in rank
-Peter113in rank
-Dan142in rank
----------------
-Rivest118in rank
-John110in rank
-John110
-Neil143in rank
-Neil143
-Clark141in rank
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -66,25 +55,7 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-Adams103in rank
-John110in rank
-John110
-Rivest118in rank
-Rivest118
-Peter113in rank
-Alice101in rank
-Rachel Caine66in rank
-Access135in rank
----------------
-Adams103in rank
-John110in rank
-John110
-Rivest118in rank
-Clark141in rank
-Clark141
-Sasha Cagen34in rank
-Rhian Cahill26in rank
-Rhian Cahill26
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -151,25 +122,7 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-Adams103in rank
-John110in rank
-John110
-Rivest118in rank
-Rivest118
-Peter113in rank
-Alice101in rank
-Rachel Caine66in rank
-Access135in rank
----------------
-Adams103in rank
-John110in rank
-John110
-Rivest118in rank
-Clark141in rank
-Clark141
-Sasha Cagen34in rank
-Rhian Cahill26in rank
-Rhian Cahill26
+
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -888,30 +841,5 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-Taylor Hackford10012in rank
-Taylor Hackford10012
-Heather Hach10009in rank
-Heather Hach10009
-Michael Haag10002in rank
-Gene Hackman10013in rank
-J.D. Jackson10089in rank
-Kady MacDonald Denton10189in rank
-Kady MacDonald Denton10189
-Andy Paciorek10233in rank
-Roger Lea MacBride10169in rank
-Roger Lea MacBride10169
----------------
-Taylor Hackford10012in rank
-Taylor Hackford10012
-Heather Hach10009in rank
-Jessie Haas10005in rank
-Jessie Haas10005
-John W. Jacobs10119in rank
-Anna-Liisa Hakkarainen10054in rank
-Anna-Liisa Hakkarainen10054
-James B. Maas10154in rank
-David Hagedorn10030in rank
-David Hagedorn10030
-M MacCallum10173in rank
-M MacCallum10173
+
 ----------------------------------------

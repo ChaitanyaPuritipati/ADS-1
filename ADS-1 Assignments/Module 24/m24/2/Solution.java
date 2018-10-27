@@ -25,16 +25,11 @@ class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int putnum = Integer.parseInt(scan.nextLine());
-		RedBlackBST<Double, Student> redobj = new RedBlackBST<>();
+		BST<Double, Student> bstobj = new BST<>();
 		for(int i = 0; i < putnum; i++) {
 			String[] tokens = scan.nextLine().split(",");
 			Student studentobj = new Student(tokens[1], Integer.parseInt(tokens[0]));
-			redobj.put(Double.parseDouble(tokens[2]), studentobj);
+			bstobj.put(Double.parseDouble(tokens[2]), studentobj);
 		}
-		redobj.rank(85.5);
-		System.out.println("---------------");
-		redobj.rank(76.7);
-		// System.out.println(redobj.rank(85.5) - redobj.rank(76.7));
-		// System.out.println(redobj.rank(70.0) - redobj.rank(65.0));
 	}
 }
